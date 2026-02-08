@@ -6,7 +6,8 @@
     "files": {
       "en": "en.md",
       "et": "et.md",
-      "img": "extaas.gif"
+      "img": "extaas.gif",
+      "duck": "duck.gif"
     },
     "group": "main",
     "schema": true,
