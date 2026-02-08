@@ -1,7 +1,12 @@
 {
-  "root": "https://raw.githubusercontent.com/Osauhing-X/public/extaas",
-  "/": {
-    "file": "about.html",
+  "root": "https://raw.githubusercontent.com/Osauhing-X/public/content",
+
+
+  "/about": {
+    "files": {
+      "main": "about.md",
+      "img": "extaas.gif"
+    },
     "group": "main",
     "schema": true,
     "sitemap": {
