@@ -4,7 +4,8 @@
 
   "/about": {
     "files": {
-      "main": "about.md",
+      "en": "en.md",
+      "et": "et.md",
       "img": "extaas.gif"
     },
     "group": "main",
