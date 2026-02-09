@@ -2,12 +2,12 @@
   "root": "https://raw.githubusercontent.com/Osauhing-X/public/content",
 
 
-  "/about": {
+  "/our_story": {
     "files": {
       "en": "en.md",
       "et": "et.md",
-      "img": "extaas.gif",
-      "duck": "duck.gif"
+      "v5": "v5.png",
+      "v8": "v8.png"
     },
     "group": "main",
     "schema": true,
@@ -18,17 +18,15 @@
     },
     "en": {
       "seo": {
-        "title": "Extaas – Crafted Chaos of Code and Creativity",
-        "description": "Welcome to our homepage, where you will find high-quality web templates and code products for developers and designers.",
-        "keywords": "Extaas, home, centrum, root Svelte developer, Void, VØ!D, FAQ, community, digital content, personalized experience"
-      }
-    },
+        "title": "Osaühing X – The Story Behind Extaas and Digital Innovation",
+        "description": "Discover the journey of Extaas and Osaühing X, from Discord communities to modern web development with Svelte, JavaScript, and modular solutions. Learn how we built our digital platform step by step.",
+        "keywords": "Osaühing X, Extaas, Nexus, web development, Svelte, JavaScript, modular code, digital community, tech startup, development journey, IT services"
+    } },
     "et": {
       "seo": {
-        "title": "Extaas – loodud koodi ja loovuse kaos",
-        "description": "Tere tulemast meie avalehele, kus leiad kvaliteetsed veebimallid ja kooditooted arendajatele ja disaineritele.",
-        "keywords": "avaleht, veebimallid, kood, Svelte, UI komplektid, premium teemad"
-      }
-    }
+        "title": "Osaühing X – Extaase ja digiinnovatsiooni lugu",
+        "description": "Tutvu Extaase ja Osaühing X arengulooga, Discordi kogukondadest kaasaegse veebiarenduseni Svelte, JavaScripti ja modulaarsete lahendustega. Saa teada, kuidas platvorm kasvas samm-sammult.",
+        "keywords": "Osaühing X, Extaas, Nexus, veebiarendus, Svelte, JavaScript, modulaarne kood, digikogukond, tehnoloogiaettevõte, arenduslugu, IT teenused"
+    } }
   }
 }
