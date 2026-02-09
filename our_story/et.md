@@ -1,42 +1,42 @@
 # Meie lugu
 
-Osaühing X lugu algas 14. septembril 2020 Extaas projektiga – nooruslik algatus, mis tekkis huvist veebiplatvormide ja digitaalse arenduse vastu. Projekti eesmärk oli luua aktiivne kogukond Discordis ning katsetada erinevaid võimalusi sisu levitamiseks ja kaasamiseks. See arengukeskkond võimaldas õppida veebiturundust, kogukonna kaasamist ja digitaalse platvormi toimimist, luues aluse tulevastele arendusprojektidele.
+Osaühing X lugu algas 14. septembril 2020 Extaas projektiga – nooruslik algatus, mis tekkis huvist veebiplatvormide ja digitaalse arenduse vastu. Projekti eesmärk oli luua aktiivne kogukond Discordis ning katsetada erinevaid võimalusi sisu levitamiseks ja kaasamiseks. See arengukeskkond võimaldas õppida veebiturundust, kogukonna kaasamist ja digitaalse platvormi toimimist, luues aluse tulevastele arendusprojektidele.<br>
 
 ## Algus Discordis ja esimesed katsetused
 
-Esialgu keskendus Extaas Discordi-serveri arendamisele ja erinevate affiliate-programmide katsetamisele. Kuigi need katsed ei toonud suuri tulemusi, andsid need väärtuslikke kogemusi, mis näitasid, kuidas kogukondade loomine ja aktiivne kaasamine toetavad platvormi arengut.
+Esialgu keskendus Extaas Discordi-serveri arendamisele ja erinevate affiliate-programmide katsetamisele. Kuigi need katsed ei toonud suuri tulemusi, andsid need väärtuslikke kogemusi, mis näitasid, kuidas kogukondade loomine ja aktiivne kaasamine toetavad platvormi arengut.<br>
 
 ## Otsus iseseisva veebiplatvormi loomiseks
 
-Kogutud kogemuste valguses otsustati luua iseseisev veebiplatvorm, mis võimaldaks sisu ja funktsioone kohandada vabamalt kui valmisplatvormide puhul. Selle otsuse järel soetati 1. märtsil 2021 domeen **extaas.com** ja alustati WordPressi-põhiste lahendustega, sealhulgas print-on-demand äri katsetamist WooCommerce’i kaudu. Märkasin vaikselt, et WordPress ei suuda täita kõiki soove ja ootusi ilma lisakuludeta, ning tänu sellele tehti esimesed sammud JavaScripti, HTML-i ja CSS-i maastikule, et muuta lehte vastavalt soovile ja visioonile.
+Kogutud kogemuste valguses otsustati luua iseseisev veebiplatvorm, mis võimaldaks sisu ja funktsioone kohandada vabamalt kui valmisplatvormide puhul. Selle otsuse järel soetati 1. märtsil 2021 domeen **extaas.com** ja alustati WordPressi-põhiste lahendustega, sealhulgas print-on-demand äri katsetamist WooCommerce’i kaudu. Märkasin vaikselt, et WordPress ei suuda täita kõiki soove ja ootusi ilma lisakuludeta, ning tänu sellele tehti esimesed sammud JavaScripti, HTML-i ja CSS-i maastikule, et muuta lehte vastavalt soovile ja visioonile.<br>
 
-![version 5]({v5})
+![version 5]({v5})<br>
 
 ## Kogukonna loomine ja turundus
 
-Platvormi nähtavuse suurendamiseks loodi 20. juunil 2021 Discordi-serveri promo- ja kogukonnagrupp. See võimaldas testida sotsiaalmeedia strateegiaid, suurendada kogukonna kaasatust ning koguda väärtuslikku tagasisidet, mis hiljem kujundas arenduse ja sisu strateegiaid.
+Platvormi nähtavuse suurendamiseks loodi 20. juunil 2021 Discordi-serveri promo- ja kogukonnagrupp. See võimaldas testida sotsiaalmeedia strateegiaid, suurendada kogukonna kaasatust ning koguda väärtuslikku tagasisidet, mis hiljem kujundas arenduse ja sisu strateegiaid.<br>
 
 ## Svelte ja modulaarne arendus
 
-Koolipraktika käigus õppisin tundma **Svelte** raamistikku, mis osutus paeluvaks. Katsetamine ja iseseisev arendustöö võimaldas mõista JavaScripti sügavamaid kihte ning tugevdas suhet koodiga. 6. juulil 2022 lisati Extaasi alamdomeen, kuhu laaditi üles esimene valminud algeline Svelte kood. See etapp tähistas olulist hüpet WordPressist kaasaegse JavaScripti raamistikul põhineva arenduspraktikani, võimaldades luua modulaarseid ja korduvkasutatavaid lahendusi.
+Koolipraktika käigus õppisin tundma **Svelte** raamistikku, mis osutus paeluvaks. Katsetamine ja iseseisev arendustöö võimaldas mõista JavaScripti sügavamaid kihte ning tugevdas suhet koodiga. 6. juulil 2022 lisati Extaasi alamdomeen, kuhu laaditi üles esimene valminud algeline Svelte kood. See etapp tähistas olulist hüpet WordPressist kaasaegse JavaScripti raamistikul põhineva arenduspraktikani, võimaldades luua modulaarseid ja korduvkasutatavaid lahendusi.<br>
 
 ## Nexus projekt
 
-Kuna Extaasi kood muutus mahukaks ja segaseks, otsustati 19. veebruaril 2023 alustada uuest projektist nimega **Nexus**, et luua kompaktne, optimeeritud ja modulaarne koodibaas, mis koondab kõik seni saadud teadmised ja kogemused. 9. augustil 2023 soetati domeen **e-nxus.com**, et eraldada Nexus projekti arendus Extaas platvormist.
+Kuna Extaasi kood muutus mahukaks ja segaseks, otsustati 19. veebruaril 2023 alustada uuest projektist nimega **Nexus**, et luua kompaktne, optimeeritud ja modulaarne koodibaas, mis koondab kõik seni saadud teadmised ja kogemused. 9. augustil 2023 soetati domeen **e-nxus.com**, et eraldada Nexus projekti arendus Extaas platvormist.<br>
 
-![version 8]({v8})
+![version 8]({v8})<br>
 
 ## Domeenide koondamine
 
-8. augustil 2025 hülgati **e-nxus.com** domeen ja kogu sisu koondati ühe domeeni alla, et platvorm oleks hallatav ja kasutajasõbralik. See samm võimaldas keskenduda tugevale, ühtsele veebiplatvormile ning vähendas tehnilisi ja halduslikke komplitseerimisi.
+8. augustil 2025 hülgati **e-nxus.com** domeen ja kogu sisu koondati ühe domeeni alla, et platvorm oleks hallatav ja kasutajasõbralik. See samm võimaldas keskenduda tugevale, ühtsele veebiplatvormile ning vähendas tehnilisi ja halduslikke komplitseerimisi.<br>
 
 ## Extaase ajutine katkestus
 
-6. novembrist 2025 kuni 1. veebruarini 2026 oli Extaas ajutiselt maas, kuna platvormi räsisid crawlersid ja botid. Selle perioodi jooksul keskenduti süsteemi optimeerimisele ja turvameetmete täiustamisele, et tagada stabiilne ja usaldusväärne platvorm edaspidiseks.
+6. novembrist 2025 kuni 1. veebruarini 2026 oli Extaas ajutiselt maas, kuna platvormi räsisid crawlersid ja botid. Selle perioodi jooksul keskenduti süsteemi optimeerimisele ja turvameetmete täiustamisele, et tagada stabiilne ja usaldusväärne platvorm edaspidiseks.<br>
 
 ## Osaühing X asutamine
 
-17. detsembril 2025 asutati **Osaühing X (17396663)**, et pakkuda veebiarenduse ja IT teenuseid professionaalselt ja kliendikeskselt. Algusest peale on ettevõte ühe liikmeline ning põhineb Extaase ja Nexuse arenduskogemustel. Osaühing X ühendab teadmised veebiarendusest, kogukonna haldamisest ja innovaatilisest disainist, pakkudes klientidele lahendusi, mis on nii visuaalselt atraktiivsed kui ka tehniliselt toimivad.
+17. detsembril 2025 asutati **Osaühing X (17396663)**, et pakkuda veebiarenduse ja IT teenuseid professionaalselt ja kliendikeskselt. Algusest peale on ettevõte ühe liikmeline ning põhineb Extaase ja Nexuse arenduskogemustel. Osaühing X ühendab teadmised veebiarendusest, kogukonna haldamisest ja innovaatilisest disainist, pakkudes klientidele lahendusi, mis on nii visuaalselt atraktiivsed kui ka tehniliselt toimivad.<hr>
 
 ## Meie väärtused ja visioon
 
