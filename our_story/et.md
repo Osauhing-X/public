@@ -17,11 +17,11 @@ Kogutud kogemuste valguses otsustati luua iseseisev veebiplatvorm, mis võimalda
 <br>
 
 <ul grid>
-  <li> ![version 1]({v1}) </li>
-  <li> ![version 3]({v3}) </li>
-  <li> ![version 4]({v4}) </li>
-  <li> ![version 5]({v5}) </li>
-  <li> ![version 6]({v6}) </li>
+  <li><img src="{v1}" alt="version 1"></li>
+  <li><img src="{v3}" alt="version 3"></li>
+  <li><img src="{v4}" alt="version 4"></li>
+  <li><img src="{v5}" alt="version 5"></li>
+  <li><img src="{v6}" alt="version 6"></li>
 </ul>
 
 <br>
@@ -45,8 +45,8 @@ Kuna Extaasi kood muutus mahukaks ja segaseks, otsustati **19. veebruaril 2023**
 <br>
 
 <ul grid>
-  <li> ![version 8]({v8}) </li>
-  <li> ![version 10]({v10}) </li>
+  <li><img src="{v8}" alt="version 8"></li>
+  <li><img src="{v10}" alt="version 10"></li>
 </ul>
 
 <br>
@@ -58,9 +58,9 @@ Kuna Extaasi kood muutus mahukaks ja segaseks, otsustati **19. veebruaril 2023**
 <br>
 
 <ul grid>
-  <li> ![version 11]({v11}) </li>
-  <li> ![version 13]({v13}) </li>
-  <li> ![version 14]({v14}) </li>
+  <li><img src="{v11}" alt="version 11"></li>
+  <li><img src="{v13}" alt="version 13"></li>
+  <li><img src="{v14}" alt="version 14"></li>
 </ul>
 
 <br>

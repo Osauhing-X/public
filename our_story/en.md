@@ -17,21 +17,11 @@ Based on the insights gained, the decision was made to create an independent web
 <br>
 
 <ul grid>
-  <li>
-    ![version 1]({v1})
-  </li>
-  <li>
-   ![version 3]({v3})
-  </li>
-  <li>
-   ![version 4]({v4})
-  </li>
-  <li>
-    ![version 5]({v5})
-  </li>
-  <li>
-    ![version 6]({v6})
-  </li>
+  <li><img src="{v1}" alt="version 1"></li>
+  <li><img src="{v3}" alt="version 3"></li>
+  <li><img src="{v4}" alt="version 4"></li>
+  <li><img src="{v5}" alt="version 5"></li>
+  <li><img src="{v6}" alt="version 6"></li>
 </ul>
 
 <br>
@@ -55,8 +45,8 @@ As the Extaas codebase became large and complex, the decision was made on **Febr
 <br>
 
 <ul grid>
-  <li> ![version 8]({v8}) </li>
-  <li> ![version 10]({v10}) </li>
+  <li><img src="{v8}" alt="version 8"></li>
+  <li><img src="{v10}" alt="version 10"></li>
 </ul>
 
 <br>
@@ -68,9 +58,9 @@ On **August 8, 2025**, the **e-nxus.com** domain was abandoned and all content w
 <br>
 
 <ul grid>
-  <li> ![version 11]({v11}) </li>
-  <li> ![version 13]({v13}) </li>
-  <li> ![version 14]({v14}) </li>
+  <li><img src="{v11}" alt="version 11"></li>
+  <li><img src="{v13}" alt="version 13"></li>
+  <li><img src="{v14}" alt="version 14"></li>
 </ul>
 
 <br>
