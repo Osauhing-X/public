@@ -17,11 +17,21 @@ Based on the insights gained, the decision was made to create an independent web
 <br>
 
 <ul grid>
-  <li> ![version 1]({v1}) </li>
-  <li> ![version 3]({v3}) </li>
-  <li> ![version 4]({v4}) </li>
-  <li> ![version 5]({v5}) </li>
-  <li> ![version 6]({v6}) </li>
+  <li>
+    ![version 1]({v1})
+  </li>
+  <li>
+   ![version 3]({v3})
+  </li>
+  <li>
+   ![version 4]({v4})
+  </li>
+  <li>
+    ![version 5]({v5})
+  </li>
+  <li>
+    ![version 6]({v6})
+  </li>
 </ul>
 
 <br>
