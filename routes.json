@@ -17,7 +17,7 @@
       "v13": "v13.png",
       "v14": "v14.png"
     },
-    "group": "github",
+    "group": "story",
     "schema": true,
     "sitemap": {
       "lastmod": "2026-02-09",
@@ -35,6 +35,34 @@
         "title": "Osaühing X – Extaase ja digiinnovatsiooni lugu",
         "description": "Tutvu Extaase ja Osaühing X arengulooga, Discordi kogukondadest kaasaegse veebiarenduseni Svelte, JavaScripti ja modulaarsete lahendustega. Saa teada, kuidas platvorm kasvas samm-sammult.",
         "keywords": "Osaühing X, Extaas, Nexus, veebiarendus, Svelte, JavaScript, modulaarne kood, digikogukond, tehnoloogiaettevõte, arenduslugu, IT teenused"
+    } }
+  },
+
+
+  "/company": {
+    "files": {
+      "en": "en.md",
+      "et": "et.md",
+      "ceo": "ceo.jpg"
+    },
+    "group": "story",
+    "schema": true,
+    "sitemap": {
+      "lastmod": "2026-02-11",
+      "priority": 0.3,
+      "changefreq": "yearly"
+    },
+    "en": {
+    "seo": {
+      "title": "Osaühing X – Team, Tools and Digital Platform",
+      "description": "Learn about Extaas, the Svelte-based web platform of Osaühing X, and discover the technologies, storage solutions, and infrastructure that power our digital platform.",
+      "keywords": "Osaühing X, Extaas, Svelte, web platform, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digital infrastructure, modular code, IT services"
+    } },
+  "et": {
+    "seo": {
+      "title": "Osaühing X – Tiim, tööriistad ja digitaalne platvorm",
+      "description": "Tutvu Extaasiga, Osaühing X Svelte raamistikul üles ehitatud veebiplatvormiga, ja saa teada, milliseid tehnoloogiaid, salvestuslahendusi ja infrastruktuuri me kasutame platvormi toimimiseks.",
+      "keywords": "Osaühing X, Extaas, Svelte, veebiplatvorm, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digitaalne infrastruktuur, modulaarne kood, IT teenused"
     } }
   }
 }
