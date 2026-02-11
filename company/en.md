@@ -12,7 +12,7 @@ Extaas is a modern web platform built entirely on the **Svelte** framework. It e
   <br><br>
     In developing Extaas, I focus on making sure all components work seamlessly together: databases, cloud storage, and web development are integrated into a unified system. This allows the website to be managed efficiently, flexibly, and quickly.
   </p>
-  <img pc src="{ceo}" alt="Taavi T" style=" width: 150px;">
+  <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
 </div>
 
 <br>
@@ -40,5 +40,7 @@ This combination ensures the platform is stable, scalable, and ready to integrat
 <br>
 
 Extaas is more than just a website – it is a complete platform representing Osaühing X’s technological profile, combining Svelte-based development, cloud services, and modular infrastructure into a single, seamlessly manageable system.
+
+<br>
 
 For more information about Extaas’ development and project evolution, see our [Our Story](/@/g/our_story) page.

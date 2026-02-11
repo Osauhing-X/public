@@ -12,7 +12,7 @@ Extaas on kaasaegne veebiplatvorm, mis on täielikult üles ehitatud **Svelte** 
   <br><br>
     Platvormi arendamisel keskendun sellele, et kõik komponendid töötaksid sujuvalt koos: andmebaasid, pilvesalvestus ja veebiarendus on integreeritud terviklikuks süsteemiks. See võimaldab hallata veebilehte paindlikult, kiiresti ja efektiivselt.
   </p>
-  <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; ">
+  <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
 </div>
 
 <br>
@@ -40,5 +40,7 @@ See kombinatsioon tagab, et platvorm on stabiilne, skaleeritav ja valmis uusi fu
 <br>
 
 Extaas ei ole lihtsalt veebileht – see on terviklik platvorm, mis esindab Osaühing X tehnoloogilist profiili, ühendades Svelte raamistikul põhineva arenduse, pilvepõhised teenused ja modulaarse infrastruktuuri ühtseks, sujuvalt hallatavaks süsteemiks.  
+
+<br>
 
 Lisateavet Extaasi arenguloo ja projektide edenemise kohta leiad meie [Our Story](/@/g/our_story) lehelt.
