@@ -26,13 +26,13 @@
     },
     "en": {
       "seo": {
-        "title": "Osaühing X – The Story Behind Extaas and Digital Innovation",
+        "title": "Our Story",
         "description": "Discover the journey of Extaas and Osaühing X, from Discord communities to modern web development with Svelte, JavaScript, and modular solutions. Learn how we built our digital platform step by step.",
         "keywords": "Osaühing X, Extaas, Nexus, web development, Svelte, JavaScript, modular code, digital community, tech startup, development journey, IT services"
     } },
     "et": {
       "seo": {
-        "title": "Osaühing X – Extaase ja digiinnovatsiooni lugu",
+        "title": "Meie lugu",
         "description": "Tutvu Extaase ja Osaühing X arengulooga, Discordi kogukondadest kaasaegse veebiarenduseni Svelte, JavaScripti ja modulaarsete lahendustega. Saa teada, kuidas platvorm kasvas samm-sammult.",
         "keywords": "Osaühing X, Extaas, Nexus, veebiarendus, Svelte, JavaScript, modulaarne kood, digikogukond, tehnoloogiaettevõte, arenduslugu, IT teenused"
     } }
@@ -54,13 +54,13 @@
     },
     "en": {
     "seo": {
-      "title": "Osaühing X – Team, Tools and Digital Platform",
+      "title": "Company",
       "description": "Learn about Extaas, the Svelte-based web platform of Osaühing X, and discover the technologies, storage solutions, and infrastructure that power our digital platform.",
       "keywords": "Osaühing X, Extaas, Svelte, web platform, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digital infrastructure, modular code, IT services"
     } },
   "et": {
     "seo": {
-      "title": "Osaühing X – Tiim, tööriistad ja digitaalne platvorm",
+      "title": "Ettevõte",
       "description": "Tutvu Extaasiga, Osaühing X Svelte raamistikul üles ehitatud veebiplatvormiga, ja saa teada, milliseid tehnoloogiaid, salvestuslahendusi ja infrastruktuuri me kasutame platvormi toimimiseks.",
       "keywords": "Osaühing X, Extaas, Svelte, veebiplatvorm, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digitaalne infrastruktuur, modulaarne kood, IT teenused"
     } }

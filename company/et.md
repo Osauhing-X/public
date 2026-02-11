@@ -6,10 +6,10 @@ Extaas on kaasaegne veebiplatvorm, mis on täielikult üles ehitatud **Svelte** 
 
 ## Mina
 
-<div class="flex gap _5">
+<div class="flex gap _10">
   <p>
     Mina olen <b>Taavi</b>, Extaasi CEO ja arendaja. Vastutan kogu platvormi arenduse, infrastruktuuri ja funktsionaalsuse eest. Kõik tehnilised otsused – alates koodi arhitektuurist kuni teenuste integreerimiseni – teen ise, mis tagab süsteemi ühtsuse ja arendusprotsessi tõhususe.
-  <br>
+  <br><br>
     Platvormi arendamisel keskendun sellele, et kõik komponendid töötaksid sujuvalt koos: andmebaasid, pilvesalvestus ja veebiarendus on integreeritud terviklikuks süsteemiks. See võimaldab hallata veebilehte paindlikult, kiiresti ja efektiivselt.
   </p>
   <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; ">
