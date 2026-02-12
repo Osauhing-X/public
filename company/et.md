@@ -1,4 +1,4 @@
-# Firma  
+# Meist 
 
 Osaühing X on infotehnoloogia ettevõte. Extaas on selle ettevõtte bränd ja veebiplatvorm.  
 
@@ -9,6 +9,8 @@ Põhitegevuseks on veebiarendus, kuid pakume ka IT-tuge ja muid IT-alaseid teenu
 ## Liikmed  
 
 Ettevõte on üheliikmeline.
+
+<br>
 
 ### Founder  
 
@@ -30,6 +32,8 @@ Ettevõte on üheliikmeline.
 Meie eesmärk on olla läbipaistev ja aus partner.  
 
 Me ei luba rohkem, kui suudame teha. Kui projekt või tehniline vajadus jääb meie kompetentsist välja, ütleme selle otse välja. Kui saame aidata, siis teeme seda selge plaani, arusaadava hinnastuse ja kokkulepitud tingimustega.
+
+<br>
 
 ### Üldinfo  
 
@@ -65,4 +69,4 @@ Tehnilised valikud tehakse eesmärgiga hoida süsteem arusaadav, hooldatav ja m�
 
 Oleme avatud koostööle nii ettevõtete kui ka eraisikutega.  
 
-Kui sul on konkreetne vajadus või projekt, võta ühendust. Arutame läbi, kas ja kuidas saame aidata.
+Kui sul on konkreetne vajadus, idee või projekt, võta ühendust. Arutame läbi, kuidas saame üksteisele väärtust luua ja kujundada pikaajalise koostöö.
