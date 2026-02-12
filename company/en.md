@@ -4,19 +4,6 @@ Extaas is a modern web platform built entirely on the **Svelte** framework. It e
 
 <br>
 
-## Me
-
-<div class="flex gap _10">
-  <p>
-    I am <b>Taavi</b>, CEO and developer of Extaas. I am responsible for all platform development, infrastructure, and functionality. All technical decisions – from code architecture to service integrations – are made by me, ensuring consistency across the system and an efficient development process.
-  <br><br>
-    In developing Extaas, I focus on making sure all components work seamlessly together: databases, cloud storage, and web development are integrated into a unified system. This allows the website to be managed efficiently, flexibly, and quickly.
-  </p>
-  <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
-</div>
-
-<br>
-
 ## Database / Storage
 
 The Extaas platform relies on **GitHub** and **Supabase**.  
@@ -44,3 +31,18 @@ Extaas is more than just a website – it is a complete platform representing Os
 <br>
 
 For more information about Extaas’ development and project evolution, see our [Our Story](/@/g/our_story) page.
+
+<br>
+<hr>
+<br>
+
+## Founder
+
+<div class="flex gap _10">
+  <p>
+    I am <b>Taavi</b>, CEO and developer of Extaasi. I am responsible for the entire company's development and infrastructure and lead projects.
+  <br><br>
+    I am a certified junior IT systems specialist (level 4, EQF level 4) and specialize in web development in the Svelte framework. I also provide IT consulting and assistance.
+  </p>
+  <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
+</div>
