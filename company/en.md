@@ -69,4 +69,6 @@ Technical choices are made to keep the system understandable, maintainable, and 
 
 We are open to collaboration with both companies and individuals.  
 
+<br>
+
 If you have a specific need, idea, or project, get in touch. Let’s discuss how we can create mutual value and build a long-term collaboration.

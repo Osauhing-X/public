@@ -69,4 +69,6 @@ Tehnilised valikud tehakse eesmärgiga hoida süsteem arusaadav, hooldatav ja m�
 
 Oleme avatud koostööle nii ettevõtete kui ka eraisikutega.  
 
+<br>
+
 Kui sul on konkreetne vajadus, idee või projekt, võta ühendust. Arutame läbi, kuidas saame üksteisele väärtust luua ja kujundada pikaajalise koostöö.
