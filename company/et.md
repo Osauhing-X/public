@@ -1,10 +1,14 @@
 # Meist 
 
-Osaühing X on infotehnoloogia ettevõte. Extaas on selle ettevõtte bränd ja veebiplatvorm.  
+Osaühing X on infotehnoloogia ettevõte. Extaas on selle ettevõtte bränd ja veebiplatvorm.
+
+<br>
 
 Põhitegevuseks on veebiarendus, kuid pakume ka IT-tuge ja muid IT-alaseid teenuseid. Enamik töid tehakse hinnapakkumise alusel ning vastavalt kliendi konkreetsele vajadusele. Standardpakette ei suruta – lahendused sünnivad kokkuleppel.
 
----
+<br>
+<hr>
+<br>
 
 ## Liikmed  
 
@@ -20,12 +24,14 @@ Ettevõte on üheliikmeline.
   <br><br>
     Vastutan kogu ettevõtte tegevuse eest – alates arendusest ja infrastruktuurist kuni kliendisuhtluse ja projektide elluviimiseni.  
   <br><br>
-    Olen sertifitseeritud IT-süsteemide nooremspetsialist (tase 4, EKR/EQF tase 4) ning spetsialiseerunud veebiarendusele **Svelte** raamistikus. Lisaks pakun IT-alast nõustamist ja tehnilist tuge.
+    Olen sertifitseeritud IT-süsteemide nooremspetsialist (tase 4, EKR/EQF tase 4) ning spetsialiseerunud veebiarendusele <b>Svelte</b> raamistikus. Lisaks pakun IT-alast nõustamist ja tehnilist tuge.
   </p>
   <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
 </div>
 
----
+<br>
+<hr>
+<br>
 
 ## Firma  
 
@@ -39,11 +45,12 @@ Me ei luba rohkem, kui suudame teha. Kui projekt või tehniline vajadus jääb m
 
 Extaas keskendub veebilahenduste arendamisele, hooldusele ja edasiarendusele.  
 
-Platvorm on ehitatud **Svelte** raamistikule ning kasutab kaasaegseid pilveteenuseid, et tagada töökindel ja hallatav süsteem. Lahendused kavandatakse vastavalt vajadusele – olgu selleks ettevõtte veebileht, sisuhaldus, autentimine või muu funktsionaalsus.
-
 <br>
 
 ### Domeen / Veeb  
+Platvorm on ehitatud **Svelte** raamistikule ning kasutab kaasaegseid pilveteenuseid, et tagada töökindel ja hallatav süsteem. Lahendused kavandatakse vastavalt vajadusele – olgu selleks ettevõtte veebileht, sisuhaldus, autentimine või muu funktsionaalsus.
+
+<br>
 
 Kasutusel on järgmised teenused:  
 
@@ -63,7 +70,9 @@ Teenuste valik sõltub projekti vajadusest.
 
 Tehnilised valikud tehakse eesmärgiga hoida süsteem arusaadav, hooldatav ja mõistliku kuluga.
 
----
+<br>
+<hr>
+<br>
 
 ## Partnerlus  
 
