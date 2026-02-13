@@ -3,6 +3,7 @@
 
 
   "/our_story": {
+    "path": "/g",
     "files": {
       "en": "en.md",
       "et": "et.md",
@@ -40,6 +41,7 @@
 
 
   "/company": {
+    "path": "/g",
     "files": {
       "en": "en.md",
       "et": "et.md",
