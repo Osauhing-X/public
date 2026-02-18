@@ -65,7 +65,7 @@ Kuna Extaasi kood muutus mahukaks ja segaseks, otsustati **19. veebruaril 2023**
 
 <br>
 
-## Extaase ajutine katkestus
+## Extaas ajutine katkestus
 
 **6. novembrist 2025** kuni **1. veebruarini 2026** oli Extaas ajutiselt maas, kuna platvormi räsisid crawlersid ja botid. Selle perioodi jooksul keskenduti süsteemi optimeerimisele ja turvameetmete täiustamisele, et tagada stabiilne ja usaldusväärne platvorm edaspidiseks.
 
@@ -73,7 +73,7 @@ Kuna Extaasi kood muutus mahukaks ja segaseks, otsustati **19. veebruaril 2023**
 
 ## Osaühing X asutamine
 
-**17. detsembril 2025** asutati **Osaühing X (17396663)**, et pakkuda veebiarenduse ja IT teenuseid professionaalselt ja kliendikeskselt. Algusest peale on ettevõte ühe liikmeline ning põhineb Extaase ja Nexuse arenduskogemustel. Osaühing X ühendab teadmised veebiarendusest, kogukonna haldamisest ja innovaatilisest disainist, pakkudes klientidele lahendusi, mis on nii visuaalselt atraktiivsed kui ka tehniliselt toimivad.
+**17. detsembril 2025** asutati **Osaühing X (17396663)**, et pakkuda veebiarenduse ja IT teenuseid professionaalselt ja kliendikeskselt. Algusest peale on ettevõte ühe liikmeline ning põhineb Extaas ja Nexuse arenduskogemustel. Osaühing X ühendab teadmised veebiarendusest, kogukonna haldamisest ja innovaatilisest disainist, pakkudes klientidele lahendusi, mis on nii visuaalselt atraktiivsed kui ka tehniliselt toimivad.
 
 <br>
 <hr>
