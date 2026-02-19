@@ -2,56 +2,101 @@
 
 Last updated: 19.02.2026
 
+
 ## 1. Company Information
 
 Osaühing X  
-Registry code: 17396663  
+Registration number: 17396663  
 Email: mail@extaas.com  
 Phone: +372 5107862  
 
-## 2. Nature of Services
 
-Primarily digital services and IT project work.
+## 2. Service Description
 
-No online retail store.
+Extaas.com primarily provides **digital services** and *IT project work*.  
+The website does not operate a **retail e-commerce store**.  
 
-## 3. B2B and Consumer Distinction
 
-If the client is a consumer (natural person acting outside business activity), mandatory consumer protection laws apply.
+## 3. Account and User
 
-If the client is a business entity, B2B contractual standards apply.
+Creating an account is **optional**.
 
-## 4. Accounts
 
-Accounts are optional.  
-Deletion permanently removes associated data.
+### 3.1 Benefits of Creating an Account
 
-## 5. Intellectual Property
+#### Benefits
+- **Saving preferences** across multiple devices  
+- **Easier communication** via contact forms  
+- Access to **restricted or experimental features**  
 
-Unless otherwise agreed in writing:
 
-- Upon full payment, the client receives ownership of custom-developed source code.
-- Extaas retains the right to reuse general know-how, non-client-specific components, frameworks, and libraries.
-- Third-party components remain subject to their original licenses.
+### 3.2 Account Deletion
 
-## 6. Confidentiality
+#### Deletion
+Users may **delete their account at any time**.  
+Upon deletion, **all associated data will be permanently removed**, except for statutory retention obligations.  
 
-Both parties must keep confidential information secret unless disclosure is required by law.
 
-## 7. Limitation of Liability
+### 3.3 Account Inactivity
 
-Liability is limited to the amount paid for the specific service.
+#### Inactivity
+Accounts that remain unused for extended periods may be considered **inactive**.  
+Inactive accounts may be **deleted without notice**, and all associated data will be **permanently removed**.  
 
-No liability for:
+Extaas.com is not responsible for any **damage resulting from account inactivity or deletion**.  
 
-- indirect damages
-- loss of profits
-- third-party service failures
 
-## 8. Force Majeure
+## 4. Permitted Use
 
-No liability for events beyond reasonable control.
+Users must not use the platform in a way that:  
 
-## 9. Governing Law
+- Violates **applicable laws**  
+- Involves **spam, abuse**, or automated misuse  
+- Disrupts the **normal operation of the service**  
+- Attempts to **exploit, analyze, or overload the system**  
 
-Republic of Estonia.
+Extaas.com reserves the right to **restrict or terminate access** in case of misuse.  
+
+
+## 5. Service Availability and Changes
+
+All services are provided on an **“as-is”** basis, without warranty.  
+
+Extaas.com may **modify, suspend, or discontinue services at any time** without notice.  
+
+Temporary interruptions may occur due to **maintenance, updates, or technical limitations**.  
+
+
+## 6. Intellectual Property
+
+Unless otherwise agreed in writing:  
+
+- Upon full payment, **ownership of customized source code transfers to the client**  
+- Extaas retains the right to use **general expertise, development methods, and non-client-specific components**  
+- Third-party components are subject to their **license terms**  
+
+
+## 7. Confidentiality
+
+Both parties must **keep confidential information secret**, except when **disclosure is required by law**.  
+
+
+## 8. Limitation of Liability
+
+Liability is limited to the **amount paid for the specific service**.  
+
+Extaas is not responsible for:  
+
+- Indirect damages  
+- Lost revenue  
+- Failures of third-party services  
+
+
+## 9. Force Majeure
+
+Extaas is not liable for failure to fulfill obligations caused by **force majeure**.  
+
+
+## 10. Governing Law
+
+These terms are governed by the **laws of the Republic of Estonia**.

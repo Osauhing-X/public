@@ -2,6 +2,7 @@
 
 Viimati uuendatud: 19.02.2026
 
+
 ## 1. Ettevõtte andmed
 
 Osaühing X  
@@ -9,50 +10,93 @@ Registrikood: 17396663
 Email: mail@extaas.com  
 Telefon: +372 5107862  
 
+
 ## 2. Teenuste iseloom
 
-Extaas.com pakub peamiselt digitaalseid teenuseid ja IT-projektitöid.
+Extaas.com pakub peamiselt **digitaalseid teenuseid** ja *IT-projektitöid*.  
+Veebilehel puudub **jaemüügi e-pood**.  
 
-Veebilehel puudub jaemüügi e-pood.
 
-## 3. Tarbija ja ärikliendi eristus
+## 3. Konto ja kasutaja
 
-Kui klient on tarbija (füüsiline isik väljaspool majandus- või kutsetegevust), kohaldatakse kohustuslikke tarbijakaitseseaduse norme.
+Konto loomine on **vabatahtlik**.
 
-Kui klient on ettevõtja, kohaldatakse äriklientide lepingustandardeid.
 
-## 4. Konto
+### 3.1 Konto loomise eelised
 
-Konto loomine on vabatahtlik.
+#### Eelised
+- **Eelistuste salvestamine** mitme seadme vahel  
+- **Lihtsam suhtlus** kontaktivormide kaudu  
+- Ligipääs **piiratud või eksperimentaalsetele funktsioonidele**  
 
-Konto kustutamisel eemaldatakse seotud andmed pöördumatult, v.a seadusest tulenevad säilitamiskohustused.
 
-## 5. Intellektuaalomand
+### 3.2 Konto kustutamine
 
-Kui ei ole kirjalikult teisiti kokku lepitud:
+#### Kustutamine
+Kasutaja võib oma konto **igal ajal kustutada**.  
+Konto kustutamisel eemaldatakse **kõik seotud andmed pöördumatult**, v.a seadusest tulenevad säilitamiskohustused.  
 
-- Täieliku tasumise järel läheb kohandatud lähtekoodi omandiõigus kliendile.
-- Extaas jätab endale õiguse kasutada üldist oskusteavet, arendusmetoodikat ja mitte-kliendispetsiifilisi komponente.
-- Kolmandate osapoolte komponendid alluvad nende litsentsitingimustele.
 
-## 6. Konfidentsiaalsus
+### 3.3 Konto passiivsus
 
-Pooled kohustuvad hoidma konfidentsiaalset teavet saladuses, välja arvatud juhul, kui avaldamine on seadusega nõutud.
+#### Passiivsus
+Pikemat aega kasutamata kontod võidakse lugeda **passiivseks**.  
+Passiivsed kontod võidakse **kustutada ette teatamata**, kõik seotud andmed eemaldatakse **pöördumatult**.  
 
-## 7. Vastutuse piirang
+Extaas.com ei vastuta **kahju eest**, mis tuleneb konto passiivsusest või selle kustutamisest.  
 
-Vastutus on piiratud konkreetse teenuse eest tasutud summaga.
 
-Extaas ei vastuta:
+## 4. Lubatud kasutus
 
-- kaudse kahju eest
-- saamata jäänud tulu eest
-- kolmandate osapoolte teenuste tõrgete eest
+Kasutaja ei tohi kasutada platvormi viisil, mis:  
 
-## 8. Vääramatu jõud
+- Rikub **kehtivaid seadusi**  
+- Hõlmab **rämpsposti, kuritarvitamist** või automatiseeritud väärkasutust  
+- Häirib teenuse **tavapärast toimimist**  
+- Püüab süsteeme **ära kasutada, analüüsida või üle koormata**  
 
-Extaas ei vastuta kohustuste täitmata jätmise eest, kui see on tingitud vääramatust jõust.
+Extaas.com jätab endale õiguse **ligipääsu piirata või lõpetada** väärkasutuse korral.  
 
-## 9. Kohaldatav õigus
 
-Kohaldatakse Eesti Vabariigi õigust.
+## 5. Teenuse saadavus ja muutmine
+
+Kõik teenused on pakutud **„nagu on“** põhimõttel, ilma garantiideta.  
+
+Extaas.com võib teenuseid **igal ajal muuta, peatada või lõpetada** ilma ette teatamata.  
+
+Ajutised katkestused võivad esineda **hoolduse, uuenduste või tehniliste piirangute** tõttu.  
+
+
+## 6. Intellektuaalomand
+
+Kui ei ole kirjalikult teisiti kokku lepitud:  
+
+- Täieliku tasumise järel läheb **kohandatud lähtekoodi omandiõigus kliendile**  
+- Extaas jätab endale õiguse kasutada **üldist oskusteavet, arendusmetoodikat ja mitte-kliendispetsiifilisi komponente**  
+- Kolmandate osapoolte komponendid alluvad nende **litsentsitingimustele**  
+
+
+## 7. Konfidentsiaalsus
+
+Pooled kohustuvad **hoidma konfidentsiaalset teavet saladuses**, välja arvatud juhul, kui **avaldamine on seadusega nõutud**.  
+
+
+## 8. Vastutuse piirang
+
+Vastutus on piiratud **konkreetse teenuse eest tasutud summaga**.  
+
+Extaas ei vastuta:  
+
+- Kaudse kahju eest  
+- Saamata jäänud tulu eest  
+- Kolmandate osapoolte teenuste tõrgete eest  
+
+
+## 9. Vääramatu jõud
+
+Extaas ei vastuta kohustuste täitmata jätmise eest, kui see on tingitud **vääramatust jõust**.  
+
+
+## 10. Kohaldatav õigus
+
+Kohaldatakse **Eesti Vabariigi õigust**.
