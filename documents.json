@@ -1,0 +1,15 @@
+{
+  "root": "https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/legal_documents/",
+
+  "list": {
+    "en": {
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service",
+      "terms_of_sale": "Terms of Sale" },
+    "et": {
+      "privacy_policy": "Privaatsustingimused",
+      "terms_of_service": "Kasutustingimused",
+      "terms_of_sale": "Müügitingimused" } 
+    }
+
+}
