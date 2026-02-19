@@ -2,6 +2,8 @@
 
 Viimati uuendatud: 19.02.2026
 
+<br>
+
 ## 1. Vastutav töötleja
 
 Extaas.com haldaja:
@@ -12,6 +14,8 @@ Email: mail@extaas.com
 Telefon: +372 5107862  
 
 Osaühing X pakub veebiarendust, tarkvaraarendust ja digitaalseid IT-teenuseid vastavalt kliendi vajadustele.
+
+<br>
 
 ## 2. Teenuste ulatus
 
@@ -24,6 +28,8 @@ Peamised teenused:
 
 Veebilehel puudub e-pood.  
 Füüsilisi tooteid võidakse tarnida ainult kliendi otsese päringu ja eraldi kokkuleppe alusel.
+
+<br>
 
 ## 3. Andmete töötlemise alus
 
@@ -42,6 +48,8 @@ Võimalikud andmed:
 - arveldusandmed
 - projektiga seotud info
 
+<br>
+
 ## 4. Autentimine
 
 Autentimine toimub Supabase kaudu ning võib sisaldada:
@@ -52,10 +60,14 @@ Autentimine toimub Supabase kaudu ning võib sisaldada:
 
 Extaas paroole ei salvesta.
 
+<br>
+
 ## 5. E-post ja suhtlus
 
 - veebimajutus.ee (e-posti teenus)
 - Resend (tehingulised e-kirjad)
+
+<br>
 
 ## 6. Maksetöötlus
 
@@ -64,6 +76,8 @@ Maksete töötlemine toimub Maksekeskuse kaudu.
 Täielikke pangakaardiandmeid ei salvestata.
 
 Makseteenuse pakkujad tegutsevad iseseisvate vastutavate töötlejatena.
+
+<br>
 
 ## 7. Küpsised ja LocalStorage
 
@@ -74,6 +88,8 @@ Kasutatakse ainult tehniliselt vajalikke lahendusi:
 - kasutaja eelistuste salvestamine (keel, teema)
 
 Reklaami- ega jälgimisküpsiseid ei kasutata.
+
+<br>
 
 ## 8. Andmete jagamine
 
@@ -89,6 +105,8 @@ Andmeid võivad töödelda:
 - Netlify
 - Maksekeskus
 
+<br>
+
 ## 9. Andmete säilitamine
 
 Andmeid säilitatakse ainult nii kaua, kui see on vajalik:
@@ -96,6 +114,8 @@ Andmeid säilitatakse ainult nii kaua, kui see on vajalik:
 - lepingu täitmiseks
 - raamatupidamis- ja maksunõuete täitmiseks
 - võimalike vaidluste lahendamiseks
+
+<br>
 
 ## 10. Andmesubjekti õigused
 
@@ -110,11 +130,15 @@ Andmesubjektil on õigus:
 
 Päringud: mail@extaas.com
 
+<br>
+
 ## 11. Turvalisus
 
 - serveripoolne turvaline töötlus
 - Supabase Row-Level Security
 - minimaalse ligipääsu põhimõte
+
+<br>
 
 ## 12. Andmerollid
 
