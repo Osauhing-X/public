@@ -2,8 +2,6 @@
 See on Osaühing X ja veebiplatvormi Extaas looja Taavi Toodu portfoolio.
 Lühike ülevaade minu oskustest, kogemustest ja valdkondadest, millega olen töötanud.
 
-***
-
 ## Taavi Toodu
 Infotehnoloogia spetsialist  
 Svelte veebiarendaja  
@@ -12,7 +10,6 @@ Osaühing X ja Extaas asutaja
 ***
 
 ### Profiil
-
 Paigaldan, seadistan, hooldan ja haldan IT-süsteeme ning muud tehnikat.  
 Analüüsin keerukaid tarkvara- ja IT-probleeme ning leian praktilised lahendused.  
 Arendan, testin ja hooldan veebirakendusi Svelte abil.
@@ -20,7 +17,6 @@ Arendan, testin ja hooldan veebirakendusi Svelte abil.
 ***
 
 ### Haridus
-
 #### Infotehnoloogia
 
 09.2020 – 06.2023  
@@ -35,7 +31,6 @@ Projekt hõlmas olemasoleva infrastruktuuri analüüsi, lahenduse planeerimist j
 ***
 
 ### Veebiarendus
-
 #### Algus – WordPress (01.03.2021)
 
 Veebiarendus sai alguse WordPressi projektidega.  
@@ -76,13 +71,12 @@ Projektist ilmus ka artikkel.
 ***
 
 ### Süsteemide automatiseerimine
-
 Tegelen igapäevaste protsesside automatiseerimisega ja lokaalse infrastruktuuri ülesehitusega.
 
 #### Kogemus
 
 - Home Assistant (lokaalne automaatikakeskus)
-- Red-Node (automatiseerimise prototüübid)  
+- Red-Node (automatiseerimine)  
 - ESP32 mikrokontrollerid  
 - Zigbee-põhine seadmevõrk  
 - UPS-põhine tagavaratoide  
@@ -94,11 +88,7 @@ Eelistan lokaalseid ja sõltumatuid lahendusi, kus süsteem töötab ka internet
 ***
 
 ### Võrgulahendused
-
-Praktiline kogemus Ubiquiti ökosüsteemiga:  
-- Ubiquiti Network  
-- Ubiquiti Access  
-- Ubiquiti Protect  
+Praktiline kogemus lokaalse võrgu- ja turvasüsteemide seadistamisel, sh Ubiquiti ökosüsteem (Network, Access, Protect, Drive) ning Dahua ja Hikvision kaamerad.
 
 Tegelen:  
 - võrguplaneerimisega  
@@ -110,7 +100,6 @@ Tegelen:
 ***
 
 ### Väikesed projektid omatarbeks
-
 Peale veebiarenduse olen arendanud ja katsetanud ka muid lahendusi:  
 - Discord botid  
 - Node.js serverid  
@@ -123,7 +112,6 @@ Kõik need projektid on olnud peamiselt omatarbeks või võimalus testida ideid 
 ***
 
 ### Nõrkused
-
 Kuigi olen tugev Svelte ja veebiarenduse, IT-süsteemide ja võrgu planeerimise osas, on mul vähem kogemust mõnedes valdkondades:  
 - Linuxi keskkonnad  
 - MacOS seadmete seadistamine ja haldus  
@@ -132,6 +120,5 @@ Kuigi olen tugev Svelte ja veebiarenduse, IT-süsteemide ja võrgu planeerimise 
 ***
 
 ### Kontakt
-
 Email: taavi@extaas.com  
 Veeb: https://extaas.com

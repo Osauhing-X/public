@@ -2,8 +2,6 @@
 This is the portfolio of Taavi Toodu, creator of Osaühing X and the Extaas web platform.  
 A concise overview of my skills, experience, and the areas I’ve worked with.
 
-***
-
 ## Taavi Toodu
 Information Technology Specialist  
 Svelte Web Developer  
@@ -19,8 +17,8 @@ I develop, test, and maintain web applications using Svelte.
 ***
 
 ### Education
-
 #### Information Technology
+
 09.2020 – 06.2023  
 Pärnumaa Vocational Education Centre  
 Junior IT Systems Specialist (Level 4, EKR/EQF Level 4) (Vocational Secondary Education)
@@ -33,8 +31,8 @@ The project included analysis of the existing infrastructure, solution planning,
 ***
 
 ### Web Development
-
 #### Beginning – WordPress (01.03.2021)
+
 My web development journey started with WordPress projects.  
 I worked on theme customization, structural setup, and extending functionality.
 
@@ -46,6 +44,7 @@ This period provided a solid understanding of:
 ***
 
 #### First Svelte Project (06.07.2022)
+
 I published my first Svelte project on a subdomain.  
 The project was experimental and basic, but it marked the transition to a modern development approach.
 
@@ -58,6 +57,7 @@ The goals of the first project were to:
 ***
 
 #### Internship at Digistep and Advanced Development (23.01.2023)
+
 During my vocational internship at Digistep, I had the opportunity to develop a web-based leasing portal using Svelte.
 
 During the internship, I:
@@ -74,8 +74,9 @@ An article was also published about the project.
 I focus on automating daily processes and building local infrastructure solutions.
 
 #### Experience
+
 - Home Assistant (local automation hub)  
-- Node-RED (automation prototyping)  
+- Node-RED (automation)  
 - ESP32 microcontrollers  
 - Zigbee-based device networks  
 - UPS-backed power systems  
@@ -87,10 +88,7 @@ I prefer local and independent solutions that remain operational even without an
 ***
 
 ### Network Solutions
-Practical experience with the Ubiquiti ecosystem:
-- Ubiquiti Network  
-- Ubiquiti Access  
-- Ubiquiti Protect  
+Practical experience in configuring local network and security systems, including the Ubiquiti ecosystem (Network, Access, Protect, Drive) and Dahua and Hikvision cameras.
 
 My work includes:
 - Network planning  
