@@ -1,20 +1,12 @@
 # Meist 
-
 Osaühing X on infotehnoloogia ettevõte. Extaas on selle ettevõtte bränd ja veebiplatvorm.
-
-<br>
 
 Põhitegevuseks on veebiarendus, kuid pakume ka IT-tuge ja muid IT-alaseid teenuseid. Enamik töid tehakse hinnapakkumise alusel ning vastavalt kliendi konkreetsele vajadusele. Standardpakette ei suruta – lahendused sünnivad kokkuleppel.
 
-<br>
 <hr>
-<br>
 
 ## Liikmed  
-
 Ettevõte on üheliikmeline.
-
-<br>
 
 ### Founder  
 
@@ -29,28 +21,18 @@ Ettevõte on üheliikmeline.
   <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
 </div>
 
-<br>
 <hr>
-<br>
 
 ## Firma  
-
 Meie eesmärk on olla läbipaistev ja aus partner.  
 
 Me ei luba rohkem, kui suudame teha. Kui projekt või tehniline vajadus jääb meie kompetentsist välja, ütleme selle otse välja. Kui saame aidata, siis teeme seda selge plaani, arusaadava hinnastuse ja kokkulepitud tingimustega.
 
-<br>
-
 ### Üldinfo  
-
 Extaas keskendub veebilahenduste arendamisele, hooldusele ja edasiarendusele.  
-
-<br>
 
 ### Domeen / Veeb  
 Platvorm on ehitatud **Svelte** raamistikule ning kasutab kaasaegseid pilveteenuseid, et tagada töökindel ja hallatav süsteem. Lahendused kavandatakse vastavalt vajadusele – olgu selleks ettevõtte veebileht, sisuhaldus, autentimine või muu funktsionaalsus.
-
-<br>
 
 Kasutusel on järgmised teenused:  
 
@@ -61,23 +43,15 @@ Kasutusel on järgmised teenused:
 
 Teenuste valik sõltub projekti vajadusest.
 
-<br>
-
 ### Andmed / Platvorm  
-
 - **GitHub** – kood ja Markdown-põhised sisulehed  
 - **Supabase** – autentimine, andmebaas ja failisalvestus  
 
 Tehnilised valikud tehakse eesmärgiga hoida süsteem arusaadav, hooldatav ja mõistliku kuluga.
 
-<br>
 <hr>
-<br>
 
 ## Partnerlus  
-
 Oleme avatud koostööle nii ettevõtete kui ka eraisikutega.  
-
-<br>
 
 Kui sul on konkreetne vajadus, idee või projekt, võta ühendust. Arutame läbi, kuidas saame üksteisele väärtust luua ja kujundada pikaajalise koostöö.
