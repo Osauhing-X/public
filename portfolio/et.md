@@ -18,7 +18,6 @@ Arendan, testin ja hooldan veebirakendusi Svelte abil.
 
 ### Haridus
 #### Infotehnoloogia
-
 09.2020 – 06.2023  
 Pärnumaa Kutsehariduskeskus  
 IT-süsteemide nooremspetsialist (tase 4, EKR/EQF tase 4) (kutsekeskharidus)  
@@ -32,7 +31,6 @@ Projekt hõlmas olemasoleva infrastruktuuri analüüsi, lahenduse planeerimist j
 
 ### Veebiarendus
 #### Algus – WordPress (01.03.2021)
-
 Veebiarendus sai alguse WordPressi projektidega.  
 Tegelesin teemade kohandamise, struktuuri ülesehituse ja funktsionaalsuse laiendamisega.
 
@@ -44,7 +42,6 @@ See periood andis arusaama:
 ***
 
 #### Esimene Svelte projekt (06.07.2022)
-
 Avalikustasin alamdomeenil oma esimese Svelte projekti.  
 Projekt oli eksperimentaalne ja algeline, kuid tähistas üleminekut kaasaegsele arendusmudelile.
 
@@ -57,7 +54,6 @@ Esimese projekti eesmärk oli:
 ***
 
 #### Digistep praktika ja süvendatud arendus (23.01.2023)
-
 Kooli praktika ettevõttes Digistep andis võimaluse Sveltega praktiliselt arendada veebipõhist liisinguportaali.  
 
 Praktika käigus:  
@@ -74,7 +70,6 @@ Projektist ilmus ka artikkel.
 Tegelen igapäevaste protsesside automatiseerimisega ja lokaalse infrastruktuuri ülesehitusega.
 
 #### Kogemus
-
 - Home Assistant (lokaalne automaatikakeskus)
 - Red-Node (automatiseerimine)  
 - ESP32 mikrokontrollerid  
