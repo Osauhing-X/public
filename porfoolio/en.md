@@ -4,20 +4,22 @@ Information Technology Specialist
 Svelte Web Developer  
 Founder of Osaühing X and Extaas  
 
+
 ---
 
-## Profile
 
+## Profile
 I install, configure, maintain, and manage IT systems and related technical infrastructure.  
 I analyze complex software and IT issues and implement practical, reliable solutions.  
 I develop, test, and maintain web applications using Svelte.
 
+
 ---
+
 
 ## Education
 
 ### Information Technology
-
 09.2020 – 06.2023  
 Pärnumaa Vocational Education Centre  
 Junior IT Systems Specialist (Level 4, EKR/EQF Level 4) (Vocational Secondary Education)
@@ -27,12 +29,13 @@ Graduated with honors.
 **Final Thesis:** Migration of the school’s network infrastructure to fiber optics.  
 The project included analysis of the existing infrastructure, solution planning, and preparation of a technical migration scheme.
 
+
 ---
+
 
 ## Web Development
 
 ### Beginning – WordPress (01.03.2021)
-
 My web development journey started with WordPress projects.  
 I worked on theme customization, structural setup, and extending functionality.
 
@@ -41,10 +44,11 @@ This period provided a solid understanding of:
 - Limitations of plugin-based ecosystems  
 - Performance and security challenges  
 
+
 ---
 
-### First Svelte Project (06.07.2022)
 
+### First Svelte Project (06.07.2022)
 I published my first Svelte project on a subdomain.  
 The project was experimental and basic, but it marked the transition to a modern development approach.
 
@@ -54,10 +58,11 @@ The goals of the first project were to:
 - Understand component-based development  
 - Manage asynchronous data flow  
 
+
 ---
 
-### Internship at Digistep and Advanced Development (23.01.2023)
 
+### Internship at Digistep and Advanced Development (23.01.2023)
 During my vocational internship at Digistep, I had the opportunity to develop a web-based leasing portal using Svelte.
 
 During the internship, I:
@@ -68,14 +73,14 @@ During the internship, I:
 
 An article was also published about the project.
 
+
 ---
 
-## Systems Automation
 
+## Systems Automation
 I focus on automating daily processes and building local infrastructure solutions.
 
 ### Experience
-
 - Home Assistant (local automation hub)  
 - Node-RED (automation prototyping)  
 - ESP32 microcontrollers  
@@ -86,10 +91,11 @@ I focus on automating daily processes and building local infrastructure solution
 
 I prefer local and independent solutions that remain operational even without an internet connection.
 
+
 ---
 
-## Network Solutions
 
+## Network Solutions
 Practical experience with the Ubiquiti ecosystem:
 - Ubiquiti Network  
 - Ubiquiti Access  
@@ -102,10 +108,11 @@ My work includes:
 - Device segmentation  
 - Local infrastructure deployment  
 
+
 ---
 
-## Small Personal Projects
 
+## Small Personal Projects
 In addition to web development, I have developed and experimented with various other solutions:
 - Discord bots  
 - Node.js servers  
@@ -115,18 +122,20 @@ In addition to web development, I have developed and experimented with various o
 
 These projects were primarily for personal use or as experimental environments for testing ideas for future solutions.
 
+
 ---
 
-## Areas for Improvement
 
+## Areas for Improvement
 While I am strong in Svelte, web development, IT systems, and network planning, I have less experience in certain areas:
 - Linux environments  
 - macOS device configuration and management  
 - MySQL and SQL databases  
 
+
 ---
 
-## Contact
 
+## Contact
 Email: taavi@extaas.com  
 Web: https://extaas.com
