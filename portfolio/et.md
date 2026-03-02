@@ -39,7 +39,6 @@ See periood andis arusaama:
 - pluginapõhise arhitektuuri piirangutest  
 - jõudluse ja turvalisuse probleemidest
 
-***
 
 #### Esimene Svelte projekt (06.07.2022)
 Avalikustasin alamdomeenil oma esimese Svelte projekti.  
@@ -51,7 +50,6 @@ Esimese projekti eesmärk oli:
 - mõista komponentpõhist arendust  
 - hallata asünkroonset andmevoogu
 
-***
 
 #### Digistep praktika ja süvendatud arendus (23.01.2023)
 Kooli praktika ettevõttes Digistep andis võimaluse Sveltega praktiliselt arendada veebipõhist liisinguportaali.  

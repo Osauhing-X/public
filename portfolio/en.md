@@ -39,7 +39,6 @@ This period provided a solid understanding of:
 - Limitations of plugin-based ecosystems  
 - Performance and security challenges  
 
-***
 
 #### First Svelte Project (06.07.2022)
 I published my first Svelte project on a subdomain.  
@@ -51,7 +50,6 @@ The goals of the first project were to:
 - Understand component-based development  
 - Manage asynchronous data flow  
 
-***
 
 #### Internship at Digistep and Advanced Development (23.01.2023)
 During my vocational internship at Digistep, I had the opportunity to develop a web-based leasing portal using Svelte.
