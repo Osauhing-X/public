@@ -116,9 +116,3 @@ Kuigi olen tugev Svelte ja veebiarenduse, IT-süsteemide ja võrgu planeerimise 
 - Linuxi keskkonnad  
 - MacOS seadmete seadistamine ja haldus  
 - MySQL ja SQL andmebaasid
-
-***
-
-### Kontakt
-Email: taavi@extaas.com  
-Veeb: https://extaas.com

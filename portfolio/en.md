@@ -115,10 +115,4 @@ These projects were primarily for personal use or as experimental environments f
 While I am strong in Svelte, web development, IT systems, and network planning, I have less experience in certain areas:
 - Linux environments  
 - macOS device configuration and management  
-- MySQL and SQL databases  
-
-***
-
-### Contact
-Email: taavi@extaas.com  
-Web: https://extaas.com
+- MySQL and SQL databases
