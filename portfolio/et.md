@@ -1,10 +1,9 @@
 # Taavi Toodu
-
 Infotehnoloogia spetsialist  
 Svelte veebiarendaja  
 Osaühing X ja Extaas asutaja  
 
----
+***
 
 ## Profiil
 
@@ -12,7 +11,7 @@ Paigaldan, seadistan, hooldan ja haldan IT-süsteeme ning muud tehnikat.
 Analüüsin keerukaid tarkvara- ja IT-probleeme ning leian praktilised lahendused.  
 Arendan, testin ja hooldan veebirakendusi Svelte abil.
 
----
+***
 
 ## Haridus
 
@@ -27,7 +26,7 @@ Lõpetasin kiituskirjaga.
 **Lõputöö:** kooli võrgu üleviimine fiiberoptilisele taristule.  
 Projekt hõlmas olemasoleva infrastruktuuri analüüsi, lahenduse planeerimist ja tehnilise migratsiooniskeemi koostamist.
 
----
+***
 
 ## Veebiarendus
 
@@ -41,7 +40,7 @@ See periood andis arusaama:
 - pluginapõhise arhitektuuri piirangutest  
 - jõudluse ja turvalisuse probleemidest
 
----
+***
 
 ### Esimene Svelte projekt (06.07.2022)
 
@@ -54,7 +53,7 @@ Esimese projekti eesmärk oli:
 - mõista komponentpõhist arendust  
 - hallata asünkroonset andmevoogu
 
----
+***
 
 ### Digistep praktika ja süvendatud arendus (23.01.2023)
 
@@ -68,7 +67,7 @@ Praktika käigus:
 
 Projektist ilmus ka artikkel.
 
----
+***
 
 ## Süsteemide automatiseerimine
 
@@ -86,7 +85,7 @@ Tegelen igapäevaste protsesside automatiseerimisega ja lokaalse infrastruktuuri
 
 Eelistan lokaalseid ja sõltumatuid lahendusi, kus süsteem töötab ka internetiühenduse katkemisel.
 
----
+***
 
 ## Võrgulahendused
 
@@ -102,7 +101,7 @@ Tegelen:
 - seadmete segmentatsiooniga  
 - lokaalse infrastruktuuri ülesehitusega
 
----
+***
 
 ## Väikesed projektid omatarbeks
 
@@ -115,7 +114,7 @@ Peale veebiarenduse olen arendanud ja katsetanud ka muid lahendusi:
 
 Kõik need projektid on olnud peamiselt omatarbeks või võimalus testida ideid tulevaste projektide jaoks.
 
----
+***
 
 ## Nõrkused
 
@@ -124,7 +123,7 @@ Kuigi olen tugev Svelte ja veebiarenduse, IT-süsteemide ja võrgu planeerimise 
 - MacOS seadmete seadistamine ja haldus  
 - MySQL ja SQL andmebaasid
 
----
+***
 
 ## Kontakt
 

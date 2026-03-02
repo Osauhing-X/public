@@ -3,9 +3,7 @@ Osaühing X is an information technology company. Extaas is the brand and web pl
 
 The main focus is web development, but we also provide IT support and other IT-related services. Most work is done based on quotes and specific client needs. We don’t offer standard packages – solutions are agreed upon case by case.
 
-
 ***
-
 
 ## Members  
 The company has a single member.
@@ -22,9 +20,7 @@ The company has a single member.
   <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
 </div>
 
-
 ***
-
 
 ## Company  
 Our goal is to be a transparent and reliable partner.  
@@ -52,9 +48,7 @@ The choice of services depends on the project requirements.
 
 Technical choices are made to keep the system understandable, maintainable, and cost-effective.
 
-
 ***
-
 
 ## Partnership  
 We are open to collaboration with both companies and individuals.  

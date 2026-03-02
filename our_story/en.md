@@ -45,9 +45,7 @@ From **November 6, 202**5, to **February 1, 2026**, Extaas was temporarily offli
 ## Establishment of Osaühing X
 On **December 17, 2025**, **Osaühing X (17396663)** was officially established to provide professional web development and IT services. The company started as a single-member entity, building upon the experiences from Extaas and Nexus development. Osaühing X combines expertise in web development, community management, and innovative design to deliver solutions that are both visually appealing and technically robust.
 
-
 ***
-
 
 ## Our Values and Vision
 - **Innovation and Technical Precision:** We use modern web technologies, including Svelte, JavaScript, HTML, and CSS, to create sustainable and high-quality solutions.  
