@@ -1,20 +1,26 @@
-# Taavi Toodu
+# Portolio
+This is the portfolio of Taavi Toodu, creator of Osaühing X and the Extaas web platform.  
+A concise overview of my skills, experience, and the areas I’ve worked with.
+
+***
+
+## Taavi Toodu
 Information Technology Specialist  
 Svelte Web Developer  
 Founder of Osaühing X and Extaas  
 
 ***
 
-## Profile
+### Profile
 I install, configure, maintain, and manage IT systems and related technical infrastructure.  
 I analyze complex software and IT issues and implement practical, reliable solutions.  
 I develop, test, and maintain web applications using Svelte.
 
 ***
 
-## Education
+### Education
 
-### Information Technology
+#### Information Technology
 09.2020 – 06.2023  
 Pärnumaa Vocational Education Centre  
 Junior IT Systems Specialist (Level 4, EKR/EQF Level 4) (Vocational Secondary Education)
@@ -26,9 +32,9 @@ The project included analysis of the existing infrastructure, solution planning,
 
 ***
 
-## Web Development
+### Web Development
 
-### Beginning – WordPress (01.03.2021)
+#### Beginning – WordPress (01.03.2021)
 My web development journey started with WordPress projects.  
 I worked on theme customization, structural setup, and extending functionality.
 
@@ -39,7 +45,7 @@ This period provided a solid understanding of:
 
 ***
 
-### First Svelte Project (06.07.2022)
+#### First Svelte Project (06.07.2022)
 I published my first Svelte project on a subdomain.  
 The project was experimental and basic, but it marked the transition to a modern development approach.
 
@@ -51,7 +57,7 @@ The goals of the first project were to:
 
 ***
 
-### Internship at Digistep and Advanced Development (23.01.2023)
+#### Internship at Digistep and Advanced Development (23.01.2023)
 During my vocational internship at Digistep, I had the opportunity to develop a web-based leasing portal using Svelte.
 
 During the internship, I:
@@ -64,10 +70,10 @@ An article was also published about the project.
 
 ***
 
-## Systems Automation
+### Systems Automation
 I focus on automating daily processes and building local infrastructure solutions.
 
-### Experience
+#### Experience
 - Home Assistant (local automation hub)  
 - Node-RED (automation prototyping)  
 - ESP32 microcontrollers  
@@ -80,7 +86,7 @@ I prefer local and independent solutions that remain operational even without an
 
 ***
 
-## Network Solutions
+### Network Solutions
 Practical experience with the Ubiquiti ecosystem:
 - Ubiquiti Network  
 - Ubiquiti Access  
@@ -95,7 +101,7 @@ My work includes:
 
 ***
 
-## Small Personal Projects
+### Small Personal Projects
 In addition to web development, I have developed and experimented with various other solutions:
 - Discord bots  
 - Node.js servers  
@@ -107,7 +113,7 @@ These projects were primarily for personal use or as experimental environments f
 
 ***
 
-## Areas for Improvement
+### Areas for Improvement
 While I am strong in Svelte, web development, IT systems, and network planning, I have less experience in certain areas:
 - Linux environments  
 - macOS device configuration and management  
@@ -115,6 +121,6 @@ While I am strong in Svelte, web development, IT systems, and network planning, 
 
 ***
 
-## Contact
+### Contact
 Email: taavi@extaas.com  
 Web: https://extaas.com

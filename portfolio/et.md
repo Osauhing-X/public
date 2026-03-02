@@ -1,11 +1,17 @@
-# Taavi Toodu
+# Portfoolio
+See on Osaühing X ja veebiplatvormi Extaas looja Taavi Toodu portfoolio.
+Lühike ülevaade minu oskustest, kogemustest ja valdkondadest, millega olen töötanud.
+
+***
+
+## Taavi Toodu
 Infotehnoloogia spetsialist  
 Svelte veebiarendaja  
 Osaühing X ja Extaas asutaja  
 
 ***
 
-## Profiil
+### Profiil
 
 Paigaldan, seadistan, hooldan ja haldan IT-süsteeme ning muud tehnikat.  
 Analüüsin keerukaid tarkvara- ja IT-probleeme ning leian praktilised lahendused.  
@@ -13,9 +19,9 @@ Arendan, testin ja hooldan veebirakendusi Svelte abil.
 
 ***
 
-## Haridus
+### Haridus
 
-### Infotehnoloogia
+#### Infotehnoloogia
 
 09.2020 – 06.2023  
 Pärnumaa Kutsehariduskeskus  
@@ -28,9 +34,9 @@ Projekt hõlmas olemasoleva infrastruktuuri analüüsi, lahenduse planeerimist j
 
 ***
 
-## Veebiarendus
+### Veebiarendus
 
-### Algus – WordPress (01.03.2021)
+#### Algus – WordPress (01.03.2021)
 
 Veebiarendus sai alguse WordPressi projektidega.  
 Tegelesin teemade kohandamise, struktuuri ülesehituse ja funktsionaalsuse laiendamisega.
@@ -42,7 +48,7 @@ See periood andis arusaama:
 
 ***
 
-### Esimene Svelte projekt (06.07.2022)
+#### Esimene Svelte projekt (06.07.2022)
 
 Avalikustasin alamdomeenil oma esimese Svelte projekti.  
 Projekt oli eksperimentaalne ja algeline, kuid tähistas üleminekut kaasaegsele arendusmudelile.
@@ -55,7 +61,7 @@ Esimese projekti eesmärk oli:
 
 ***
 
-### Digistep praktika ja süvendatud arendus (23.01.2023)
+#### Digistep praktika ja süvendatud arendus (23.01.2023)
 
 Kooli praktika ettevõttes Digistep andis võimaluse Sveltega praktiliselt arendada veebipõhist liisinguportaali.  
 
@@ -69,11 +75,11 @@ Projektist ilmus ka artikkel.
 
 ***
 
-## Süsteemide automatiseerimine
+### Süsteemide automatiseerimine
 
 Tegelen igapäevaste protsesside automatiseerimisega ja lokaalse infrastruktuuri ülesehitusega.
 
-### Kogemus
+#### Kogemus
 
 - Home Assistant (lokaalne automaatikakeskus)
 - Red-Node (automatiseerimise prototüübid)  
@@ -87,7 +93,7 @@ Eelistan lokaalseid ja sõltumatuid lahendusi, kus süsteem töötab ka internet
 
 ***
 
-## Võrgulahendused
+### Võrgulahendused
 
 Praktiline kogemus Ubiquiti ökosüsteemiga:  
 - Ubiquiti Network  
@@ -103,7 +109,7 @@ Tegelen:
 
 ***
 
-## Väikesed projektid omatarbeks
+### Väikesed projektid omatarbeks
 
 Peale veebiarenduse olen arendanud ja katsetanud ka muid lahendusi:  
 - Discord botid  
@@ -116,7 +122,7 @@ Kõik need projektid on olnud peamiselt omatarbeks või võimalus testida ideid 
 
 ***
 
-## Nõrkused
+### Nõrkused
 
 Kuigi olen tugev Svelte ja veebiarenduse, IT-süsteemide ja võrgu planeerimise osas, on mul vähem kogemust mõnedes valdkondades:  
 - Linuxi keskkonnad  
@@ -125,7 +131,7 @@ Kuigi olen tugev Svelte ja veebiarenduse, IT-süsteemide ja võrgu planeerimise 
 
 ***
 
-## Kontakt
+### Kontakt
 
 Email: taavi@extaas.com  
 Veeb: https://extaas.com
