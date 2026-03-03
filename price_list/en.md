@@ -11,7 +11,7 @@ This price list outlines the hourly rates for the services offered. All prices a
 ***
 
 ## Maintenance (only for our Svelte-developed code)
-As an additional service, it is possible to subscribe to monthly maintenance and minor updates for 100 € per month.  
+As an additional service, it is possible to subscribe to monthly maintenance and minor updates for ~100€ per month.  
 
 **Service includes:**  
 - Website updates and code improvements  

@@ -12,7 +12,7 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
 ***
 
 ## Hooldus (ainult meie arendatud Svelte koodi puhul)
-Lisateenusena on võimalik tellida iga kuu hooldus ja väikesed muudatused 100 € kuus.  
+Lisateenusena on võimalik tellida iga kuu hooldus ja väikesed muudatused ~100€ kuus.  
 
 **Teenuse sisu:**  
 - Veebilehe uuendused ja koodi täiustamine  
