@@ -40,6 +40,34 @@
   },
 
 
+  "/price_list": {
+    "path": "/g",
+    "files": {
+      "en": "en.md",
+      "et": "et.md"
+    },
+    "group": "price",
+    "schema": false,
+    "sitemap": {
+      "lastmod": "2026-02-03",
+      "priority": 0.3,
+      "changefreq": "yearly"
+    },
+    "en": {
+      "seo": {
+        "title": "Price List",
+        "description": "Explore the price list for web development, custom software solutions, CMS management, IT support, and installation services offered by Taavi Toodu, an IT specialist and Svelte web developer. Includes hourly rates, maintenance options, additional costs, and custom quote guidance.",
+        "keywords": "Price list, IT services, Svelte web development, WordPress maintenance, custom software, IT support, installation services, Taavi Toodu, Extaas, Osaühing X, monthly maintenance, web updates, small changes"
+      } },
+    "et": {
+      "seo": {
+        "title": "Hinnakiri",
+        "description": "Tutvu pakutavate teenuste hinnakirjaga: veebiarendus, rätseplahendused, CMS haldus, IT tugi ja paigaldus. Sisaldab tunnitasusid, kuuhooldust, lisatasusid ja personaalse hinnapakkumise juhiseid.",
+        "keywords": "Hinnakiri, IT teenused, Svelte veebiarendus, WordPress hooldus, rätseplahendused, IT tugi, paigaldusteenus, Taavi Toodu, Extaas, Osaühing X, kuuhooldus, veebiuuendused, väikesed muudatused"
+    } }
+    },
+
+
   "/company": {
     "path": "/g",
     "files": {
@@ -93,33 +121,5 @@
         "description": "Taavi Toodu portfoolio, infotehnoloogia spetsialist ja Svelte veebiarendaja, Osaühing X ja Extaas asutaja. Tutvu tema kogemusega veebiarenduses, IT-süsteemides, automatiseerimises, võrgulahendustes ja väikestes projektides.",
         "keywords": "infotehnoloogia spetsialist, Svelte, veebiarendus, Osaühing X, Extaas, automatiseerimine, võrgulahendused, Home Assistant, ESP32, Ubiquiti, Node.js, Chrome pluginad, Electron"
       } }
-  },
-
-
-  "/price_list": {
-    "path": "/g",
-    "files": {
-      "en": "en.md",
-      "et": "et.md"
-    },
-    "group": "price",
-    "schema": false,
-    "sitemap": {
-      "lastmod": "2026-02-03",
-      "priority": 0.3,
-      "changefreq": "yearly"
-    },
-    "en": {
-      "seo": {
-        "title": "Price List",
-        "description": "Explore the price list for web development, custom software solutions, CMS management, IT support, and installation services offered by Taavi Toodu, an IT specialist and Svelte web developer. Includes hourly rates, maintenance options, additional costs, and custom quote guidance.",
-        "keywords": "Price list, IT services, Svelte web development, WordPress maintenance, custom software, IT support, installation services, Taavi Toodu, Extaas, Osaühing X, monthly maintenance, web updates, small changes"
-      } },
-    "et": {
-      "seo": {
-        "title": "Hinnakiri",
-        "description": "Tutvu pakutavate teenuste hinnakirjaga: veebiarendus, rätseplahendused, CMS haldus, IT tugi ja paigaldus. Sisaldab tunnitasusid, kuuhooldust, lisatasusid ja personaalse hinnapakkumise juhiseid.",
-        "keywords": "Hinnakiri, IT teenused, Svelte veebiarendus, WordPress hooldus, rätseplahendused, IT tugi, paigaldusteenus, Taavi Toodu, Extaas, Osaühing X, kuuhooldus, veebiuuendused, väikesed muudatused"
-    } }
-    }
+  }
 }
