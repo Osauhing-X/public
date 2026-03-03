@@ -8,7 +8,7 @@ Teenusepakkuja: Osaühing X
 Registrikood: 17396663  
 Aadress: [äriregistrisse kantud aadress]  
 E-post: mail@extaas.com  
-Telefon: +372 5107862  
+Telefon: +372 5107862
 
 Ettevõttel puudub avalik teeninduspunkt. Teenuseid osutatakse veebipõhiselt.
 
