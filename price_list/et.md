@@ -16,7 +16,7 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
         <td class="center">31.84 €</td>
       </tr>
       <tr>
-        <td>Rätseplahendused (muu tarkvaraarendus, mis ei ole veebiarendus)</td>
+        <td>Kohandatud tarkvaralahendused (muu tarkvaraarendus, mis ei ole veebiarendus)</td>
         <td class="center">37.46 €</td>
       </tr>
       <tr>
@@ -28,7 +28,7 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
         <td class="center">18.73 €</td>
       </tr>
       <tr>
-        <td>Paigaldus / seadistus (seadme töövalmis seadmine)</td>
+        <td>Paigaldamine / seadme seadistamine (seadme töövalmis seadmine)</td>
         <td class="center">18.73 €</td>
       </tr>
     </tbody>
@@ -68,7 +68,7 @@ Teenuste osutamisel võivad lisanduda täiendavad kulud, sõltuvalt töö iseloo
     </thead>
     <tbody>
       <tr><td>Transport (nt: kütusekulu, kullerteenus)</td></tr>
-      <tr><td>Kolmanda osapoole tellimused (subscriptions)</td></tr>
+      <tr><td>Kolmanda osapoole tellimused (subscriptions or licenses)</td></tr>
     </tbody>
   </table>
 </div>

@@ -1,55 +1,110 @@
-# Müügitingimused
+# MÜÜGITINGIMUSED  
+Viimati uuendatud: 03.03.2026  
 
-Viimati uuendatud: 19.02.2026
+***
 
-<br>
+## 1. Ettevõtte andmed
+Teenusepakkuja: Osaühing X  
+Registrikood: 17396663  
+Aadress: [äriregistrisse kantud aadress]  
+E-post: mail@extaas.com  
+Telefon: +372 5107862  
 
-## 1. Kohaldamisala
+Ettevõttel puudub avalik teeninduspunkt. Teenuseid osutatakse veebipõhiselt.
 
-Kehtib tasulistele digiteenustele ja erandkorras tarnitavatele füüsilistele toodetele.
+***
 
-Veebilehel puudub e-pood ning jaekaubandusega ei tegeleta.
+## 2. Kohaldamisala
+Käesolevad müügitingimused kehtivad Teenusepakkuja ja kliendi vahel sõlmitud lepingutele, mille esemeks on digiteenused ja projektipõhised IT-teenused.
 
-<br>
+Veebilehel puudub e-pood ning teenuseid ei tellita ostukorvi kaudu.
 
-## 2. Hind ja arveldamine
+***
 
-Hind määratakse projektipõhiselt.
+## 3. Lepingu sõlmimine ja ostuprotsess
+Teenuse tellimine toimub järgmiselt:
+1. Klient esitab päringu e-posti või muu kokkulepitud kanali kaudu.  
+2. Teenusepakkuja esitab hinnapakkumise või projektikirjelduse.  
+3. Leping loetakse sõlmituks pärast:
+   - hinnapakkumise kirjalikku aktsepteerimist kliendi poolt, või  
+   - ettemaksuarve tasumist, kui see on nõutud.
 
-Arved kuuluvad tasumisele 7–14 päeva jooksul, kui ei ole kokku lepitud teisiti.
+Teenuse osutamine algab vastavalt poolte kirjalikule kokkuleppele.
 
-Viivis võib rakenduda vastavalt Eesti õigusele.
+***
 
-Tasumata arvete korral võib teenuse osutamine peatuda.
+## 4. Hind ja makseviisid
+Teenuse hind määratakse projektipõhiselt vastavalt hinnapakkumisele või kokkulepitud tunnihinnale.
 
-<br>
+Arved kuuluvad tasumisele 7–14 kalendripäeva jooksul, kui ei ole kokku lepitud teisiti.
 
-## 3. Tarbija taganemisõigus
+Makseviisid:
+- Pangalingid ja kaardimaksed (Maksekeskus AS kaudu)  
+- Pangaülekanded kliendi pangast Coop Panga arvelduskontole  
 
-Tarbija puhul:
+Maksekeskus AS vahendab turvaliselt pangalinke.  
 
-Digitaalse teenuse osutamise alustamisel tarbija selgesõnalise nõusoleku alusel võib taganemisõigus lõppeda vastavalt seadusele.
+Teenusepakkujal puudub ligipääs kliendi pangateabele.
 
-Kohandatud teenustele ei pruugi taganemisõigus kohalduda seadusega lubatud ulatuses.
+Leping jõustub alates tasumisele kuuluva summa laekumisest Teenusepakkuja arvelduskontole, kui ei ole kokku lepitud teisiti.
 
-<br>
+Tasumata arvete korral on Teenusepakkujal õigus peatada teenuse osutamine.  
+Viivist võidakse arvestada vastavalt Eesti Vabariigi õigusaktidele.
 
-## 4. Füüsilised tooted
+***
 
-Füüsilisi tooteid tarnitakse ainult kliendi otsese päringu alusel.
+## 5. Teenuse osutamine ja digitaalse sisu kättesaamine
+Teenuseid osutatakse vastavalt hinnapakkumises või lepingus kirjeldatud mahule ja ajakavale.
 
-Jaemüüki ei toimu.
+Teenuse tulemusena loodud digitaalne sisu edastatakse kliendile elektrooniliselt (nt e-posti, pilveteenuse või muu kokkulepitud kanali kaudu).
 
-Tarnetingimused ja garantii lepitakse kokku eraldi.
+Projekti kestus ja täpne ajakava lepivad pooled kokku hinnapakkumise või lepingu alusel.
 
-<br>
+***
 
-## 5. Vastutuse piirang
+## 6. Taganemisõigus ja tagastuspoliitika
+Kui kliendiks on tarbija, kohaldatakse võlaõigusseaduses sätestatud 14-päevast taganemisõigust.
 
-Vastutus on piiratud konkreetse teenuse või toote eest tasutud summaga, kui seadus ei sätesta teisiti.
+Taganemisõigus ei kohaldu, kui:
+- teenuse osutamine on alanud tarbija selgesõnalisel nõusolekul enne 14 päeva möödumist ning tarbijat on teavitatud taganemisõiguse lõppemisest;  
+- tegemist on kliendi individuaalsete vajaduste järgi loodud teenusega;  
+- teenus on täielikult osutatud enne taganemistähtaja lõppu.
 
-<br>
+Taganemisavaldus tuleb esitada kirjalikku taasesitamist võimaldavas vormis (nt e-posti teel).
 
-## 6. Kohaldatav õigus
+Tagastused teostatakse vajadusel 14 päeva jooksul alates põhjendatud taganemisavalduse saamisest.
 
-Kohaldatakse Eesti Vabariigi õigust.
+Taganemisõigus ei kohaldu juriidilistele isikutele.
+
+***
+
+## 7. Pretensioonide esitamise õigus
+Kliendil on õigus esitada pretensioone teenuse mittevastavuse kohta mõistliku aja jooksul pärast puuduse ilmnemist.
+
+Teenusepakkuja vastab tarbija kaebusele kirjalikult või kirjalikku taasesitamist võimaldavas vormis 15 päeva jooksul.
+
+***
+
+## 8. Isikuandmete töötlemine
+Teenusepakkuja töötleb isikuandmeid üksnes teenuse osutamiseks ja maksete töötlemiseks vajalikus ulatuses.
+
+Teenusepakkuja on isikuandmete vastutav töötleja ning edastab maksete teostamiseks vajalikud isikuandmed volitatud töötlejale Maksekeskus AS-le.
+
+***
+
+## 9. Vastutuse piirang
+Teenusepakkuja vastutus on piiratud konkreetse teenuse eest tasutud summaga, välja arvatud juhul, kui seadus sätestab teisiti.
+
+Teenusepakkuja ei vastuta kaudsete kahjude, saamata jäänud tulu ega ärikatkestuste eest.
+
+***
+
+## 10. Vaidluste lahendamine
+Müügitingimustele kohaldatakse Eesti Vabariigi õigust.
+
+Kui kliendil on pretensioone, tuleb need esitada e-posti teel Teenusepakkujale.
+
+Kui vaidlust ei õnnestu lahendada kokkuleppel, on tarbijal õigus pöörduda:
+
+- Tarbijavaidluste komisjoni (Estonia, consumer dispute body) poole, või  
+- Euroopa Liidu veebipõhist vaidluste lahendamise platvormi (EU ODR platform) kaudu.

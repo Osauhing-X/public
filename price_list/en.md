@@ -16,7 +16,7 @@ This price list outlines the hourly rates for the services offered. All prices a
         <td class="center">31.84 €</td>
       </tr>
       <tr>
-        <td>Custom Solutions (other software development, not web development)</td>
+        <td>Custom Software Solutions (other software development, not web development)</td>
         <td class="center">37.46 €</td>
       </tr>
       <tr>
@@ -28,7 +28,7 @@ This price list outlines the hourly rates for the services offered. All prices a
         <td class="center">18.73 €</td>
       </tr>
       <tr>
-        <td>Installation / Setup (getting a device fully operational)</td>
+        <td>Installation / Device Setup (getting a device fully operational)</td>
         <td class="center">18.73 €</td>
       </tr>
     </tbody>
@@ -68,7 +68,7 @@ Additional costs may apply depending on the nature of the work and location.
     </thead>
     <tbody>
       <tr><td>Transport (e.g: fuel, shipping)</td></tr>
-      <tr><td>3 Party subscriptions</td></tr>
+      <tr><td>Third-party subscriptions or licenses</td></tr>
     </tbody>
   </table>
 </div>
