@@ -6,8 +6,8 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
   <table>
     <thead>
       <tr>
-        <th class="left">Service</th>
-        <th class="center">Rate (€)</th>
+        <th class="left">Teenus</th>
+        <th class="center">Hind (€)</th>
       </tr>
     </thead>
     <tbody>
@@ -38,19 +38,40 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
 ***
 
 ## Hooldus (ainult meie arendatud Svelte koodi puhul)
-Lisateenusena on võimalik tellida iga kuu hooldus ja väikesed muudatused ~100€ kuus.  
+Lisateenusena on võimalik tellida iga kuuine hooldus ja väikesed muudatused ~100€ kuus.  
 
-**Teenuse sisu:**  
-- Veebilehe uuendused ja koodi täiustamine  
-- Väiksemad muudatused: piltide ja tekstide muutmine, sektsioonide ümberpaigutamine, jms
+<div overflow>
+  <table>
+    <thead>
+      <tr><th class="left">Teenuse sisu</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Veebilehe uuendused ja koodi täiustamine </td></tr>
+      <tr><td>Väiksemad muudatused: piltide ja tekstide muutmine, sektsioonide ümberpaigutamine, jms</td></tr>
+      <tr><td>Tehniline tugi (support)</td></tr>
+      <tr><td>Vigade parandamine (bug fixing)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+Hind võib varieeruda sõltuvalt kliendi soovidest ja vajadustest.
 
 ***
 
 ## Lisatasud
-Teenuste osutamisel võivad lisanduda täiendavad kulud, sõltuvalt töö iseloomust ja asukohast, näiteks:
+Teenuste osutamisel võivad lisanduda täiendavad kulud, sõltuvalt töö iseloomust ja asukohast.
 
-- **Transport** (nt kütusekulu)  
-- **Kullerteenus** (nt seadmete või esemete saatmine)
+<div overflow>
+  <table>
+    <thead>
+      <tr><th class="left">Võimalikud olukorrad / Näited</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Transport (nt: kütusekulu, kullerteenus)</td></tr>
+      <tr><td>Kolmanda osapoole tellimused (subscriptions)</td></tr>
+    </tbody>
+  </table>
+</div>
 
 Võimalikest lisakuludest teavitatakse klienti eelnevalt enne teenuse või töö pakkumise alustamist.
 

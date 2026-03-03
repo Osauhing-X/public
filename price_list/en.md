@@ -7,7 +7,7 @@ This price list outlines the hourly rates for the services offered. All prices a
     <thead>
       <tr>
         <th class="left">Service</th>
-        <th class="center">Rate (€)</th>
+        <th class="center">Price (€)</th>
       </tr>
     </thead>
     <tbody>
@@ -40,17 +40,38 @@ This price list outlines the hourly rates for the services offered. All prices a
 ## Maintenance (only for our Svelte-developed code)
 As an additional service, it is possible to subscribe to monthly maintenance and minor updates for ~100€ per month.  
 
-**Service includes:**  
-- Website updates and code improvements  
-- Minor changes: updating images and text, rearranging sections, etc.
+<div overflow>
+  <table>
+    <thead>
+      <tr><th class="left">Service includes</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Website updates and code improvements </td></tr>
+      <tr><td>Minor changes: updating images and text, rearranging sections, etc.</td></tr>
+      <tr><td>Support</td></tr>
+      <tr><td>Bug fixing</td></tr>
+    </tbody>
+  </table>
+</div>
+
+The price may vary depending on the customer's wishes and needs.
 
 ***
 
 ## Additional Costs
-Additional costs may apply depending on the nature of the work and location, for example:  
+Additional costs may apply depending on the nature of the work and location.  
 
-- **Transport** (e.g., fuel costs)  
-- **Courier service** (e.g., shipping devices or items)
+<div overflow>
+  <table>
+    <thead>
+      <tr><th class="left">Possible situations / Examples</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Transport (e.g: fuel, shipping)</td></tr>
+      <tr><td>3 Party subscriptions</td></tr>
+    </tbody>
+  </table>
+</div>
 
 Clients will be informed in advance if such additional costs may occur, before starting the service or project.
 
