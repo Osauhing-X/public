@@ -23,7 +23,6 @@ Services are not sold through an online store and cannot be ordered via a shoppi
 
 ## 3. Contract Conclusion and Ordering Process
 Services are ordered as follows:
-
 1. The Client submits a request via email or another agreed communication channel.  
 2. The Service Provider provides a quotation or project description.  
 3. The contract is considered concluded after:  
@@ -40,7 +39,6 @@ Service fees are determined on a project basis according to the quotation or agr
 Invoices are payable within 7–14 calendar days unless otherwise agreed.
 
 Payment methods:
-
 - Bank links and card payments (via Maksekeskus AS)  
 - Bank transfers from the Client's bank account to the Service Provider's Coop Bank account  
 
@@ -68,7 +66,6 @@ The project duration and exact schedule are agreed upon between the parties in t
 If the Client is a consumer, the 14-day right of withdrawal set out in the Estonian Law of Obligations Act applies.
 
 The right of withdrawal does not apply if:
-
 - the service has started with the consumer’s explicit consent before the 14-day period has expired and the consumer has been informed that the right of withdrawal will end;  
 - the service has been created according to the client’s individual requirements;  
 - the service is fully performed before the end of the withdrawal period.
@@ -108,6 +105,5 @@ Estonian law applies to these terms of sale.
 If the Client has complaints, they must be submitted by email to the Service Provider.
 
 If a dispute cannot be resolved amicably, the consumer may contact:
-
 - The Consumer Dispute Committee (Estonia, consumer dispute body), or  
 - The European Union Online Dispute Resolution (EU ODR) platform.
