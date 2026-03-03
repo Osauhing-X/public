@@ -32,8 +32,11 @@ Upon deletion, **all associated data will be permanently removed**, except for s
 
 ### 3.3 Account Inactivity
 #### Inactivity
-Accounts that remain unused for extended periods may be considered **inactive**.  
-Inactive accounts may be **deleted without notice**, and all associated data will be **permanently removed**.  
+Accounts that remain unused for extended periods may be considered **inactive**.
+
+The user will be notified of the deletion of the account at least 30 days in advance so that they have the opportunity to save their data or make the account active. Upon logging in to the account again, the account will be considered active again and the inactive status calculation will stop.
+
+If the account has not been logged in for 30 days after the notification is sent, the account will be deleted and all data associated with it will be irretrievably removed. 
 
 Extaas.com is not responsible for any **damage resulting from account inactivity or deletion**.  
 

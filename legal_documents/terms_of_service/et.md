@@ -36,8 +36,11 @@ Konto kustutamisel eemaldatakse **kõik seotud andmed pöördumatult**, v.a sead
 
 ### 3.3 Konto passiivsus
 #### Passiivsus
-Pikemat aega kasutamata kontod võidakse lugeda **passiivseks**.  
-Passiivsed kontod võidakse **kustutada ette teatamata**, kõik seotud andmed eemaldatakse **pöördumatult**.  
+Pikemat aega kasutamata kontod võidakse lugeda **passiivseks**.
+
+Kasutajat teavitatakse konto kustutamisest vähemalt 30 päeva ette, et tal oleks võimalus oma andmed salvestada või konto aktiivseks muuta. Kontole uuesti sisse logimisel loetakse konto taas aktiivseks ning passiivse staatuse arvestus peatub.
+
+Kui pärast teavituse saatmist ei ole 30 päeva jooksul kontole sisse logitud, kustutatakse konto ning kõik sellega seotud andmed eemaldatakse pöördumatult.
 
 Extaas.com ei vastuta **kahju eest**, mis tuleneb konto passiivsusest või selle kustutamisest.  
 
