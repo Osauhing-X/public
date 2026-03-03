@@ -2,11 +2,38 @@
 This price list outlines the hourly rates for the services offered. All prices are listed in euros (€).
 
 ## Hourly Rates (per hour)
-- **Web Development (Svelte)** – 31.84 €  
-- **Custom Solutions (other software development, not web development)** – 37.46 €  
-- **CMS (WordPress – maintenance, management, development, updates, etc.)** – 28.10 €  
-- **IT Support** – 18.73 €  
-- **Installation / Setup (getting a device fully operational)** – 18.73 €
+<div overflow>
+  <table>
+    <thead>
+      <tr>
+        <th class="left">Service</th>
+        <th class="center">Rate (€)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Web Development (Svelte)</td>
+        <td class="center">31.84 €</td>
+      </tr>
+      <tr>
+        <td>Custom Solutions (other software development, not web development)</td>
+        <td class="center">37.46 €</td>
+      </tr>
+      <tr>
+        <td>CMS (WordPress – maintenance, management, development, updates, etc.)</td>
+        <td class="center">28.10 €</td>
+      </tr>
+      <tr>
+        <td>IT Support</td>
+        <td class="center">18.73 €</td>
+      </tr>
+      <tr>
+        <td>Installation / Setup (getting a device fully operational)</td>
+        <td class="center">18.73 €</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ***
 
