@@ -118,8 +118,8 @@ The following service providers are used in service delivery:
 
 - Supabase – authentication and database  
 - Resend – transactional emails  
-- veebimajutus.ee – email hosting  
-- Netlify – web hosting  
+- veebimajutus.ee – domain registration and email hosting services
+- Netlify – hosting web applications deployed from GitHub repositories
 - Maksekeskus – payment processing  
 - Discord – API integration  
 

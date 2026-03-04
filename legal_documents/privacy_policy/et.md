@@ -115,8 +115,8 @@ Reklaami- ega jälgimisküpsiseid ei kasutata.
 Teenuse osutamisel kasutatakse järgmisi teenusepakkujaid:
 - Supabase – autentimine ja andmebaas  
 - Resend – tehingulised e-kirjad  
-- veebimajutus.ee – e-postiteenus  
-- Netlify – veebimajutus  
+- veebimajutus.ee – domeeni registreerimine ja e-posti majutusteenused
+- Netlify – GitHubi repositooriumidest juurutatud veebirakenduste majutamine
 - Maksekeskus – maksete töötlemine
 - Discord – API kasutus  
 
