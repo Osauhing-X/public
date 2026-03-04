@@ -62,7 +62,6 @@ Technical session data (such as access tokens and refresh tokens) are processed 
 
 Extaas does not store passwords.
 
-***
 
 ### 3.2 Project-Related Data
 Depending on the service, the following data may be processed:
@@ -74,7 +73,6 @@ Depending on the service, the following data may be processed:
 
 Such data is processed exclusively for service delivery and fulfillment of project-related obligations.
 
-***
 
 ### 3.3 Payment Processing
 Payments are processed via Maksekeskus.

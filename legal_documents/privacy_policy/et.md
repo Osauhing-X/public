@@ -60,7 +60,6 @@ Autentimissessioonide tehnilised andmed (nt juurdepääsutokenid ja värskendust
 
 Extaas ei salvesta paroole.
 
-***
 
 ### 3.2 Projektiga seotud andmed
 Sõltuvalt teenusest võidakse töödelda:
@@ -72,7 +71,6 @@ Sõltuvalt teenusest võidakse töödelda:
 
 Andmeid kasutatakse ainult teenuse osutamiseks ja projektiga seotud kohustuste täitmiseks.
 
-***
 
 ### 3.3 Maksete töötlemine
 Maksete töötlemine toimub Maksekeskuse kaudu.
