@@ -1,126 +1,173 @@
-# Privacy Policy
-Last updated: 19.02.2026
+# PRIVACY POLICY  
+Last updated: 05.03.2026
 
 ***
 
 ## 1. Company Information
-Extaas.com is operated by:
-Service provider: Osaühing X  
-Registration number: 17396663  
-Address: [address entered in the commercial register]  
+Service Provider: Osaühing X  
+Registry Code: 17396663  
+Registered Address: [address as registered in the Commercial Register]  
 Email: mail@extaas.com  
-Phone: +372 5107862 
+Phone: +372 5107862  
 
-Osaühing X is a small IT company providing web development, software solutions, and digital services based on client needs.
-
-***
-
-## 2. Scope of Services
-We primarily provide:
-- web development
-- software development
-- IT consulting
-- custom digital projects
-
-The website does not operate an online retail store.  
-Physical goods may occasionally be supplied only upon direct client request and separate agreement.
+The company does not have a public service point. Services are provided online.
 
 ***
 
-## 3. Data Collection and Legal Basis
-We process personal data only when necessary for:
-- contract performance (Art. 6(1)(b) GDPR)
-- legal compliance (Art. 6(1)(c))
-- legitimate interests (Art. 6(1)(f))
-- consent where applicable (Art. 6(1)(a))
+## 2. Nature of the Service and Account Usage
+Extaas.com is not a public account-based platform.
 
-Data may include:
-- name
-- email address
-- contact information
-- billing information
-- project-related data
+A user account is created only if a person orders a paid service (e.g., web development, software development, or another IT-related project). The purpose of the account is to:
 
-***
+- link a specific project to a specific client  
+- enable project management  
+- enable management of project-related information and files  
+- enable invoicing and payment association with the project  
+- ensure the technical operation of the service  
+- ensure proper service delivery in accordance with the agreement  
 
-## 4. Authentication
-Authentication is handled via Supabase and may include:
-- Google OAuth
-- Discord OAuth
-- Magic Link (one-time login link sent via email)
+Creating an account without ordering a service is not intended.
 
-Passwords are not stored by Extaas.com.
+User activity logs are not maintained.  
+Click logs, behavioral analytics, or detailed usage histories are not collected.
 
-***
+The system stores only:
+- basic account information  
+- last activity timestamp  
 
-## 5. Email and Communication
-- veebimajutus.ee (email hosting)
-- Resend (transactional emails)
+Technical server logs may be generated for security and troubleshooting purposes, but they are not used for behavioral analysis or profiling.
 
 ***
 
-## 6. Payments
-Payments may be processed via Maksekeskus.
+## 3. Personal Data Processed
 
-We do not store full payment card details.  
-Payment providers act as independent data controllers.
+### 3.1 Authentication
+Authentication is handled by Supabase.
 
-***
+Available sign-in methods:
+- Google OAuth  
+- Discord OAuth  
+- Magic Link (one-time login link via email)
 
-## 7. Cookies and LocalStorage
-Used only for:
-- authentication sessions
-- maintaining login state
-- storing preferences (language, theme)
+During authentication, the system may process the following data:
+- unique user ID  
+- email address  
+- account name or display name  
+- authentication provider (e.g., Google or Discord)  
+- third-party account identifier  
+- profile image URL (if provided by the authentication provider)  
+- last sign-in timestamp  
 
-No marketing or tracking cookies are used.
+Technical session data (such as access tokens and refresh tokens) are processed solely for authentication purposes and are not used for any other purpose.
 
-***
-
-## 8. Data Sharing
-Data may be processed by:
-- Supabase
-- Google (OAuth only)
-- Discord (OAuth only)
-- Resend
-- veebimajutus.ee
-- Netlify
-- Maksekeskus
-
-No personal data is sold.
+Extaas does not store passwords.
 
 ***
 
-## 9. Data Retention
-Data is retained only as long as necessary for:
-- contract performance
-- accounting obligations (as required by law)
-- dispute resolution
+### 3.2 Project-Related Data
+Depending on the service, the following data may be processed:
+- name  
+- email address  
+- billing information  
+- project-related technical data  
+- project-related files and documentation  
+
+Such data is processed exclusively for service delivery and fulfillment of project-related obligations.
 
 ***
 
-## 10. Data Subject Rights
-Under GDPR, users may request:
-- access
-- rectification
-- erasure
-- restriction
-- objection
-- data portability
+### 3.3 Payment Processing
+Payments are processed via Maksekeskus.
 
-Requests can be sent to mail@extaas.com.
+Extaas:
+- does not collect or store payment card data  
+- does not have access to card details  
+
+After payment initiation, the payment service provider transmits a payment result confirmation to the system.
+
+The following data may be stored:
+- transaction ID  
+- payment status  
+- payer’s full name  
+- payment amount and currency  
+
+This data is used for:
+- payment confirmation  
+- linking the payment to the relevant project  
+- accounting purposes  
+- compliance with statutory accounting obligations  
+
+Payment-related data is retained in accordance with Estonian accounting laws.
 
 ***
 
-## 11. Security Measures
-- Server-side secure processing
-- Supabase Row-Level Security
-- Principle of least privilege
-- Access limitation
+## 4. Purposes of Data Processing
+Personal data is processed solely for the following purposes:
+
+- creation and management of client projects  
+- delivery of services in accordance with contractual agreements  
+- payment confirmation and accounting  
+- compliance with legal obligations  
+- resolution of potential disputes  
+
+Personal data is not used for marketing purposes.  
+No advertising or tracking cookies are used.
 
 ***
 
-## 12. Data Roles
-Osaühing X may act as:
-- Data Controller (own services)
-- Data Processor (client project work)
+## 5. Service Providers and Data Transfers
+The following service providers are used in service delivery:
+
+- Supabase – authentication and database  
+- Resend – transactional emails  
+- veebimajutus.ee – email hosting  
+- Netlify – web hosting  
+- Maksekeskus – payment processing  
+- Discord – API integration  
+
+OAuth providers (e.g., Google and Discord) act as independent data controllers under their own privacy policies.
+
+Personal data is not sold to third parties.
+
+***
+
+## 6. Data Retention
+Personal data is retained:
+
+- for as long as the project or service remains active  
+- until account deletion  
+- for the period required under accounting legislation (payment data)  
+- until resolution of potential disputes  
+
+If no legal obligation exists, account-related data will be deleted within a reasonable period after the service ends.
+
+***
+
+## 7. Data Subject Rights
+Users have the right to:
+
+- obtain information about the personal data processed about them  
+- request correction of inaccurate data  
+- request deletion of their account and related data  
+- obtain a copy of their personal data  
+
+Separate restriction of processing is not technically possible, as the data is used solely for service functionality. If a person does not agree with data processing, they should not use paid services that require an account.
+
+Requests: mail@extaas.com
+
+***
+
+## 8. Cookies and LocalStorage
+The following may be used for functionality and user convenience:
+
+- authentication session cookies  
+- maintaining login state  
+- user preferences (e.g., language or theme)
+
+No advertising or tracking cookies are used.
+
+***
+
+## 9. Changes
+Osaühing X reserves the right to update this Privacy Policy.  
+Any changes will be published on the website.

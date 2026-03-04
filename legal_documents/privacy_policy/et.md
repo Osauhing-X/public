@@ -1,126 +1,168 @@
-# Privaatsustingimused
-Viimati uuendatud: 19.02.2026
+# PRIVAATSUSPOLIITIKA  
+Viimati uuendatud: 05.03.2026
 
 ***
 
 ## 1. Ettevõtte andmed
-Extaas.com haldaja:
 Teenusepakkuja: Osaühing X  
 Registrikood: 17396663  
 Aadress: [äriregistrisse kantud aadress]  
 E-post: mail@extaas.com  
 Telefon: +372 5107862
 
-Osaühing X pakub veebiarendust, tarkvaraarendust ja digitaalseid IT-teenuseid vastavalt kliendi vajadustele.
+Ettevõttel puudub avalik teeninduspunkt. Teenuseid osutatakse veebipõhiselt.
 
 ***
 
-## 2. Teenuste ulatus
-Peamised teenused:
-- veebiarendus
-- tarkvaraarendus
-- IT-konsultatsioon
-- kohandatud digitaalsed projektid
+## 2. Teenuse iseloom ja konto kasutamine
+Extaas.com ei ole avalik kasutajakontodel põhinev platvorm.
 
-Veebilehel puudub e-pood.  
-Füüsilisi tooteid võidakse tarnida ainult kliendi otsese päringu ja eraldi kokkuleppe alusel.
+Kasutajakonto luuakse ainult juhul, kui isik tellib tasulise teenuse (nt veebiarendus, tarkvaraarendus või muu IT-projekt). Konto eesmärk on:
+- siduda konkreetne projekt konkreetse kliendiga  
+- võimaldada projekti haldamist  
+- võimaldada projektiga seotud info ja failide haldamist  
+- võimaldada arveldust ja maksete sidumist projektiga  
+- tagada teenuse tehniline toimimine  
+- tagada teenuse osutamine vastavalt kokkuleppele  
 
-***
+Niisama konto loomine ilma teenuse tellimiseta ei ole ette nähtud.
 
-## 3. Andmete töötlemise alus
-Isikuandmeid töödeldakse ainult ulatuses, mis on vajalik:
-- lepingu täitmiseks (GDPR art 6(1)(b))
-- juriidilise kohustuse täitmiseks (art 6(1)(c))
-- õigustatud huvi alusel (art 6(1)(f))
-- nõusoleku alusel (art 6(1)(a)), kui see on asjakohane
+Kasutajate tegevuslogisid ei peeta.  
+Ei salvestata klikilogisid, kasutuskäitumist ega detailset tegevusajalugu.
 
-Võimalikud andmed:
-- nimi
-- e-post
-- kontaktandmed
-- arveldusandmed
-- projektiga seotud info
+Süsteemis salvestatakse üksnes:
+- konto põhiandmed  
+- viimane aktiivsuse aeg  
+
+Võimalikud tehnilised serverilogid võivad tekkida turvalisuse ja tõrkeotsingu eesmärgil, kuid neid ei kasutata kasutaja käitumise analüüsimiseks ega profileerimiseks.
 
 ***
 
-## 4. Autentimine
-Autentimine toimub Supabase kaudu ning võib sisaldada:
-- Google OAuth
-- Discord OAuth
+## 3. Töödeldavad isikuandmed
+### 3.1 Autentimine
+Autentimine toimub teenusepakkuja Supabase kaudu.
+
+Võimalikud sisselogimisviisid:
+- Google OAuth  
+- Discord OAuth  
 - Magic Link (ühekordne sisselogimislink e-posti teel)
 
-Extaas paroole ei salvesta.
+Autentimise käigus võib süsteem töödelda järgmisi andmeid:
+- kasutaja unikaalne ID  
+- e-posti aadress  
+- konto nimi või kuvatav nimi  
+- autentimisviis (nt Google või Discord)  
+- kolmanda osapoole konto identifikaator  
+- profiilipildi URL (kui see on teenusepakkuja poolt edastatud)  
+- viimane sisselogimise aeg  
+
+Autentimissessioonide tehnilised andmed (nt juurdepääsutokenid ja värskendustokenid) töödeldakse ainult sisselogimise toimimiseks ning neid ei kasutata muudel eesmärkidel.
+
+Extaas ei salvesta paroole.
 
 ***
 
-## 5. E-post ja suhtlus
-- veebimajutus.ee (e-posti teenus)
-- Resend (tehingulised e-kirjad)
+### 3.2 Projektiga seotud andmed
+Sõltuvalt teenusest võidakse töödelda:
+- nimi  
+- e-posti aadress  
+- arveldusandmed  
+- projektiga seotud tehnilised andmed  
+- projektiga seotud failid ja dokumentatsioon  
+
+Andmeid kasutatakse ainult teenuse osutamiseks ja projektiga seotud kohustuste täitmiseks.
 
 ***
 
-## 6. Maksetöötlus
+### 3.3 Maksete töötlemine
 Maksete töötlemine toimub Maksekeskuse kaudu.
 
-Täielikke pangakaardiandmeid ei salvestata.
+Extaas:
+- ei kogu ega salvesta pangakaardiandmeid  
+- ei oma ligipääsu maksekaardi detailidele  
 
-Makseteenuse pakkujad tegutsevad iseseisvate vastutavate töötlejatena.
+Pärast makse algatamist edastab makseteenuse pakkuja süsteemile makse tulemuse kinnituse.
+
+Selle käigus salvestatakse:
+- tehingu ID  
+- makse staatus  
+- maksja täisnimi  
+- makse summa ja valuuta  
+
+Neid andmeid kasutatakse:
+- makse kinnitamiseks  
+- projekti sidumiseks konkreetse kliendiga  
+- arvestuse pidamiseks  
+- seadusest tulenevate raamatupidamiskohustuste täitmiseks  
+
+Maksetega seotud andmeid säilitatakse vastavalt Eesti raamatupidamisnõuetele.
 
 ***
 
-## 7. Küpsised ja LocalStorage
-Kasutatakse ainult tehniliselt vajalikke lahendusi:
-- autentimissessioonid
-- sisselogimisoleku säilitamine
-- kasutaja eelistuste salvestamine (keel, teema)
+## 4. Andmete töötlemise eesmärgid
+Isikuandmeid töödeldakse ainult järgmistes eesmärkides:
 
+- kliendiprojekti loomine ja haldamine  
+- teenuse osutamine vastavalt sõlmitud kokkuleppele  
+- maksete kinnitamine ja arvestus  
+- seadusest tulenevate kohustuste täitmine  
+- võimalike vaidluste lahendamine  
+
+Andmeid ei kasutata turunduseks.  
 Reklaami- ega jälgimisküpsiseid ei kasutata.
 
 ***
 
-## 8. Andmete jagamine
-Andmeid ei müüda.
+## 5. Teenusepakkujad ja andmete edastamine
+Teenuse osutamisel kasutatakse järgmisi teenusepakkujaid:
+- Supabase – autentimine ja andmebaas  
+- Resend – tehingulised e-kirjad  
+- veebimajutus.ee – e-postiteenus  
+- Netlify – veebimajutus  
+- Maksekeskus – maksete töötlemine
+- Discord – API kasutus  
 
-Andmeid võivad töödelda:
-- Supabase
-- Google (OAuth)
-- Discord (OAuth)
-- Resend
-- veebimajutus.ee
-- Netlify
-- Maksekeskus
+OAuth teenusepakkujad (nt Google ja Discord) tegutsevad oma andmekaitsetingimuste alusel iseseisvate vastutavate töötlejatena.
 
-***
-
-## 9. Andmete säilitamine
-Andmeid säilitatakse ainult nii kaua, kui see on vajalik:
-- lepingu täitmiseks
-- raamatupidamis- ja maksunõuete täitmiseks
-- võimalike vaidluste lahendamiseks
+Andmeid ei müüda kolmandatele isikutele.
 
 ***
 
-## 10. Andmesubjekti õigused
-Andmesubjektil on õigus:
-- saada ligipääs andmetele
-- nõuda parandamist
-- nõuda kustutamist
-- piirata töötlemist
-- esitada vastuväiteid
-- nõuda andmete ülekantavust
+## 6. Andmete säilitamine
+Isikuandmeid säilitatakse:
+- kuni projekt või teenus on aktiivne  
+- kuni konto kustutamiseni  
+- raamatupidamise seadusest tuleneva tähtaja jooksul (makseandmed)  
+- kuni võimalike vaidluste lahendamiseni  
+
+Kui seaduslik kohustus puudub, kustutatakse konto ja sellega seotud andmed mõistliku aja jooksul pärast teenuse lõppemist.
+
+***
+
+## 7. Andmesubjekti õigused
+Kasutajal on õigus:
+- saada teavet tema kohta töödeldavate andmete kohta  
+- taotleda ebatäpsete andmete parandamist  
+- taotleda konto ja sellega seotud andmete kustutamist  
+- saada oma andmete koopia  
+
+Andmete töötlemise piiramine eraldi funktsioonina ei ole võimalik, kuna andmeid kasutatakse üksnes teenuse toimimiseks. Kui isik ei soovi andmete töötlemist, ei tohiks ta kasutada tasulisi teenuseid, mis eeldavad kontot.
 
 Päringud: mail@extaas.com
 
 ***
 
-## 11. Turvalisus
-- serveripoolne turvaline töötlus
-- Supabase Row-Level Security
-- minimaalse ligipääsu põhimõte
+## 8. Küpsised ja LocalStorage
+Kasutatakse teenuste ja kasutaja mugavuste jaoks:
+- autentimissessioon  
+- sisselogimisoleku säilitamine  
+- kasutaja eelistused (nt keel või teema)
+
+Reklaami- ega jälgimisküpsiseid ei kasutata.
 
 ***
 
-## 12. Andmerollid
-Osaühing X tegutseb:
-- vastutava töötlejana oma teenuste osas
-- volitatud töötlejana kliendiprojektides
+## 9. Muudatused
+
+Osaühing X jätab endale õiguse privaatsuspoliitikat ajakohastada.  
+Muudatused avaldatakse veebilehel.

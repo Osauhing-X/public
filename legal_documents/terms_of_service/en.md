@@ -1,5 +1,5 @@
 # Terms of Service
-Last updated: 19.02.2026
+Last updated: 03.03.2026
 
 ***
 
@@ -9,6 +9,8 @@ Registration number: 17396663
 Address: [address entered in the commercial register]  
 Email: mail@extaas.com  
 Phone: +372 5107862 
+
+The company does not have a public service point. Services are provided online.
 
 ## 2. Service Description
 Extaas.com primarily provides **digital services** and *IT project work*.  

@@ -1,5 +1,5 @@
 # Kasutustingimused
-Viimati uuendatud: 19.02.2026
+Viimati uuendatud: 03.03.2026
 
 ***
 
@@ -9,6 +9,8 @@ Registrikood: 17396663
 Aadress: [äriregistrisse kantud aadress]  
 E-post: mail@extaas.com  
 Telefon: +372 5107862
+
+Ettevõttel puudub avalik teeninduspunkt. Teenuseid osutatakse veebipõhiselt.
 
 ***
 
