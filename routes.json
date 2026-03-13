@@ -3,7 +3,6 @@
 
 
   "/price_list": {
-    "path": "/g",
     "files": {
       "en": "en.md",
       "et": "et.md"
@@ -11,8 +10,8 @@
     "group": "price",
     "schema": false,
     "sitemap": {
-      "lastmod": "2026-02-03",
-      "priority": 0.3,
+      "lastmod": "2026-03-03",
+      "priority": 0.5,
       "changefreq": "yearly"
     },
     "en": {
@@ -31,7 +30,6 @@
 
 
   "/our_story": {
-    "path": "/g",
     "files": {
       "en": "en.md",
       "et": "et.md",
@@ -49,8 +47,8 @@
     "group": "story",
     "schema": true,
     "sitemap": {
-      "lastmod": "2026-02-09",
-      "priority": 0.3,
+      "lastmod": "2026-03-02",
+      "priority": 0.1,
       "changefreq": "yearly"
     },
     "en": {
@@ -69,7 +67,6 @@
 
 
   "/company": {
-    "path": "/g",
     "files": {
       "en": "en.md",
       "et": "et.md",
@@ -78,7 +75,7 @@
     "group": "info",
     "schema": true,
     "sitemap": {
-      "lastmod": "2026-02-12",
+      "lastmod": "2026-03-02",
       "priority": 0.3,
       "changefreq": "yearly"
     },
@@ -98,7 +95,6 @@
 
 
   "/portfolio": {
-    "path": "/g",
     "files": {
       "en": "en.md",
       "et": "et.md"
@@ -106,8 +102,8 @@
     "group": "info",
     "schema": false,
     "sitemap": {
-      "lastmod": "2026-03-03",
-      "priority": 0.3,
+      "lastmod": "2026-03-02",
+      "priority": 0.1,
       "changefreq": "yearly" },
     "en": {
       "seo": {
