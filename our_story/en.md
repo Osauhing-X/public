@@ -9,11 +9,11 @@ Initially, Extaas focused on developing a Discord server and experimenting with 
 Based on the insights gained, the decision was made to create an independent web platform, allowing content and features to be customized more freely than on off-the-shelf platforms. Following this decision, the domain **extaas.com** was purchased on **March 1, 2021**, and WordPress-based solutions were implemented, including testing a print-on-demand business via WooCommerce. It was gradually noticed that WordPress could not meet all the desired functionality and expectations without additional payments, which led to the first steps into JavaScript, HTML, and CSS to adapt the site according to the intended vision.
 
 <ul grid>
-  <li><img src="{v1}" alt="version 1"></li>
-  <li><img src="{v3}" alt="version 3"></li>
-  <li><img src="{v4}" alt="version 4"></li>
-  <li><img src="{v5}" alt="version 5"></li>
-  <li><img src="{v6}" alt="version 6"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v1.png" alt="version 1"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v3.gif" alt="version 3"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v4.png" alt="version 4"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v5.png" alt="version 5"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v6.png" alt="version 6"></li>
 </ul>
 
 ## Community Building and Promotion
@@ -26,17 +26,17 @@ During a school internship, the **Svelte** framework was explored, proving to be
 As the Extaas codebase became large and complex, the decision was made on **February 19, 2023**, to start a new project called **Nexus**, aimed at creating a compact, optimized, and modular codebase that incorporated all previous knowledge and experience. On **August 9, 2023**, the domain **e-nxus.com** was purchased to separate Nexus development from the main Extaas platform.
 
 <ul grid>
-  <li><img src="{v8}" alt="version 8"></li>
-  <li><img src="{v10}" alt="version 10"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v8.png" alt="version 8"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v10.png" alt="version 10"></li>
 </ul>
 
 ## Domain Consolidation
 On **August 8, 2025**, the **e-nxus.com** domain was abandoned and all content was consolidated under a single domain, making the platform easier to manage and more user-friendly. This step allowed focus on one strong, unified platform while reducing technical and administrative complexities.
 
 <ul grid>
-  <li><img src="{v11}" alt="version 11"></li>
-  <li><img src="{v13}" alt="version 13"></li>
-  <li><img src="{v14}" alt="version 14"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v11.png" alt="version 11"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v13.png" alt="version 13"></li>
+  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our_story/v14.png" alt="version 14"></li>
 </ul>
 
 ## Temporary Downtime

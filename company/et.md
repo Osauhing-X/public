@@ -17,7 +17,7 @@ Ettevõte on üheliikmeline.
   <br><br>
     Olen sertifitseeritud IT-süsteemide nooremspetsialist (tase 4, EKR/EQF tase 4) ning spetsialiseerunud veebiarendusele <b>Svelte</b> raamistikus. Lisaks pakun IT-alast nõustamist ja tehnilist tuge.
   </p>
-  <img pc src="{ceo}" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
+  <img pc src="https://github.com/Osauhing-X/public/blob/extaas.com/company/ceo.jpg" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
 </div>
 
 ***

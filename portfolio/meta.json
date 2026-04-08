@@ -1,0 +1,21 @@
+{
+    "layout": 2,
+    
+    "sitemap":  {
+      "lastmod": "2026-03-02",
+      "priority": 0.5,
+      "changefreq": "yearly"
+    },
+
+
+    "seo": {
+        "en": {
+            "title": "Founder",
+            "description": "Portfolio of Taavi Toodu, an IT specialist and Svelte web developer, founder of Osaühing X and Extaas. Explore his experience in web development, IT systems, automation, networking, and small projects.",
+            "keywords": "IT specialist, Svelte, web development, Osaühing X, Extaas, automation, networking, Home Assistant, ESP32, Ubiquiti, Node.js, Chrome extension, Electron" },
+        "et": {
+            "title": "Asutaja",
+            "description": "Taavi Toodu portfoolio, infotehnoloogia spetsialist ja Svelte veebiarendaja, Osaühing X ja Extaas asutaja. Tutvu tema kogemusega veebiarenduses, IT-süsteemides, automatiseerimises, võrgulahendustes ja väikestes projektides.",
+            "keywords": "infotehnoloogia spetsialist, Svelte, veebiarendus, Osaühing X, Extaas, automatiseerimine, võrgulahendused, Home Assistant, ESP32, Ubiquiti, Node.js, Chrome pluginad, Electron" }
+    }
+}
