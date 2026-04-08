@@ -10,12 +10,12 @@
 
     "seo": {
         "en": {
-            "title": "Price List",
-            "description": "Explore the price list for web development, custom software solutions, CMS management, IT support, and installation services offered by Taavi Toodu, an IT specialist and Svelte web developer. Includes hourly rates, maintenance options, additional costs, and custom quote guidance.",
-            "keywords": "Price list, IT services, Svelte web development, WordPress, custom software, IT support, installation services, Taavi Toodu, Extaas, Osaühing X, monthly maintenance, web updates, small changes" },
+            "title": "Legal Documents",
+            "description": "Explore all our legal documents, including privacy policies, terms of service, and sales agreements, to understand your rights and obligations.",
+            "keywords": "legal documents, privacy policy, terms of service, terms of sale, user agreement, digital services, compliance, online contracts" },
         "et": {
-            "title": "Hinnakiri",
-            "description": "Tutvu pakutavate teenuste hinnakirjaga: veebiarendus, rätseplahendused, CMS haldus, IT tugi ja paigaldus. Sisaldab tunnitasusid, kuuhooldust, lisatasusid ja personaalse hinnapakkumise juhiseid.",
-            "keywords": "Hinnakiri, IT teenused, Svelte veebiarendus, WordPress, rätseplahendused, IT tugi, paigaldusteenus, Taavi Toodu, Extaas, Osaühing X, kuuhooldus, veebiuuendused, väikesed muudatused" }
+            "title": "Õiguslikud dokumendid",
+            "description": "Tutvuge kõigi meie õiguslike dokumentidega, sealhulgas privaatsuspoliitikad, teenustingimused ja müügitingimused, et mõista oma õigusi ja kohustusi.",
+            "keywords": "õiguslikud dokumendid, privaatsuspoliitika, teenustingimused, müügitingimused, kasutajaleping, digiteenused, õiguslik, lepingud" }
     }
 }
