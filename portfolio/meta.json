@@ -1,6 +1,8 @@
 {
     "layout": "info",
 
+    "group": "info",
+
     "sitemap":  {
       "lastmod": "2026-03-02",
       "priority": 0.5,

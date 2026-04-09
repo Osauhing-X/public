@@ -1,6 +1,8 @@
 {
     "layout": "regular",
 
+    "group": "main",
+    
     "meta_only": true,
     
     "sitemap":  {
