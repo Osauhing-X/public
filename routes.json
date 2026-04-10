@@ -2,7 +2,7 @@
   "root": "https://raw.githubusercontent.com/Osauhing-X/public/extaas.com",
 
 
-  "/price_list": {
+  "/price-list": {
     "files": {
       "en": "en.md",
       "et": "et.md"
@@ -29,7 +29,7 @@
     },
 
 
-  "/our_story": {
+  "/our-story": {
     "files": {
       "en": "en.md",
       "et": "et.md",
