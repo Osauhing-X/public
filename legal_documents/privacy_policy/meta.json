@@ -1,7 +1,7 @@
 {
     "layout": "info",
     
-    "group": "main",
+    "group": "legal_documents",
 
     "sitemap":  {
       "lastmod": "2026-03-03",
@@ -12,12 +12,14 @@
 
     "seo": {
         "en": {
-            "title": "Legal Documents",
-            "description": "Explore all our legal documents, including privacy policies, terms of service, and sales agreements, to understand your rights and obligations.",
-            "keywords": "legal documents, privacy policy, terms of service, terms of sale, user agreement, digital services, compliance, online contracts" },
+          "title": "Privacy Policy",
+          "description": "Read the Privacy Policy of Extaas.com explaining how personal data is collected, used, and stored in connection with digital services and IT projects. Covers authentication (OAuth), payments, data retention, user rights, and GDPR compliance under Estonian law. No tracking or marketing cookies are used.",
+          "keywords": "Privacy Policy, Extaas, Osaühing X, GDPR, personal data processing, data protection, OAuth login, Supabase authentication, payment processing, Maksekeskus, data retention, user rights, Estonia data protection, no tracking cookies"
+        },
         "et": {
-            "title": "Õiguslikud dokumendid",
-            "description": "Tutvuge kõigi meie õiguslike dokumentidega, sealhulgas privaatsuspoliitikad, teenustingimused ja müügitingimused, et mõista oma õigusi ja kohustusi.",
-            "keywords": "õiguslikud dokumendid, privaatsuspoliitika, teenustingimused, müügitingimused, kasutajaleping, digiteenused, õiguslik, lepingud" }
-    }
+          "title": "Privaatsuspoliitika",
+          "description": "Tutvu Extaas.com privaatsuspoliitikaga: isikuandmete kogumine, kasutamine ja säilitamine digiteenuste ja IT projektide raames. Hõlmab autentimist (OAuth), makseid, andmete säilitamist, kasutaja õigusi ning GDPR-i nõuete järgimist. Reklaami- ega jälgimisküpsiseid ei kasutata.",
+          "keywords": "Privaatsuspoliitika, Extaas, Osaühing X, GDPR, isikuandmete töötlemine, andmekaitse, OAuth sisselogimine, Supabase, maksete töötlemine, Maksekeskus, andmete säilitamine, kasutaja õigused, Eesti andmekaitse, küpsised puuduvad"
+        }
+  }
 }

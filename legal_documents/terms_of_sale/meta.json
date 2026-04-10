@@ -1,23 +1,23 @@
 {
     "layout": "info",
 
-    "group": "main",
+    "group": "legal_documents",
 
     "sitemap":  {
       "lastmod": "2026-03-03",
       "priority": 0.5,
       "changefreq": "yearly"
     },
-
-
     "seo": {
         "en": {
-            "title": "Price List",
-            "description": "Explore the price list for web development, custom software solutions, CMS management, IT support, and installation services offered by Taavi Toodu, an IT specialist and Svelte web developer. Includes hourly rates, maintenance options, additional costs, and custom quote guidance.",
-            "keywords": "Price list, IT services, Svelte web development, WordPress, custom software, IT support, installation services, Taavi Toodu, Extaas, Osaühing X, monthly maintenance, web updates, small changes" },
+          "title": "Terms of Sale",
+          "description": "Review the Terms of Sale of Extaas.com including contract formation, pricing, payment methods, service delivery, withdrawal rights, refunds, complaints, and dispute resolution under Estonian law. Applies to digital services and IT project work provided by Osaühing X.",
+          "keywords": "Terms of Sale, Extaas, Osaühing X, IT services pricing terms, contract formation, payment methods, digital services agreement, withdrawal rights, refund policy, complaints, dispute resolution, Estonia law"
+        },
         "et": {
-            "title": "Hinnakiri",
-            "description": "Tutvu pakutavate teenuste hinnakirjaga: veebiarendus, rätseplahendused, CMS haldus, IT tugi ja paigaldus. Sisaldab tunnitasusid, kuuhooldust, lisatasusid ja personaalse hinnapakkumise juhiseid.",
-            "keywords": "Hinnakiri, IT teenused, Svelte veebiarendus, WordPress, rätseplahendused, IT tugi, paigaldusteenus, Taavi Toodu, Extaas, Osaühing X, kuuhooldus, veebiuuendused, väikesed muudatused" }
-    }
+          "title": "Müügitingimused",
+          "description": "Tutvu Extaas.com müügitingimustega: lepingu sõlmimine, hinnastamine, makseviisid, teenuse osutamine, taganemisõigus, tagastused, pretensioonid ja vaidluste lahendamine Eesti õiguse alusel. Kehtib digiteenustele ja IT projektitöödele.",
+          "keywords": "Müügitingimused, Extaas, Osaühing X, IT teenuste tingimused, hinnastamine, makseviisid, digiteenused, taganemisõigus, tagastuspoliitika, pretensioonid, vaidluste lahendamine, Eesti õigus"
+        }
+  }
 }
