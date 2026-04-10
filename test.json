@@ -1,7 +1,7 @@
 [
-  "price_list", "our_story", "company", "portfolio", "home",
+  "home", "/price_list", "/our_story", "/company", "/portfolio",
 
-  "legal_documents/privacy_policy", "legal_documents/terms_of_sale", "legal_documents/terms_of_service",
+  "/legal_documents/privacy_policy", "/legal_documents/terms_of_sale", "/legal_documents/terms_of_service",
 
-  "blog/2026/test"
+  "/blog/2026/test"
 ]
