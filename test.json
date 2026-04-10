@@ -1,7 +1,9 @@
 [
-  "home", "/price_list", "/company", "/portfolio",
+  "home", "/price-list", "/company", "/portfolio",
 
-  "/legal_documents/privacy_policy", "/legal_documents/terms_of_sale", "/legal_documents/terms_of_service",
+  "/legal-documents/privacy-policy", "/legal-documents/terms-of-sale", "/legal-documents/terms-of-service",
 
-  "/our_story", "/blog/2026/home_assistant"
+  "/our-story",
+  
+  "/blog/2026/home-assistant-nodejs-ui-addon", "/blog/2026/home-assistnt-dynamic-entities-integration"
 ]
