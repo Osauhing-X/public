@@ -8,11 +8,11 @@ Esialgu keskendus Extaas Discordi-serveri arendamisele ja erinevate affiliate-pr
 Kogutud kogemuste valguses otsustati luua iseseisev veebiplatvorm, mis võimaldaks sisu ja funktsioone kohandada vabamalt kui valmisplatvormide puhul. Selle otsuse järel soetati **1. märtsil 2021** domeen **extaas.com** ja alustati WordPressi-põhiste lahendustega, sealhulgas print-on-demand äri katsetamist WooCommerce’i kaudu. Märkasin vaikselt, et WordPress ei suuda täita kõiki soove ja ootusi ilma lisakuludeta, ning tänu sellele tehti esimesed sammud JavaScripti, HTML-i ja CSS-i maastikule, et muuta lehte vastavalt soovile ja visioonile.
 
 <ul grid>       
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v1.png" alt="version 1"></li>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v3.gif" alt="version 3"></li>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v4.png" alt="version 4"></li>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v5.png" alt="version 5"></li>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v6.png" alt="version 6"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v1.png" alt="version 1"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v3.gif" alt="version 3"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v4.png" alt="version 4"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v5.png" alt="version 5"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v6.png" alt="version 6"></li>
 </ul>
 
 ## Kogukonna loomine ja turundus
@@ -25,17 +25,17 @@ Koolipraktika käigus õppisin tundma **Svelte** raamistikku, mis osutus paeluva
 Kuna Extaasi kood muutus mahukaks ja segaseks, otsustati **19. veebruaril 2023** alustada uuest projektist nimega **Nexus**, et luua kompaktne, optimeeritud ja modulaarne koodibaas, mis koondab kõik seni saadud teadmised ja kogemused. **9. augustil 2023** soetati domeen **e-nxus.com**, et eraldada Nexus projekti arendus Extaas platvormist.
 
 <ul grid>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v8.png" alt="version 8"></li>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v10.png" alt="version 10"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v8.png" alt="version 8"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v10.png" alt="version 10"></li>
 </ul>
 
 ## Domeenide koondamine
 **8. augustil 2025** hülgati **e-nxus.com** domeen ja kogu sisu koondati ühe domeeni alla, et platvorm oleks hallatav ja kasutajasõbralik. See samm võimaldas keskenduda tugevale, ühtsele veebiplatvormile ning vähendas tehnilisi ja halduslikke komplitseerimisi.
 
 <ul grid>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v11.png" alt="version 11"></li>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v13.png" alt="version 13"></li>
-  <li><img src="https://github.com/Osauhing-X/public/blob/extaas.com/our-story/v14.png" alt="version 14"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v11.png" alt="version 11"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v13.png" alt="version 13"></li>
+  <li><img src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/our-story/v14.png" alt="version 14"></li>
 </ul>
 
 ## Extaas ajutine katkestus
