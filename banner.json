@@ -1,10 +1,8 @@
 [
   {
     "start": "01-01",
-    "end": "12-01",
-    "type": "global_moment",
-    "mood": "celebration",
-    "background": "linear-gradient(45deg,#1e3c72,#2a5298)",
+    "end": "01-01",
+    "background": "linear-gradient(45deg,#facc15,#f59e0b)",
     "en": {
       "title": "Happy New Year 🎉",
       "description": [
@@ -26,9 +24,7 @@
   {
     "start": "02-14",
     "end": "02-14",
-    "type": "global_moment",
-    "mood": "appreciation",
-    "background": "linear-gradient(45deg,#ff416c,#ff4b2b)",
+    "background": "linear-gradient(45deg,#fb7185,#ec4899)",
     "en": {
       "title": "Valentine’s Day ❤️",
       "description": [
@@ -50,9 +46,7 @@
   {
     "start": "03-08",
     "end": "03-08",
-    "type": "global_moment",
-    "mood": "appreciation",
-    "background": "linear-gradient(45deg,#7F00FF,#E100FF)",
+    "background": "linear-gradient(45deg,#a855f7,#f472b6)",
     "en": {
       "title": "International Women’s Day 🌸",
       "description": [
@@ -74,9 +68,7 @@
   {
     "start": "05-01",
     "end": "05-01",
-    "type": "global_moment",
-    "mood": "rest",
-    "background": "linear-gradient(45deg,#00b09b,#96c93d)",
+    "background": "linear-gradient(45deg,#22c55e,#84cc16)",
     "en": {
       "title": "Labor Day 🌿",
       "description": [
@@ -98,9 +90,7 @@
   {
     "start": "10-31",
     "end": "10-31",
-    "type": "global_moment",
-    "mood": "fun",
-    "background": "linear-gradient(45deg,#000000,#ff6a00)",
+    "background": "linear-gradient(45deg,#000000,#f97316)",
     "en": {
       "title": "Halloween 🎃",
       "description": [
@@ -122,9 +112,7 @@
   {
     "start": "12-24",
     "end": "12-26",
-    "type": "global_moment",
-    "mood": "warmth",
-    "background": "linear-gradient(45deg,#b24592,#f15f79)",
+    "background": "linear-gradient(45deg,#065f46,#b91c1c)",
     "en": {
       "title": "Holiday Season 🎄",
       "description": [
@@ -146,9 +134,7 @@
   {
     "start": "12-31",
     "end": "12-31",
-    "type": "global_moment",
-    "mood": "reflection",
-    "background": "linear-gradient(45deg,#141e30,#243b55)",
+    "background": "linear-gradient(45deg,#111827,#f59e0b)",
     "en": {
       "title": "New Year’s Eve ✨",
       "description": [
