@@ -1,0 +1,19 @@
+[
+  {
+    "start": "2026-05-09",
+    "end": "2026-05-25",
+    "background": "linear-gradient(145deg, rgba(24,38,24,0.85), rgba(0,255,106,0.6)), url('https://www.militaire-uitrusting.nl/assets/images/camouflage-patterns/estdcu-bO-EeKo.png') center/cover no-repeat",
+    "en": {
+      "title": "Services are paused",
+      "description": [
+        "Services will be unavailable from May 9 to May 25 due to participation in a military exercise. You are still welcome to send messages, but responses will be provided after returning from the exercise."
+      ]
+    },
+    "et": {
+      "title": "Teenused on pausil",
+      "description": [
+        "Vahemikus 9.–25. mai ei toimu teenuste pakkumist. Põhjuseks on osalemine kaitseväe õppusel. Kirju võib endiselt saata, kuid neile vastatakse pärast õppuselt naasmist."
+      ]
+    }
+  }
+]
