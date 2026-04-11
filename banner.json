@@ -1,7 +1,7 @@
 [
   {
     "start": "01-01",
-    "end": "01-01",
+    "end": "12-01",
     "type": "global_moment",
     "mood": "celebration",
     "background": "linear-gradient(45deg,#1e3c72,#2a5298)",
