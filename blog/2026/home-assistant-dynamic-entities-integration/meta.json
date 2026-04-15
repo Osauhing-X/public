@@ -7,15 +7,18 @@
       "changefreq": "yearly"
     },
 
+    "tags": ["Home Assistant", "Integration"],
 
     "seo": {
         "en": {
-            "title": "Home Assistnt - Dynamic Entities Integration",
-            "description": "Explore the price list for web development, custom software solutions, CMS management, IT support, and installation services offered by Taavi Toodu, an IT specialist and Svelte web developer. Includes hourly rates, maintenance options, additional costs, and custom quote guidance.",
-            "keywords": "Price list, IT services, Svelte web development, WordPress, custom software, IT support, installation services, Taavi Toodu, Extaas, Osaühing X, monthly maintenance, web updates, small changes" },
+          "title": "Home Assistnt - Dynamic Entities Integration",
+          "description": "Flexible Home Assistant integration that allows your custom code, APIs, and external services to create and update dynamic entities. Monitor, track, and automate based on real-time data from virtually any system or service.",
+          "keywords": "Home Assistant, Home Assistant integration, dynamic entities, custom entities, Home Assistant API, real-time data integration, external services, automation platform, API integration, event tracking, smart home automation, custom component"
+        },
         "et": {
-            "title": "Home Assistnt - Dünaamiliste üksuste integratsioon",
-            "description": "Tutvu pakutavate teenuste hinnakirjaga: veebiarendus, rätseplahendused, CMS haldus, IT tugi ja paigaldus. Sisaldab tunnitasusid, kuuhooldust, lisatasusid ja personaalse hinnapakkumise juhiseid.",
-            "keywords": "Hinnakiri, IT teenused, Svelte veebiarendus, WordPress, rätseplahendused, IT tugi, paigaldusteenus, Taavi Toodu, Extaas, Osaühing X, kuuhooldus, veebiuuendused, väikesed muudatused" }
+          "title": "Home Assistnt - Dünaamiliste üksuste integratsioon",
+          "description": "Paindlik Home Assistant integratsioon, mis võimaldab sinu koodil, API-del ja välistel teenustel luua ja uuendada dünaamilisi üksusi. Jälgi, halda ja automatiseeri reaalajas andmete põhjal pea kõiki süsteeme.",
+          "keywords": "Home Assistant, Home Assistant integratsioon, dünaamilised üksused, custom entity, Home Assistant API, reaalaja andmete integratsioon, välised teenused, automatiseerimine, API integratsioon, sündmuste jälgimine, nutikodu lahendused, custom component"
+        }
     }
 }
