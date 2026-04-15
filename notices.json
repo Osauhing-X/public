@@ -1,5 +1,22 @@
 [
   {
+    "start": "2026-04-15",
+    "end": "2026-05-25",
+    "background": "linear-gradient(5deg, #070a07d9, #008a3999), url('https://www.militaire-uitrusting.nl/assets/images/camouflage-patterns/estdcu-bO-EeKo.png') center/cover no-repeat",
+    "en": {
+      "title": "Services will be paused soon",
+      "description": [
+        "Services are scheduled to be temporarily paused from May 9 to May 25 due to participation in a military exercise. At the moment, services are still active, but the pause period is approaching. Messages can still be sent, but responses will be provided after returning from the exercise."
+      ]
+    },
+    "et": {
+      "title": "Teenused peatatakse peagi",
+      "description": [
+        "Teenused peatatakse ajutiselt vahemikus 9.–25. mai seoses osalemisega kaitseväe õppusel. Hetkel on teenused veel aktiivsed, kuid peatamise periood on lähenemas. Kirju saab endiselt saata, kuid neile vastatakse pärast õppuselt naasmist."
+      ]
+    }
+  },
+  {
     "start": "2026-05-09",
     "end": "2026-05-25",
     "background": "linear-gradient(5deg, #070a07d9, #008a3999), url('https://www.militaire-uitrusting.nl/assets/images/camouflage-patterns/estdcu-bO-EeKo.png') center/cover no-repeat",
