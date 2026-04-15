@@ -2,7 +2,8 @@
     "layout": "blog",
 
     "sitemap":  {
-      "lastmod": "2026-03-03",
+      "published": "2026-04-13",
+      "lastmod": "2026-04-15",
       "priority": 0.5,
       "changefreq": "yearly"
     },
