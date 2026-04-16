@@ -28,16 +28,25 @@ This price list outlines the hourly rates for the services offered. All prices a
         <td class="center">18.73 €</td>
       </tr>
       <tr>
-        <td>Installation / Device Setup (getting a device fully operational)</td>
+        <td>Connecting / Setting Up the Device (getting a device fully operational)</td>
         <td class="center">18.73 €</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-***
+---
 
-## Maintenance (only for our Svelte-developed code)
+### Note on equipment installation
+The service "Device connection / setup" includes at most removing the device from the box, connecting it at a low-voltage level and setting it up for operation.
+
+The service provider does not perform installation work that involves drilling, structural changes, or connecting high-voltage (230V and more) or related work.
+
+A specialist or company with the appropriate competence must be ordered separately to perform work related to high-voltage.
+
+---
+
+### Continued Maintenance (only for our Svelte-developed code)
 As an additional service, it is possible to order monthly maintenance and minor changes, the approximate price of which is 100 € per month.
 
 <div overflow>
@@ -93,7 +102,7 @@ The service provider reserves the right to accept, reject, or make a revised cou
 ## Legal Information
 Services are provided in accordance with the laws of the Republic of Estonia. Detailed terms, including the rights and obligations of the parties, payment terms, and liability, are set out in the terms of sale:  
 
-https://extaas.com/@/legal_documents?hash=terms_of_sale
+https://extaas.com/@/legal-documents/terms-of-sale
 
 By ordering a service, the client confirms that they have read and agreed to the terms of sale.
 

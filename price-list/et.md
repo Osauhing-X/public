@@ -28,16 +28,25 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
         <td class="center">18.73 €</td>
       </tr>
       <tr>
-        <td>Paigaldamine / seadme seadistamine (seadme töövalmis seadmine)</td>
+        <td>Seadme ühendamine / seadistamine (seadme töövalmis seadmine)</td>
         <td class="center">18.73 €</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-***
+---
 
-## Hooldus (ainult meie arendatud Svelte koodi puhul)
+### Märkus seadmete paigalduse kohta
+Teenuse „Seadme ühendamine / seadistamine” alla kuulub maksimaalselt seadme karbist väljavõtmine, ühendamine nõrkvoolu tasemel ning töövalmis seadistamine.
+
+Teenusepakkuja ei teosta paigaldustöid, mis hõlmavad puurimist, ehituslikke muudatusi ega tugeva voolu (230V ja enam) ühendamist või sellega seotud töid.
+
+Tugevvooluga seotud tööde teostamiseks tuleb tellida eraldi vastava pädevusega spetsialist või ettevõte.
+
+---
+
+### Jätku Hooldus (ainult meie arendatud Svelte koodi puhul)
 Lisateenusena on võimalik tellida igakuine hooldus ja väiksemad muudatused, mille ligikaudne hind on 100 € kuus.
 
 <div overflow>
@@ -93,7 +102,7 @@ Teenusepakkuja jätab endale õiguse esitatud hinnapakkumine vastu võtta, tagas
 ## Õiguslik teave
 Teenuste osutamine toimub vastavalt Eesti Vabariigi õigusaktidele. Täpsemad tingimused, sh poolte õigused ja kohustused, maksetingimused ja vastutus, on sätestatud müügitingimustes:  
 
-https://extaas.com/@/legal_documents?hash=terms_of_sale
+https://extaas.com/@/legal-documents/terms-of-sale
 
 Teenuse tellimisega kinnitab klient, et on tutvunud müügitingimustega ja nõustub nendega.
 
