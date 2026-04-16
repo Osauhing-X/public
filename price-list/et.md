@@ -46,8 +46,14 @@ Tugevvooluga seotud tööde teostamiseks tuleb tellida eraldi vastava pädevuseg
 
 ---
 
-### Jätku Hooldus (ainult meie arendatud Svelte koodi puhul)
-Lisateenusena on võimalik tellida igakuine hooldus ja väiksemad muudatused, mille ligikaudne hind on 100 € kuus.
+### Hooldus / Jätkuhooldus
+Lisateenusena on võimalik tellida igakuine veebilehe koodi ja sisu hooldus ning väiksemad muudatused.
+
+Hooldusteenus jaguneb kahte kategooriasse:
+- Jätkuhooldus (rätseplahendused) – kehtib ainult meie poolt algusest lõpuni arendatud custom veebirakendustele (sh Svelte / SvelteKit lahendused).
+- Tavaline hooldus (CMS-lahendused) – kehtib CMS-põhistele veebidele (nt WordPress), sõltumata algsest arendajast, kokkuleppel ja pärast ülevaatust.
+
+Ligikaudne hind: 100 € kuus (täpne hind sõltub projekti mahust ja vajadustest).
 
 <div overflow>
   <table>
@@ -65,7 +71,7 @@ Lisateenusena on võimalik tellida igakuine hooldus ja väiksemad muudatused, mi
 
 Hind võib varieeruda sõltuvalt kliendi soovidest ja vajadustest.
 
-***
+---
 
 ## Lisatasud
 Teenuste osutamisel võivad lisanduda täiendavad kulud, sõltuvalt töö iseloomust ja asukohast.

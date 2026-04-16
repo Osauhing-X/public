@@ -46,8 +46,14 @@ A specialist or company with the appropriate competence must be ordered separate
 
 ---
 
-### Continued Maintenance (only for our Svelte-developed code)
-As an additional service, it is possible to order monthly maintenance and minor changes, the approximate price of which is 100 € per month.
+### Maintenance / Follow-up care
+As an additional service, it is possible to order monthly website code and content maintenance and minor changes.
+
+The maintenance service is divided into two categories:
+- Ongoing maintenance (tailor-made solutions) – applies only to custom web applications developed by us from start to finish (including Svelte / SvelteKit solutions).
+- Regular maintenance (CMS solutions) – applies to CMS-based websites (e.g. WordPress), regardless of the original developer, by agreement and after review.
+
+Approximate price: €100 per month (the exact price depends on the project size and needs).
 
 <div overflow>
   <table>
