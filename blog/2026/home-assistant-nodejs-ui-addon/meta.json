@@ -11,7 +11,7 @@
     "tags": ["Home Assistant", "Addon", "Smart Home"],
 
     "seo": {
-      "imgage": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/blog/2026/home-assistant-nodejs-ui-addon/HA.png",
+      "image": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/blog/2026/home-assistant-nodejs-ui-addon/HA.png",
       
       "en": {
         "title": "Home Assistnt - Nodejs Server Addon",
