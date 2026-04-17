@@ -12,6 +12,7 @@
 
     "seo": {
       "type": "article",
+      "author": "Taavi T",
       "image": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/blog/2026/home-assistant-nodejs-ui-addon/HA.png",
       
       "en": {
