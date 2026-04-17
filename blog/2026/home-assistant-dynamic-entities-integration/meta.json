@@ -10,8 +10,8 @@
 
     "tags": ["Home Assistant", "Integration", "Smart Home"],
 
-
     "seo": {
+      "type": "article",
       "image": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/blog/2026/home-assistant-dynamic-entities-integration/HA.png",
 
       "en": {
