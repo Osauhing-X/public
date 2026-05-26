@@ -13,7 +13,7 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
     <tbody>
       <tr>
         <td>Veebiarendus (Svelte)</td>
-        <td class="center">31.84 €</td>
+        <td class="center">28.10 €</td>
       </tr>
       <tr>
         <td>Kohandatud tarkvaralahendused (muu tarkvaraarendus, mis ei ole veebiarendus)</td>
@@ -21,7 +21,7 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
       </tr>
       <tr>
         <td>CMS (WordPress – hooldus, haldus, arendus, uuendused jms)</td>
-        <td class="center">28.10 €</td>
+        <td class="center">18.73 €</td>
       </tr>
       <tr>
         <td>IT tugi</td>
@@ -29,7 +29,7 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
       </tr>
       <tr>
         <td>Seadme ühendamine / seadistamine (seadme töövalmis seadmine)</td>
-        <td class="center">18.73 €</td>
+        <td class="center">24.35 €</td>
       </tr>
     </tbody>
   </table>
