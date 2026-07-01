@@ -1,0 +1,155 @@
+[
+  {
+    "start": "01-01",
+    "end": "01-01",
+    "background": "linear-gradient(45deg,#facc15,#f59e0b)",
+    "en": {
+      "title": "Happy New Year 🎉",
+      "description": [
+        "Wishing you a strong start — new ideas, better systems, and smoother builds ahead.",
+        "A fresh start for better decisions, cleaner code, and calmer deployments.",
+        "New year, new iterations — may everything ship a little smoother this time."
+      ]
+    },
+    "et": {
+      "title": "Head uut aastat 🎉",
+      "description": [
+        "Soovime tugevat algust ja sujuvamaid lahendusi.",
+        "Uus aasta, uued ideed ja paremad süsteemid.",
+        "Hea hetk alustada puhtalt lehelt."
+      ]
+    }
+  },
+
+  {
+    "start": "02-14",
+    "end": "02-14",
+    "background": "linear-gradient(45deg,#fb7185,#ec4899)",
+    "en": {
+      "title": "Valentine’s Day ❤️",
+      "description": [
+        "A good moment to appreciate the people and partnerships that make everything work better.",
+        "Behind every good system is good collaboration — this is a good day to value it.",
+        "Strong relationships are like good architecture — built with care over time."
+      ]
+    },
+    "et": {
+      "title": "Sõbrapäev ❤️",
+      "description": [
+        "Hea hetk väärtustada inimesi ja koostööd.",
+        "Head suhted on nagu hea arhitektuur — need püsivad.",
+        "Tänu inimestele, kes teevad asjad võimalikuks."
+      ]
+    }
+  },
+
+  {
+    "start": "03-08",
+    "end": "03-08",
+    "background": "linear-gradient(45deg,#a855f7,#f472b6)",
+    "en": {
+      "title": "International Women’s Day 🌸",
+      "description": [
+        "Recognizing the people whose precision, perspective, and consistency improve every system they touch.",
+        "Better teams build better systems — today is about acknowledging that impact.",
+        "Strength in systems often starts with strength in people."
+      ]
+    },
+    "et": {
+      "title": "Naistepäev 🌸",
+      "description": [
+        "Tunnustame inimesi, kes teevad süsteemid paremaks.",
+        "Head tiimid loovad paremad tulemused.",
+        "Tugevus algab inimestest."
+      ]
+    }
+  },
+
+  {
+    "start": "05-01",
+    "end": "05-01",
+    "background": "linear-gradient(45deg,#22c55e,#84cc16)",
+    "en": {
+      "title": "Labor Day 🌿",
+      "description": [
+        "A reminder that well-built systems — and well-rested people — both perform better.",
+        "Even the best architecture needs maintenance breaks.",
+        "Rest is not downtime — it’s part of performance."
+      ]
+    },
+    "et": {
+      "title": "Kevadpüha 🌿",
+      "description": [
+        "Puhkus parandab nii inimesi kui süsteeme.",
+        "Hea süsteem vajab hooldust nagu ka inimene.",
+        "Puhkus on osa tulemuslikkusest."
+      ]
+    }
+  },
+
+  {
+    "start": "10-31",
+    "end": "10-31",
+    "background": "linear-gradient(45deg,#000000,#f97316)",
+    "en": {
+      "title": "Halloween 🎃",
+      "description": [
+        "A creative break from structure — even good systems benefit from a bit of chaos.",
+        "Not every feature needs to be serious — some just need to be fun.",
+        "A reminder that experimentation is part of good engineering."
+      ]
+    },
+    "et": {
+      "title": "Halloween 🎃",
+      "description": [
+        "Loominguline paus struktuurist.",
+        "Mõnikord on kaos osa protsessist.",
+        "Katsetamine viib paremate lahendusteni."
+      ]
+    }
+  },
+
+  {
+    "start": "12-24",
+    "end": "12-26",
+    "background": "linear-gradient(45deg,#065f46,#b91c1c)",
+    "en": {
+      "title": "Holiday Season 🎄",
+      "description": [
+        "Wishing you calm days, good people around you, and systems that behave themselves.",
+        "May your time off be as smooth as a well-optimized release cycle.",
+        "A good moment to pause, recharge, and let things run without friction."
+      ]
+    },
+    "et": {
+      "title": "Pühadeaeg 🎄",
+      "description": [
+        "Rahulikud päevad ja hästi toimivad süsteemid.",
+        "Hea aeg puhata ja laadida end.",
+        "Aeg lasta asjadel lihtsalt töötada."
+      ]
+    }
+  },
+
+  {
+    "start": "12-31",
+    "end": "12-31",
+    "background": "linear-gradient(45deg,#111827,#f59e0b)",
+    "en": {
+      "title": "New Year’s Eve ✨",
+      "description": [
+        "A good moment to reflect on what shipped well — and what should be rebuilt better.",
+        "Closing loops, reviewing progress, and preparing better systems for next cycle.",
+        "Every system improves when you take time to review it properly."
+      ]
+    },
+    "et": {
+      "title": "Vana-aasta õhtu ✨",
+      "description": [
+        "Hea hetk vaadata tagasi ja teha paremaid otsuseid.",
+        "Kokkuvõtete aeg ja uute suundade planeerimine.",
+        "Iga süsteem paraneb, kui seda analüüsida."
+      ]
+    }
+  }
+]

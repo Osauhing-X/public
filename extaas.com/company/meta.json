@@ -1,0 +1,23 @@
+{
+    "layout": "info",
+
+    "group": "info",
+
+    "sitemap":  {
+      "lastmod": "2026-03-02",
+      "priority": 0.5,
+      "changefreq": "yearly"
+    },
+
+
+    "seo": {
+        "en": {
+            "title": "Company",
+            "description": "Learn about Extaas, the Svelte-based web platform of Osaühing X, and discover the technologies, storage solutions, and infrastructure that power our digital platform.",
+            "keywords": "Osaühing X, Extaas, Svelte, web platform, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digital infrastructure, modular code, IT services" },
+        "et": {
+            "title": "Ettevõte",
+            "description": "Tutvu Extaasiga, Osaühing X Svelte raamistikul üles ehitatud veebiplatvormiga, ja saa teada, milliseid tehnoloogiaid, salvestuslahendusi ja infrastruktuuri me kasutame platvormi toimimiseks.",
+            "keywords": "Osaühing X, Extaas, Svelte, veebiplatvorm, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digitaalne infrastruktuur, modulaarne kood, IT teenused" }
+    }
+}

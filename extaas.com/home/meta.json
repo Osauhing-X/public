@@ -1,0 +1,27 @@
+{
+    "layout": "regular",
+
+    "group": "main",
+    
+    "meta_only": true,
+    
+    "sitemap":  {
+      "lastmod": "2026-03-03",
+      "priority": 1,
+      "changefreq": "yearly"
+    },
+
+
+    "seo": {
+        "image": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/home/BG.png",
+
+        "en": {
+            "title": "Solutions That Create Value",
+            "description": "Discover how Extaas transforms your ideas into working web solutions, offering IT support and tailored technical services designed to meet your exact needs.",
+            "keywords": "Extaas, web development, IT support, Svelte, web solutions, technical consulting, custom solutions, Osaühing X, 17396663" },
+        "et": {
+            "title": "Lahendused, mis loovad väärtust",
+            "description": "Avasta, kuidas Extaas aitab sinu ideedest ja projektidest kujundada toimivad veebilahendused ning pakkuda IT-tuge ja kohandatud tehnilisi lahendusi, mis vastavad täpselt sinu vajadustele.",
+            "keywords": "Extaas, veebiarendus, IT-tugi, Svelte, veebilahendused, tehniline konsultatsioon, kohandatud lahendused, Osaühing X, 17396663" }
+    }
+}

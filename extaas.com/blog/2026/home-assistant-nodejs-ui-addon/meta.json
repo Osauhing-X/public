@@ -1,0 +1,29 @@
+{
+    "layout": "blog",
+
+    "sitemap":  {
+      "published": "2026-04-13",
+      "lastmod": "2026-04-15",
+      "priority": 0.7,
+      "changefreq": "yearly"
+    },
+
+    "tags": ["Home Assistant", "Addon", "Smart Home"],
+
+    "seo": {
+      "type": "article",
+      "author": "Taavi T",
+      "image": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/blog/2026/home-assistant-nodejs-ui-addon/HA.png",
+      
+      "en": {
+        "title": "Home Assistnt - Nodejs Server Addon",
+        "description": "Run a full Node.js server directly inside Home Assistant. Build and host custom backends, APIs, bots, and automation logic in one place, seamlessly integrated with your Home Assistant environment.",
+        "keywords": "Home Assistant addon, Node.js server, Home Assistant Nodejs, custom backend, API server, automation backend, Home Assistant development, self-hosted server, JavaScript backend, Home Assistant integration, server addon"
+      },
+      "et": {
+        "title": "Home Assistnt - Nodejs Server Addon",
+        "description": "Käivita täisväärtuslik Node.js server otse Home Assistanti sees. Loo ja halda backend-e, API-sid, bote ning automatiseerimisloogikat ühes kohas, tihedalt integreerituna Home Assistantiga.",
+        "keywords": "Home Assistant addon, Node.js server, Home Assistant Nodejs, backend arendus, API server, automatiseerimise backend, Home Assistant arendus, self-hosted server, JavaScript backend, Home Assistant integratsioon, serveri addon"
+      }
+    }
+}
