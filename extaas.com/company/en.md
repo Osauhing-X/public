@@ -17,7 +17,7 @@ The company has a single member.
   <br><br>
     I am a certified Junior IT Systems Specialist (Level 4, EKR/EQF Level 4) and specialize in web development using the <b>Svelte</b> framework. I also provide IT consulting and technical support.
   </p>
-  <img pc src="https://raw.githubusercontent.com/Osauhing-X/public/extaas.com/company/ceo.jpg" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
+  <img pc src="https://raw.githubusercontent.com/Osauhing-X/public/Web/extaas.com/company/ceo.jpg" alt="Taavi T" style=" width: 150px; margin-right: 40px;">
 </div>
 
 ***
