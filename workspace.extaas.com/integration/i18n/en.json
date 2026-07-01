@@ -1,0 +1,22 @@
+{
+  "title": "Integrations",
+  "supabase": "Supabase",
+  "resend": "Resend",
+  "stripe": "Stripe",
+  "connect": "Connect",
+  "settings": "Settings",
+  "back": "Go Back",
+  "description": "Connect the services that power daily operations."
+  ,
+  "workspaceIntegrations": "Workspace integrations",
+  "heading": "Connect the services that power daily operations",
+  "help": "Integrations are setup infrastructure. Credits are used only when customer-facing actions create business value.",
+  "dataLayer": "Data layer",
+  "customerCommunication": "Customer communication",
+  "externalPayments": "External payments",
+  "supabaseText": "Stores module data, bookings, rentals, pages, logs and uploaded media in the connected cloud project.",
+  "resendText": "Sends customer emails, audience campaigns, booking confirmations, rental updates and low-credit alerts.",
+  "stripeText": "Adds Stripe Checkout support for credit purchases and external customer payment guidance.",
+  "active": "active",
+  "setupNeeded": "inactive"
+}

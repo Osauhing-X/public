@@ -1,0 +1,20 @@
+﻿{
+    "layout":  "info",
+    "group":  "docs",
+    "meta_only":  true,
+    "sitemap":  {
+                    "lastmod":  "2026-07-01",
+                    "priority":  0.4,
+                    "changefreq":  "monthly"
+                },
+    "seo":  {
+                "en":  {
+                           "title":  "Getting started",
+                           "description":  "Workspace portal getting started documentation branch."
+                       },
+                "et":  {
+                           "title":  "Alustamine",
+                           "description":  "Workspace portaali alustamise dokumentatsiooni haru."
+                       }
+            }
+}

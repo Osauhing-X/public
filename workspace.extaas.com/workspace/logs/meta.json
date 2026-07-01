@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Logs",
+                           "description":  "Review service events, credit actions and integration setup logs from the connected Supabase project."
+                       },
+                "et":  {
+                           "title":  "Logid",
+                           "description":  "Vaata teenuse sÃ¼ndmuseid, krediidi tegevusi ja integratsioonide seadistuslogisid Ã¼hendatud Supabase projektist."
+                       }
+            }
+}

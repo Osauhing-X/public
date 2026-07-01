@@ -1,0 +1,108 @@
+
+projektid-teenused:
+  en:
+    h1: Self-service
+    samp: Here you can see your data etc.
+    h2: Projects / Services
+    small: Your projects and projects that have been shared with you are displayed here. To view, click on the project card - the selected project will open in a same tab.
+    none: There are no projects associated with your account yet.
+  et:
+    h1: Iseteenindus
+    samp: Siin sa näed oma andmeid jne
+    h2: Projektid / Teenused
+    small: Siin kuvatakse sinu projektid ning projektid, mida on sinuga jagatud. Vaatamiseks klõpsa projekti kaardil – valitud projekt avaneb samas aknas.
+    none: Teie kontoga pole veel ühtegi projekti seotud.
+
+
+# --- # Projektid
+buttons:
+  en:
+    overview: Overview
+    chat_room: Chat room
+    local: Developer
+  et:
+    overview: Ülevaade
+    chat_room: Vestlus Ruum
+    local: Arendaja
+
+
+overview:
+  et:
+   # Korduv
+    description: Kirjeldus
+   # Tellimuse detailid
+    project: Projekti andmed
+    title: Pealkiri
+    type: Tüüp
+    status: Olek
+    created: Loodud
+    last_update: Viimane uuendus
+   # Juurdepääs
+    access: Klient ja teised
+    email: E-post
+    shared: Juurdepääs
+    denied: Ainult projekti algatajal on õigus projekti isikuid lisada või eemaldada.
+    add_mail: Sisestage selle isiku e-posti aadress, kellele soovite sellele projektile juurdepääsu anda.
+    mail_format: Vabandust, aga palun proovige uuesti, aga seekord sisestage e-posti aadress. Näide demo@example.com
+    its_u: Sul on juba ligipääs, seega ära ennast uuesti lisa.
+    exist: Lisatud e-posti aadress on juba olemas.
+    no_mail: Vabandust, valitud e-posti aadressi, mida proovite eemaldada, pole olemas. Soovitame lehte värskendada. Kui probleem püsib, võtke meiega ühendust mail@extaas.com
+  en:
+   # ---
+    description: Description
+   # ---
+    project: Project data
+    title: Title
+    type: Type
+    status: Status
+    created: Created
+    last_update: Last update
+   # ---
+    access: Client & others
+    email: Email
+    shared: Granted access
+    denied: Only the project initiator has permission to add or remove individuals from the project.
+    add_mail: Enter the email address of the individual you would like to give access to this project.
+    mail_format: Sorry, but please try again, but this time enter an email. Example demo@example.com
+    its_u: You already have access, so don't add yourself again.
+    exist: The email address you added already exists.
+    no_mail: Sorry, the selected email address you are trying to remove does not exist. We recommend refreshing the page. If the problem persists, please contact us mail@extaas.com
+
+
+
+status: # Discord forum status list
+  en:
+    all_done: All done
+    invoice_paid: Invoice paid
+    awaiting_payment: Awaiting payment
+    in_progress: In progress
+    cancelled: Cancelled
+    in_queue: In queue
+    paused: Paused
+    rejected: Rejected
+  et:
+    all_done: Kõik valmis
+    invoice_paid: Arve tasutud
+    awaiting_payment: Ootab maksmist
+    in_progress: Tegelemisel
+    cancelled: Tühistatud
+    in_queue: Oote järjekorras
+    paused: Ootel
+    rejected: Tagasi lükatud
+
+
+
+textarea: # Text box for chat
+  et:
+    send: Saada
+    placeholder: Kirjuta sõnum...
+    preview: Eelvaade
+    no_msg: Pole sõnumeid...
+
+  en:
+    send: Send
+    placeholder: Write message...
+    preview: Preview
+    no_msg: No messages...
+
+

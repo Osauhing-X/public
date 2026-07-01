@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Stripe",
+                           "description":  "Use Stripe for credit purchases and optional customer payment links."
+                       },
+                "et":  {
+                           "title":  "Stripe",
+                           "description":  "Kasuta Stripe\u0027i krediidi ostudeks ja valikulisteks kliendi makselinkideks."
+                       }
+            }
+}

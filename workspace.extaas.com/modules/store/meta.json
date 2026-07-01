@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Store",
+                           "description":  "Display Stripe products on the public page and let customers pay for multiple products in one checkout session."
+                       },
+                "et":  {
+                           "title":  "Pood",
+                           "description":  "Kuva Stripe tooted avalikul lehel ja lase klientidel maksta mitme toote eest Ã¼he ostukorviga."
+                       }
+            }
+}

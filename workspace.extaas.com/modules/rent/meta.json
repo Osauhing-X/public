@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Rent",
+                           "description":  "Description"
+                       },
+                "et":  {
+                           "title":  "Rent",
+                           "description":  "Kirjeldus"
+                       }
+            }
+}

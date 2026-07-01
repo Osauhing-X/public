@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Overview",
+                           "description":  "Tenant workspace dashboard, guide, settings and credit status copy."
+                       },
+                "et":  {
+                           "title":  "Ãœlevaade",
+                           "description":  "Tenant workspace töölaua, juhendi, seadete ja krediidistaatuse tekstid."
+                       }
+            }
+}

@@ -1,0 +1,24 @@
+{
+  "root": "https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/",
+
+  "layout": "regular",
+  "group": "main",
+  "meta_only": true,
+  "sitemap": {
+    "lastmod": "2026-07-01",
+    "priority": 0.7,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Read",
+      "description": "Browse Extaas documentation, blog posts and legal documents from one filterable reading view.",
+      "keywords": "Extaas docs, Extaas blog, legal documents, documentation, articles"
+    },
+    "et": {
+      "title": "Lugemine",
+      "description": "Sirvi Extaas dokumentatsiooni, blogipostitusi ja õigusdokumente ühest filtreeritavast lugemisvaatest.",
+      "keywords": "Extaas dokumentatsioon, Extaas blogi, õigusdokumendid, artiklid"
+    }
+  }
+}

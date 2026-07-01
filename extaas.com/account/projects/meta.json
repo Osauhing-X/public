@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "extaas",
+    "seo":  {
+                "en":  {
+                           "title":  "Projects and services",
+                           "description":  "Private projects, services and project overview copy."
+                       },
+                "et":  {
+                           "title":  "Projektid ja teenused",
+                           "description":  "Privaatsete projektide, teenuste ja projekti ülevaate tekstid."
+                       }
+            }
+}

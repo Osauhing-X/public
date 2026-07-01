@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Workspace Portal",
+                           "description":  "Public landing page content for workspace.extaas.com."
+                       },
+                "et":  {
+                           "title":  "Workspace portaal",
+                           "description":  "workspace.extaas.com avaliku avalehe sisu."
+                       }
+            }
+}

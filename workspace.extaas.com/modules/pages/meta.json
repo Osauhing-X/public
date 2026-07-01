@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Pages",
+                           "description":  "Control what the world sees on the public landing page: title, description, image, about card and public pages."
+                       },
+                "et":  {
+                           "title":  "Lehed",
+                           "description":  "Juhi seda, mida kÃ¼lastajad avalikul lehel nÃ¤evad: pealkiri, kirjeldus, pilt, tutvustuse kast ja avalikud lehed."
+                       }
+            }
+}

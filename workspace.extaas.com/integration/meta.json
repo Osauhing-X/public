@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Integrations",
+                           "description":  "Connect the services that power daily operations."
+                       },
+                "et":  {
+                           "title":  "Integratsioonid",
+                           "description":  "Ãœhenda teenused, mis hoiavad igapÃ¤evase tÃ¶Ã¶ tÃ¶Ã¶s."
+                       }
+            }
+}

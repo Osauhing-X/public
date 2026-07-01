@@ -1,0 +1,19 @@
+{
+  "ownerSettings": "Owner settings",
+  "title": "Supabase connection",
+  "description": "These credentials are used only server-side for storage, logs, booking and public pages.",
+  "projectId": "Project ID",
+  "serviceRole": "Service role key",
+  "anonKey": "Anon / publishable key",
+  "saveConnection": "Save connection",
+  "authentication": "Authentication",
+  "authTitle": "Supabase Auth for allowed users",
+  "authDescription": "Use this Supabase project for private workspace sign-in. The signed-in email must match the owner or allowed users list.",
+  "providers": "Providers",
+  "providersConfirmed": "Providers are enabled in Supabase Sign In / Providers.",
+  "redirectConfirmed": "Auth URL configuration redirects back to this domain.",
+  "enableAuth": "Enable Supabase Auth for allowed users",
+  "saveAuthentication": "Save authentication",
+  "sqlHelper": "SQL helper",
+  "ownerOnly": "Only the workspace owner can update Supabase credentials."
+}

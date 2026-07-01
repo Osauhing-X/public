@@ -1,0 +1,27 @@
+staff_admin:
+  en:
+    title: Staff dashboard
+    small: Operational overview for users, invoices, projects and outgoing messages.
+    users: Users
+    payments: Payments
+    projects: Projects
+    email: Email
+    sitemap: Sitemap
+    permissions: Staff permissions
+    open_invoices: Open invoices
+    paid_total: Paid total
+    active_projects: Active projects
+    total_users: Users
+  et:
+    title: Staff dashboard
+    small: Operatiivne ulevaade kasutajatest, arvetest, projektidest ja valjuvatest kirjadest.
+    users: Kasutajad
+    payments: Maksed
+    projects: Projektid
+    email: E-mail
+    sitemap: Sitemap
+    permissions: Staff oigused
+    open_invoices: Avatud arved
+    paid_total: Tasutud kokku
+    active_projects: Aktiivsed projektid
+    total_users: Kasutajad

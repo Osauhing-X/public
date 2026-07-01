@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Email",
+                           "description":  "Build, preview and send targeted messages from one focused workspace."
+                       },
+                "et":  {
+                           "title":  "E-post",
+                           "description":  "Koosta, vaata Ã¼le ja saada sihitud sÃµnumeid Ã¼hes selges tÃ¶Ã¶vaates."
+                       }
+            }
+}

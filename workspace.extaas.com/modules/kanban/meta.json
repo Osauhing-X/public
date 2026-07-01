@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Kanban board",
+                           "description":  "Keep internal work visible with project boards, draggable cards, assignees, dates and completion progress. This module does not use credits."
+                       },
+                "et":  {
+                           "title":  "Kanban-tahvel",
+                           "description":  "Hoia sisetÃ¶Ã¶ projektitahvlite, lohistatavate kaartide, vastutajate, kuupÃ¤evade ja edenemise abil selgelt nÃ¤htav. See moodul krediiti ei kasuta."
+                       }
+            }
+}

@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Booking",
+                           "description":  "Description"
+                       },
+                "et":  {
+                           "title":  "Broneering",
+                           "description":  "Kirjeldus"
+                       }
+            }
+}

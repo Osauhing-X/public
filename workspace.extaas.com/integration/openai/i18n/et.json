@@ -1,0 +1,22 @@
+{
+  "title": "ChatGPT",
+  "integration": "integratsioon",
+  "back": "Tagasi",
+  "eyebrow": "AI kirjutamisabiline",
+  "heading": "ChatGPT integratsioon",
+  "description": "Luba AI abi e-kirjade teksti, mallide ja korduvkasutatavate komponentide loomiseks. API võtit kasutatakse ainult serveripoolel.",
+  "enable": "Kuva AI kastid e-posti tööriistades",
+  "apiKey": "API võti",
+  "model": "Mudel",
+  "tone": "Toon",
+  "instructions": "Süsteemijuhised",
+  "saving": "Salvestan...",
+  "save": "Salvesta ChatGPT integratsioon",
+  "testing": "Testin...",
+  "test": "Testi genereerimist",
+  "saved": "ChatGPT integratsioon salvestati.",
+  "saveFailed": "OpenAI seadete salvestamine ebaõnnestus",
+  "testFailed": "OpenAI test ebaõnnestus",
+  "defaultTone": "Professionaalne, selge ja lühike.",
+  "defaultInstructions": "Loo praktilist ärilist e-posti ja HTML sisu. Hoia väljund kohe kasutusvalmis."
+}

@@ -1,121 +1,15 @@
-{
-  "root": "https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com",
-
-
-  "/price-list": {
-    "files": {
-      "en": "en.md",
-      "et": "et.md"
-    },
-    "group": "price",
-    "schema": false,
-    "sitemap": {
-      "lastmod": "2026-03-03",
-      "priority": 0.5,
-      "changefreq": "yearly"
-    },
-    "en": {
-      "seo": {
-        "title": "Price List",
-        "description": "Explore the price list for web development, custom software solutions, CMS management, IT support, and installation services offered by Taavi Toodu, an IT specialist and Svelte web developer. Includes hourly rates, maintenance options, additional costs, and custom quote guidance.",
-        "keywords": "Price list, IT services, Svelte web development, WordPress, custom software, IT support, installation services, Taavi Toodu, Extaas, Osaühing X, monthly maintenance, web updates, small changes"
-      } },
-    "et": {
-      "seo": {
-        "title": "Hinnakiri",
-        "description": "Tutvu pakutavate teenuste hinnakirjaga: veebiarendus, rätseplahendused, CMS haldus, IT tugi ja paigaldus. Sisaldab tunnitasusid, kuuhooldust, lisatasusid ja personaalse hinnapakkumise juhiseid.",
-        "keywords": "Hinnakiri, IT teenused, Svelte veebiarendus, WordPress, rätseplahendused, IT tugi, paigaldusteenus, Taavi Toodu, Extaas, Osaühing X, kuuhooldus, veebiuuendused, väikesed muudatused"
-    } }
-    },
-
-
-  "/our-story": {
-    "files": {
-      "en": "en.md",
-      "et": "et.md",
-      "v1": "v1.png",
-      "v3": "v3.gif",
-      "v4": "v8.png",
-      "v5": "v5.png",
-      "v6": "v6.png",
-      "v8": "v8.png",
-      "v10": "v10.png",
-      "v11": "v11.png",
-      "v13": "v13.png",
-      "v14": "v14.png"
-    },
-    "group": "story",
-    "schema": true,
-    "sitemap": {
-      "lastmod": "2026-03-02",
-      "priority": 0.1,
-      "changefreq": "yearly"
-    },
-    "en": {
-      "seo": {
-        "title": "Our Story",
-        "description": "Discover the journey of Extaas and Osaühing X, from Discord communities to modern web development with Svelte, JavaScript, and modular solutions. Learn how we built our digital platform step by step.",
-        "keywords": "Osaühing X, Extaas, Nexus, web development, Svelte, JavaScript, modular code, digital community, tech startup, development journey, IT services"
-    } },
-    "et": {
-      "seo": {
-        "title": "Meie lugu",
-        "description": "Tutvu Extaase ja Osaühing X arengulooga, Discordi kogukondadest kaasaegse veebiarenduseni Svelte, JavaScripti ja modulaarsete lahendustega. Saa teada, kuidas platvorm kasvas samm-sammult.",
-        "keywords": "Osaühing X, Extaas, Nexus, veebiarendus, Svelte, JavaScript, modulaarne kood, digikogukond, tehnoloogiaettevõte, arenduslugu, IT teenused"
-    } }
-  },
-
-
-  "/company": {
-    "files": {
-      "en": "en.md",
-      "et": "et.md",
-      "ceo": "ceo.jpg"
-    },
-    "group": "info",
-    "schema": true,
-    "sitemap": {
-      "lastmod": "2026-03-02",
-      "priority": 0.3,
-      "changefreq": "yearly"
-    },
-    "en": {
-      "seo": {
-        "title": "Company",
-        "description": "Learn about Extaas, the Svelte-based web platform of Osaühing X, and discover the technologies, storage solutions, and infrastructure that power our digital platform.",
-        "keywords": "Osaühing X, Extaas, Svelte, web platform, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digital infrastructure, modular code, IT services"
-      } },
-    "et": {
-      "seo": {
-        "title": "Ettevõte",
-        "description": "Tutvu Extaasiga, Osaühing X Svelte raamistikul üles ehitatud veebiplatvormiga, ja saa teada, milliseid tehnoloogiaid, salvestuslahendusi ja infrastruktuuri me kasutame platvormi toimimiseks.",
-        "keywords": "Osaühing X, Extaas, Svelte, veebiplatvorm, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digitaalne infrastruktuur, modulaarne kood, IT teenused"
-      } }
-  },
-
-
-  "/portfolio": {
-    "files": {
-      "en": "en.md",
-      "et": "et.md"
-    },
-    "group": "info",
-    "schema": false,
-    "sitemap": {
-      "lastmod": "2026-03-02",
-      "priority": 0.1,
-      "changefreq": "yearly" },
-    "en": {
-      "seo": {
-        "title": "Founder",
-        "description": "Portfolio of Taavi Toodu, an IT specialist and Svelte web developer, founder of Osaühing X and Extaas. Explore his experience in web development, IT systems, automation, networking, and small projects.",
-        "keywords": "IT specialist, Svelte, web development, Osaühing X, Extaas, automation, networking, Home Assistant, ESP32, Ubiquiti, Node.js, Chrome extension, Electron"
-      } },
-    "et": {
-      "seo": {
-        "title": "Asutaja",
-        "description": "Taavi Toodu portfoolio, infotehnoloogia spetsialist ja Svelte veebiarendaja, Osaühing X ja Extaas asutaja. Tutvu tema kogemusega veebiarenduses, IT-süsteemides, automatiseerimises, võrgulahendustes ja väikestes projektides.",
-        "keywords": "infotehnoloogia spetsialist, Svelte, veebiarendus, Osaühing X, Extaas, automatiseerimine, võrgulahendused, Home Assistant, ESP32, Ubiquiti, Node.js, Chrome pluginad, Electron"
-      } }
-  }
-}
+﻿[
+    "home",
+    "/read",
+    "/search",
+    "/price-list",
+    "/company",
+    "/portfolio",
+    "/our-story",
+    "/read/docs/workspace-portal",
+    "/read/legal-documents/privacy-policy",
+    "/read/legal-documents/terms-of-sale",
+    "/read/legal-documents/terms-of-service",
+    "/read/blog/2026/home-assistant-nodejs-ui-addon",
+    "/read/blog/2026/home-assistant-dynamic-entities-integration"
+]

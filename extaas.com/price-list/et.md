@@ -1,35 +1,35 @@
-# Hinnakiri
-Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni alusel. Kõik hinnad on esitatud eurodes (€).
+﻿# Hinnakiri
+KÃ¤esolev hinnakiri kirjeldab pakutavate teenuste mÃ¼Ã¼gihindu Ã¼he tÃ¶Ã¶tunni alusel. KÃµik hinnad on esitatud eurodes (â‚¬).
 
-## Ühe tunni hinnad (müügihind)
+## Ãœhe tunni hinnad (mÃ¼Ã¼gihind)
 <div overflow>
   <table>
     <thead>
       <tr>
         <th class="left">Teenus</th>
-        <th class="center">Hind (€)</th>
+        <th class="center">Hind (â‚¬)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Veebiarendus (Svelte)</td>
-        <td class="center">28.10 €</td>
+        <td class="center">28.10 â‚¬</td>
       </tr>
       <tr>
         <td>Kohandatud tarkvaralahendused (muu tarkvaraarendus, mis ei ole veebiarendus)</td>
-        <td class="center">37.46 €</td>
+        <td class="center">37.46 â‚¬</td>
       </tr>
       <tr>
-        <td>CMS (WordPress – hooldus, haldus, arendus, uuendused jms)</td>
-        <td class="center">18.73 €</td>
+        <td>CMS (WordPress â€“ hooldus, haldus, arendus, uuendused jms)</td>
+        <td class="center">18.73 â‚¬</td>
       </tr>
       <tr>
         <td>IT tugi</td>
-        <td class="center">18.73 €</td>
+        <td class="center">18.73 â‚¬</td>
       </tr>
       <tr>
-        <td>Seadme ühendamine / seadistamine (seadme töövalmis seadmine)</td>
-        <td class="center">24.35 €</td>
+        <td>Seadme Ã¼hendamine / seadistamine (seadme tÃ¶Ã¶valmis seadmine)</td>
+        <td class="center">24.35 â‚¬</td>
       </tr>
     </tbody>
   </table>
@@ -37,23 +37,23 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
 
 ---
 
-### Märkus seadmete paigalduse kohta
-Teenuse <span css="reverse">Seadme ühendamine / seadistamine</span> alla kuulub seadme lahtipakkimine, kaabeldus (side- ja toitekaablite ühendamine) ning seadme töövalmis seadistamine.
+### MÃ¤rkus seadmete paigalduse kohta
+Teenuse <span css="reverse">Seadme Ã¼hendamine / seadistamine</span> alla kuulub seadme lahtipakkimine, kaabeldus (side- ja toitekaablite Ã¼hendamine) ning seadme tÃ¶Ã¶valmis seadistamine.
 
-Teenusepakkuja ei teosta paigaldustöid, mis hõlmavad puurimist, ehituslikke muudatusi ega tugeva voolu (230V ja enam) ühendamist või sellega seotud töid.
+Teenusepakkuja ei teosta paigaldustÃ¶id, mis hÃµlmavad puurimist, ehituslikke muudatusi ega tugeva voolu (230V ja enam) Ã¼hendamist vÃµi sellega seotud tÃ¶id.
 
-Tugevvooluga seotud tööde teostamiseks tuleb tellida eraldi vastava pädevusega spetsialist või ettevõte.
+Tugevvooluga seotud tÃ¶Ã¶de teostamiseks tuleb tellida eraldi vastava pÃ¤devusega spetsialist vÃµi ettevÃµte.
 
 ---
 
-### Hooldus / Jätkuhooldus
-Lisateenusena on võimalik tellida igakuine veebilehe koodi ja sisu hooldus ning väiksemad muudatused.
+### Hooldus / JÃ¤tkuhooldus
+Lisateenusena on vÃµimalik tellida igakuine veebilehe koodi ja sisu hooldus ning vÃ¤iksemad muudatused.
 
 Hooldusteenus jaguneb kahte kategooriasse:
-- Jätkuhooldus (rätseplahendused) – kehtib ainult meie poolt algusest lõpuni arendatud custom veebirakendustele (sh Svelte / SvelteKit lahendused).
-- Tavaline hooldus (CMS-lahendused) – kehtib CMS-põhistele veebidele (nt WordPress), sõltumata algsest arendajast, kokkuleppel ja pärast ülevaatust.
+- JÃ¤tkuhooldus (rÃ¤tseplahendused) â€“ kehtib ainult meie poolt algusest lÃµpuni arendatud custom veebirakendustele (sh Svelte / SvelteKit lahendused).
+- Tavaline hooldus (CMS-lahendused) â€“ kehtib CMS-pÃµhistele veebidele (nt WordPress), sÃµltumata algsest arendajast, kokkuleppel ja pÃ¤rast Ã¼levaatust.
 
-Ligikaudne hind: 100 € kuus (täpne hind sõltub projekti mahust ja vajadustest).
+Ligikaudne hind: 100 â‚¬ kuus (tÃ¤pne hind sÃµltub projekti mahust ja vajadustest).
 
 <div overflow>
   <table>
@@ -61,64 +61,64 @@ Ligikaudne hind: 100 € kuus (täpne hind sõltub projekti mahust ja vajadustes
       <tr><th class="left">Teenuse sisu</th></tr>
     </thead>
     <tbody>
-      <tr><td>Veebilehe uuendused ja koodi täiustamine </td></tr>
-      <tr><td>Väiksemad muudatused: piltide ja tekstide muutmine, sektsioonide ümberpaigutamine, jms</td></tr>
+      <tr><td>Veebilehe uuendused ja koodi tÃ¤iustamine </td></tr>
+      <tr><td>VÃ¤iksemad muudatused: piltide ja tekstide muutmine, sektsioonide Ã¼mberpaigutamine, jms</td></tr>
       <tr><td>Tehniline tugi (support)</td></tr>
       <tr><td>Vigade parandamine (bug fixing)</td></tr>
     </tbody>
   </table>
 </div>
 
-Hind võib varieeruda sõltuvalt kliendi soovidest ja vajadustest.
+Hind vÃµib varieeruda sÃµltuvalt kliendi soovidest ja vajadustest.
 
 ---
 
 ## Lisatasud
-Teenuste osutamisel võivad lisanduda täiendavad kulud, sõltuvalt töö iseloomust ja asukohast.
+Teenuste osutamisel vÃµivad lisanduda tÃ¤iendavad kulud, sÃµltuvalt tÃ¶Ã¶ iseloomust ja asukohast.
 
 <div overflow>
   <table>
     <thead>
-      <tr><th class="left">Võimalikud olukorrad / Näited</th></tr>
+      <tr><th class="left">VÃµimalikud olukorrad / NÃ¤ited</th></tr>
     </thead>
     <tbody>
-      <tr><td>Transport (nt: kütusekulu, kullerteenus)</td></tr>
+      <tr><td>Transport (nt: kÃ¼tusekulu, kullerteenus)</td></tr>
       <tr><td>Kolmanda osapoole tellimused (subscriptions or licenses)</td></tr>
     </tbody>
   </table>
 </div>
 
-Võimalikest lisakuludest teavitatakse klienti eelnevalt enne teenuse või töö pakkumise alustamist.
+VÃµimalikest lisakuludest teavitatakse klienti eelnevalt enne teenuse vÃµi tÃ¶Ã¶ pakkumise alustamist.
 
 ***
 
-## Personaalse hinnapakkumise küsimine
-Kliendil on alati võimalus teha omapoolne hinnapakkumine – see tähendab, et klient võib ise pakkuda hinna, millega ta on valmis teenust tellima.  
+## Personaalse hinnapakkumise kÃ¼simine
+Kliendil on alati vÃµimalus teha omapoolne hinnapakkumine â€“ see tÃ¤hendab, et klient vÃµib ise pakkuda hinna, millega ta on valmis teenust tellima.  
 
-Mahukamate või püsivate tööde puhul soovitame määrata fikseeritud summa. See annab teile täieliku selguse ja kindluse – teate täpselt, mida teenus maksab, ilma ootamatute kuludeta.  
+Mahukamate vÃµi pÃ¼sivate tÃ¶Ã¶de puhul soovitame mÃ¤Ã¤rata fikseeritud summa. See annab teile tÃ¤ieliku selguse ja kindluse â€“ teate tÃ¤pselt, mida teenus maksab, ilma ootamatute kuludeta.  
 
-Samuti võimaldab see teil rahulikult planeerida eelarvet ja saada just sellise lahenduse, mis vastab teie ootustele. Hinnapakkumise koostamisel on oluline selgelt välja tuua töö sisu.
+Samuti vÃµimaldab see teil rahulikult planeerida eelarvet ja saada just sellise lahenduse, mis vastab teie ootustele. Hinnapakkumise koostamisel on oluline selgelt vÃ¤lja tuua tÃ¶Ã¶ sisu.
 
-Hinnapäringu tegemisel palume kindlasti märkida ka oma ootused ja soovid. Soovitame lisada võimaliku maksumuse ülempiiri, mis aitab kiirendada sobivate lahenduste leidmist.
+HinnapÃ¤ringu tegemisel palume kindlasti mÃ¤rkida ka oma ootused ja soovid. Soovitame lisada vÃµimaliku maksumuse Ã¼lempiiri, mis aitab kiirendada sobivate lahenduste leidmist.
 
-Teenusepakkuja jätab endale õiguse esitatud hinnapakkumine vastu võtta, tagasi lükata või teha omapoolse täpsustatud vastupakkumise.
+Teenusepakkuja jÃ¤tab endale Ãµiguse esitatud hinnapakkumine vastu vÃµtta, tagasi lÃ¼kata vÃµi teha omapoolse tÃ¤psustatud vastupakkumise.
 
 ***
 
-## Õiguslik teave
-Teenuste osutamine toimub vastavalt Eesti Vabariigi õigusaktidele. Täpsemad tingimused, sh poolte õigused ja kohustused, maksetingimused ja vastutus, on sätestatud müügitingimustes:  
+## Ã•iguslik teave
+Teenuste osutamine toimub vastavalt Eesti Vabariigi Ãµigusaktidele. TÃ¤psemad tingimused, sh poolte Ãµigused ja kohustused, maksetingimused ja vastutus, on sÃ¤testatud mÃ¼Ã¼gitingimustes:  
 
-https://extaas.com/@/legal-documents/terms-of-sale
+https://extaas.com/@/read/legal-documents/terms-of-sale
 
-Teenuse tellimisega kinnitab klient, et on tutvunud müügitingimustega ja nõustub nendega.
+Teenuse tellimisega kinnitab klient, et on tutvunud mÃ¼Ã¼gitingimustega ja nÃµustub nendega.
 
 ***
 
 ## Vastutus ja garantii
 - Teenuseid osutatakse professionaalse hoolsusega ja vastavalt heale IT-tavale.  
-- Võimalikud tähtajad ja tulemused lepitakse kokku kirjalikult (e-post, leping või hinnapakkumine).  
-- Garantii ja vastutuse ulatus sõltub konkreetsest teenusest ning sätestatakse hinnapakkumises või lepingus.
+- VÃµimalikud tÃ¤htajad ja tulemused lepitakse kokku kirjalikult (e-post, leping vÃµi hinnapakkumine).  
+- Garantii ja vastutuse ulatus sÃµltub konkreetsest teenusest ning sÃ¤testatakse hinnapakkumises vÃµi lepingus.
 
 ***
 
-*Hinnakiri kehtib kuni uue hinnakirja avaldamiseni. Teenusepakkuja jätab endale õiguse hindu muuta, teavitades sellest ette mõistliku aja jooksul.*  
+*Hinnakiri kehtib kuni uue hinnakirja avaldamiseni. Teenusepakkuja jÃ¤tab endale Ãµiguse hindu muuta, teavitades sellest ette mÃµistliku aja jooksul.*  

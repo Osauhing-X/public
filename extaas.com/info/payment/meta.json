@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "extaas",
+    "seo":  {
+                "en":  {
+                           "title":  "Payment",
+                           "description":  "Invoice payment, checkout and payment confirmation copy."
+                       },
+                "et":  {
+                           "title":  "Makse",
+                           "description":  "Arve maksmise, checkouti ja maksekinnituse tekstid."
+                       }
+            }
+}

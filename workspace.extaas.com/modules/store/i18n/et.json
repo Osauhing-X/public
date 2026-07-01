@@ -1,0 +1,17 @@
+{
+  "title": "Pood",
+  "module": "moodul",
+  "back": "Tagasi",
+  "stripeSettings": "Stripe seaded",
+  "eyebrow": "Stripe kataloog",
+  "description": "Kuva Stripe tooted avalikul lehel ja lase klientidel maksta mitme toote eest ühe ostukorviga.",
+  "notPublicTitle": "Pood pole veel avalik",
+  "notPublicText": "Lülita Store checkout Stripe seadetes sisse ning lisa privaatsuspoliitika, müügitingimuste ja kasutustingimuste lingid enne poe kuvamist avalikul lehel.",
+  "catalog": "Tootekataloog",
+  "product": "toode",
+  "products": "toodet",
+  "loading": "Laen kataloogi...",
+  "noPrice": "Hinda pole",
+  "empty": "Aktiivseid ühekordse maksega Stripe tooteid koos hinnaga ei leitud.",
+  "loadFailed": "Poe laadimine ebaõnnestus"
+}

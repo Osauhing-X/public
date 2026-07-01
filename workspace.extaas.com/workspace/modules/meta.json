@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Modules",
+                           "description":  "Workspace module overview and setup entry copy."
+                       },
+                "et":  {
+                           "title":  "Moodulid",
+                           "description":  "Workspace moodulite ülevaate ja seadistuse tekstid."
+                       }
+            }
+}

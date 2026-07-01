@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Calendar",
+                           "description":  "Bookings, rentals and reminders in one visual workspace."
+                       },
+                "et":  {
+                           "title":  "Kalender",
+                           "description":  "Broneeringud, rendid ja meeldetuletused Ã¼hes visuaalses vaates."
+                       }
+            }
+}

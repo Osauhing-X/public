@@ -1,0 +1,22 @@
+{
+  "title": "Integratsioonid",
+  "supabase": "Supabase",
+  "resend": "Resend",
+  "stripe": "Stripe",
+  "connect": "Ühenda",
+  "settings": "Seaded",
+  "back": "Tagasi",
+  "description": "Ühenda teenused, mis hoiavad igapäevase töö töös."
+  ,
+  "workspaceIntegrations": "Tööala integratsioonid",
+  "heading": "Ühenda teenused, mis toetavad igapäevast tööd",
+  "help": "Integratsioonid on seadistuse taristu. Krediiti kasutatakse ainult siis, kui kliendile suunatud tegevus loob ärilist väärtust.",
+  "dataLayer": "Andmekiht",
+  "customerCommunication": "Kliendisuhtlus",
+  "externalPayments": "Välised maksed",
+  "supabaseText": "Salvestab moodulite andmed, broneeringud, rendid, lehed, logid ja üleslaetud meedia ühendatud pilveprojekti.",
+  "resendText": "Saadab kliendikirjad, kontaktlisti kampaaniad, broneeringu kinnitused, rendi uuendused ja madala krediidi teavitused.",
+  "stripeText": "Lisab Stripe Checkout toe krediidi ostudele ja välise makseinfo juhistele.",
+  "active": "aktiivne",
+  "setupNeeded": "inactive"
+}

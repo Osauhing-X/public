@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "Private pages",
+                           "description":  "Create internal HTML pages for team instructions, procedures and private notes. These pages are visible only inside the signed-in portal and do not use credits."
+                       },
+                "et":  {
+                           "title":  "Privaatsed lehed",
+                           "description":  "Loo sisemisi HTML lehti juhiste, tÃ¶Ã¶protsesside ja privaatsete mÃ¤rkmete jaoks. Need lehed on nÃ¤htavad ainult sisselogitud portaalis ja ei kasuta krediite."
+                       }
+            }
+}

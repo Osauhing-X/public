@@ -1,0 +1,20 @@
+﻿{
+    "layout":  "info",
+    "group":  "docs",
+    "meta_only":  true,
+    "sitemap":  {
+                    "lastmod":  "2026-07-01",
+                    "priority":  0.4,
+                    "changefreq":  "monthly"
+                },
+    "seo":  {
+                "en":  {
+                           "title":  "OpenAI",
+                           "description":  "OpenAI integration documentation branch."
+                       },
+                "et":  {
+                           "title":  "OpenAI",
+                           "description":  "OpenAI integratsiooni dokumentatsiooni haru."
+                       }
+            }
+}

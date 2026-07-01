@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "extaas",
+    "seo":  {
+                "en":  {
+                           "title":  "Account",
+                           "description":  "Private account, login and workspace account copy."
+                       },
+                "et":  {
+                           "title":  "Konto",
+                           "description":  "Privaatse konto, sisselogimise ja workspace konto tekstid."
+                       }
+            }
+}

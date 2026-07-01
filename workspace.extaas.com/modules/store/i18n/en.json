@@ -1,0 +1,17 @@
+{
+  "title": "Store",
+  "module": "module",
+  "back": "Back",
+  "stripeSettings": "Stripe settings",
+  "eyebrow": "Stripe catalog",
+  "description": "Display Stripe products on the public page and let customers pay for multiple products in one checkout session.",
+  "notPublicTitle": "Store is not public yet",
+  "notPublicText": "Enable Store checkout in Stripe settings and add Privacy Policy, Terms of Sale and Terms and Conditions URLs before showing the store on the public page.",
+  "catalog": "Product catalog",
+  "product": "product",
+  "products": "products",
+  "loading": "Loading catalog...",
+  "noPrice": "No price",
+  "empty": "No active one-time Stripe products with prices were found.",
+  "loadFailed": "Store failed to load"
+}

@@ -1,0 +1,15 @@
+﻿{
+    "layout":  "private",
+    "private":  true,
+    "group":  "workspace",
+    "seo":  {
+                "en":  {
+                           "title":  "ChatGPT",
+                           "description":  "Enable AI assistance for email copy, templates and reusable components. The API key is only used server-side."
+                       },
+                "et":  {
+                           "title":  "ChatGPT",
+                           "description":  "Luba AI abi e-kirjade teksti, mallide ja korduvkasutatavate komponentide loomiseks. API vÃµtit kasutatakse ainult serveripoolel."
+                       }
+            }
+}

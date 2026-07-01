@@ -1,0 +1,13 @@
+{
+  "title": "Audience",
+  "back": "Go Back",
+  "module": "module",
+  "subscribers": "Subscribers",
+  "description": "Adding, subscribing, and unsubscribing contacts is free. Credits are used only when email is sent to recipients.",
+  "contacts": "Contacts",
+  "landingVisibility": "Landing page visibility",
+  "subscribeBox": "Subscribe box",
+  "name": "Name",
+  "email": "Email",
+  "save": "Save"
+}
