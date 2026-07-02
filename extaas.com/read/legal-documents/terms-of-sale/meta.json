@@ -2,6 +2,7 @@
     "layout": "info",
 
     "group": "legal_documents",
+    "tags": ["legal", "terms", "sale", "payment"],
 
     "sitemap":  {
       "lastmod": "2026-03-03",

@@ -2,6 +2,7 @@
     "layout": "info",
     
     "group": "legal_documents",
+    "tags": ["legal", "privacy", "gdpr"],
 
     "sitemap":  {
       "lastmod": "2026-03-03",
