@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<svg xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Teenus/Projekt Algus -->
+  <!-- <svg width="30" height="30"> <use href=".../flags.svg#et" /> </svg>-->
+
   <defs>
 
   <!-- Eesti -->
