@@ -1,7 +1,8 @@
 {
   "layout": "info",
-  "group": "docs",
+ 
   "tags": ["tenant", "landing-page", "workspace", "public", "modules"],
+
   "sitemap": {
     "lastmod": "2026-07-02",
     "priority": 0.5,
