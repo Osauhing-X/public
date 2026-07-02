@@ -1,8 +1,6 @@
 {
   "layout": "info",
-
-  "group": "docs",
-
+  
   "tags": ["integration", "stripe", "billing", "credits", "terminal"],
   "sitemap": {
     "lastmod": "2026-07-02",

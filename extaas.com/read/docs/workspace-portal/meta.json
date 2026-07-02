@@ -1,7 +1,5 @@
 {
   "layout": "info",
-
-  "group": "docs",
   
   "tags": ["workspace", "tenant", "modules", "integrations", "credits", "dns"],
   "sitemap": {

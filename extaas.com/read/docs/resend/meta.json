@@ -1,8 +1,6 @@
 {
   "layout": "info",
 
-  "group": "docs",
-
   "tags": ["integration", "resend", "email", "templates", "notifications"],
   "sitemap": {
     "lastmod": "2026-07-02",
