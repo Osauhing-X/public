@@ -1,21 +1,20 @@
-﻿{
-    "layout":  "info",
-    "group":  "docs",
-    "tags":  ["getting-started", "workspace", "setup"],
-    "meta_only":  true,
-    "sitemap":  {
-                    "lastmod":  "2026-07-01",
-                    "priority":  0.4,
-                    "changefreq":  "monthly"
-                },
-    "seo":  {
-                "en":  {
-                           "title":  "Getting started",
-                           "description":  "Workspace portal getting started documentation branch."
-                       },
-                "et":  {
-                           "title":  "Alustamine",
-                           "description":  "Workspace portaali alustamise dokumentatsiooni haru."
-                       }
-            }
+{
+  "layout": "info",
+  "group": "docs",
+  "tags": ["getting-started", "workspace", "setup", "dns", "modules"],
+  "sitemap": {
+    "lastmod": "2026-07-02",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Getting started",
+      "description": "Practical first setup guide for Extaas Workspace, tenant domains, modules, integrations, payment boundaries and launch checks."
+    },
+    "et": {
+      "title": "Alustamine",
+      "description": "Praktiline alustamise juhend Extaas Workspace'i, tenant domeenide, moodulite, integratsioonide, maksepiiride ja avaldamise kontrollide jaoks."
+    }
+  }
 }

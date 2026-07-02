@@ -1,67 +1,111 @@
 # Workspace portaali dokumentatsioon
 
-Keskne dokumentatsioon workspace.extaas.com klientidele ja staff vaatele. Workspace portaal koondab avalikud lehed, audience, email, booking, rent, store, calendar ja credits moodulid samasse kohta, samal ajal kui tenant DNS lehed jaavad kliendile avalikuks pinnaks.
+Operatiivne dokumentatsioon `workspace.extaas.com` klientidele ja staff vaatele. Workspace on privaatne portaal tenant moodulite, integratsioonide, projektide, arvete, krediitide ja kliendi tegevuste jaoks, samal ajal kui tenant DNS lehed jäävad avalikuks kliendipinnaks.
 
-<h2 id="overview">Ulevaade</h2>
+<figure>
+  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace ja tenant skeem">
+  <figcaption>Extaas eraldab avaliku põhidomeeni, privaatse workspace'i ja tenant DNS pinna.</figcaption>
+</figure>
 
-Extaas Workspace on arikeskkond tenant moodulite, integratsioonide ja operatiivse too jaoks. Klient peab kontoandmeid, projekti sisu, arveid ja privaatseid mooduli seadeid vaatama workspace.extaas.com kaudu.
+## Ülevaade
 
-<h2 id="dns">DNS ja domeenid</h2>
+Workspace peab vastama neljale küsimusele:
 
-Kliendi domeen voi alamdomeen peab suunama tenant rakendusele. Sama host peab olema platform workspace kirjes, et rakendus leiaks oige tenant workspace'i.
+1. Kellele portaal kuulub?
+2. Millised tenant domeenid selle alla kuuluvad?
+3. Millised moodulid on lubatud?
+4. Millised integratsioonid ja krediidid on nende moodulite tööks vajalikud?
 
-<h2 id="supabase">Supabase</h2>
+Avalik `extaas.com` ei tohiks muutuda konto dashboardiks. Seal võivad olla dokumentatsioon, avalik info, juriidilised dokumendid ja makse algvaated. Privaatne andmestik kuulub Workspace'i.
 
-Supabase hoiab moodulite seadeid, privaatseid bookinguid, rendiparinguid, avalike lehtede meediat, kalendri meeldetuletusi ja logisid. Service role votmed jaavad ainult serverisse.
+## Workspace alad
 
-<h2 id="resend">Resend</h2>
+| Ala | Eesmärk | Avalik? |
+| --- | --- | --- |
+| Account | kasutaja identiteet, login ja ligipääs | Ei |
+| Projects | kliendi tööd, märkmed ja seotud teenused | Ei |
+| Invoices | arve detailid, read, makse staatus ja kviitungid | Ei |
+| Tenant portals | DNS route'id, moodulid ja avaliku tenant pinna seaded | Osaliselt |
+| Integrations | Supabase, Resend, Stripe, OpenAI ja moodulite võtmed | Ei |
+| Credits | saldo, kasutuslogid, juurdeost ja tagastused | Ei |
+| Public Pages | kliendile nähtav sisu ja meedia | Jah, ainult lubatud kujul |
 
-Resend saadab kampaaniaid, kliendi staatuse kirju ja moodulite teavitusi. Enne booking voi rent email flow kasutamist seadista API key, saatja nimi ja saatja email.
+## DNS ja tenant routing
 
-<h2 id="stripe">Stripe</h2>
+Iga tenant domeen peab olema Workspace'is kirjeldatud. Lahendus saab hosti, leiab selle põhjal õige workspace/tenant kirje ja renderdab ainult selle tenantiga seotud avaliku sisu.
 
-Stripe haldab tasulisi checkout flow'sid ja makse staatus peab workspace poolel sunkroonis pusima. Avalik extaas.com makselink peab naitama ainult tasumisele kuuluvat summat ja suunama kasutaja sisse logima, kui ta tahab sisu naha.
+Kontroll:
 
-<h2 id="modules">Moodulid</h2>
+- DNS kirje osutab tenant rakendusele.
+- Sama host on workspace DNS route andmetes olemas.
+- Route'il on selge mode: tenant, public/self või sisemine workspace.
+- Tundmatu domeen ei leki teise tenanti sisu.
+- Localhost arenduses võib info screeni sulgeda ainult arenduse mugavuse jaoks.
 
-Pages haldab avalikku identiteeti ja sisu. Audience haldab kontakte. Email saadab kirju. Booking haldab sessioone. Rent haldab rendi objekte. Store haldab checkouti. Calendar naitab aktiivseid tegevusi.
+## Moodulid
 
-<h2 id="customer-actions">Kliendi tegevused</h2>
+Moodulid peaksid olema võimalusel taaskasutatavad nii tenant workspace'is kui sisemises admin vaates. Jagatud mooduliloogika väldib sama tööriista topeltehitamist.
 
-Kinnituse ja staatuse emailid sisaldavad kliendi iseteeninduse linke, kus klient saab bookingut tühistada, rendiparingut tühistada voi audience listist lahkuda.
+| Moodul | Mida haldab | Peamine integratsioon |
+| --- | --- | --- |
+| Pages | avalik sisu, meedia, redirectid ja nähtavus | Supabase/meedia |
+| Audience | kontaktid, unsubscribe ja segmendid | Supabase/Resend |
+| Email | kampaaniad, mallid, komponendid ja manused | Resend/OpenAI |
+| Booking | teenused, päringud, staatuse e-kirjad ja kalender | Supabase/Resend |
+| Rent | rendiobjektid, päringud, kinnitused ja klienditegevused | Supabase/Resend |
+| Store | tooted, ostukorv ja checkout tulemus | Stripe |
+| Calendar | operatiivne ajakava ja meeldetuletused | Supabase/Resend |
 
-<h2 id="security">Turvalisus</h2>
+## Integratsioonide reeglid
 
-Supabase service role votmed, Stripe secretid ja Resend API key'd peavad jaama serverisse. Avalikud lehed tohivad naidata ainult kliendile lubatud seadeid ja meediat.
+Saladused jäävad serverisse. Mooduli vaade võib näidata, kas integratsioon on seadistatud, aga ei tohi kunagi paljastada salajasi väärtusi.
 
-<h2 id="credit-usage">Krediitide kasutus</h2>
+- Supabase service role võti jääb serverisse.
+- Resend API key jääb serverisse.
+- Stripe secret key ja webhook secret jäävad serverisse.
+- OpenAI API key jääb serverisse.
+- Avalik tenant leht saab ainult renderdamiseks vajalikke turvalisi välju.
 
-Krediite kasutatakse ainult sisuliste vaartus-sundmuste jaoks. Seadistamine ja sisu muutmine on tasuta.
+## Krediidid ja maksed
 
-<h3 id="credit-usage-email">Email</h3>
+Krediite kasutatakse ainult sisuliste väärtussündmuste jaoks:
 
-Emaili saatmine kasutab 1 krediidi iga kohale toimetatud saaja kohta. Template'ide, komponentide, manuste, payload andmete ja audience liikmete muutmine on tasuta.
+- Email: 1 krediit iga kohale jõudnud saaja kohta.
+- Booking: reserveeri kinnitamisel, kasuta lõpetamisel.
+- Rent: reserveeri heakskiidul, kasuta lõpetamisel.
+- Store: kasuta pärast edukat Stripe makset.
+- Pages: päevased krediidid aktiivsete avalike lehtede eest.
+- Workspace: päevased krediidid aktiivse workspace ligipääsu eest.
 
-<h3 id="credit-usage-booking">Booking</h3>
+Mallide muutmine, sisu muutmine, moodulite seadistamine ja eelvaated ei peaks krediite kasutama.
 
-Booking reserveerib krediidid, kui paring vastu voetakse. Edukalt lopetatud booking kasutab krediite umardatud tundide jargi, kui algus ja lopp on teada. Kui lopp puudub, kasutatakse 1 krediit. Tühistatud booking vabastab reserveeritud krediidid.
+## Klienditegevused
 
-<h3 id="credit-usage-rent">Rent</h3>
+E-kirjad võivad sisaldada klienditegevuste linke. Need lingid peavad olema piiratud ja turvalised:
 
-Rent reserveerib krediidid, kui paring kinnitatakse. Kogus soltub rendiperioodist. Edukas lopetamine kasutab reserveeritud krediidid. Tühistatud voi tagasi lükatud paring krediite ei kasuta.
+- booking tühistamine;
+- rendipäringu tühistamine;
+- audience listist lahkumine;
+- staatuse vaade, mis ei kuva privaatset workspace sisu.
 
-<h3 id="credit-usage-store">Store</h3>
+## Operatiivne KKK
 
-Store kasutab 1 krediidi iga ostetud ostukorvi rea kohta peale edukat Stripe makset. Toodete vaatamine, Stripe seadete muutmine ja tootekardi kujunduse muutmine krediite ei kasuta.
+### Miks moodul näitab setup olekut?
 
-<h3 id="credit-usage-pages">Avalikud lehed</h3>
+Moodul on lubatud, aga üks või mitu vajalikku seadet on puudu. UI peab selgitama, mis samm on puudu, mitte vaikides katki minema.
 
-Avalikud lehed kasutavad iga aktiivse avaliku lehe kohta paevaseid krediite, sest need hoiavad kliendile nahtavat sisu uleval. Lehtede ja redirectide loomine, muutmine ja valja lulitamine on tasuta.
+### Miks tasuline tegevus pausile läks?
 
-<h3 id="credit-usage-workspace">Workspace ligipaas</h3>
+Krediidid võivad olla otsas, makse staatus võib olla sünkroonimata või Stripe webhook võib olla ebaõnnestunud. Kontrolli Workspace krediite, arve staatust ja logisid.
 
-Iga aktiivne workspace kasutab 1 krediidi paevas. Kui krediidid saavad otsa, pausitakse tasulised avalikud tegevused kuni krediite lisatakse.
+### Kas staff saab kasutada samu mooduleid kui tenant?
 
-<h2 id="compliance">Compliance valmisolek</h2>
+Jah. Jagatud moodulid tuleks kohandada props/data piiride kaudu, mitte dubleerida. Tenant UI peab jääma oma senise UX-iga, admin/workspace vaade võib kasutada tugevamat sama mooduli loogikat.
 
-Portaal on ehitatud GDPR teadliku andmeminimeerimise, serveripoolsete saladuste, auditit toetavate logide, WCAG kontrasti kontrollide ja least-privilege ligipaasu peale. ISO 27001, SOC 2 Type II ja HIPAA eeldavad lisaks organisatsiooni poliitikaid, lepinguid, riskiregistreid ja valiseid auditeid.
+### Mis kuulub logidesse?
+
+Integratsiooni vead, krediidi reserveerimine/kasutamine/tagastus, klienditegevused, e-kirjade saatmine, booking/rent staatuse muutused ja ootamatud serveri vead. Saladusi ei logita.
+
+## Compliance valmisolek
+
+Portaal on ehitatud andmeminimeerimise, serveripoolsete saladuste, auditit toetavate logide, WCAG-kontrasti kontrollide ja least-privilege ligipääsu ümber. ISO 27001, SOC 2 Type II või HIPAA väited nõuavad lisaks organisatsiooni poliitikaid, lepinguid, riskiregistreid ja väliseid auditeid.

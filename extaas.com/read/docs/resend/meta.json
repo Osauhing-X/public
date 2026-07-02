@@ -1,21 +1,20 @@
-﻿{
-    "layout":  "info",
-    "group":  "docs",
-    "tags":  ["integration", "resend", "email"],
-    "meta_only":  true,
-    "sitemap":  {
-                    "lastmod":  "2026-07-01",
-                    "priority":  0.4,
-                    "changefreq":  "monthly"
-                },
-    "seo":  {
-                "en":  {
-                           "title":  "Resend",
-                           "description":  "Resend email integration documentation branch."
-                       },
-                "et":  {
-                           "title":  "Resend",
-                           "description":  "Resend e-posti integratsiooni dokumentatsiooni haru."
-                       }
-            }
+{
+  "layout": "info",
+  "group": "docs",
+  "tags": ["integration", "resend", "email", "templates", "notifications"],
+  "sitemap": {
+    "lastmod": "2026-07-02",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Resend",
+      "description": "Resend setup guide for workspace email, campaigns, module notifications, templates, delivery logs and credit usage."
+    },
+    "et": {
+      "title": "Resend",
+      "description": "Resendi seadistuse juhend workspace e-kirjade, kampaaniate, moodulite teavituste, mallide, logide ja krediidikasutuse jaoks."
+    }
+  }
 }

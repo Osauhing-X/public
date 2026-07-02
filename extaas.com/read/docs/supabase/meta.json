@@ -1,21 +1,20 @@
-﻿{
-    "layout":  "info",
-    "group":  "docs",
-    "tags":  ["integration", "supabase", "database"],
-    "meta_only":  true,
-    "sitemap":  {
-                    "lastmod":  "2026-07-01",
-                    "priority":  0.4,
-                    "changefreq":  "monthly"
-                },
-    "seo":  {
-                "en":  {
-                           "title":  "Supabase",
-                           "description":  "Supabase setup and tenant database documentation branch."
-                       },
-                "et":  {
-                           "title":  "Supabase",
-                           "description":  "Supabase seadistuse ja tenant andmebaasi dokumentatsiooni haru."
-                       }
-            }
+{
+  "layout": "info",
+  "group": "docs",
+  "tags": ["integration", "supabase", "database", "security", "tenant"],
+  "sitemap": {
+    "lastmod": "2026-07-02",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Supabase",
+      "description": "Supabase data boundary, tenant storage, logging, server-side security and service-role-only SQL helper documentation."
+    },
+    "et": {
+      "title": "Supabase",
+      "description": "Supabase andmepiir, tenant storage, logimine, serveripoolne turvalisus ja ainult service role jaoks mõeldud SQL helper."
+    }
+  }
 }

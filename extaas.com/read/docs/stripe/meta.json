@@ -1,21 +1,20 @@
-﻿{
-    "layout":  "info",
-    "group":  "docs",
-    "tags":  ["integration", "stripe", "billing"],
-    "meta_only":  true,
-    "sitemap":  {
-                    "lastmod":  "2026-07-01",
-                    "priority":  0.4,
-                    "changefreq":  "monthly"
-                },
-    "seo":  {
-                "en":  {
-                           "title":  "Stripe",
-                           "description":  "Stripe billing and terminal documentation branch."
-                       },
-                "et":  {
-                           "title":  "Stripe",
-                           "description":  "Stripe arvelduse ja terminali dokumentatsiooni haru."
-                       }
-            }
+{
+  "layout": "info",
+  "group": "docs",
+  "tags": ["integration", "stripe", "billing", "credits", "terminal"],
+  "sitemap": {
+    "lastmod": "2026-07-02",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Stripe",
+      "description": "Stripe billing guide for public payment entry screens, workspace invoice state, credits, webhooks and future Terminal payments."
+    },
+    "et": {
+      "title": "Stripe",
+      "description": "Stripe arvelduse juhend avalike makse algvaadete, Workspace arve oleku, krediitide, webhookide ja tuleviku Terminal maksete jaoks."
+    }
+  }
 }

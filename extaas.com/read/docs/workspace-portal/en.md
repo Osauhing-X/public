@@ -1,67 +1,111 @@
 # Workspace Portal Documentation
 
-Operational documentation for workspace.extaas.com customers and staff. The workspace portal keeps public pages, audience, email, booking, rent, store, calendar and credits in one place while tenant DNS pages remain customer-facing.
+Operational documentation for `workspace.extaas.com` customers and staff. Workspace is the private portal for tenant modules, integrations, projects, invoices, credits and customer operations while tenant DNS pages remain public customer-facing surfaces.
 
-<h2 id="overview">Overview</h2>
+<figure>
+  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace and tenant flow">
+  <figcaption>Extaas separates the public main domain, private workspace and tenant DNS surface.</figcaption>
+</figure>
 
-Extaas Workspace is the business portal for tenant modules, integrations and operational work. Customers should use workspace.extaas.com for account data, project content, invoices and private module settings.
+## Overview
 
-<h2 id="dns">DNS and Domains</h2>
+Workspace is the control surface. It should answer four questions:
 
-Point the customer domain or subdomain to the deployed tenant application. The same host must exist in the platform workspace record so the app can resolve the correct tenant workspace.
+1. Who owns this portal?
+2. Which tenant domains belong to it?
+3. Which modules are enabled?
+4. Which integrations and credits are required for those modules to work?
 
-<h2 id="supabase">Supabase</h2>
+The public `extaas.com` site should not become an account dashboard. It can show documentation, marketing, public legal content and payment entry screens. Private data belongs in Workspace.
 
-Supabase stores module settings, private bookings, rental requests, public pages media, calendar reminders and logs. Service role credentials stay server-side.
+## Workspace areas
 
-<h2 id="resend">Resend</h2>
+| Area | Purpose | Public? |
+| --- | --- | --- |
+| Account | User identity, sign-in and access | No |
+| Projects | Customer work, delivery notes and linked services | No |
+| Invoices | Invoice details, rows, payment status and receipts | No |
+| Tenant portals | DNS routes, modules, public tenant settings | Partly |
+| Integrations | Supabase, Resend, Stripe, OpenAI and module credentials | No |
+| Credits | Balance, usage logs, top-up and refunds | No |
+| Public Pages | Customer-facing content and media | Yes, only when enabled |
 
-Resend powers campaigns, customer status emails and module notifications. Configure API key, sender name and sender email before using booking or rent email flows.
+## DNS and tenant routing
 
-<h2 id="stripe">Stripe</h2>
+Every tenant domain must be represented in Workspace. The resolving logic should receive a host, find the matching workspace/tenant record and then render only that tenant's public data.
 
-Stripe handles paid checkout flows and must stay synchronized with payment status. Workspace staff can reconcile payment state from the workspace side; public extaas.com payment links should only show the amount due and sign-in guidance.
+Checklist:
 
-<h2 id="modules">Modules</h2>
+- The DNS record points to the tenant app.
+- The same host exists in the workspace DNS route data.
+- The route has a clear mode: tenant, public/self or internal workspace.
+- Unknown domains do not leak another tenant's content.
+- Localhost development can bypass the info screen only for developer convenience.
 
-Pages controls public identity and content. Audience manages contacts. Email sends messages. Booking handles sessions. Rent handles listings. Store handles checkout. Calendar shows active operations.
+## Modules
 
-<h2 id="customer-actions">Customer Actions</h2>
+Modules should be reusable between tenant workspace and internal admin views where possible. Shared module logic avoids building the same tool twice.
 
-Confirmation and status emails include self-service links where customers can cancel bookings, cancel rent requests or unsubscribe from audience emails.
+| Module | What it manages | Key integration |
+| --- | --- | --- |
+| Pages | Public content, media, redirects and page visibility | Supabase/media |
+| Audience | Contacts, unsubscribe state and email segments | Supabase/Resend |
+| Email | Campaigns, templates, components and attachments | Resend/OpenAI |
+| Booking | Services, requests, status emails and calendar actions | Supabase/Resend |
+| Rent | Rental items, requests, approvals and customer actions | Supabase/Resend |
+| Store | Products, cart items and checkout result handling | Stripe |
+| Calendar | Operational schedule and reminders | Supabase/Resend |
 
-<h2 id="security">Security Notes</h2>
+## Integration rules
 
-Keep Supabase service role keys, Stripe secrets and Resend API keys server-side. Public pages must only expose enabled customer-facing settings and media.
+Keep secrets server-side. A module page may show whether an integration is configured, but it should never expose secret values.
 
-<h2 id="credit-usage">Credit Usage</h2>
+- Supabase service role keys stay on the server.
+- Resend API keys stay on the server.
+- Stripe secret keys and webhook secrets stay on the server.
+- OpenAI API keys stay on the server.
+- Public tenant pages may receive only the safe, selected fields needed for rendering.
 
-Credits are charged only for meaningful value events. Setup and content editing stay free.
+## Credits and payment
 
-<h3 id="credit-usage-email">Email</h3>
+Credits should be charged only for meaningful value events:
 
-Email sending uses 1 credit per delivered recipient. Editing templates, components, attachments, payload data and audience membership is free.
+- Email: 1 credit per delivered recipient.
+- Booking: reserve when accepted, capture when completed.
+- Rent: reserve when approved, capture when completed.
+- Store: capture after successful Stripe payment.
+- Pages: daily credits for enabled public pages.
+- Workspace: daily credits for active workspace access.
 
-<h3 id="credit-usage-booking">Booking</h3>
+Editing templates, changing content, configuring modules and previewing data should not consume credits.
 
-Booking reserves credits when a request is accepted. Completed bookings capture credits by rounded booking hours when start and end are known. If the end time is missing, 1 credit is captured. Canceled bookings release reserved credits.
+## Customer actions
 
-<h3 id="credit-usage-rent">Rent</h3>
+Emails can include customer action links. These links should be scoped, limited and safe:
 
-Rent reserves credits when a request is approved. The amount follows the requested rental period. Successful completion captures the reserved credits. Canceled or declined requests do not capture credits.
+- Cancel a booking.
+- Cancel a rent request.
+- Unsubscribe from audience emails.
+- View a status page that does not expose private workspace data.
 
-<h3 id="credit-usage-store">Store</h3>
+## Operational FAQ
 
-Store captures 1 credit per purchased cart item after a successful Stripe payment. Browsing products, editing Stripe settings and changing product card design does not use credits.
+### Why does a module show a setup state?
 
-<h3 id="credit-usage-pages">Public pages</h3>
+The module is enabled but one or more required settings are missing. The UI should explain the missing step instead of failing silently.
 
-Public pages use daily credits for each enabled public page because they keep customer-facing content available on the landing site. Creating, editing, disabling pages and redirects is free.
+### Why does a paid action pause?
 
-<h3 id="credit-usage-workspace">Workspace access</h3>
+Credits may be empty, the payment state may not be synchronized or Stripe webhook processing may have failed. Check Workspace credits, invoice status and logs.
 
-Each active workspace uses 1 credit per day. If credits reach zero, paid public actions pause until credits are added again.
+### Can staff use the same modules as tenants?
 
-<h2 id="compliance">Compliance Readiness</h2>
+Yes. Shared modules should be adapted through props/data boundaries instead of duplicated. Tenant UI should keep its current UX, while admin/workspace views can reuse the stronger module logic.
 
-The portal is built with GDPR-aware data minimisation, server-side secret handling, audit-friendly logs, WCAG-oriented contrast checks and least-privilege access flows. ISO 27001, SOC 2 Type II and HIPAA require organisational policies, vendor contracts, risk registers and external audits before they can be claimed.
+### What belongs in logs?
+
+Store integration errors, credit reservations/captures, customer actions, email sends, booking/rent status changes and unexpected server failures. Do not log secrets.
+
+## Compliance readiness
+
+The portal is designed around data minimisation, server-side secret handling, audit-friendly logs, WCAG-oriented contrast checks and least-privilege access. Formal ISO 27001, SOC 2 Type II or HIPAA claims still require organisational policies, contracts, risk registers and external audits.

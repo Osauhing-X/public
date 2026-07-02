@@ -1,21 +1,20 @@
-﻿{
-    "layout":  "info",
-    "group":  "docs",
-    "tags":  ["tenant", "landing-page", "workspace"],
-    "meta_only":  true,
-    "sitemap":  {
-                    "lastmod":  "2026-07-01",
-                    "priority":  0.4,
-                    "changefreq":  "monthly"
-                },
-    "seo":  {
-                "en":  {
-                           "title":  "Landing page",
-                           "description":  "Tenant landing page documentation branch."
-                       },
-                "et":  {
-                           "title":  "Avaleht",
-                           "description":  "Tenant avalehe dokumentatsiooni haru."
-                       }
-            }
+{
+  "layout": "info",
+  "group": "docs",
+  "tags": ["tenant", "landing-page", "workspace", "public", "modules"],
+  "sitemap": {
+    "lastmod": "2026-07-02",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Tenant landing page",
+      "description": "Guide for tenant public landing pages, visible modules, public content boundaries, workspace redirects and responsive section structure."
+    },
+    "et": {
+      "title": "Tenant avaleht",
+      "description": "Juhend tenant avalehtede, nähtavate moodulite, avaliku sisu piiride, Workspace suunamiste ja responsive sektsioonistruktuuri jaoks."
+    }
+  }
 }
