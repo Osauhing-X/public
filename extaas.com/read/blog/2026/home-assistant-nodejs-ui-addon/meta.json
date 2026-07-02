@@ -1,4 +1,4 @@
-﻿{
+{
     "layout": "blog",
 
     "sitemap":  {
@@ -22,7 +22,7 @@
       },
       "et": {
         "title": "Home Assistnt - Nodejs Server Addon",
-        "description": "KÃ¤ivita tÃ¤isvÃ¤Ã¤rtuslik Node.js server otse Home Assistanti sees. Loo ja halda backend-e, API-sid, bote ning automatiseerimisloogikat Ã¼hes kohas, tihedalt integreerituna Home Assistantiga.",
+        "description": "Käivita täisväärtuslik Node.js server otse Home Assistanti sees. Loo ja halda backend-e, API-sid, bote ning automatiseerimisloogikat ühes kohas, tihedalt integreerituna Home Assistantiga.",
         "keywords": "Home Assistant addon, Node.js server, Home Assistant Nodejs, backend arendus, API server, automatiseerimise backend, Home Assistant arendus, self-hosted server, JavaScript backend, Home Assistant integratsioon, serveri addon"
       }
     }

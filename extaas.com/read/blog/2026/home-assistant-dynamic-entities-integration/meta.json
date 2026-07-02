@@ -1,4 +1,4 @@
-﻿{
+{
     "layout": "blog",
 
     "sitemap":  {
@@ -21,9 +21,9 @@
         "keywords": "Home Assistant, Home Assistant integration, dynamic entities, custom entities, Home Assistant API, real-time data integration, external services, automation platform, API integration, event tracking, smart home automation, custom component"
       },
       "et": {
-        "title": "Home Assistnt - DÃ¼naamiliste Ã¼ksuste integratsioon",
-        "description": "Paindlik Home Assistant integratsioon, mis vÃµimaldab sinu koodil, API-del ja vÃ¤listel teenustel luua ja uuendada dÃ¼naamilisi Ã¼ksusi. JÃ¤lgi, halda ja automatiseeri reaalajas andmete pÃµhjal pea kÃµiki sÃ¼steeme.",
-        "keywords": "Home Assistant, Home Assistant integratsioon, dÃ¼naamilised Ã¼ksused, custom entity, Home Assistant API, reaalaja andmete integratsioon, vÃ¤lised teenused, automatiseerimine, API integratsioon, sÃ¼ndmuste jÃ¤lgimine, nutikodu lahendused, custom component"
+        "title": "Home Assistnt - Dünaamiliste üksuste integratsioon",
+        "description": "Paindlik Home Assistant integratsioon, mis võimaldab sinu koodil, API-del ja välistel teenustel luua ja uuendada dünaamilisi üksusi. Jälgi, halda ja automatiseeri reaalajas andmete põhjal pea kõiki süsteeme.",
+        "keywords": "Home Assistant, Home Assistant integratsioon, dünaamilised üksused, custom entity, Home Assistant API, reaalaja andmete integratsioon, välised teenused, automatiseerimine, API integratsioon, sündmuste jälgimine, nutikodu lahendused, custom component"
       }
     }
 }

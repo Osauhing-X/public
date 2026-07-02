@@ -1,4 +1,4 @@
-﻿# Node.js Server Add-on for Home Assistant â€“ an extendable runtime for your automation stack
+# Node.js Server Add-on for Home Assistant – an extendable runtime for your automation stack
 
 <section>
   <h2>Introduction</h2>
@@ -90,7 +90,7 @@
   </p>
 
   <p>
-    Code updates become simple â€” pull from GitHub and apply changes immediately.
+    Code updates become simple — pull from GitHub and apply changes immediately.
   </p>
 
   <p>
@@ -102,7 +102,7 @@
   <h2>Node.js as a Home Assistant extension layer</h2>
 
   <p>
-    Node.js is not just a backend runtime in this setup â€” it becomes a logic and data layer
+    Node.js is not just a backend runtime in this setup — it becomes a logic and data layer
     that can influence the behavior of the entire Home Assistant system.
   </p>
 
@@ -116,7 +116,7 @@
   <h2>Optional extension: dynamic Home Assistant integrations</h2>
 
   <p>
-    The Node.js Server Add-on can also be used together with our second public project â€”
+    The Node.js Server Add-on can also be used together with our second public project —
     the Home Assistant Dynamic Entities integration.
   </p>
 
@@ -127,10 +127,10 @@
   </p>
 
   <p>
-    ðŸ‘‰ <a href="https://github.com/Osauhing-X/home-assistant/blob/main/plugins/osayhing_x/README.md">
+    👉 <a href="https://github.com/Osauhing-X/home-assistant/blob/main/plugins/osayhing_x/README.md">
       Dynamic HA integration (repo / demo)
     </a><br/>
-    ðŸ‘‰ <a href="https://extaas.com/@/read/blog/2026/home-assistant-dynamic-entities-integration">
+    👉 <a href="https://extaas.com/@/read/blog/2026/home-assistant-dynamic-entities-integration">
       Dynamic Entities integration (architecture and concept)
     </a>
   </p>
@@ -145,7 +145,7 @@
   <h2>What makes this practical?</h2>
 
   <p>
-    The strength comes from flexibility and speed â€” turning ideas into working systems without extra integration work.
+    The strength comes from flexibility and speed — turning ideas into working systems without extra integration work.
   </p>
 
   <ul>
@@ -186,7 +186,7 @@
   <p>
     <strong>Repo:</strong>
     <a href="https://github.com/Osauhing-X/home-assistant">
-      GitHub â€“ Home Assistant (add-ons and integrations)
+      GitHub – Home Assistant (add-ons and integrations)
     </a>
   </p>
 </section>

@@ -1,4 +1,4 @@
-﻿# Home Assistant Dynamic Entities â€“ a simple way to connect Node.js services with Home Assistant
+# Home Assistant Dynamic Entities – a simple way to connect Node.js services with Home Assistant
 
 <section>
   <h2>Introduction</h2>
@@ -14,7 +14,7 @@
   </p>
 
   <p>
-    In practice, Home Assistant becomes more than an automation hub â€” it turns into a live system layer where external services can plug in and stream real-time data.
+    In practice, Home Assistant becomes more than an automation hub — it turns into a live system layer where external services can plug in and stream real-time data.
   </p>
 </section>
 
@@ -49,7 +49,7 @@
   </p>
 
   <p>
-    Communication is fully bidirectional â€” Node pushes state updates to Home Assistant,
+    Communication is fully bidirectional — Node pushes state updates to Home Assistant,
     while Home Assistant sends user interactions back to the Node application.
   </p>
 </section>
@@ -76,8 +76,8 @@
   <h2>When is this useful?</h2>
 
   <p>
-    This approach is designed for situations where you already have Node.js services running â€”
-    such as sensors, APIs, automation backends, or custom processing pipelines â€”
+    This approach is designed for situations where you already have Node.js services running —
+    such as sensors, APIs, automation backends, or custom processing pipelines —
     and you want to expose them to Home Assistant without building a new integration each time.
   </p>
 
@@ -100,11 +100,11 @@
   </p>
 
   <p>
-    This creates a simple stack: Home Assistant + Node backend + dynamic entity layer â€” all in one place.
+    This creates a simple stack: Home Assistant + Node backend + dynamic entity layer — all in one place.
   </p>
 
   <p>
-    ðŸ‘‰ <a href="https://extaas.com/@/read/blog/2026/home-assistant-nodejs-ui-addon">
+    👉 <a href="https://extaas.com/@/read/blog/2026/home-assistant-nodejs-ui-addon">
       Node.js Server Add-on for Home Assistant
     </a>
   </p>

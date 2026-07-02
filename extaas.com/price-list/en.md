@@ -1,5 +1,5 @@
 ﻿# Price List
-This price list outlines the hourly rates for the services offered. All prices are listed in euros (â‚¬).
+This price list outlines the hourly rates for the services offered. All prices are listed in euros (?).
 
 ## Hourly Rates (per hour)
 <div overflow>
@@ -7,29 +7,29 @@ This price list outlines the hourly rates for the services offered. All prices a
     <thead>
       <tr>
         <th class="left">Service</th>
-        <th class="center">Price (â‚¬)</th>
+        <th class="center">Price (?)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Web Development (Svelte)</td>
-        <td class="center">28.10 â‚¬</td>
+        <td class="center">28.10 ?</td>
       </tr>
       <tr>
         <td>Custom Software Solutions (other software development, not web development)</td>
-        <td class="center">37.46 â‚¬</td>
+        <td class="center">37.46 ?</td>
       </tr>
       <tr>
-        <td>CMS (WordPress â€“ maintenance, management, development, updates, etc.)</td>
-        <td class="center">18.73 â‚¬</td>
+        <td>CMS (WordPress ? maintenance, management, development, updates, etc.)</td>
+        <td class="center">18.73 ?</td>
       </tr>
       <tr>
         <td>IT Support</td>
-        <td class="center">18.73 â‚¬</td>
+        <td class="center">18.73 ?</td>
       </tr>
       <tr>
         <td>Connecting / Setting Up the Device (getting a device fully operational)</td>
-        <td class="center">24.35 â‚¬</td>
+        <td class="center">24.35 ?</td>
       </tr>
     </tbody>
   </table>
@@ -50,10 +50,10 @@ A specialist or company with the appropriate competence must be ordered separate
 As an additional service, it is possible to order monthly website code and content maintenance and minor changes.
 
 The maintenance service is divided into two categories:
-- Ongoing maintenance (tailor-made solutions) â€“ applies only to custom web applications developed by us from start to finish (including Svelte / SvelteKit solutions).
-- Regular maintenance (CMS solutions) â€“ applies to CMS-based websites (e.g. WordPress), regardless of the original developer, by agreement and after review.
+- Ongoing maintenance (tailor-made solutions) ? applies only to custom web applications developed by us from start to finish (including Svelte / SvelteKit solutions).
+- Regular maintenance (CMS solutions) ? applies to CMS-based websites (e.g. WordPress), regardless of the original developer, by agreement and after review.
 
-Approximate price: â‚¬100 per month (the exact price depends on the project size and needs).
+Approximate price: ?100 per month (the exact price depends on the project size and needs).
 
 <div overflow>
   <table>
@@ -93,9 +93,9 @@ Clients will be informed in advance if such additional costs may occur, before s
 ***
 
 ## Requesting a Custom Quote
-Clients always have the option to submit their own quote â€“ meaning they can propose a price they are willing to pay for the service.  
+Clients always have the option to submit their own quote ? meaning they can propose a price they are willing to pay for the service.  
 
-For larger or ongoing projects, we recommend submitting a fixed-price quote. This provides complete clarity and certainty â€“ you know exactly what the service will cost, without unexpected expenses.  
+For larger or ongoing projects, we recommend submitting a fixed-price quote. This provides complete clarity and certainty ? you know exactly what the service will cost, without unexpected expenses.  
 
 It also allows you to plan your budget calmly and receive a solution that fully meets your expectations. When submitting a quote, it is important to clearly outline the scope of the work.  
 
