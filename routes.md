@@ -7,4 +7,4 @@ https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com
 
 ---
 
-<svg><use href="https://extaas.com/ui_resources/flags.svg#{language}" /></svg>
+<svg><use href="https://extaas.com/icons/flags.svg#{language}" /></svg>
