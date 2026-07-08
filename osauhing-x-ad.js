@@ -1,280 +1,365 @@
 /**
- * Osaühing X reklaamiskript
+ * Osaühing X / Extaas™ Embed
  *
- * Kasutamine kliendi lehel:
+ * Kasutamine:
  *
  * <script
- *   src="https://raw.githubusercontent.com/Osauhing-X/public/www/osauhing-x-ad.js"
+ *   src="https://cdn.jsdelivr.net/gh/Osauhing-X/public@www/osauhing-x-ad.js"
  *   data-size="auto"
- *   data-lang="et"
- *   data-position="inline">
+ *   data-reason="ad"
+ *   data-position="fixed-bottom-right"
+ *   data-lang="en">
  * </script>
  *
- * Valikud:
- * data-size="auto | large | medium | small | badge"
- * data-lang="et | en"
- * data-position="inline | fixed-bottom-right"
+ * Seaded:
+ * data-size     : auto | big | middle | small        (vaikimisi: auto)
+ * data-reason   : ad | web_development               (vaikimisi: ad)
+ * data-position : inline | fixed-bottom-right        (vaikimisi: fixed-bottom-right)
+ * data-lang     : en | et                            (vaikimisi: en)
+ *
+ * Kui data-size="auto", valitakse sobiv suurus automaatselt
+ * vastavalt saadaolevale ruumile.
  */
 
 (() => {
-  const SCRIPT = document.currentScript;
+  const script = document.currentScript;
 
-  const CONFIG = {
-    size: SCRIPT?.dataset.size || "auto",
-    lang: SCRIPT?.dataset.lang || document.documentElement.lang || "et",
-    position: SCRIPT?.dataset.position || "inline",
-    targetBaseUrl: "https://extaas.com/@",
-    brand: "Osaühing X",
+  const config = {
+    size: script?.dataset.size || "auto",
+    reason: script?.dataset.reason || "ad",
+    position: script?.dataset.positsion || script?.dataset.position || "fixed-bottom-right",
+    lang: script?.dataset.lang || "en",
   };
+
+  const allowedSizes = ["auto", "big", "middle", "small"];
+  const allowedReasons = ["web_development", "ad"];
+  const allowedPositions = ["inline", "fixed-bottom-right"];
+  const allowedLangs = ["en", "et"];
+
+  config.size = allowedSizes.includes(config.size) ? config.size : "auto";
+  config.reason = allowedReasons.includes(config.reason) ? config.reason : "ad";
+  config.position = allowedPositions.includes(config.position) ? config.position : "fixed-bottom-right";
+  config.lang = allowedLangs.includes(config.lang) ? config.lang : "en";
 
   const i18n = {
     et: {
-      title: "Kaasaegne veebiarendus sinu ettevõttele",
-      subtitle: "Kiired, ilusad ja töökindlad veebilahendused.",
-      cta: "Vaata lähemalt",
-      small: "Arenduse tegija Osaühing X",
-      badge: "Veebiarendus: Osaühing X",
+      web_development: {
+        title: "Veebiarendus, mis töötab",
+        subtitle: "Kiired, kaasaegsed ja skaleeruvad veebilahendused.",
+        cta: "Vaata lähemalt",
+        small: "Arendas Osaühing X",
+      },
+      ad: {
+        title: "Kasvata nähtavust Extaas™ abil",
+        subtitle: "Lihtne ja kaasaegne reklaamilahendus sinu ettevõttele.",
+        cta: "Ava Extaas",
+        small: "Osaühing X - Extaas™",
+      },
     },
     en: {
-      title: "Modern web development for your business",
-      subtitle: "Fast, elegant and reliable web solutions.",
-      cta: "Learn more",
-      small: "Developed by Osaühing X",
-      badge: "Web development: Osaühing X",
+      web_development: {
+        title: "Web development that works",
+        subtitle: "Fast, modern and scalable web solutions.",
+        cta: "Learn more",
+        small: "Developed by Osaühing X",
+      },
+      ad: {
+        title: "Grow your visibility with Extaas™",
+        subtitle: "A simple and modern advertising solution for your business.",
+        cta: "Open Extaas",
+        small: "Osaühing X - Extaas™",
+      },
     },
   };
 
-  const lang = i18n[CONFIG.lang] ? CONFIG.lang : "et";
-  const text = i18n[lang];
+  const text = i18n[config.lang][config.reason];
 
-  const sourceDomain = window.location.hostname;
-  const targetUrl = `${CONFIG.targetBaseUrl}?www=${encodeURIComponent(sourceDomain)}`;
+  const source = encodeURIComponent(window.location.hostname || window.location.href);
+  const href = `https://extaas.com/@?www=${source}`;
 
-  const style = document.createElement("style");
-  style.textContent = `
-    .ox-ad {
-      box-sizing: border-box;
-      container-type: inline-size;
-      width: 100%;
-      max-width: 920px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
+  const logo = "https://extaas.com/corporate_visual_identity/logo.png";
+  const name = "https://extaas.com/corporate_visual_identity/name.png";
 
-    .ox-ad *,
-    .ox-ad *::before,
-    .ox-ad *::after {
-      box-sizing: border-box;
-    }
+  if (!document.querySelector('link[data-ox-cvi]')) {
+    const cvi = document.createElement("link");
+    cvi.rel = "stylesheet";
+    cvi.href = "https://extaas.com/corporate_visual_identity/style.css";
+    cvi.dataset.oxCvi = "true";
+    document.head.appendChild(cvi);
+  }
 
-    .ox-ad-link {
-      display: block;
-      text-decoration: none;
-      color: inherit;
-    }
+  if (!document.querySelector("style[data-ox-ad-style]")) {
+    const style = document.createElement("style");
+    style.dataset.oxAdStyle = "true";
 
-    .ox-ad-card {
-      position: relative;
-      overflow: hidden;
-      border-radius: 22px;
-      padding: 32px;
-      min-height: 220px;
-      border: 1px solid light-dark(rgba(0,0,0,.12), rgba(255,255,255,.16));
-      background:
-        radial-gradient(circle at top right, light-dark(rgba(60,110,255,.22), rgba(120,160,255,.28)), transparent 34%),
-        linear-gradient(135deg, light-dark(#ffffff, #15171d), light-dark(#f3f5f9, #222633));
-      color: light-dark(#12141a, #f6f7fb);
-      box-shadow: 0 18px 42px light-dark(rgba(20,30,50,.14), rgba(0,0,0,.36));
-      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-    }
+    style.textContent = `
+      .ox-ad {
+        --current: light-dark(#fff, #000);
+        --current_40: color-mix(in oklab, var(--current), #0000 40%);
 
-    .ox-ad-link:hover .ox-ad-card {
-      transform: translateY(-2px);
-      box-shadow: 0 22px 54px light-dark(rgba(20,30,50,.2), rgba(0,0,0,.5));
-      border-color: light-dark(rgba(60,110,255,.32), rgba(150,180,255,.4));
-    }
+        --reverse: light-dark(#000, #fff);
+        --reverse_80: color-mix(in oklab, var(--reverse), #0000 80%);
+        --reverse_40: color-mix(in oklab, var(--reverse), #0000 40%);
+        --reverse_20: color-mix(in oklab, var(--reverse), #0000 20%);
 
-    .ox-ad-brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 20px;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: .04em;
-      text-transform: uppercase;
-      opacity: .78;
-    }
+        --x_brand: #da3;
+        --x_color: var(--color_override, var(--x_brand));
+        --x_color_transparent: color-mix(in oklab, var(--x_color), #0000 80%);
 
-    .ox-ad-logo {
-      width: 28px;
-      height: 28px;
-      border-radius: 9px;
-      display: inline-grid;
-      place-items: center;
-      background: light-dark(#12141a, #f6f7fb);
-      color: light-dark(#ffffff, #12141a);
-      font-size: 13px;
-      font-weight: 800;
-    }
+        --x_outer_background: var(--current_40);
+        --x_inner_background: var(--current);
+        --x_border_color: light-dark(#eee, #222);
+        --x_heading_color: var(--reverse);
+        --x_text_color: var(--reverse_40);
+        --x_muted_color: var(--reverse_80);
 
-    .ox-ad-title {
-      max-width: 620px;
-      margin: 0 0 10px;
-      font-size: clamp(26px, 5cqi, 48px);
-      line-height: 1.02;
-      letter-spacing: -0.04em;
-      font-weight: 850;
-    }
+        box-sizing: border-box;
+        container-type: inline-size;
+        width: 100%;
+        max-width: 860px;
+        color-scheme: light dark;
+        font-family: modern_sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
 
-    .ox-ad-subtitle {
-      max-width: 520px;
-      margin: 0 0 24px;
-      font-size: clamp(15px, 2.2cqi, 19px);
-      line-height: 1.45;
-      opacity: .76;
-    }
+      .ox-ad *,
+      .ox-ad *::before,
+      .ox-ad *::after {
+        box-sizing: border-box;
+      }
 
-    .ox-ad-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      min-height: 42px;
-      padding: 0 16px;
-      border-radius: 999px;
-      background: light-dark(#12141a, #f6f7fb);
-      color: light-dark(#ffffff, #12141a);
-      font-size: 14px;
-      font-weight: 750;
-    }
+      .ox-ad--fixed {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 2147483000;
+        width: min(420px, calc(100vw - 36px));
+      }
 
-    .ox-ad-cta::after {
-      content: "→";
-      transition: transform .18s ease;
-    }
+      .ox-ad__link {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+      }
 
-    .ox-ad-link:hover .ox-ad-cta::after {
-      transform: translateX(3px);
-    }
+      .ox-ad__card {
+        position: relative;
+        overflow: hidden;
+        min-height: 210px;
+        padding: 30px;
+        border: 1px solid var(--x_border_color);
+        border-radius: 24px;
+        background:
+          radial-gradient(circle at top right, var(--x_color_transparent), transparent 36%),
+          linear-gradient(135deg, var(--x_inner_background), var(--x_outer_background));
+        color: var(--x_heading_color);
+        box-shadow: 0 18px 46px light-dark(rgba(0,0,0,.14), rgba(0,0,0,.42));
+        transition:
+          transform .18s ease,
+          box-shadow .18s ease,
+          border-color .18s ease,
+          filter .18s ease;
+      }
 
-    .ox-ad-decoration {
-      position: absolute;
-      right: 28px;
-      bottom: 24px;
-      width: 120px;
-      height: 120px;
-      border-radius: 32px;
-      border: 1px solid light-dark(rgba(0,0,0,.08), rgba(255,255,255,.12));
-      background:
-        linear-gradient(135deg, light-dark(rgba(255,255,255,.7), rgba(255,255,255,.1)), transparent),
-        light-dark(rgba(60,110,255,.14), rgba(120,160,255,.12));
-      transform: rotate(-8deg);
-    }
+      .ox-ad__link:hover .ox-ad__card {
+        transform: translateY(-2px);
+        border-color: var(--x_color);
+        filter: brightness(1.03);
+        box-shadow: 0 22px 58px light-dark(rgba(0,0,0,.20), rgba(0,0,0,.58));
+      }
 
-    .ox-ad[data-size="medium"] .ox-ad-card,
-    @container (max-width: 620px) {
-      .ox-ad-card {
+      .ox-ad__brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 22px;
+      }
+
+      .ox-ad__logo {
+        width: 34px;
+        height: 34px;
+        object-fit: contain;
+        flex: 0 0 auto;
+      }
+
+      .ox-ad__name {
+        height: 24px;
+        max-width: 160px;
+        object-fit: contain;
+      }
+
+      .ox-ad__title {
+        max-width: 620px;
+        margin: 0 0 10px;
+        color: var(--x_heading_color);
+        font-family: modern_sans, system-ui, sans-serif;
+        font-size: clamp(27px, 5cqi, 46px);
+        line-height: 1.02;
+        letter-spacing: -0.045em;
+        font-weight: 850;
+      }
+
+      .ox-ad__subtitle {
+        max-width: 520px;
+        margin: 0 0 24px;
+        color: var(--x_text_color);
+        font-size: clamp(15px, 2.2cqi, 18px);
+        line-height: 1.45;
+      }
+
+      .ox-ad__cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        min-height: 42px;
+        padding: 0 17px;
+        border-radius: 4px;
+        background: var(--x_color);
+        color: #000;
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .ox-ad__cta::after {
+        content: "→";
+        transition: transform .18s ease;
+      }
+
+      .ox-ad__link:hover .ox-ad__cta::after {
+        transform: translateX(3px);
+      }
+
+      .ox-ad__small-text {
+        display: none;
+        color: var(--x_heading_color);
+        font-size: 13px;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .ox-ad[data-size="big"] .ox-ad__card {
+        min-height: 260px;
+        padding: 38px;
+      }
+
+      .ox-ad[data-size="big"] .ox-ad__title {
+        font-size: clamp(34px, 6cqi, 58px);
+      }
+
+      .ox-ad[data-size="middle"] .ox-ad__card {
         min-height: 160px;
         padding: 24px;
       }
 
-      .ox-ad-decoration {
-        display: none;
-      }
-
-      .ox-ad-title {
+      .ox-ad[data-size="middle"] .ox-ad__title {
         font-size: 28px;
       }
-    }
 
-    .ox-ad[data-size="small"] .ox-ad-card,
-    @container (max-width: 420px) {
-      .ox-ad-card {
+      .ox-ad[data-size="middle"] .ox-ad__subtitle {
+        font-size: 15px;
+      }
+
+      .ox-ad[data-size="small"] .ox-ad__card {
         min-height: auto;
-        padding: 16px;
-        border-radius: 16px;
+        padding: 12px 14px;
+        border-radius: 999px;
+        box-shadow: 0 8px 24px light-dark(rgba(0,0,0,.10), rgba(0,0,0,.32));
       }
 
-      .ox-ad-brand {
-        margin-bottom: 0;
-        font-size: 13px;
-        text-transform: none;
-        letter-spacing: 0;
+      .ox-ad[data-size="small"] .ox-ad__brand {
+        margin: 0;
       }
 
-      .ox-ad-title,
-      .ox-ad-subtitle,
-      .ox-ad-cta,
-      .ox-ad-decoration {
+      .ox-ad[data-size="small"] .ox-ad__logo {
+        width: 22px;
+        height: 22px;
+      }
+
+      .ox-ad[data-size="small"] .ox-ad__name,
+      .ox-ad[data-size="small"] .ox-ad__title,
+      .ox-ad[data-size="small"] .ox-ad__subtitle,
+      .ox-ad[data-size="small"] .ox-ad__cta {
         display: none;
       }
-    }
 
-    .ox-ad[data-size="badge"] .ox-ad-card {
-      min-height: auto;
-      padding: 10px 12px;
-      border-radius: 999px;
-      box-shadow: none;
-    }
-
-    .ox-ad[data-size="badge"] .ox-ad-brand {
-      margin: 0;
-      font-size: 12px;
-      text-transform: none;
-      letter-spacing: 0;
-    }
-
-    .ox-ad[data-size="badge"] .ox-ad-logo,
-    .ox-ad[data-size="badge"] .ox-ad-title,
-    .ox-ad[data-size="badge"] .ox-ad-subtitle,
-    .ox-ad[data-size="badge"] .ox-ad-cta,
-    .ox-ad[data-size="badge"] .ox-ad-decoration {
-      display: none;
-    }
-
-    .ox-ad--fixed {
-      position: fixed;
-      right: 18px;
-      bottom: 18px;
-      z-index: 2147483000;
-      width: min(420px, calc(100vw - 36px));
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        color-scheme: dark;
+      .ox-ad[data-size="small"] .ox-ad__small-text {
+        display: inline;
       }
-    }
 
-    @media (prefers-color-scheme: light) {
-      :root {
-        color-scheme: light;
+      @container (max-width: 620px) {
+        .ox-ad[data-size="auto"] .ox-ad__card {
+          min-height: 160px;
+          padding: 24px;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__title {
+          font-size: 28px;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__subtitle {
+          font-size: 15px;
+        }
       }
-    }
-  `;
 
-  document.head.appendChild(style);
+      @container (max-width: 420px) {
+        .ox-ad[data-size="auto"] .ox-ad__card {
+          min-height: auto;
+          padding: 12px 14px;
+          border-radius: 999px;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__brand {
+          margin: 0;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__logo {
+          width: 22px;
+          height: 22px;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__name,
+        .ox-ad[data-size="auto"] .ox-ad__title,
+        .ox-ad[data-size="auto"] .ox-ad__subtitle,
+        .ox-ad[data-size="auto"] .ox-ad__cta {
+          display: none;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__small-text {
+          display: inline;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .ox-ad--fixed {
+          right: 12px;
+          bottom: 12px;
+          width: calc(100vw - 24px);
+        }
+      }
+    `;
+
+    document.head.appendChild(style);
+  }
 
   const ad = document.createElement("aside");
-  ad.className = `ox-ad ${CONFIG.position === "fixed-bottom-right" ? "ox-ad--fixed" : ""}`;
-  ad.dataset.size = CONFIG.size;
+  ad.className = `ox-ad ${config.position === "fixed-bottom-right" ? "ox-ad--fixed" : ""}`;
+  ad.dataset.size = config.size;
+  ad.dataset.reason = config.reason;
 
   ad.innerHTML = `
-    <a class="ox-ad-link" href="${targetUrl}" target="_blank" rel="noopener sponsored">
-      <div class="ox-ad-card" role="img" aria-label="${text.title}">
-        <div class="ox-ad-brand">
-          <span class="ox-ad-logo">X</span>
-          <span class="ox-ad-brand-text">
-            ${CONFIG.size === "badge" ? text.badge : CONFIG.size === "small" ? text.small : CONFIG.brand}
-          </span>
+    <a class="ox-ad__link" href="${href}" target="_blank" rel="noopener sponsored">
+      <section class="ox-ad__card" aria-label="${text.title}">
+        <div class="ox-ad__brand">
+          <img class="ox-ad__logo" src="${logo}" alt="" loading="lazy">
+          <img class="ox-ad__name" src="${name}" alt="Extaas" loading="lazy">
+          <span class="ox-ad__small-text">${text.small}</span>
         </div>
 
-        <h2 class="ox-ad-title">${text.title}</h2>
-        <p class="ox-ad-subtitle">${text.subtitle}</p>
-        <span class="ox-ad-cta">${text.cta}</span>
-        <span class="ox-ad-decoration" aria-hidden="true"></span>
-      </div>
+        <h2 class="ox-ad__title">${text.title}</h2>
+        <p class="ox-ad__subtitle">${text.subtitle}</p>
+        <span class="ox-ad__cta">${text.cta}</span>
+      </section>
     </a>
   `;
 
-  SCRIPT?.after(ad);
+  script.after(ad);
 })();
