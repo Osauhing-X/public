@@ -1,24 +1,18 @@
 /**
- * Osaühing X / Extaas™ Embed
- *
- * Kasutamine:
+ * Osaühing X / Extaas Embed
  *
  * <script
- *   src="https://cdn.jsdelivr.net/gh/Osauhing-X/public@www/osauhing-x-ad.js"
- *   data-size="auto"
- *   data-reason="ad"
- *   data-position="fixed-bottom-right"
- *   data-lang="en">
+ * src="https://cdn.jsdelivr.net/gh/Osauhing-X/public@www/osauhing-x-ad.js"
+ * data-size="auto"
+ * data-reason="reklaam"
+ * data-position="fixed-bottom-right"
+ * data-lang="et">
  * </script>
  *
- * Seaded:
- * data-size     : auto | big | middle | small        (vaikimisi: auto)
- * data-reason   : ad | web_development               (vaikimisi: ad)
- * data-position : inline | fixed-bottom-right        (vaikimisi: fixed-bottom-right)
- * data-lang     : en | et                            (vaikimisi: en)
- *
- * Kui data-size="auto", valitakse sobiv suurus automaatselt
- * vastavalt saadaolevale ruumile.
+ * data-size     : auto | suur | keskmine | väike
+ * data-reason   : reklaam | veebiarendus
+ * data-position : inline | fixed-bottom-right
+ * data-lang     : et | en
  */
 
 (() => {
@@ -26,48 +20,48 @@
 
   const config = {
     size: script?.dataset.size || "auto",
-    reason: script?.dataset.reason || "ad",
-    position: script?.dataset.positsion || script?.dataset.position || "fixed-bottom-right",
+    reason: script?.dataset.reason || "reklaam",
+    position: script?.dataset.position || "fixed-bottom-right",
     lang: script?.dataset.lang || "en",
   };
 
-  const allowedSizes = ["auto", "big", "middle", "small"];
-  const allowedReasons = ["web_development", "ad"];
+  const allowedSizes = ["auto", "suur", "keskmine", "väike"];
+  const allowedReasons = ["reklaam", "veebiarendus"];
   const allowedPositions = ["inline", "fixed-bottom-right"];
-  const allowedLangs = ["en", "et"];
+  const allowedLangs = ["et", "en"];
 
-  config.size = allowedSizes.includes(config.size) ? config.size : "auto";
-  config.reason = allowedReasons.includes(config.reason) ? config.reason : "ad";
-  config.position = allowedPositions.includes(config.position) ? config.position : "fixed-bottom-right";
-  config.lang = allowedLangs.includes(config.lang) ? config.lang : "en";
+  if (!allowedSizes.includes(config.size)) config.size = "auto";
+  if (!allowedReasons.includes(config.reason)) config.reason = "reklaam";
+  if (!allowedPositions.includes(config.position)) config.position = "fixed-bottom-right";
+  if (!allowedLangs.includes(config.lang)) config.lang = "en";
 
   const i18n = {
     et: {
-      web_development: {
-        title: "Veebiarendus, mis töötab",
-        subtitle: "Kiired, kaasaegsed ja skaleeruvad veebilahendused.",
+      reklaam: {
+        title: "Osaühing X",
+        subtitle: "Ettevõte, mis toetab otsuseid ja kasvatab väärtust.",
         cta: "Vaata lähemalt",
-        small: "Arendas Osaühing X",
+        small: "IT-partner, kes kasvatab väärtust",
       },
-      ad: {
-        title: "Kasvata nähtavust Extaas™ abil",
-        subtitle: "Lihtne ja kaasaegne reklaamilahendus sinu ettevõttele.",
-        cta: "Ava Extaas",
-        small: "Osaühing X - Extaas™",
+      veebiarendus: {
+        title: "Veebiarendus Osaühing X poolt",
+        subtitle: "Selle veebilahenduse arendas Osaühing X.",
+        cta: "Vaata tegijat",
+        small: "Arendas Osaühing X",
       },
     },
     en: {
-      web_development: {
-        title: "Web development that works",
-        subtitle: "Fast, modern and scalable web solutions.",
+      reklaam: {
+        title: "Osaühing X",
+        subtitle: "A company that supports decisions and grows value.",
         cta: "Learn more",
-        small: "Developed by Osaühing X",
+        small: "IT partner that grows value",
       },
-      ad: {
-        title: "Grow your visibility with Extaas™",
-        subtitle: "A simple and modern advertising solution for your business.",
-        cta: "Open Extaas",
-        small: "Osaühing X - Extaas™",
+      veebiarendus: {
+        title: "Web development by Osaühing X",
+        subtitle: "This web solution was developed by Osaühing X.",
+        cta: "View developer",
+        small: "Developed by Osaühing X",
       },
     },
   };
@@ -80,14 +74,6 @@
   const logo = "https://extaas.com/corporate_visual_identity/logo.png";
   const name = "https://extaas.com/corporate_visual_identity/name.png";
 
-  if (!document.querySelector('link[data-ox-cvi]')) {
-    const cvi = document.createElement("link");
-    cvi.rel = "stylesheet";
-    cvi.href = "https://extaas.com/corporate_visual_identity/style.css";
-    cvi.dataset.oxCvi = "true";
-    document.head.appendChild(cvi);
-  }
-
   if (!document.querySelector("style[data-ox-ad-style]")) {
     const style = document.createElement("style");
     style.dataset.oxAdStyle = "true";
@@ -96,29 +82,23 @@
       .ox-ad {
         --current: light-dark(#fff, #000);
         --current_40: color-mix(in oklab, var(--current), #0000 40%);
-
         --reverse: light-dark(#000, #fff);
-        --reverse_80: color-mix(in oklab, var(--reverse), #0000 80%);
         --reverse_40: color-mix(in oklab, var(--reverse), #0000 40%);
-        --reverse_20: color-mix(in oklab, var(--reverse), #0000 20%);
-
         --x_brand: #da3;
         --x_color: var(--color_override, var(--x_brand));
         --x_color_transparent: color-mix(in oklab, var(--x_color), #0000 80%);
-
         --x_outer_background: var(--current_40);
         --x_inner_background: var(--current);
         --x_border_color: light-dark(#eee, #222);
         --x_heading_color: var(--reverse);
         --x_text_color: var(--reverse_40);
-        --x_muted_color: var(--reverse_80);
 
         box-sizing: border-box;
         container-type: inline-size;
         width: 100%;
         max-width: 860px;
         color-scheme: light dark;
-        font-family: modern_sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       }
 
       .ox-ad *,
@@ -142,22 +122,13 @@
       }
 
       .ox-ad__card {
-        position: relative;
         overflow: hidden;
-        min-height: 210px;
-        padding: 30px;
         border: 1px solid var(--x_border_color);
-        border-radius: 24px;
-        background:
-          radial-gradient(circle at top right, var(--x_color_transparent), transparent 36%),
-          linear-gradient(135deg, var(--x_inner_background), var(--x_outer_background));
+        border-radius: 18px;
+        background: var(--x_inner_background);
         color: var(--x_heading_color);
         box-shadow: 0 18px 46px light-dark(rgba(0,0,0,.14), rgba(0,0,0,.42));
-        transition:
-          transform .18s ease,
-          box-shadow .18s ease,
-          border-color .18s ease,
-          filter .18s ease;
+        transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, filter .18s ease;
       }
 
       .ox-ad__link:hover .ox-ad__card {
@@ -167,31 +138,35 @@
         box-shadow: 0 22px 58px light-dark(rgba(0,0,0,.20), rgba(0,0,0,.58));
       }
 
-      .ox-ad__brand {
+      .ox-ad__header {
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-bottom: 22px;
+        padding: 14px 18px;
+        background: #000;
+        color-scheme: dark;
       }
 
-      .ox-ad__logo {
-        width: 34px;
-        height: 34px;
+      .ox-ad__logo,
+      .ox-ad__name {
+        height: 28px;
+        width: auto;
+        max-width: 160px;
         object-fit: contain;
         flex: 0 0 auto;
       }
 
-      .ox-ad__name {
-        height: 24px;
-        max-width: 160px;
-        object-fit: contain;
+      .ox-ad__body {
+        padding: 26px;
+        background:
+          radial-gradient(circle at top right, var(--x_color_transparent), transparent 36%),
+          linear-gradient(135deg, var(--x_inner_background), var(--x_outer_background));
       }
 
       .ox-ad__title {
         max-width: 620px;
         margin: 0 0 10px;
         color: var(--x_heading_color);
-        font-family: modern_sans, system-ui, sans-serif;
         font-size: clamp(27px, 5cqi, 46px);
         line-height: 1.02;
         letter-spacing: -0.045em;
@@ -200,19 +175,23 @@
 
       .ox-ad__subtitle {
         max-width: 520px;
-        margin: 0 0 24px;
+        margin: 0;
         color: var(--x_text_color);
         font-size: clamp(15px, 2.2cqi, 18px);
         line-height: 1.45;
       }
 
+      .ox-ad__footer {
+        display: grid;
+        border-top: 1px solid var(--x_border_color);
+      }
+
       .ox-ad__cta {
-        display: inline-flex;
+        display: flex;
         align-items: center;
-        gap: 8px;
-        min-height: 42px;
-        padding: 0 17px;
-        border-radius: 4px;
+        justify-content: space-between;
+        min-height: 44px;
+        padding: 0 18px;
         background: var(--x_color);
         color: #000;
         font-size: 14px;
@@ -220,12 +199,7 @@
       }
 
       .ox-ad__cta::after {
-        content: "→";
-        transition: transform .18s ease;
-      }
-
-      .ox-ad__link:hover .ox-ad__cta::after {
-        transform: translateX(3px);
+        content: ">";
       }
 
       .ox-ad__small-text {
@@ -236,95 +210,246 @@
         white-space: nowrap;
       }
 
-      .ox-ad[data-size="big"] .ox-ad__card {
-        min-height: 260px;
-        padding: 38px;
+      /* Suur: premium kaart */
+      .ox-ad[data-size="suur"] .ox-ad__card {
+        border-radius: 22px;
       }
 
-      .ox-ad[data-size="big"] .ox-ad__title {
+      .ox-ad[data-size="suur"] .ox-ad__body {
+        min-height: 190px;
+        padding: 34px;
+      }
+
+      .ox-ad[data-size="suur"] .ox-ad__title {
         font-size: clamp(34px, 6cqi, 58px);
       }
 
-      .ox-ad[data-size="middle"] .ox-ad__card {
-        min-height: 160px;
-        padding: 24px;
-      }
-
-      .ox-ad[data-size="middle"] .ox-ad__title {
-        font-size: 28px;
-      }
-
-      .ox-ad[data-size="middle"] .ox-ad__subtitle {
-        font-size: 15px;
-      }
-
-      .ox-ad[data-size="small"] .ox-ad__card {
+      /* Keskmine: vana lihtsam kaart, nupp sisu sees all */
+      .ox-ad[data-size="keskmine"] .ox-ad__card {
         min-height: auto;
-        padding: 12px 14px;
-        border-radius: 999px;
-        box-shadow: 0 8px 24px light-dark(rgba(0,0,0,.10), rgba(0,0,0,.32));
+        padding: 22px;
+        border-radius: 16px;
+        background:
+          radial-gradient(circle at top right, var(--x_color_transparent), transparent 36%),
+          linear-gradient(135deg, var(--x_inner_background), var(--x_outer_background));
       }
 
-      .ox-ad[data-size="small"] .ox-ad__brand {
-        margin: 0;
-      }
-
-      .ox-ad[data-size="small"] .ox-ad__logo {
-        width: 22px;
-        height: 22px;
-      }
-
-      .ox-ad[data-size="small"] .ox-ad__name,
-      .ox-ad[data-size="small"] .ox-ad__title,
-      .ox-ad[data-size="small"] .ox-ad__subtitle,
-      .ox-ad[data-size="small"] .ox-ad__cta {
+      .ox-ad[data-size="keskmine"] .ox-ad__header,
+      .ox-ad[data-size="keskmine"] .ox-ad__footer {
         display: none;
       }
 
-      .ox-ad[data-size="small"] .ox-ad__small-text {
-        display: inline;
+      .ox-ad[data-size="keskmine"] .ox-ad__body {
+        padding: 0;
+        background: transparent;
       }
 
+      .ox-ad[data-size="keskmine"] .ox-ad__body::before {
+        content: "";
+        display: block;
+        width: 34px;
+        height: 34px;
+        margin-bottom: 16px;
+        background: url("https://extaas.com/corporate_visual_identity/logo.png") center / contain no-repeat;
+      }
+
+      .ox-ad[data-size="keskmine"] .ox-ad__title {
+        margin: 0 0 8px;
+        font-size: 24px;
+        line-height: 1.08;
+        letter-spacing: -0.035em;
+      }
+
+      .ox-ad[data-size="keskmine"] .ox-ad__subtitle {
+        margin: 0 0 18px;
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .ox-ad[data-size="keskmine"] .ox-ad__body::after {
+        content: attr(data-cta) " →";
+        display: inline-flex;
+        align-items: center;
+        min-height: 36px;
+        padding: 0 13px;
+        border-radius: 4px;
+        background: var(--x_color);
+        color: #000;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      /* Väike: diskreetne badge (Uuendatud välimus) */
+      .ox-ad[data-size="väike"] {
+        display: inline-block;
+        width: 100%;
+        max-width: max-content;
+      }
+
+      .ox-ad[data-size="väike"] .ox-ad__card {
+        border-radius: 5px;
+        background: var(--x_inner_background);
+        box-shadow: 0 8px 24px light-dark(rgba(0,0,0,.10), rgba(0,0,0,.32));
+      }
+
+      .ox-ad[data-size="väike"] .ox-ad__header,
+      .ox-ad[data-size="väike"] .ox-ad__footer,
+      .ox-ad[data-size="väike"] .ox-ad__title,
+      .ox-ad[data-size="väike"] .ox-ad__subtitle {
+        display: none;
+      }
+
+      .ox-ad[data-size="väike"] .ox-ad__body {
+        display: grid;
+        grid-template-columns: min-content 1fr min-content;
+        align-items: center;
+        gap: 5px;
+        padding: 0;
+        background:
+          radial-gradient(circle at top right, var(--x_color_transparent), transparent 40%),
+          linear-gradient(135deg, var(--x_inner_background), var(--x_outer_background));
+      }
+
+      /* Vasak: 1x1 must kast logoga, ilma paddinguta */
+      .ox-ad[data-size="väike"] .ox-ad__body::before {
+        content: "";
+        display: block;
+        width: 36px;
+        height: 36px;
+        background: #000 url("https://extaas.com/corporate_visual_identity/logo.png") center / 22px no-repeat;
+      }
+
+      /* Keskel: Tekst */
+      .ox-ad[data-size="väike"] .ox-ad__small-text {
+        display: inline;
+        padding: 0 4px;
+      }
+
+      /* Paremalt: Nuputagune padding ja 1x1 nupp raadiusega 3px */
+      .ox-ad[data-size="väike"] .ox-ad__body::after {
+        content: ">";
+        display: grid;
+        place-items: center;
+        width: 26px;
+        height: 26px;
+        margin-right: 5px;
+        border-radius: 3px;
+        background: var(--x_color);
+        color: #000;
+        font-weight: 900;
+      }
+
+      /* Auto: suur -> keskmine -> väike */
       @container (max-width: 620px) {
         .ox-ad[data-size="auto"] .ox-ad__card {
-          min-height: 160px;
-          padding: 24px;
+          min-height: auto;
+          padding: 22px;
+          border-radius: 16px;
+          background:
+            radial-gradient(circle at top right, var(--x_color_transparent), transparent 36%),
+            linear-gradient(135deg, var(--x_inner_background), var(--x_outer_background));
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__header,
+        .ox-ad[data-size="auto"] .ox-ad__footer {
+          display: none;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__body {
+          padding: 0;
+          background: transparent;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__body::before {
+          content: "";
+          display: block;
+          width: 34px;
+          height: 34px;
+          margin-bottom: 16px;
+          background: url("https://extaas.com/corporate_visual_identity/logo.png") center / contain no-repeat;
         }
 
         .ox-ad[data-size="auto"] .ox-ad__title {
-          font-size: 28px;
+          margin: 0 0 8px;
+          font-size: 24px;
+          line-height: 1.08;
+          letter-spacing: -0.035em;
         }
 
         .ox-ad[data-size="auto"] .ox-ad__subtitle {
-          font-size: 15px;
+          margin: 0 0 18px;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__body::after {
+          content: attr(data-cta) " →";
+          display: inline-flex;
+          align-items: center;
+          min-height: 36px;
+          padding: 0 13px;
+          border-radius: 4px;
+          background: var(--x_color);
+          color: #000;
+          font-size: 13px;
+          font-weight: 800;
         }
       }
 
       @container (max-width: 420px) {
+        .ox-ad[data-size="auto"] {
+          max-width: max-content;
+        }
+
         .ox-ad[data-size="auto"] .ox-ad__card {
-          min-height: auto;
-          padding: 12px 14px;
-          border-radius: 999px;
+          border-radius: 5px;
+          padding: 0;
+          background: var(--x_inner_background);
         }
 
-        .ox-ad[data-size="auto"] .ox-ad__brand {
-          margin: 0;
-        }
-
-        .ox-ad[data-size="auto"] .ox-ad__logo {
-          width: 22px;
-          height: 22px;
-        }
-
-        .ox-ad[data-size="auto"] .ox-ad__name,
+        .ox-ad[data-size="auto"] .ox-ad__header,
+        .ox-ad[data-size="auto"] .ox-ad__footer,
         .ox-ad[data-size="auto"] .ox-ad__title,
-        .ox-ad[data-size="auto"] .ox-ad__subtitle,
-        .ox-ad[data-size="auto"] .ox-ad__cta {
+        .ox-ad[data-size="auto"] .ox-ad__subtitle {
           display: none;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__body {
+          display: grid;
+          grid-template-columns: min-content 1fr min-content;
+          align-items: center;
+          gap: 5px;
+          padding: 0;
+          background:
+            radial-gradient(circle at top right, var(--x_color_transparent), transparent 40%),
+            linear-gradient(135deg, var(--x_inner_background), var(--x_outer_background));
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__body::before {
+          content: "";
+          display: block;
+          width: 36px;
+          height: 36px;
+          margin: 0;
+          background: #000 url("https://extaas.com/corporate_visual_identity/logo.png") center / 22px no-repeat;
+        }
+
+        .ox-ad[data-size="auto"] .ox-ad__body::after {
+          content: ">";
+          display: grid;
+          place-items: center;
+          width: 26px;
+          height: 26px;
+          margin-right: 5px;
+          border-radius: 3px;
+          background: var(--x_color);
+          color: #000;
+          font-weight: 900;
         }
 
         .ox-ad[data-size="auto"] .ox-ad__small-text {
           display: inline;
+          padding: 0 4px;
         }
       }
 
@@ -348,15 +473,20 @@
   ad.innerHTML = `
     <a class="ox-ad__link" href="${href}" target="_blank" rel="noopener sponsored">
       <section class="ox-ad__card" aria-label="${text.title}">
-        <div class="ox-ad__brand">
+        <header class="ox-ad__header">
           <img class="ox-ad__logo" src="${logo}" alt="" loading="lazy">
           <img class="ox-ad__name" src="${name}" alt="Extaas" loading="lazy">
-          <span class="ox-ad__small-text">${text.small}</span>
-        </div>
+        </header>
 
-        <h2 class="ox-ad__title">${text.title}</h2>
-        <p class="ox-ad__subtitle">${text.subtitle}</p>
-        <span class="ox-ad__cta">${text.cta}</span>
+        <main class="ox-ad__body" data-cta="${text.cta}">
+          <span class="ox-ad__small-text">${text.small}</span>
+          <h2 class="ox-ad__title">${text.title}</h2>
+          <p class="ox-ad__subtitle">${text.subtitle}</p>
+        </main>
+
+        <footer class="ox-ad__footer">
+          <span class="ox-ad__cta">${text.cta}</span>
+        </footer>
       </section>
     </a>
   `;
