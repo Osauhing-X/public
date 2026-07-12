@@ -108,7 +108,7 @@ The service provider reserves the right to accept, reject, or make a revised cou
 ## Legal Information
 Services are provided in accordance with the laws of the Republic of Estonia. Detailed terms, including the rights and obligations of the parties, payment terms, and liability, are set out in the terms of sale:  
 
-https://extaas.com/@/read/legal-documents/terms-of-sale
+https://extaas.com/@/legal-documents/terms-of-sale
 
 By ordering a service, the client confirms that they have read and agreed to the terms of sale.
 

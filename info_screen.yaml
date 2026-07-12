@@ -20,7 +20,7 @@
 
   {
     site: "workspace.extaas.com",
-    active: true,
+    active: false,
     email: "mail@extaas.com",
     created: "01.07.2026",
 

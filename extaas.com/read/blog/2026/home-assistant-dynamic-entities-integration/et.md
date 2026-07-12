@@ -107,7 +107,7 @@
   </p>
 
   <p>
-    👉 <a href="https://extaas.com/@/read/blog/2026/home-assistant-nodejs-ui-addon">
+    👉 <a href="https://extaas.com/@/blog/2026/home-assistant-nodejs-ui-addon">
       Node.js Server Add-on Home Assistantis
     </a>
   </p>

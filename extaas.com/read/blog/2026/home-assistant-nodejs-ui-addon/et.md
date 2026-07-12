@@ -130,7 +130,7 @@
     👉 <a href="https://github.com/Osauhing-X/home-assistant/blob/main/plugins/osayhing_x/README.md">
       Dynamic HA integratsioon (repo / demo)
     </a><br/>
-    👉 <a href="https://extaas.com/@/read/blog/2026/home-assistant-dynamic-entities-integration">
+    👉 <a href="https://extaas.com/@/blog/2026/home-assistant-dynamic-entities-integration">
       Dynamic Entities integratsioon (arhitektuur ja idee)
     </a>
   </p>

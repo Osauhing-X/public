@@ -2,7 +2,7 @@
  * Osaühing X / Extaas Embed
  *
  * <script
- * src="https://cdn.jsdelivr.net/gh/Osauhing-X/public@www/osauhing-x-ad.js"
+ * src="https://cdn.jsdelivr.net/gh/Osauhing-X/public@www/osauhing-x.js"
  * data-size="auto"
  * data-reason="reklaam"
  * data-position="fixed-bottom-right"
@@ -100,6 +100,10 @@
         color-scheme: light dark;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       }
+
+      .ox-ad[data-size="väike"]:not(:hover){
+        opacity: 0.4; }
+      
 
       .ox-ad *,
       .ox-ad *::before,
@@ -327,16 +331,17 @@
 
       /* Paremalt: Nuputagune padding ja 1x1 nupp raadiusega 3px */
       .ox-ad[data-size="väike"] .ox-ad__body::after {
-        content: ">";
+        content: "▶";
         display: grid;
         place-items: center;
-        width: 26px;
-        height: 26px;
-        margin-right: 5px;
+        aspect-ratio: 1/1;
+        overflow: hidden;
         border-radius: 3px;
         background: var(--x_color);
         color: #000;
         font-weight: 900;
+        zoom: 0.8;
+        margin-right: 4px;
       }
 
       /* Auto: suur -> keskmine -> väike */

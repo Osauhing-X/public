@@ -108,7 +108,7 @@ Teenusepakkuja jätab endale õiguse esitatud hinnapakkumine vastu võtta, tagas
 ## Õiguslik teave
 Teenuste osutamine toimub vastavalt Eesti Vabariigi õigusaktidele. Täpsemad tingimused, sh poolte õigused ja kohustused, maksetingimused ja vastutus, on sätestatud müügitingimustes:  
 
-https://extaas.com/@/read/legal-documents/terms-of-sale
+https://extaas.com/@/legal-documents/terms-of-sale
 
 Teenuse tellimisega kinnitab klient, et on tutvunud müügitingimustega ja nõustub nendega.
 
