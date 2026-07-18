@@ -6,11 +6,12 @@ Last updated: 03.03.2026
 ## 1. Company Information
 Service provider: Osaühing X  
 Registration number: 17396663  
-Address: [address entered in the commercial register]  
 Email: mail@extaas.com  
 Phone: +372 5107862 
 
-The company does not have a public service point. Services are provided online.
+Osaühing X operates as a remote-first IT company.  
+The company does not have a public customer service location.  
+Official registry information is available through the Estonian Commercial Register.
 
 ***
 
