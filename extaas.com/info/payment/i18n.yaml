@@ -23,9 +23,9 @@ type: # Discord forum status list
 
 info:
   et:
-    pay: <span css="black">Arve {ID}</span> on määratud maksmisele. Palume arve tasuda <span css="black">7–14 kalendripäeva</span> jooksul. Kui teil on arve või makse kohta küsimusi, võtke palun ühendust.
+    pay: <span class="css _black">Arve {ID}</span> on määratud maksmisele. Palume arve tasuda <span class="css _black">7–14 kalendripäeva</span> jooksul. Kui teil on arve või makse kohta küsimusi, võtke palun ühendust.
   en:
-    pay: <span css="black">Invoice {ID}</span> has been set for payment. Please pay the invoice within <span css="black">7–14 calendar days</span>. If you have any questions about the invoice or payment, please contact us.
+    pay: <span class="css _black">Invoice {ID}</span> has been set for payment. Please pay the invoice within <span class="css _black">7–14 calendar days</span>. If you have any questions about the invoice or payment, please contact us.
 
 
 table: 

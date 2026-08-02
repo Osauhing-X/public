@@ -38,7 +38,7 @@ This price list outlines the hourly rates for the services offered. All prices a
 ---
 
 ### Note on equipment installation
-The <span css="reverse">Device connection / setup</span> service includes unpacking the device, cabling (connecting communication and power cables), and setting the device up for operation.
+The <span class="css _reverse">Device connection / setup</span> service includes unpacking the device, cabling (connecting communication and power cables), and setting the device up for operation.
 
 The service provider does not perform installation work that involves drilling, structural changes, or connecting high-voltage (230V and more) or related work.
 

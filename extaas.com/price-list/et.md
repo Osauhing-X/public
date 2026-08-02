@@ -38,7 +38,7 @@ Käesolev hinnakiri kirjeldab pakutavate teenuste müügihindu ühe töötunni a
 ---
 
 ### Märkus seadmete paigalduse kohta
-Teenuse <span css="reverse">Seadme ühendamine / seadistamine</span> alla kuulub seadme lahtipakkimine, kaabeldus (side- ja toitekaablite ühendamine) ning seadme töövalmis seadistamine.
+Teenuse <span class="css _reverse">Seadme ühendamine / seadistamine</span> alla kuulub seadme lahtipakkimine, kaabeldus (side- ja toitekaablite ühendamine) ning seadme töövalmis seadistamine.
 
 Teenusepakkuja ei teosta paigaldustöid, mis hõlmavad puurimist, ehituslikke muudatusi ega tugeva voolu (230V ja enam) ühendamist või sellega seotud töid.
 
