@@ -1,13 +1,13 @@
 # Vormid, küsitlused ja CRM
 
-![Teekond vormist korrastatud kliendisuhteni](cover.png)
+![Teekond vormist korrastatud kliendisuhteni](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/forms-and-crm/cover.png)
 
 Vorm kogub kliendilt struktureeritud sisendi. CRM muudab selle sisendi hallatavaks kliendisuhteks. Neid tasub kasutada koos siis, kui vastus vajab omanikku, järeltegevust, ajalugu või hilisemat analüüsi.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">KOGU</span><h3>Õige küsimus</h3><p>Küsi ainult seda, mida on otsuse või teenuse jaoks päriselt vaja.</p></div>
-  <div class="css _radius _padding"><span class="css _color">SUUNA</span><h3>Selge vastutaja</h3><p>Igal vastusel peab olema omanik, prioriteet ja vastamise tähtaeg.</p></div>
-  <div class="css _radius _padding"><span class="css _color">JÄLGI</span><h3>Üks kliendiajalugu</h3><p>Seo korduvad pöördumised sama CRM-kontaktiga ja väldi duplikaate.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">KOGU</span><h3>Õige küsimus</h3><p>Küsi ainult seda, mida on otsuse või teenuse jaoks päriselt vaja.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">SUUNA</span><h3>Selge vastutaja</h3><p>Igal vastusel peab olema omanik, prioriteet ja vastamise tähtaeg.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">JÄLGI</span><h3>Üks kliendiajalugu</h3><p>Seo korduvad pöördumised sama CRM-kontaktiga ja väldi duplikaate.</p></div>
 </div>
 
 ## Millist tööriista kasutada?

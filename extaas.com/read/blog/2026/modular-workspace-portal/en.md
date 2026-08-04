@@ -1,11 +1,11 @@
 # Why build a business portal from modules?
 
-![A modular Workspace connects customer-journey tools](cover.png)
+![A modular Workspace connects customer-journey tools](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/blog/2026/modular-workspace-portal/cover.png)
 
 A business digital environment rarely grows from one deliberate decision. First comes a contact form, then booking, later a newsletter, customer spreadsheet, payment link and internal task list. Each tool solves a small problem while the whole gradually becomes hard to manage.
 
 <div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
-  <div class="flex _wrap _space gap _2"><span class="css _color">CORE IDEA</span><strong>A module is not merely a menu item</strong></div>
+  <div class="flex _wrap _space gap _2"><span class="css _color _dark">CORE IDEA</span><strong>A module is not merely a menu item</strong></div>
   <p>A good module owns one complete workflow and connects to the wider system through shared customers, permissions, events and integrations.</p>
 </div>
 
@@ -96,4 +96,3 @@ When a new need appears, it does not require a new isolated island. A responsibi
 - [Workspace module guide](/en/docs/modules-overview)
 - [Integration roles](/en/docs/integrations-guide)
 - [Customer workflows and operations](/en/docs/customer-workflows)
-

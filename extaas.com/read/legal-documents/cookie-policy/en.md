@@ -7,7 +7,7 @@ Last updated: 03 August 2026
 This document explains how Osaühing X uses cookies and other browser storage on Extaas.com. It supplements the [Privacy Policy](/en/legal-documents/privacy-policy).
 
 <div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
-  <span class="css _color">SHORT SUMMARY</span>
+  <span class="css _color _dark">SHORT SUMMARY</span>
   <h3>Extaas.com does not use advertising or marketing cookies.</h3>
   <p>Browser storage supports preferences, temporary UI state, an agreed device identifier and authentication for signed-in users. If usage changes, this document will be updated and consent requested where required.</p>
 </div>

@@ -1,13 +1,13 @@
 # Forms, surveys and CRM
 
-![The journey from a form to an organised customer relationship](cover.png)
+![The journey from a form to an organised customer relationship](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/forms-and-crm/cover.png)
 
 A form collects structured customer input. CRM turns that input into a manageable customer relationship. Use them together when a response needs ownership, follow-up, history or later analysis.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">COLLECT</span><h3>The right question</h3><p>Ask only for information genuinely needed for a decision or service.</p></div>
-  <div class="css _radius _padding"><span class="css _color">ROUTE</span><h3>Clear ownership</h3><p>Every response needs an owner, priority and response target.</p></div>
-  <div class="css _radius _padding"><span class="css _color">TRACK</span><h3>One customer history</h3><p>Attach repeat enquiries to the same CRM contact and avoid duplicates.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">COLLECT</span><h3>The right question</h3><p>Ask only for information genuinely needed for a decision or service.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">ROUTE</span><h3>Clear ownership</h3><p>Every response needs an owner, priority and response target.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">TRACK</span><h3>One customer history</h3><p>Attach repeat enquiries to the same CRM contact and avoid duplicates.</p></div>
 </div>
 
 ## Which tool should you use?

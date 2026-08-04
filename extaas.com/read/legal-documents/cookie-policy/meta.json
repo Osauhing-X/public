@@ -1,7 +1,8 @@
 {
   "layout": "info",
-  "group": "legal_documents",
+
   "tags": ["legal", "cookies", "privacy", "local-storage"],
+  
   "sitemap": { "lastmod": "2026-08-03", "priority": 0.4, "changefreq": "yearly" },
   "seo": {
     "et": { "title": "Küpsiste ja brauserisalvestuse poliitika", "description": "Selgitus Extaas.com küpsiste, autentimisseansi, seadme tunnuse, localStorage'i ja sessionStorage'i kasutamise, eesmärkide, kestuse ning kasutaja valikute kohta.", "keywords": "Extaas küpsised, cookie policy, localStorage, sessionStorage, autentimine, seadme tunnus, privaatsus" },

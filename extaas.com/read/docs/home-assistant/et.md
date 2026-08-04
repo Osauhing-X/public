@@ -1,13 +1,13 @@
 # Extaas ja Home Assistant
 
-![Kohalik Home Assistanti juhtimiskiht ühendab dünaamilised seadmed](cover.png)
+![Kohalik Home Assistanti juhtimiskiht ühendab dünaamilised seadmed](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/home-assistant/cover.png)
 
 Extaasi Home Assistanti ökosüsteem aitab ühendada kohalikus võrgus töötavaid Node.js rakendusi Home Assistantiga, käitada rakendusi lisadena ning hallata kohandatud pluginate paigaldust. Komponendid on eraldi tööriistad: vali neist ainult see, mis lahendab konkreetse vajaduse.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">INTEGRATSIOON</span><h3>Node ↔ Home Assistant</h3><p>Dünaamilised sensorid, lülitid ja nupud kohalikus võrgus.</p></div>
-  <div class="css _radius _padding"><span class="css _color">ADD-ON</span><h3>Käivita rakendus</h3><p>Taustateenus või Ingressi kaudu avatav Node/Svelte kasutajaliides.</p></div>
-  <div class="css _radius _padding"><span class="css _color">HALDUS</span><h3>Paigalda kontrollitult</h3><p>Privaatsed repod, keskkonnamuutujad, versioonid ja taastamine.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">INTEGRATSIOON</span><h3>Node ↔ Home Assistant</h3><p>Dünaamilised sensorid, lülitid ja nupud kohalikus võrgus.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">ADD-ON</span><h3>Käivita rakendus</h3><p>Taustateenus või Ingressi kaudu avatav Node/Svelte kasutajaliides.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">HALDUS</span><h3>Paigalda kontrollitult</h3><p>Privaatsed repod, keskkonnamuutujad, versioonid ja taastamine.</p></div>
 </div>
 
 ## Komponendid ja nende eesmärk

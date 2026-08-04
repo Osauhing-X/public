@@ -3,9 +3,9 @@
 Audience vastab küsimusele „kellele?” ja Email küsimusele „mida ning kuidas saata?”. Resend toimetab sõnumi kohale, Supabase võib hoida varasid ja kontaktandmeid ning OpenAI võib aidata mustandit luua. Ükski neist ei asenda nõusolekut, inimkontrolli ega selget suhtluseesmärki.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">AUDIENCE</span><h3>Õige inimene</h3><p>Kontakt, nõusoleku allikas, sildid, segment ja loobumise olek.</p></div>
-  <div class="css _radius _padding"><span class="css _color">EMAIL</span><h3>Õige sõnum</h3><p>Saatja, subject, mall, sisu, manused, eelvaade ja krediidikulu.</p></div>
-  <div class="css _radius _padding"><span class="css _color">RESEND</span><h3>Kontrollitav tulemus</h3><p>Accepted, delivered, bounced või rejected ei tähenda sama asja.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">AUDIENCE</span><h3>Õige inimene</h3><p>Kontakt, nõusoleku allikas, sildid, segment ja loobumise olek.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">EMAIL</span><h3>Õige sõnum</h3><p>Saatja, subject, mall, sisu, manused, eelvaade ja krediidikulu.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">RESEND</span><h3>Kontrollitav tulemus</h3><p>Accepted, delivered, bounced või rejected ei tähenda sama asja.</p></div>
 </div>
 
 ## Turundus- ja tehingukiri

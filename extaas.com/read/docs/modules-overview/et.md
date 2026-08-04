@@ -1,22 +1,22 @@
 # Workspace'i moodulid: mida kasutada ja miks?
 
-![Extaas Workspace'i moodulid moodustavad ühe ühendatud töövoo](cover.png)
+![Extaas Workspace'i moodulid moodustavad ühe ühendatud töövoo](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/modules-overview/cover.png)
 
 Moodul on konkreetse töövoo tööriist. Integratsioon ühendab selle välise teenusega, mis annab moodulile andmebaasi, e-posti, makse või tehisintellekti võimekuse. Kõiki mooduleid ei pea korraga kasutusele võtma: parim lahendus algab ühest selgest klienditeekonnast ja kasvab tegeliku vajaduse järgi.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); margin-block: 1.5rem;">
   <div class="css _radius _padding">
-    <span class="css _color">ALUSTA SIIT</span>
+    <span class="css _color _dark">ALUSTA SIIT</span>
     <h3>Üks klienditeekond</h3>
     <p>Vali esmalt üks tulemus, mida klient peab portaalis saavutama.</p>
   </div>
   <div class="css _radius _padding">
-    <span class="css _color">EHITA KINDLALT</span>
+    <span class="css _color _dark">EHITA KINDLALT</span>
     <h3>Õiged sõltuvused</h3>
     <p>Ühenda ainult mooduli jaoks vajalik andme-, e-posti- või makseteenus.</p>
   </div>
   <div class="css _radius _padding">
-    <span class="css _color">AVALDA</span>
+    <span class="css _color _dark">AVALDA</span>
     <h3>Testitud tervik</h3>
     <p>Avalik vaade, Workspace, teavitus ja logi peavad töötama algusest lõpuni.</p>
   </div>

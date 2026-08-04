@@ -12,10 +12,10 @@ An integration is more than a settings form. It gives a Workspace module a capab
 These services do not replace one another. Booking can operate with Supabase and no Resend, but automatic confirmation cannot be delivered by email. Email needs Resend for delivery and Supabase for assets. Store needs both database context and Stripe as the payment source.
 
 <div class="grid gap _2" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">SUPABASE</span><h3>Remembers</h3><p>Data, files, users and tenant boundaries.</p></div>
-  <div class="css _radius _padding"><span class="css _color">RESEND</span><h3>Delivers</h3><p>Email, sending domain and delivery result.</p></div>
-  <div class="css _radius _padding"><span class="css _color">STRIPE</span><h3>Confirms payment</h3><p>Products, Checkout and signed events.</p></div>
-  <div class="css _radius _padding"><span class="css _color">OPENAI</span><h3>Drafts</h3><p>Copy and templates for final human review.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">SUPABASE</span><h3>Remembers</h3><p>Data, files, users and tenant boundaries.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">RESEND</span><h3>Delivers</h3><p>Email, sending domain and delivery result.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">STRIPE</span><h3>Confirms payment</h3><p>Products, Checkout and signed events.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">OPENAI</span><h3>Drafts</h3><p>Copy and templates for final human review.</p></div>
 </div>
 
 ## Responsibility matrix

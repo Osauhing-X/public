@@ -3,8 +3,8 @@
 Booking ja Rent muudavad vabatekstilise kliendikirja hallatavaks töövooks. Booking keskendub teenusele ja ajale; Rent ressursile, kogusele ning perioodile. Mõlemas voos on kliendi esmane tegevus tavaliselt päring, mitte automaatne lõplik kinnitus.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">BOOKING</span><h3>Kes, mida ja millal?</h3><p>Teenus, asukoht, soovitud aeg, kliendi lisainfo ja meeskonna kinnitus.</p></div>
-  <div class="css _radius _padding"><span class="css _color">RENT</span><h3>Mida, kui palju ja kui kauaks?</h3><p>Ressurss, kogus, rendiperiood, üleandmine, tagastus ja saadavus.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">BOOKING</span><h3>Kes, mida ja millal?</h3><p>Teenus, asukoht, soovitud aeg, kliendi lisainfo ja meeskonna kinnitus.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">RENT</span><h3>Mida, kui palju ja kui kauaks?</h3><p>Ressurss, kogus, rendiperiood, üleandmine, tagastus ja saadavus.</p></div>
 </div>
 
 ## Kumb moodul valida?

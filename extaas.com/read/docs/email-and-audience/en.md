@@ -3,9 +3,9 @@
 Audience answers “to whom?” and Email answers “what and how should we send?”. Resend delivers the message, Supabase can store assets and contacts, and OpenAI can help draft. None of these replaces consent, human review or a clear communication purpose.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">AUDIENCE</span><h3>The right person</h3><p>Contact, consent source, tags, segment and unsubscribe state.</p></div>
-  <div class="css _radius _padding"><span class="css _color">EMAIL</span><h3>The right message</h3><p>Sender, subject, template, content, attachments, preview and credit cost.</p></div>
-  <div class="css _radius _padding"><span class="css _color">RESEND</span><h3>A verifiable result</h3><p>Accepted, delivered, bounced and rejected do not mean the same thing.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">AUDIENCE</span><h3>The right person</h3><p>Contact, consent source, tags, segment and unsubscribe state.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">EMAIL</span><h3>The right message</h3><p>Sender, subject, template, content, attachments, preview and credit cost.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">RESEND</span><h3>A verifiable result</h3><p>Accepted, delivered, bounced and rejected do not mean the same thing.</p></div>
 </div>
 
 ## Marketing and transactional email

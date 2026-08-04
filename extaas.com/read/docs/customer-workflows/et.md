@@ -3,7 +3,7 @@
 Hea portaal ei ole pelgalt funktsioonide nimekiri. Klient peab igal sammul mõistma, mis juhtus, kas tegevus on lõplik ja mida edasi teha. Meeskond peab samal ajal nägema vastutajat, olekut, vajalikku järeltegevust ja tehnilist logi.
 
 <div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
-  <div class="flex _wrap _space gap _2"><span class="css _color">HEA KLIENDIKOGEMUS</span><strong>Selgus enne kiirust</strong></div>
+  <div class="flex _wrap _space gap _2"><span class="css _color _dark">HEA KLIENDIKOGEMUS</span><strong>Selgus enne kiirust</strong></div>
   <p>Kliendile peab alati olema nähtav, kas ta saatis päringu, sai kinnituse või lõpetas makse. Tehniline edu ja kasutajale näidatav edu peavad tähendama sama asja.</p>
 </div>
 

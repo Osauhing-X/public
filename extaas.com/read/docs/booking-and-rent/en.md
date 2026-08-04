@@ -3,8 +3,8 @@
 Booking and Rent turn a free-text customer message into a manageable workflow. Booking focuses on a service and time; Rent on a resource, quantity and period. In both flows, the first customer action is normally a request, not automatic final confirmation.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">BOOKING</span><h3>Who, what and when?</h3><p>Service, location, requested time, customer details and team approval.</p></div>
-  <div class="css _radius _padding"><span class="css _color">RENT</span><h3>What, how many and for how long?</h3><p>Resource, quantity, rental period, handover, return and availability.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">BOOKING</span><h3>Who, what and when?</h3><p>Service, location, requested time, customer details and team approval.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">RENT</span><h3>What, how many and for how long?</h3><p>Resource, quantity, rental period, handover, return and availability.</p></div>
 </div>
 
 ## Which module should you choose?

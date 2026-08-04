@@ -1,13 +1,13 @@
 # Extaas and Home Assistant
 
-![A local Home Assistant control layer connects dynamic devices](cover.png)
+![A local Home Assistant control layer connects dynamic devices](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/home-assistant/cover.png)
 
 The Extaas Home Assistant ecosystem connects local Node.js applications to Home Assistant, runs applications as add-ons and manages custom plugin installation. The components are separate tools: choose only the one that solves the actual need.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">INTEGRATION</span><h3>Node ↔ Home Assistant</h3><p>Dynamic sensors, switches and buttons on the local network.</p></div>
-  <div class="css _radius _padding"><span class="css _color">ADD-ON</span><h3>Run an application</h3><p>A background service or Node/Svelte UI available through Ingress.</p></div>
-  <div class="css _radius _padding"><span class="css _color">OPERATIONS</span><h3>Install with control</h3><p>Private repositories, environment variables, versions and recovery.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">INTEGRATION</span><h3>Node ↔ Home Assistant</h3><p>Dynamic sensors, switches and buttons on the local network.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">ADD-ON</span><h3>Run an application</h3><p>A background service or Node/Svelte UI available through Ingress.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">OPERATIONS</span><h3>Install with control</h3><p>Private repositories, environment variables, versions and recovery.</p></div>
 </div>
 
 ## Components and purpose

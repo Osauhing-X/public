@@ -1,22 +1,22 @@
 # Workspace modules: what to use and why
 
-![Extaas Workspace modules form one connected workflow](cover.png)
+![Extaas Workspace modules form one connected workflow](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/docs/modules-overview/cover.png)
 
 A module is a tool for a specific workflow. An integration connects it to an external service that provides database, email, payment or AI capabilities. You do not need every module at once: the best setup starts with one clear customer journey and grows with real demand.
 
 <div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); margin-block: 1.5rem;">
   <div class="css _radius _padding">
-    <span class="css _color">START HERE</span>
+    <span class="css _color _dark">START HERE</span>
     <h3>One customer journey</h3>
     <p>Choose one outcome the customer must be able to achieve in the portal.</p>
   </div>
   <div class="css _radius _padding">
-    <span class="css _color">BUILD SAFELY</span>
+    <span class="css _color _dark">BUILD SAFELY</span>
     <h3>Correct dependencies</h3>
     <p>Connect only the data, email or payment service required by the module.</p>
   </div>
   <div class="css _radius _padding">
-    <span class="css _color">PUBLISH</span>
+    <span class="css _color _dark">PUBLISH</span>
     <h3>Tested end to end</h3>
     <p>The public view, Workspace, notification and log must work as one flow.</p>
   </div>

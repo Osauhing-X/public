@@ -1,11 +1,11 @@
 # A form is not yet a customer relationship
 
-![The journey from a form to an organised customer relationship](cover.png)
+![The journey from a form to an organised customer relationship](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/blog/2026/from-form-to-customer-relationship/cover.png)
 
 A web form can be technically flawless and still create little business value. If the response reaches an unknown mailbox, has no owner or creates the same customer in five lists, only data entry was digitised—not the process.
 
 <div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
-  <span class="css _color">THE PROMISE OF A GOOD FORM</span>
+  <span class="css _color _dark">THE PROMISE OF A GOOD FORM</span>
   <h3>“We understood your need and know who will handle it next.”</h3>
   <p>The confirmation, CRM relationship and next action must genuinely support that promise.</p>
 </div>
@@ -102,4 +102,3 @@ When form, CRM, notification and work queue connect, a good enquiry does not dis
 - [Practical forms and CRM guide](/en/docs/forms-and-crm)
 - [Email and Audience](/en/docs/email-and-audience)
 - [Customer workflows](/en/docs/customer-workflows)
-

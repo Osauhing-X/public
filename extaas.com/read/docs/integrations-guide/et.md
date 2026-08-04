@@ -12,10 +12,10 @@ Integratsioon ei ole lihtsalt seadete vorm. See annab Workspace'i moodulile või
 Need teenused ei asenda üksteist. Booking võib töötada Supabase'iga ilma Resendita, kuid automaatne kinnitus ei jõua e-postile. Email vajab saatmiseks Resendi ja varade hoidmiseks Supabase'i. Store vajab nii andmebaasi konteksti kui Stripe'i makseallikat.
 
 <div class="grid gap _2" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding"><span class="css _color">SUPABASE</span><h3>Mäletab</h3><p>Andmed, failid, kasutajad ja tenantide piirid.</p></div>
-  <div class="css _radius _padding"><span class="css _color">RESEND</span><h3>Toimetab</h3><p>E-kirjad, saatjadomeen ja saatmise tulemus.</p></div>
-  <div class="css _radius _padding"><span class="css _color">STRIPE</span><h3>Kinnitab makse</h3><p>Tooted, Checkout ja allkirjastatud sündmused.</p></div>
-  <div class="css _radius _padding"><span class="css _color">OPENAI</span><h3>Koostab mustandi</h3><p>Tekst ja mall inimese lõpliku kontrolli jaoks.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">SUPABASE</span><h3>Mäletab</h3><p>Andmed, failid, kasutajad ja tenantide piirid.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">RESEND</span><h3>Toimetab</h3><p>E-kirjad, saatjadomeen ja saatmise tulemus.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">STRIPE</span><h3>Kinnitab makse</h3><p>Tooted, Checkout ja allkirjastatud sündmused.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">OPENAI</span><h3>Koostab mustandi</h3><p>Tekst ja mall inimese lõpliku kontrolli jaoks.</p></div>
 </div>
 
 ## Integratsioonide vastutusmaatriks
