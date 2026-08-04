@@ -2,6 +2,12 @@
 
 Supabase stores private Workspace and tenant module data: bookings, rental requests, Pages media, audience contacts, logs, user access and module settings. Treat it as the operational database for private portal state.
 
+## Why is Supabase needed?
+
+Without persistent storage, module state would disappear on application restart and there would be no shared source of truth across users, tenants and devices. Supabase provides PostgreSQL, authentication, file storage and server-side access controls in one project. Workspace uses it whenever content, a request, role, log or setting must persist and belong to the correct tenant.
+
+Supabase is not required merely to show static public copy with no management or persistence need. It does not replace Resend email delivery or Stripe payment evidence. Connect it before enabling the first data-driven module, not after collecting real customer data.
+
 ## Server-side boundary
 
 The service role key must never reach the browser. Public pages use only safe content selected by the server. Tenant DNS rendering must resolve the tenant first and then expose only public fields for that tenant.

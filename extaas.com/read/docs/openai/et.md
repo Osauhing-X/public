@@ -2,6 +2,12 @@
 
 OpenAI integratsioon aitab luua e-kirjade tekste, malle, korduvkasutatavaid komponente ja operatiivseid mustandeid. API key peab jääma serverisse ja ei tohi kunagi brauserisse jõuda.
 
+## Miks ja millal seda kasutada?
+
+OpenAI vähendab tühjalt lehelt alustamise aega, aitab hoida korduvat tooni ning saab struktureeritud juhise põhjal teha e-kirja või malli esimese versiooni. See on kasulik siis, kui inimene kontrollib tulemust ja sama sisuvajadus kordub.
+
+Integratsiooni ei ole vaja fikseeritud süsteemikirjade jaoks, mis on juba korrektselt mallina valmis. Seda ei tohi kasutada makse-, ligipääsu- või kinnitamisotsuse tegijana. Mudeli väljund võib olla ebatäpne, seega faktid, hinnad, kuupäevad, õiguslik tekst ja kliendile antavad lubadused vajavad inimülevaatust.
+
 ## Kus sellest kasu on?
 
 Peamine kasutuskoht on Email moodul:

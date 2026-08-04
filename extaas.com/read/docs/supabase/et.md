@@ -2,6 +2,12 @@
 
 Supabase hoiab Workspace'i ja tenant moodulite privaatseid andmeid: bookingud, rendipäringud, Pages meedia, audience kontaktid, logid, kasutajate ligipääsud ja mooduli seaded. See on portaali privaatse tööseisu operatiivne andmebaas.
 
+## Miks Supabase'i vaja on?
+
+Ilma püsiva andmeruumita kaoks mooduli seis rakenduse taaskäivitamisel ning mitme kasutaja, tenanti ja seadme vahel puuduks ühine tõde. Supabase annab PostgreSQL andmebaasi, autentimise, failide storage'i ja serveripoolsed õiguste kontrollid ühe projekti kaudu. Workspace kasutab seda siis, kui sisu, päring, roll, logi või seadistus peab säilima ja olema seotud õige tenantiga.
+
+Supabase ei ole vajalik pelgalt staatilise avaliku teksti näitamiseks, kui sellel puudub haldus- ja salvestusvajadus. See ei asenda Resendi e-kirja kohaletoimetamist ega Stripe'i maksetõendit. Ühendamine on mõistlik enne esimese andmepõhise mooduli aktiveerimist, mitte alles pärast päris kliendiandmete kogumist.
+
 ## Serveripoolne piir
 
 Service role võti ei tohi kunagi jõuda brauserisse. Avalikud lehed kasutavad ainult serveri poolt valitud turvalist sisu. Tenant DNS render peab kõigepealt lahendama õige tenanti ja alles siis andma välja selle tenanti avalikud väljad.

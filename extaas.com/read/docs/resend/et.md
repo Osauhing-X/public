@@ -2,6 +2,12 @@
 
 Resend saadab kliendikirjad, audience kampaaniad, bookingu kinnitused, rendi uuendused, arve meeldetuletused ja madala krediidi teavitused. See on workspace integratsioon ja API key peab jääma serverisse.
 
+## Miks kasutada eraldi e-posti integratsiooni?
+
+Rakenduse enda server ei ole usaldusväärne postkastiteenus. Resend tegeleb saatjadomeeni, sõnumi vastuvõtmise, kohaletoimetamise tulemuse ning bounce/reject infoga. Nii saab Workspace eristada teksti koostamist päris saatmisest ja jätta iga saatmise kohta kontrollitava tulemuse.
+
+Resend ei loo automaatselt turundusnõusolekut, ei ole CRM ega garanteeri postkasti jõudmist. Omanik peab verifitseerima saatjadomeeni, hoidma nimekirja kvaliteetsena ja jälgima loobumisi. Kui protsess vajab ainult ekraanil kuvatavat kinnitust, ei pea Resendi tingimata ühendama; kui lubatakse e-kirja, peab integratsioon enne avaldamist töötama.
+
 ## Vajalikud seaded
 
 - API key, mida kasutatakse ainult serveris.

@@ -2,6 +2,12 @@
 
 Stripe haldab workspace krediidioste, tasulisi checkout flow'sid ja tulevikus staff terminali makseid. Makse olek peab jääma Workspace'iga sünkroonis, et arved, krediidid ja ligipääs vastaksid päris maksetulemusele.
 
+## Miks kasutada Stripe'i?
+
+Stripe hoiab kaardiandmete sisestamise Extaasi serveritest eemal, annab hallatud Checkouti, toote- ja hinnakataloogi ning allkirjastatud webhook-sündmused. Workspace saab siduda kinnitatud maksetulemuse arve, krediidi või tenant-toiminguga ilma toorest kaardiinfot töötlemata.
+
+Stripe'i pole vaja tasuta päringu või käsitsi arveldamise puhul. Samuti ei asenda see raamatupidamist, maksunõustamist, tellimuse täitmist ega tagastusotsust. Enne päris maksete lubamist tuleb valida õige test/live keskkond, kontrollida ettevõtte andmed, tingimused, valuuta ja webhook.
+
 ## Makse piir
 
 Avalik `extaas.com` võib kuvada makse algvaadet, aga mitte ostetud sisu detaile. Kui arve on maksmata, saab makset alustada. Kui arve on tasutud, ei tohi sama arve enam põhidomeenilt kättesaadav olla.

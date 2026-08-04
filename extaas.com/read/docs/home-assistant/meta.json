@@ -1,0 +1,9 @@
+{
+  "layout": "info",
+  "tags": ["home-assistant", "integration", "addons", "nodejs", "zeroconf", "smart-home"],
+  "sitemap": { "lastmod": "2026-08-03", "priority": 0.6, "changefreq": "monthly" },
+  "seo": {
+    "et": { "title": "Extaas ja Home Assistant", "description": "Extaasi Home Assistanti integratsiooni, Node Serveri, Node Server UI, X Plugins Installeri ja Popcorni lisade eesmärk, valik, seadistus ning turvalisus." },
+    "en": { "title": "Extaas and Home Assistant", "description": "Purpose, selection, setup and security for the Extaas Home Assistant integration, Node Server, Node Server UI, X Plugins Installer and Popcorn add-ons." }
+  }
+}

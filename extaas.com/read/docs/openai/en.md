@@ -2,6 +2,12 @@
 
 The OpenAI integration helps create email copy, templates, reusable components and operational drafts. The API key must stay server-side and should never be exposed to the browser.
 
+## Why and when should it be used?
+
+OpenAI reduces blank-page time, helps maintain a repeatable tone and can create a first email or template version from structured instructions. It is useful when a person reviews the output and the content need recurs.
+
+The integration is unnecessary for fixed system messages that already have a correct template. It must not make payment, access or approval decisions. Model output may be inaccurate, so facts, prices, dates, legal language and customer promises require human review.
+
 ## Where it is useful
 
 The main use case is the Email module:

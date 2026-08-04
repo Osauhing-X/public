@@ -1,0 +1,9 @@
+{
+  "layout": "info",
+  "tags": ["customer", "workflow", "booking", "rent", "store", "email", "operations"],
+  "sitemap": { "lastmod": "2026-08-03", "priority": 0.5, "changefreq": "monthly" },
+  "seo": {
+    "et": { "title": "Klienditeekonnad ja igapäevane haldus", "description": "Booking'u, rendi, poe, vormide ja e-posti klienditeekonnad, vastutused, testimine, logid ja tõrkeolukorrad Extaas Workspace'is." },
+    "en": { "title": "Customer workflows and daily operations", "description": "Booking, rental, store, form and email customer journeys, ownership, testing, logs and failure handling in Extaas Workspace." }
+  }
+}

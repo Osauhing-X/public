@@ -2,6 +2,12 @@
 
 Resend sends customer emails, audience campaigns, booking confirmations, rental updates, invoice reminders and low-credit notifications. It is a workspace integration and the API key must stay server-side.
 
+## Why use a dedicated email integration?
+
+The application server itself is not a reliable mailbox provider. Resend handles sender-domain identity, message acceptance, delivery results and bounce/reject information. Workspace can therefore separate composing text from actual delivery and retain a verifiable result for each send.
+
+Resend does not create marketing consent, act as a CRM or guarantee inbox placement. The owner must verify the sending domain, maintain list quality and process unsubscribes. If a workflow only needs an on-screen confirmation, Resend may be unnecessary; if email is promised, the integration must work before publication.
+
 ## Required settings
 
 - API key used only on the server.

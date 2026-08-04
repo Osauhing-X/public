@@ -1,0 +1,9 @@
+{
+  "layout": "info",
+  "tags": ["integrations", "supabase", "resend", "stripe", "openai", "security"],
+  "sitemap": { "lastmod": "2026-08-03", "priority": 0.6, "changefreq": "monthly" },
+  "seo": {
+    "et": { "title": "Integratsioonid: mida need teevad ja miks neid vaja on", "description": "Extaas Workspace'i Supabase'i, Resendi, Stripe'i ja OpenAI integratsioonide rollid, valik, sõltuvused, turvalisus ja tõrkeotsing." },
+    "en": { "title": "Integrations: what they do and why they are needed", "description": "Roles, selection, dependencies, security and troubleshooting for Supabase, Resend, Stripe and OpenAI in Extaas Workspace." }
+  }
+}

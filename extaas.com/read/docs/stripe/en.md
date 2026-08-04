@@ -2,6 +2,12 @@
 
 Stripe manages workspace credit purchases, paid checkout flows and future staff terminal payments. Payment state must stay synchronized with Workspace so invoices, credits and customer access match the real payment result.
 
+## Why use Stripe?
+
+Stripe keeps card entry away from Extaas servers and provides hosted Checkout, a product/price catalogue and signed webhook events. Workspace can attach a verified payment result to an invoice, credits or a tenant action without handling raw card data.
+
+Stripe is unnecessary for a free enquiry or manual invoicing. It also does not replace accounting, tax advice, fulfilment or refund decisions. Before accepting real payments, choose the correct test/live environment and verify company details, terms, currency and webhook delivery.
+
 ## Payment boundary
 
 Public `extaas.com` may show a payment entry screen, but not the details of what was purchased. If an invoice is unpaid, payment can be started. Once it is paid, the same invoice must no longer be accessible from the main domain.
