@@ -4,7 +4,7 @@
 
 Veebivorm võib olla tehniliselt laitmatu ja ikkagi ettevõttele vähe väärtust luua. Kui vastus jõuab teadmata postkasti, sellel puudub omanik või sama klient tekib viide erinevasse nimekirja, on digitaliseeritud ainult sisestamine – mitte tööprotsess.
 
-<div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
+<div class="css _radius _padding grid gap" style="margin-block: 1.5rem;">
   <span class="css _color _dark">HEA VORMI LUBADUS</span>
   <h3>„Me saime sinu vajadusest aru ja teame, kes sellega edasi tegeleb.”</h3>
   <p>Kinnitusteade, CRM-seos ja järgmine tegevus peavad seda lubadust päriselt toetama.</p>

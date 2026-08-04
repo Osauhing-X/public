@@ -4,7 +4,7 @@
 
 Local-first does not mean banning the internet. It means decisions and operational state for core home functions live as close to devices as practical, while cloud service is an added capability rather than the only route to a switch.
 
-<div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
+<div class="css _radius _padding grid gap" style="margin-block: 1.5rem;">
   <span class="css _color _dark">LOCAL-FIRST</span>
   <h3>If the internet disappears, the home should not lose its basic logic.</h3>
   <p>Lighting, measurement and local automations may continue while remote services and external APIs are temporarily limited.</p>

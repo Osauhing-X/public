@@ -6,7 +6,7 @@ Viimati uuendatud: 03.08.2026
 
 Käesolev dokument selgitab, kuidas Osaühing X kasutab Extaas.com veebilehel küpsiseid ja muid brauseri salvestusviise. See täiendab [privaatsuspoliitikat](/et/legal-documents/privacy-policy).
 
-<div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
+<div class="css _radius _padding grid gap" style="margin-block: 1.5rem;">
   <span class="css _color _dark">LÜHIKOKKUVÕTE</span>
   <h3>Extaas.com ei kasuta reklaami- ega turundusküpsiseid.</h3>
   <p>Brauserisalvestust kasutatakse eelistuste, UI ajutise oleku, kokkuleppel seadme tunnuse ning sisselogitud kasutaja autentimise jaoks. Kui kasutus muutub, uuendatakse käesolevat dokumenti ja küsitakse nõusolekut seal, kus see on nõutav.</p>

@@ -4,7 +4,7 @@
 
 A web form can be technically flawless and still create little business value. If the response reaches an unknown mailbox, has no owner or creates the same customer in five lists, only data entry was digitised—not the process.
 
-<div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
+<div class="css _radius _padding grid gap" style="margin-block: 1.5rem;">
   <span class="css _color _dark">THE PROMISE OF A GOOD FORM</span>
   <h3>“We understood your need and know who will handle it next.”</h3>
   <p>The confirmation, CRM relationship and next action must genuinely support that promise.</p>

@@ -4,7 +4,7 @@
 
 Local-first ei tähenda interneti keelamist. See tähendab, et kodu põhifunktsioonide otsus ja tööseis asuvad võimalikult lähedal seadmetele ning pilveteenus on lisavõimekus, mitte ainus tee lülitini.
 
-<div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
+<div class="css _radius _padding grid gap" style="margin-block: 1.5rem;">
   <span class="css _color _dark">LOCAL-FIRST</span>
   <h3>Kui internet kaob, ei tohiks kodu kaotada oma põhiloogikat.</h3>
   <p>Valgustus, mõõtmine ja kohalikud automaatikad võivad jätkata, kuid kaugteenused ning välised API-d võivad olla ajutiselt piiratud.</p>

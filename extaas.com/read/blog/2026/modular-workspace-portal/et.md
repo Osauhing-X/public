@@ -4,7 +4,7 @@
 
 Ettevõtte digikeskkond kasvab harva ühe läbimõeldud otsuse tulemusena. Alguses tuleb kontaktivorm, siis broneerimine, hiljem uudiskiri, klienditabel, makselink ja sisemine ülesannete nimekiri. Iga tööriist lahendab oma väikese probleemi, kuid tervik muutub ajapikku raskesti juhitavaks.
 
-<div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
+<div class="css _radius _padding grid gap" style="margin-block: 1.5rem;">
   <div class="flex _wrap _space gap _2"><span class="css _color _dark">PÕHIIDEE</span><strong>Moodul ei ole lihtsalt menüüpunkt</strong></div>
   <p>Hea moodul võtab vastutuse ühe tervikliku töövoo eest ja ühendub ülejäänud süsteemiga ühiste klientide, õiguste, sündmuste ning integratsioonide kaudu.</p>
 </div>

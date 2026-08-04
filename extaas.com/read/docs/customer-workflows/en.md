@@ -2,7 +2,7 @@
 
 A good portal is not merely a feature list. At every step the customer should understand what happened, whether the action is final and what to do next. The team should see ownership, state, required follow-up and the technical log.
 
-<div class="css _radius _padding grid gap _2" style="margin-block: 1.5rem;">
+<div class="css _radius _padding grid gap" style="margin-block: 1.5rem;">
   <div class="flex _wrap _space gap _2"><span class="css _color _dark">GOOD CUSTOMER EXPERIENCE</span><strong>Clarity before speed</strong></div>
   <p>The customer must always see whether they submitted a request, received confirmation or completed payment. Technical success and user-visible success must mean the same thing.</p>
 </div>
