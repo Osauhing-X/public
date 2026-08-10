@@ -81,13 +81,13 @@
     style.textContent = `
       .ox-ad {
         --current: light-dark(#fff, #000);
-        --current_40: color-mix(in oklab, var(--current), #0000 40%);
+        --current_50: color-mix(in oklab, var(--current), #0000 50%);
         --reverse: light-dark(#000, #fff);
         --reverse_40: color-mix(in oklab, var(--reverse), #0000 40%);
         --x_brand: #da3;
         --x_color: var(--color_override, var(--x_brand));
         --x_color_transparent: color-mix(in oklab, var(--x_color), #0000 80%);
-        --x_outer_background: var(--current_40);
+        --x_outer_background: var(--current_50);
         --x_inner_background: var(--current);
         --x_border_color: light-dark(#eee, #222);
         --x_heading_color: var(--reverse);
