@@ -1,6 +1,6 @@
 # Local-first automation: why keep control at home?
 
-![A local Home Assistant control layer connects home devices](https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/blog/2026/local-first-home-automation/cover.png)
+![A local Home Assistant control layer connects home devices](https://raw.githubusercontent.com/Osauhing-X/public/www/oux.ee/read/blog/2026/local-first-home-automation/cover.png)
 
 Local-first does not mean banning the internet. It means decisions and operational state for core home functions live as close to devices as practical, while cloud service is an added capability rather than the only route to a switch.
 
