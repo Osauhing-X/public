@@ -1,6 +1,6 @@
 {
   "layout": "info",
-  "group": "main",
+  "group": "contact",
   "sitemap": { "lastmod": "2026-08-17", "priority": 0.8, "changefreq": "monthly" },
   "seo": {
     "en": { "title": "Contact OUX", "description": "Contact Osaühing X about web development, setup, consulting or a custom technology solution.", "keywords": "OUX, Osaühing X, contact, web development, IT consulting" },
