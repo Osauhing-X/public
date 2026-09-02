@@ -1,6 +1,8 @@
 {
   "root": "https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/",
 
+  "redirect": "https://oux.ee/@/read?domain=extaas.com",
+
   "layout": "regular",
   "group": "main",
   "meta_only": true,

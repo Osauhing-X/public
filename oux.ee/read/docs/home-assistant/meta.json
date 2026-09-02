@@ -1,5 +1,4 @@
 {
-  "layout": "info",
   "tags": ["home-assistant", "integration", "addons", "nodejs", "zeroconf", "smart-home"],
   "sitemap": { "lastmod": "2026-08-03", "priority": 0.6, "changefreq": "monthly" },
   "seo": {

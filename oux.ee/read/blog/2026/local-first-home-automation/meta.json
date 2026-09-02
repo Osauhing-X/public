@@ -1,5 +1,4 @@
 {
-  "layout": "blog",
   "sitemap": { "published": "2026-08-03", "lastmod": "2026-08-03", "priority": 0.6, "changefreq": "yearly" },
   "tags": ["Home Assistant", "Local First", "Node.js", "Smart Home"],
   "seo": {
