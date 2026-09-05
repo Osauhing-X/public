@@ -1,23 +1,26 @@
 {
-
-    "group": "legal_documents",
-    "tags": ["legal", "terms", "sale", "payment"],
-
-    "sitemap":  {
-      "lastmod": "2026-03-03",
-      "priority": 0.5,
-      "changefreq": "yearly"
+  "group": "legal_documents",
+  "tags": [
+    "legal",
+    "terms",
+    "sale",
+    "payment"
+  ],
+  "sitemap": {
+    "lastmod": "2026-03-03",
+    "priority": 0.5,
+    "changefreq": "yearly"
+  },
+  "seo": {
+    "en": {
+      "title": "Terms of Sale",
+      "description": "Review the Terms of Sale of Extaas.com including contract formation, pricing, payment methods, service delivery, withdrawal rights, refunds, complaints, and dispute resolution under Estonian law. Applies to digital services and IT project work provided by Osaühing X.",
+      "keywords": "Terms of Sale, Extaas, Osaühing X, IT services pricing terms, contract formation, payment methods, digital services agreement, withdrawal rights, refund policy, complaints, dispute resolution, Estonia law"
     },
-    "seo": {
-        "en": {
-          "title": "Terms of Sale",
-          "description": "Review the Terms of Sale of Extaas.com including contract formation, pricing, payment methods, service delivery, withdrawal rights, refunds, complaints, and dispute resolution under Estonian law. Applies to digital services and IT project work provided by Osaühing X.",
-          "keywords": "Terms of Sale, Extaas, Osaühing X, IT services pricing terms, contract formation, payment methods, digital services agreement, withdrawal rights, refund policy, complaints, dispute resolution, Estonia law"
-        },
-        "et": {
-          "title": "Müügitingimused",
-          "description": "Tutvu Extaas.com müügitingimustega: lepingu sõlmimine, hinnastamine, makseviisid, teenuse osutamine, taganemisõigus, tagastused, pretensioonid ja vaidluste lahendamine Eesti õiguse alusel. Kehtib digiteenustele ja IT projektitöödele.",
-          "keywords": "Müügitingimused, Extaas, Osaühing X, IT teenuste tingimused, hinnastamine, makseviisid, digiteenused, taganemisõigus, tagastuspoliitika, pretensioonid, vaidluste lahendamine, Eesti õigus"
-        }
+    "et": {
+      "title": "Müügitingimused",
+      "description": "Tutvu Extaas.com müügitingimustega: lepingu sõlmimine, hinnastamine, makseviisid, teenuse osutamine, taganemisõigus, tagastused, pretensioonid ja vaidluste lahendamine Eesti õiguse alusel. Kehtib digiteenustele ja IT projektitöödele.",
+      "keywords": "Müügitingimused, Extaas, Osaühing X, IT teenuste tingimused, hinnastamine, makseviisid, digiteenused, taganemisõigus, tagastuspoliitika, pretensioonid, vaidluste lahendamine, Eesti õigus"
+    }
   }
 }

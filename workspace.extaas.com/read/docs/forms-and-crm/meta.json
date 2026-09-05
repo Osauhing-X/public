@@ -1,0 +1,25 @@
+{
+  "tags": [
+    "forms",
+    "surveys",
+    "contact-form",
+    "crm",
+    "customers",
+    "privacy"
+  ],
+  "sitemap": {
+    "lastmod": "2026-08-03",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Vormid, küsitlused ja CRM",
+      "description": "Praktiline juhend Extaasi kontaktivormide, küsitluste ja CRM-i kasutamiseks: väljad, nõusolek, vastutajad, järeltegevused ning andmekaitse."
+    },
+    "en": {
+      "title": "Forms, surveys and CRM",
+      "description": "A practical guide to Extaas contact forms, surveys and CRM: fields, consent, ownership, follow-up and data protection."
+    }
+  }
+}

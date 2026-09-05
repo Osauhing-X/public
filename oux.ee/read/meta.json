@@ -1,11 +1,9 @@
 {
   "root": "https://raw.githubusercontent.com/Osauhing-X/public/www/oux.ee/read/",
-
   "more": [
     "https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read",
     "https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read"
   ],
-
   "group": "main",
   "meta_only": true,
   "sitemap": {

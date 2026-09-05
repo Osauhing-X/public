@@ -1,0 +1,24 @@
+{
+  "tags": [
+    "integration",
+    "resend",
+    "email",
+    "templates",
+    "notifications"
+  ],
+  "sitemap": {
+    "lastmod": "2026-08-03",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Resend",
+      "description": "Resend setup guide for workspace email, campaigns, module notifications, templates, delivery logs and credit usage."
+    },
+    "et": {
+      "title": "Resend",
+      "description": "Resendi seadistuse juhend workspace e-kirjade, kampaaniate, moodulite teavituste, mallide, logide ja krediidikasutuse jaoks."
+    }
+  }
+}

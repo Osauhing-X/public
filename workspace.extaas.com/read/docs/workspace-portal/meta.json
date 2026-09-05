@@ -1,0 +1,27 @@
+{
+  "tags": [
+    "workspace",
+    "tenant",
+    "modules",
+    "integrations",
+    "credits",
+    "dns"
+  ],
+  "sitemap": {
+    "lastmod": "2026-07-02",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Workspace Portal Documentation",
+      "description": "Central documentation for workspace.extaas.com setup, tenant modules, integrations, credits, customer actions and operational security.",
+      "keywords": "workspace.extaas.com, Extaas workspace, tenant portal, modules, integrations, credits, Supabase, Resend, Stripe, documentation"
+    },
+    "et": {
+      "title": "Workspace portaali dokumentatsioon",
+      "description": "workspace.extaas.com keskne dokumentatsioon seadistuse, tenant moodulite, integratsioonide, krediitide, klienditegevuste ja turvalisuse kohta.",
+      "keywords": "workspace.extaas.com, Extaas workspace, tenant portaal, moodulid, integratsioonid, krediidid, Supabase, Resend, Stripe, dokumentatsioon"
+    }
+  }
+}

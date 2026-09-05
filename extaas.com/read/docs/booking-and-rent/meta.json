@@ -1,9 +1,0 @@
-{
-  "layout": "info",
-  "tags": ["booking", "rent", "requests", "availability", "customers", "modules"],
-  "sitemap": { "lastmod": "2026-08-03", "priority": 0.5, "changefreq": "monthly" },
-  "seo": {
-    "et": { "title": "Booking ja Rent: päringust lõpetamiseni", "description": "Põhjalik juhend Extaasi Booking'u ja Rendi moodulite seadistamiseks, saadavuse, kinnituste, kliendisuhtluse ning igapäevase halduse jaoks." },
-    "en": { "title": "Booking and Rent: from request to completion", "description": "A detailed guide to configuring Extaas Booking and Rent, availability, approvals, customer communication and daily operations." }
-  }
-}

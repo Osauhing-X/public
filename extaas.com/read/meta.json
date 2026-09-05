@@ -1,9 +1,6 @@
 {
   "root": "https://raw.githubusercontent.com/Osauhing-X/public/www/extaas.com/read/",
-
-  "redirect": "https://oux.ee/@/read?domain=extaas.com",
-
-  "layout": "regular",
+  "redirect": "https://oux.ee/@/read",
   "group": "main",
   "meta_only": true,
   "sitemap": {
@@ -14,13 +11,13 @@
   "seo": {
     "en": {
       "title": "Read",
-      "description": "Browse Extaas documentation, blog posts and legal documents from one filterable reading view.",
-      "keywords": "Extaas docs, Extaas blog, legal documents, documentation, articles"
+      "description": "Browse Osaühing X documentation, blog posts and legal documents from one filterable reading view.",
+      "keywords": "Osaühing X docs, Extaas Workspace, blog, legal documents, documentation, articles"
     },
     "et": {
       "title": "Lugemine",
-      "description": "Sirvi Extaas dokumentatsiooni, blogipostitusi ja õigusdokumente ühest filtreeritavast lugemisvaatest.",
-      "keywords": "Extaas dokumentatsioon, Extaas blogi, õigusdokumendid, artiklid"
+      "description": "Sirvi Osaühing X dokumentatsiooni, blogipostitusi ja õigusdokumente ühest filtreeritavast lugemisvaatest.",
+      "keywords": "Osaühing X dokumentatsioon, Extaas Workspace, blogi, õigusdokumendid, artiklid"
     }
   }
 }

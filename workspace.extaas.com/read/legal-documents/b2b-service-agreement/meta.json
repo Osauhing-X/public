@@ -1,0 +1,26 @@
+{
+  "group": "legal_documents",
+  "redirect": "https://workspace.extaas.com/legal/b2b-service-agreement.html",
+  "meta_only": true,
+  "tags": [
+    "legal",
+    "workspace",
+    "b2b",
+    "service agreement"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-05",
+    "priority": 0.5,
+    "changefreq": "yearly"
+  },
+  "seo": {
+    "en": {
+      "title": "Workspace B2B Service Agreement",
+      "description": "Read the service agreement that applies when registering and using an Extaas Workspace business portal."
+    },
+    "et": {
+      "title": "Workspace’i B2B teenusleping",
+      "description": "Tutvu teenuslepinguga, mis kehtib Extaas Workspace’i äriportaali registreerimisel ja kasutamisel."
+    }
+  }
+}

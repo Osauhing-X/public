@@ -1,0 +1,29 @@
+{
+  "sitemap": {
+    "published": "2026-08-03",
+    "lastmod": "2026-08-03",
+    "priority": 0.6,
+    "changefreq": "yearly"
+  },
+  "tags": [
+    "Workspace",
+    "Business Software",
+    "Modules",
+    "Customer Experience"
+  ],
+  "seo": {
+    "type": "article",
+    "author": "Extaas",
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/blog/2026/modular-workspace-portal/cover.png",
+    "et": {
+      "title": "Miks ehitada ettevõtte portaal moodulitest?",
+      "description": "Kuidas modulaarne Workspace vähendab tööriistade killustatust, hoiab klienditeekonnad koos ja võimaldab ettevõttel alustada väiksemalt ning kasvada kontrollitult.",
+      "keywords": "modulaarne kliendiportaal, Workspace, ettevõtte tarkvara, CRM, booking, rent, e-post, integratsioonid"
+    },
+    "en": {
+      "title": "Why build a business portal from modules?",
+      "description": "How a modular Workspace reduces tool fragmentation, keeps customer journeys connected and lets a business start small and grow with control.",
+      "keywords": "modular customer portal, Workspace, business software, CRM, booking, rental, email, integrations"
+    }
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "layout": "info",
-  "tags": ["email", "audience", "resend", "campaigns", "templates", "consent"],
-  "sitemap": { "lastmod": "2026-08-03", "priority": 0.5, "changefreq": "monthly" },
-  "seo": {
-    "et": { "title": "E-post ja Audience: usaldusväärne kliendisuhtlus", "description": "Extaasi Audience'i ja Emaili moodulite juhend kontaktide, nõusoleku, segmentide, mallide, kampaaniate, tehingukirjade, krediitide ja saatmistulemuste jaoks." },
-    "en": { "title": "Email and Audience: reliable customer communication", "description": "A guide to Extaas Audience and Email for contacts, consent, segments, templates, campaigns, transactional email, credits and delivery results." }
-  }
-}

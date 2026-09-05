@@ -1,0 +1,24 @@
+{
+  "tags": [
+    "integration",
+    "stripe",
+    "billing",
+    "credits",
+    "terminal"
+  ],
+  "sitemap": {
+    "lastmod": "2026-08-03",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Stripe",
+      "description": "Stripe billing guide for public payment entry screens, workspace invoice state, credits, webhooks and future Terminal payments."
+    },
+    "et": {
+      "title": "Stripe",
+      "description": "Stripe arvelduse juhend avalike makse algvaadete, Workspace arve oleku, krediitide, webhookide ja tuleviku Terminal maksete jaoks."
+    }
+  }
+}

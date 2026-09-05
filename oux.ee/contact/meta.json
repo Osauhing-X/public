@@ -1,8 +1,20 @@
 {
   "group": "contact",
-  "sitemap": { "lastmod": "2026-08-17", "priority": 0.8, "changefreq": "monthly" },
+  "sitemap": {
+    "lastmod": "2026-08-17",
+    "priority": 0.8,
+    "changefreq": "monthly"
+  },
   "seo": {
-    "en": { "title": "Contact OUX", "description": "Contact Osaühing X about web development, setup, consulting or a custom technology solution.", "keywords": "OUX, Osaühing X, contact, web development, IT consulting" },
-    "et": { "title": "Kontakt", "description": "Võta Osaühing X-iga ühendust veebiarenduse, paigalduse, konsultatsiooni või erilahenduse teemal.", "keywords": "OUX, Osaühing X, kontakt, veebiarendus, IT konsultatsioon" }
+    "en": {
+      "title": "Contact OUX",
+      "description": "Contact Osaühing X about web development, setup, consulting or a custom technology solution.",
+      "keywords": "OUX, Osaühing X, contact, web development, IT consulting"
+    },
+    "et": {
+      "title": "Kontakt",
+      "description": "Võta Osaühing X-iga ühendust veebiarenduse, paigalduse, konsultatsiooni või erilahenduse teemal.",
+      "keywords": "OUX, Osaühing X, kontakt, veebiarendus, IT konsultatsioon"
+    }
   }
 }

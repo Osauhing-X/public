@@ -1,0 +1,24 @@
+{
+  "tags": [
+    "integration",
+    "supabase",
+    "database",
+    "security",
+    "tenant"
+  ],
+  "sitemap": {
+    "lastmod": "2026-08-03",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Supabase",
+      "description": "Supabase data boundary, tenant storage, logging, server-side security and service-role-only SQL helper documentation."
+    },
+    "et": {
+      "title": "Supabase",
+      "description": "Supabase andmepiir, tenant storage, logimine, serveripoolne turvalisus ja ainult service role jaoks mõeldud SQL helper."
+    }
+  }
+}

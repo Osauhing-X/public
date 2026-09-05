@@ -1,165 +1,187 @@
 {
-    "default": { "credit": 10, "price": 1, "currency": "EUR" },
-                    
-
-    "deals": [
-                {
-                    "start": "01-01",
-                    "end": "07-01",
-                    "applies": ["onboarding", "workspace"],
-                    "discount": "0.30€",
-                    "coupon": "new_year_bonus",
-                    "en": {
-                        "title": "New Year Bonus 🎉",
-                        "description": [
-                            "Start the year with 100 free credits.",
-                            "A fresh beginning deserves new opportunities.",
-                            "Explore the platform and kick off your projects for free."
-                        ]
-                    },
-                    "et": {
-                        "title": "Uue aasta boonus 🎉",
-                        "description": [
-                            "Alusta aastat 100 tasuta krediidiga.",
-                            "Uus aasta toob uusi võimalusi ja ideid.",
-                            "Tutvu portaali võimalustega täiesti tasuta."
-                        ] } },
-                
-
-                {
-                    "start": "14-02",
-                    "end": "14-02",
-                    "applies": ["onboarding", "workspace"],
-                    "discount": "50%",
-                    "coupon": "valentines_day_gift",
-                    "en": {
-                        "title": "Valentine's Day Gift ❤️",
-                        "description": [
-                            "Share the love with free credits.",
-                            "A special gift for new members joining today.",
-                            "Start building something amazing with our Valentine's bonus."
-                        ]
-                    },
-                    "et": {
-                        "title": "Sõbrapäeva kingitus ❤️",
-                        "description": [
-                            "Tähista sõbrapäeva tasuta krediidiga.",
-                            "Eriline kingitus kõigile uutele liitujatele.",
-                            "Alusta oma ideede elluviimist juba täna."
-                        ] } },
-
-
-                {
-                    "start": "21-08",
-                    "end": "21-08",
-                    "applies": ["onboarding"],
-                    "discount": "50%",
-                    "coupon": "entrepreneurs_day",
-                    "en": {
-                        "title": "Entrepreneur's Day 🚀",
-                        "description": [
-                            "Celebrate innovation with free credits.",
-                            "Every great business starts with a single step.",
-                            "Turn your ideas into reality with a free boost."
-                        ]
-                    },
-                    "et": {
-                        "title": "Ettevõtjate päev 🚀",
-                        "description": [
-                            "Tähistame ettevõtlikkust tasuta krediidiga.",
-                            "Iga suur idee algab esimesest sammust.",
-                            "Kasuta boonus krediiti oma järgmise projekti jaoks."
-                        ] } },
-
-
-                {
-                    "start": "24-11",
-                    "end": "30-11",
-                    "applies": ["onboarding", "workspace"],
-                    "discount": "50%",
-                    "coupon": "black_friday",
-                    "en": {
-                        "title": "Black Friday 🛍️",
-                        "description": [
-                            "Our biggest bonus of the season.",
-                            "Claim extra credits during Black Friday week.",
-                            "A limited-time opportunity to get more for free."
-                        ]
-                    },
-                    "et": {
-                        "title": "Musta reede 🛍️",
-                        "description": [
-                            "Meie hooaja suurim boonus.",
-                            "Saa Black Friday nädala jooksul lisakrediiti.",
-                            "Piiratud aja võimalus saada rohkem tasuta."
-                        ] } },
-
-                {
-                    "start": "01-12",
-                    "end": "01-12",
-                    "applies": ["onboarding"],
-                    "discount": "60%",
-                    "coupon": "cyber_monday",
-                    "en": {
-                        "title": "Cyber Monday ⚡",
-                        "description": [
-                            "Power up your account with free credits.",
-                            "A special online-only bonus event.",
-                            "Start exploring the platform with extra resources."
-                        ]
-                    },
-                    "et": {
-                        "title": "Cyber Monday ⚡",
-                        "description": [
-                            "Lae oma konto tasuta krediidiga.",
-                            "Eriline veebipõhine boonuspakkumine.",
-                            "Alusta portaali kasutamist lisavõimalustega."
-                        ] } },
-
-
-                {
-                    "start": "01-12",
-                    "end": "24-12",
-                    "applies": ["onboarding"],
-                    "discount": "20%",
-                    "coupon": "holiday_offer",
-                    "en": {
-                        "title": "Holiday offer 🎄",
-                        "description": [
-                            "Celebrate the season with free credits.",
-                            "A festive welcome gift for new members.",
-                            "Build, create and explore throughout the holidays."
-                        ]
-                    },
-                    "et": {
-                        "title": "Pühadepakkumine 🎄",
-                        "description": [
-                            "Tähista pühadeaega tasuta krediidiga.",
-                            "Pidulik tervituskingitus uutele kasutajatele.",
-                            "Loo, avasta ja katseta kogu pühadeperioodi vältel."
-                        ] } },
-
-
-                {
-                    "start": "24-12",
-                    "end": "26-12",
-                    "applies": ["onboarding"],
-                    "discount": "65%",
-                    "coupon": "christmas_special",
-                    "en": {
-                        "title": "Christmas special 🎁",
-                        "description": [
-                            "A holiday gift from us to you.",
-                            "Receive extra credits and start creating.",
-                            "Merry Christmas and happy building."
-                        ]
-                    },
-                    "et": {
-                        "title": "Jõulukingitus 🎁",
-                        "description": [
-                            "Jõulukingitus meie poolt sulle.",
-                            "Saa lisakrediiti ja alusta loomist.",
-                            "Häid jõule ja edu sinu projektidele."
-                        ] } }
-    ]
+  "default": {
+    "credit": 10,
+    "price": 1,
+    "currency": "EUR"
+  },
+  "deals": [
+    {
+      "start": "01-01",
+      "end": "07-01",
+      "applies": [
+        "onboarding",
+        "workspace"
+      ],
+      "discount": "0.30€",
+      "coupon": "new_year_bonus",
+      "en": {
+        "title": "New Year Bonus 🎉",
+        "description": [
+          "Start the year with 100 free credits.",
+          "A fresh beginning deserves new opportunities.",
+          "Explore the platform and kick off your projects for free."
+        ]
+      },
+      "et": {
+        "title": "Uue aasta boonus 🎉",
+        "description": [
+          "Alusta aastat 100 tasuta krediidiga.",
+          "Uus aasta toob uusi võimalusi ja ideid.",
+          "Tutvu portaali võimalustega täiesti tasuta."
+        ]
+      }
+    },
+    {
+      "start": "14-02",
+      "end": "14-02",
+      "applies": [
+        "onboarding",
+        "workspace"
+      ],
+      "discount": "50%",
+      "coupon": "valentines_day_gift",
+      "en": {
+        "title": "Valentine's Day Gift ❤️",
+        "description": [
+          "Share the love with free credits.",
+          "A special gift for new members joining today.",
+          "Start building something amazing with our Valentine's bonus."
+        ]
+      },
+      "et": {
+        "title": "Sõbrapäeva kingitus ❤️",
+        "description": [
+          "Tähista sõbrapäeva tasuta krediidiga.",
+          "Eriline kingitus kõigile uutele liitujatele.",
+          "Alusta oma ideede elluviimist juba täna."
+        ]
+      }
+    },
+    {
+      "start": "21-08",
+      "end": "21-08",
+      "applies": [
+        "onboarding"
+      ],
+      "discount": "50%",
+      "coupon": "entrepreneurs_day",
+      "en": {
+        "title": "Entrepreneur's Day 🚀",
+        "description": [
+          "Celebrate innovation with free credits.",
+          "Every great business starts with a single step.",
+          "Turn your ideas into reality with a free boost."
+        ]
+      },
+      "et": {
+        "title": "Ettevõtjate päev 🚀",
+        "description": [
+          "Tähistame ettevõtlikkust tasuta krediidiga.",
+          "Iga suur idee algab esimesest sammust.",
+          "Kasuta boonus krediiti oma järgmise projekti jaoks."
+        ]
+      }
+    },
+    {
+      "start": "24-11",
+      "end": "30-11",
+      "applies": [
+        "onboarding",
+        "workspace"
+      ],
+      "discount": "50%",
+      "coupon": "black_friday",
+      "en": {
+        "title": "Black Friday 🛍️",
+        "description": [
+          "Our biggest bonus of the season.",
+          "Claim extra credits during Black Friday week.",
+          "A limited-time opportunity to get more for free."
+        ]
+      },
+      "et": {
+        "title": "Musta reede 🛍️",
+        "description": [
+          "Meie hooaja suurim boonus.",
+          "Saa Black Friday nädala jooksul lisakrediiti.",
+          "Piiratud aja võimalus saada rohkem tasuta."
+        ]
+      }
+    },
+    {
+      "start": "01-12",
+      "end": "01-12",
+      "applies": [
+        "onboarding"
+      ],
+      "discount": "60%",
+      "coupon": "cyber_monday",
+      "en": {
+        "title": "Cyber Monday ⚡",
+        "description": [
+          "Power up your account with free credits.",
+          "A special online-only bonus event.",
+          "Start exploring the platform with extra resources."
+        ]
+      },
+      "et": {
+        "title": "Cyber Monday ⚡",
+        "description": [
+          "Lae oma konto tasuta krediidiga.",
+          "Eriline veebipõhine boonuspakkumine.",
+          "Alusta portaali kasutamist lisavõimalustega."
+        ]
+      }
+    },
+    {
+      "start": "01-12",
+      "end": "24-12",
+      "applies": [
+        "onboarding"
+      ],
+      "discount": "20%",
+      "coupon": "holiday_offer",
+      "en": {
+        "title": "Holiday offer 🎄",
+        "description": [
+          "Celebrate the season with free credits.",
+          "A festive welcome gift for new members.",
+          "Build, create and explore throughout the holidays."
+        ]
+      },
+      "et": {
+        "title": "Pühadepakkumine 🎄",
+        "description": [
+          "Tähista pühadeaega tasuta krediidiga.",
+          "Pidulik tervituskingitus uutele kasutajatele.",
+          "Loo, avasta ja katseta kogu pühadeperioodi vältel."
+        ]
+      }
+    },
+    {
+      "start": "24-12",
+      "end": "26-12",
+      "applies": [
+        "onboarding"
+      ],
+      "discount": "65%",
+      "coupon": "christmas_special",
+      "en": {
+        "title": "Christmas special 🎁",
+        "description": [
+          "A holiday gift from us to you.",
+          "Receive extra credits and start creating.",
+          "Merry Christmas and happy building."
+        ]
+      },
+      "et": {
+        "title": "Jõulukingitus 🎁",
+        "description": [
+          "Jõulukingitus meie poolt sulle.",
+          "Saa lisakrediiti ja alusta loomist.",
+          "Häid jõule ja edu sinu projektidele."
+        ]
+      }
+    }
+  ]
 }

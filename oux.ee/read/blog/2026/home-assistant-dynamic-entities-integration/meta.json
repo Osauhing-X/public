@@ -1,29 +1,28 @@
 {
-
-    "sitemap":  {
-      "published": "2026-04-13",
-      "lastmod": "2026-04-15",
-      "priority": 0.5,
-      "changefreq": "yearly"
+  "sitemap": {
+    "published": "2026-04-13",
+    "lastmod": "2026-04-15",
+    "priority": 0.5,
+    "changefreq": "yearly"
+  },
+  "tags": [
+    "Home Assistant",
+    "Integration",
+    "Smart Home"
+  ],
+  "seo": {
+    "type": "article",
+    "author": "Taavi T",
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/oux.ee/read/blog/2026/home-assistant-dynamic-entities-integration/HA.png",
+    "en": {
+      "title": "Home Assistant – Dynamic Entities Integration",
+      "description": "Flexible Home Assistant integration that allows your custom code, APIs, and external services to create and update dynamic entities. Monitor, track, and automate based on real-time data from virtually any system or service.",
+      "keywords": "Home Assistant, Home Assistant integration, dynamic entities, custom entities, Home Assistant API, real-time data integration, external services, automation platform, API integration, event tracking, smart home automation, custom component"
     },
-
-    "tags": ["Home Assistant", "Integration", "Smart Home"],
-
-    "seo": {
-      "type": "article",
-      "author": "Taavi T",
-      "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/oux.ee/read/blog/2026/home-assistant-dynamic-entities-integration/HA.png",
-
-      "en": {
-        "title": "Home Assistant – Dynamic Entities Integration",
-        "description": "Flexible Home Assistant integration that allows your custom code, APIs, and external services to create and update dynamic entities. Monitor, track, and automate based on real-time data from virtually any system or service.",
-        "keywords": "Home Assistant, Home Assistant integration, dynamic entities, custom entities, Home Assistant API, real-time data integration, external services, automation platform, API integration, event tracking, smart home automation, custom component"
-      },
-      "et": {
-        "title": "Home Assistant – dünaamiliste üksuste integratsioon",
-        "description": "Paindlik Home Assistant integratsioon, mis võimaldab sinu koodil, API-del ja välistel teenustel luua ja uuendada dünaamilisi üksusi. Jälgi, halda ja automatiseeri reaalajas andmete põhjal pea kõiki süsteeme.",
-        "keywords": "Home Assistant, Home Assistant integratsioon, dünaamilised üksused, custom entity, Home Assistant API, reaalaja andmete integratsioon, välised teenused, automatiseerimine, API integratsioon, sündmuste jälgimine, nutikodu lahendused, custom component"
-      }
+    "et": {
+      "title": "Home Assistant – dünaamiliste üksuste integratsioon",
+      "description": "Paindlik Home Assistant integratsioon, mis võimaldab sinu koodil, API-del ja välistel teenustel luua ja uuendada dünaamilisi üksusi. Jälgi, halda ja automatiseeri reaalajas andmete põhjal pea kõiki süsteeme.",
+      "keywords": "Home Assistant, Home Assistant integratsioon, dünaamilised üksused, custom entity, Home Assistant API, reaalaja andmete integratsioon, välised teenused, automatiseerimine, API integratsioon, sündmuste jälgimine, nutikodu lahendused, custom component"
     }
+  }
 }
-

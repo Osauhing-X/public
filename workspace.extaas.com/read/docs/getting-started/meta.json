@@ -1,0 +1,24 @@
+{
+  "tags": [
+    "getting-started",
+    "workspace",
+    "setup",
+    "dns",
+    "modules"
+  ],
+  "sitemap": {
+    "lastmod": "2026-07-02",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Getting started",
+      "description": "Practical first setup guide for Extaas Workspace, tenant domains, modules, integrations, payment boundaries and launch checks."
+    },
+    "et": {
+      "title": "Alustamine",
+      "description": "Praktiline alustamise juhend Extaas Workspace'i, tenant domeenide, moodulite, integratsioonide, maksepiiride ja avaldamise kontrollide jaoks."
+    }
+  }
+}

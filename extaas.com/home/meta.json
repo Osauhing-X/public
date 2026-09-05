@@ -1,27 +1,22 @@
 {
-    "layout": "regular",
-
-    "group": "main",
-    
-    "meta_only": true,
-    
-    "sitemap":  {
-      "lastmod": "2026-03-03",
-      "priority": 1,
-      "changefreq": "yearly"
+  "group": "main",
+  "meta_only": true,
+  "sitemap": {
+    "lastmod": "2026-03-03",
+    "priority": 1,
+    "changefreq": "yearly"
+  },
+  "seo": {
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/home/BG.png",
+    "en": {
+      "title": "Extaas technology ecosystem",
+      "description": "Discover Extaas Workspace, Home Assistant tools, Labs experiments and other products built by OUX.",
+      "keywords": "Extaas, web development, IT support, Svelte, web solutions, technical consulting, custom solutions, Osaühing X, 17396663"
     },
-
-
-    "seo": {
-        "image": "https://raw.githubusercontent.com/Osauhing-X/public/refs/heads/extaas.com/home/BG.png",
-
-        "en": {
-            "title": "Extaas technology ecosystem",
-            "description": "Discover Extaas Workspace, Home Assistant tools, Labs experiments and other products built by OUX.",
-            "keywords": "Extaas, web development, IT support, Svelte, web solutions, technical consulting, custom solutions, Osaühing X, 17396663" },
-        "et": {
-            "title": "Extaasi tehnoloogiaökosüsteem",
-            "description": "Avasta OUX-i loodud Extaas Workspace, Home Assistanti tööriistad, Labsi katsed ja teised tooted.",
-            "keywords": "Extaas, veebiarendus, IT-tugi, Svelte, veebilahendused, tehniline konsultatsioon, kohandatud lahendused, Osaühing X, 17396663" }
+    "et": {
+      "title": "Extaasi tehnoloogiaökosüsteem",
+      "description": "Avasta OUX-i loodud Extaas Workspace, Home Assistanti tööriistad, Labsi katsed ja teised tooted.",
+      "keywords": "Extaas, veebiarendus, IT-tugi, Svelte, veebilahendused, tehniline konsultatsioon, kohandatud lahendused, Osaühing X, 17396663"
     }
+  }
 }

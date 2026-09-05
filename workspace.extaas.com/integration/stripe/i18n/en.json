@@ -1,7 +1,0 @@
-{
-  "title": "Stripe",
-  "description": "Use Stripe for credit purchases and optional customer payment links.",
-  "publishableKey": "Publishable key",
-  "enabled": "Enabled",
-  "save": "Save"
-}

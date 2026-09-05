@@ -1,66 +1,62 @@
 [
-    {
-        "start": "01-07",
-        "end": "01-08",
-        "year": 2026,
-        "credit": 50,
-        "en": {
-            "title": "Portal opening 🎉",
-            "description": [
-                "..."
-            ]
-        },
-        "et": {
-            "title": "Portal opening 🎉",
-            "description": [
-                "..."
-            ] } },
-    
-    {
-        "start": "21-08",
-        "end": "21-08",
-        "credit": 50,
-        "en": {
-            "title": "Entrepreneur's Day 🚀",
-            "description": [
-                "Celebrate innovation with free credits.",
-                "Every great business starts with a single step.",
-                "Turn your ideas into reality with a free boost."
-            ]
-        },
-        "et": {
-            "title": "Ettevõtjate päev 🚀",
-            "description": [
-                "Tähistame ettevõtlikkust tasuta krediidiga.",
-                "Iga suur idee algab esimesest sammust.",
-                "Kasuta boonus krediiti oma järgmise projekti jaoks."
-            ] } },
-
-
-
-
-
-
-
-
-
-    {
-        "start": "24-12",
-        "end": "26-12",
-        "credit": 80,
-        "en": {
-            "title": "Christmas special 🎁",
-            "description": [
-                "A holiday gift from us to you.",
-                "Receive extra credits and start creating.",
-                "Merry Christmas and happy building."
-            ]
-        },
-        "et": {
-            "title": "Jõulukingitus 🎁",
-            "description": [
-                "Jõulukingitus meie poolt sulle.",
-                "Saa lisakrediiti ja alusta loomist.",
-                "Häid jõule ja edu sinu projektidele."
-            ] } }
+  {
+    "start": "01-07",
+    "end": "01-08",
+    "year": 2026,
+    "credit": 50,
+    "en": {
+      "title": "Portal opening 🎉",
+      "description": [
+        "..."
+      ]
+    },
+    "et": {
+      "title": "Portal opening 🎉",
+      "description": [
+        "..."
+      ]
+    }
+  },
+  {
+    "start": "21-08",
+    "end": "21-08",
+    "credit": 50,
+    "en": {
+      "title": "Entrepreneur's Day 🚀",
+      "description": [
+        "Celebrate innovation with free credits.",
+        "Every great business starts with a single step.",
+        "Turn your ideas into reality with a free boost."
+      ]
+    },
+    "et": {
+      "title": "Ettevõtjate päev 🚀",
+      "description": [
+        "Tähistame ettevõtlikkust tasuta krediidiga.",
+        "Iga suur idee algab esimesest sammust.",
+        "Kasuta boonus krediiti oma järgmise projekti jaoks."
+      ]
+    }
+  },
+  {
+    "start": "24-12",
+    "end": "26-12",
+    "credit": 80,
+    "en": {
+      "title": "Christmas special 🎁",
+      "description": [
+        "A holiday gift from us to you.",
+        "Receive extra credits and start creating.",
+        "Merry Christmas and happy building."
+      ]
+    },
+    "et": {
+      "title": "Jõulukingitus 🎁",
+      "description": [
+        "Jõulukingitus meie poolt sulle.",
+        "Saa lisakrediiti ja alusta loomist.",
+        "Häid jõule ja edu sinu projektidele."
+      ]
+    }
+  }
 ]
