@@ -1,24 +1,21 @@
 # Avaliku staatilise andmeallika register
 
-See repository avaldatakse GitHubi `www` harust ja sisaldab ainult veebirakenduste poolt väliselt loetavat sisu.
+See repository avaldatakse GitHubi `www` harust ja sisaldab veebirakenduste poolt väliselt loetavat sisu.
 
 ## Aktiivsed tarbijad
 
-- `oux.ee/routes.json`: OUX avalike lehtede SEO, Markdown-sisu ja koondatud Read-vaade.
-- `extaas.com/routes.json`: Extaasi avalike route’ide SEO. Store’i tooted ise tulevad Supabase’i Stripe Sync tabelitest.
-- `extaas.com/read`: tühi ümbersuunamise register; Extaasi Read-link avab OUX-i koondvaate.
-- `workspace.extaas.com/read`: OUX Read-vaates kuvatav Workspace’i dokumentatsioon, blogi ja õigusinfo.
-- `workspace.extaas.com/gift.json`: Workspace’i krediidikingituste serveripoolne andmeallikas.
-- `workspace.extaas.com/deals.json`: Workspace’i kampaaniate serveripoolne andmeallikas.
+- `oux.ee/routes.json`: OUX avalike tavalehtede register.
+- `network/meta.json`: OUX-i koondatud Read-vaate kirjeldus.
+- `network/routes.json`: kõigi domeenide Read-sisu keskne register, kus iga kirje määrab lähtekausta, avaliku URL-i ja domeeni.
+- `network/Our Domains/<domain>/...`: domeenile kuuluv blogi-, dokumentatsiooni- ja õigusinfo.
+- `extaas.com/routes.json`: Extaasi avalike route'ide SEO; `/read` kasutab Networkis asuvat ümbersuunamise metat.
+- `workspace.extaas.com/gift.json` ja `deals.json`: Workspace'i serveripoolsed andmeallikad.
 - `oux.ee/calendar_events.json`: OUX avalike kalendrisündmuste andmeallikas.
-
-## Rakendustes paiknev sisu
-
-Workspace’i UI tekstid ja tõlked asuvad rakenduses `src/lib/assets/i18n`. Moodulite, integratsioonide, dashboard’i ja krediidivaadete vanu staatilisi koopiaid enam runtime’is ei laadita.
 
 ## Reeglid
 
-- Read-sisu route registreeritakse vastava domeeni `read/routes.json` failis.
-- Tavaleht registreeritakse domeeni juure `routes.json` failis ja vajab vastavat `meta.json` faili.
-- Saladusi, võtmeid ja keskkonnamuutujate väärtusi siia ei lisata.
-- `layout` meta-välja ei kasutata; paigutuse määrab rakenduse SvelteKit route.
+- Uus Read-sisu lisatakse `network` alla, mitte domeeni `read` kausta.
+- Read-kirje registreeritakse `network/routes.json` failis väljadega `source`, `path` ja `domain`.
+- `source` on kaust Networki juure suhtes; `path` on avalik `/blog`, `/docs` või `/legal-documents` URL.
+- Tavaleht registreeritakse endiselt vastava domeeni juure `routes.json` failis.
+- Saladusi ega keskkonnamuutujate väärtusi siia ei lisata.
