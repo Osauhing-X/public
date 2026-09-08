@@ -1,6 +1,6 @@
 # Forms, surveys and CRM
 
-![The journey from a form to an organised customer relationship](https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/forms-and-crm/cover.png)
+![The journey from a form to an organised customer relationship](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/forms-and-crm/cover.png)
 
 A form collects structured customer input. CRM turns that input into a manageable customer relationship. Use them together when a response needs ownership, follow-up, history or later analysis.
 

@@ -3,7 +3,7 @@
 Operational documentation for `workspace.extaas.com` customers and staff. Workspace is the private portal for tenant modules, integrations, projects, invoices, credits and customer operations while tenant DNS pages remain public customer-facing surfaces.
 
 <figure>
-  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace and tenant flow">
+  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace and tenant flow">
   <figcaption>Extaas separates the public main domain, private workspace and tenant DNS surface.</figcaption>
 </figure>
 

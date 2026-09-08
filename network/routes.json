@@ -118,5 +118,60 @@
     "source": "Our Domains/workspace.extaas.com/legal-documents/b2b-service-agreement",
     "path": "/legal-documents/b2b-service-agreement",
     "domain": "workspace.extaas.com"
+  },
+  {
+    "source": "Legal Documents",
+    "path": "/legal-documents/overview",
+    "domain": "oux.ee"
+  },
+  {
+    "source": "Home Assistant/X Entities",
+    "path": "/docs/x-entities",
+    "domain": "oux.ee"
+  },
+  {
+    "source": "Home Assistant/X Platform",
+    "path": "/docs/x-platform",
+    "domain": "oux.ee"
+  },
+  {
+    "source": "Home Assistant/X Platform/Popcorn",
+    "path": "/docs/popcorn",
+    "domain": "oux.ee"
+  },
+  {
+    "source": "Home Assistant/X Platform/RTSP to ONVIF",
+    "path": "/docs/rtsp-to-onvif",
+    "domain": "oux.ee"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/integrations",
+    "path": "/docs/integrations",
+    "domain": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/modules",
+    "path": "/docs/modules",
+    "domain": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/settings",
+    "path": "/docs/settings",
+    "domain": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/oux.ee/campaigns/2026",
+    "path": "/blog/2026/oux-campaigns",
+    "domain": "oux.ee"
+  },
+  {
+    "source": "Our Domains/extaas.com/blog/2026",
+    "path": "/blog/2026/extaas-ecosystem",
+    "domain": "extaas.com"
+  },
+  {
+    "source": "Our Domains/extaas.com/docs/account",
+    "path": "/docs/account",
+    "domain": "extaas.com"
   }
 ]

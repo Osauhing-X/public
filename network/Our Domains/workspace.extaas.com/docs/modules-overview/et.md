@@ -1,6 +1,6 @@
 # Workspace'i moodulid: mida kasutada ja miks?
 
-![Extaas Workspace'i moodulid moodustavad ühe ühendatud töövoo](https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/modules-overview/cover.png)
+![Extaas Workspace'i moodulid moodustavad ühe ühendatud töövoo](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/modules-overview/cover.png)
 
 Moodul on konkreetse töövoo tööriist. Integratsioon ühendab selle välise teenusega, mis annab moodulile andmebaasi, e-posti, makse või tehisintellekti võimekuse. Kõiki mooduleid ei pea korraga kasutusele võtma: parim lahendus algab ühest selgest klienditeekonnast ja kasvab tegeliku vajaduse järgi.
 

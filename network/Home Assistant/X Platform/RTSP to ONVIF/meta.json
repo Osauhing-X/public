@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "network",
+    "oux.ee"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-08",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "RTSP to ONVIF",
+      "description": "X rakendus olemasolevate RTSP voogude esitamiseks virtuaalsete ONVIF kaameratena."
+    },
+    "en": {
+      "title": "RTSP to ONVIF",
+      "description": "An X application that exposes existing RTSP streams as virtual ONVIF cameras."
+    }
+  }
+}

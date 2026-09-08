@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "network",
+    "oux.ee"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-08",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "X Entities",
+      "description": "Home Assistanti integratsioon dünaamiliste rakendusepõhiste sensorite, lülitite ja nuppude jaoks."
+    },
+    "en": {
+      "title": "X Entities",
+      "description": "A Home Assistant integration for dynamic application-owned sensors, switches and buttons."
+    }
+  }
+}

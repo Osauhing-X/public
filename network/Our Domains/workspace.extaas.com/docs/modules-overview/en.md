@@ -1,6 +1,6 @@
 # Workspace modules: what to use and why
 
-![Extaas Workspace modules form one connected workflow](https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/modules-overview/cover.png)
+![Extaas Workspace modules form one connected workflow](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/modules-overview/cover.png)
 
 A module is a tool for a specific workflow. An integration connects it to an external service that provides database, email, payment or AI capabilities. You do not need every module at once: the best setup starts with one clear customer journey and grows with real demand.
 

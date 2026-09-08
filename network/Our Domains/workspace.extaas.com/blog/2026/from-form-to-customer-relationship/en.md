@@ -1,6 +1,6 @@
 # A form is not yet a customer relationship
 
-![The journey from a form to an organised customer relationship](https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/blog/2026/from-form-to-customer-relationship/cover.png)
+![The journey from a form to an organised customer relationship](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/blog/2026/from-form-to-customer-relationship/cover.png)
 
 A web form can be technically flawless and still create little business value. If the response reaches an unknown mailbox, has no owner or creates the same customer in five lists, only data entry was digitised—not the process.
 

@@ -1,6 +1,6 @@
 # Local-first automaatika: miks hoida juhtimiskiht kodus?
 
-![Kohalik Home Assistanti juhtimiskiht ühendab kodu seadmed](https://raw.githubusercontent.com/Osauhing-X/public/www/oux.ee/read/blog/2026/local-first-home-automation/cover.png)
+![Kohalik Home Assistanti juhtimiskiht ühendab kodu seadmed](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/blog/2026/local-first-home-automation/cover.png)
 
 Local-first ei tähenda interneti keelamist. See tähendab, et kodu põhifunktsioonide otsus ja tööseis asuvad võimalikult lähedal seadmetele ning pilveteenus on lisavõimekus, mitte ainus tee lülitini.
 

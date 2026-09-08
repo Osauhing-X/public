@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "network",
+    "extaas.com"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-08",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Extaasi ökosüsteem ühe selge teekonnana",
+      "description": "Kuidas Store, Workspace ja OUX-i teenused moodustavad ühe seotud teenuseteekonna."
+    },
+    "en": {
+      "title": "The Extaas ecosystem as one clear journey",
+      "description": "How Store, Workspace and OUX services form one connected service journey."
+    }
+  }
+}

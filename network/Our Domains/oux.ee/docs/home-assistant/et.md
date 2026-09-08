@@ -1,6 +1,6 @@
 # Extaas ja Home Assistant
 
-![Kohalik Home Assistanti juhtimiskiht ühendab dünaamilised seadmed](https://raw.githubusercontent.com/Osauhing-X/public/www/oux.ee/read/docs/home-assistant/cover.png)
+![Kohalik Home Assistanti juhtimiskiht ühendab dünaamilised seadmed](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/docs/home-assistant/cover.png)
 
 Extaasi Home Assistanti ökosüsteem aitab ühendada kohalikus võrgus töötavaid Node.js rakendusi Home Assistantiga, käitada rakendusi lisadena ning hallata kohandatud pluginate paigaldust. Komponendid on eraldi tööriistad: vali neist ainult see, mis lahendab konkreetse vajaduse.
 

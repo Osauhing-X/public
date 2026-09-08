@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "network",
+    "oux.ee"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-08",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Õigusdokumentide ülevaade",
+      "description": "OUX-i ja Extaasi teenuste kasutamist reguleerivate dokumentide lähtekoht."
+    },
+    "en": {
+      "title": "Legal documents overview",
+      "description": "A starting point for documents governing the use of OUX and Extaas services."
+    }
+  }
+}

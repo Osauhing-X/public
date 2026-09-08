@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "network",
+    "oux.ee"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-08",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "X Platform",
+      "description": "Home Assistanti add-on rakenduste ja integratsioonide paigaldamiseks ning käitamiseks."
+    },
+    "en": {
+      "title": "X Platform",
+      "description": "A Home Assistant add-on for installing and operating applications and integrations."
+    }
+  }
+}

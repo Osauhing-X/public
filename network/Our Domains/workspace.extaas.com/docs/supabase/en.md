@@ -68,8 +68,8 @@ Do not log service role keys, API keys, full card data or sensitive payloads.
 
 The `tenant-exec-sql.txt` helper creates a controlled SQL execution function for service-role-only maintenance operations. It must not be available to public, anon or authenticated browser users.
 
-<object data="https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/supabase/tenant-exec-sql.txt" type="text/plain" style="width: 100%; min-height: 360px; border: 1px solid color-mix(in oklab, var(--x_heading_color) 14%, transparent); border-radius: 8px; background: var(--x_outer_background);">
-  <a href="https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/supabase/tenant-exec-sql.txt">Open tenant-exec-sql.txt</a>
+<object data="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/supabase/tenant-exec-sql.txt" type="text/plain" style="width: 100%; min-height: 360px; border: 1px solid color-mix(in oklab, var(--x_heading_color) 14%, transparent); border-radius: 8px; background: var(--x_outer_background);">
+  <a href="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/supabase/tenant-exec-sql.txt">Open tenant-exec-sql.txt</a>
 </object>
 
 ```sql

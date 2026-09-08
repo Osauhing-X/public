@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "network",
+    "extaas.com"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-08",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Extaasi konto",
+      "description": "Üks konto Extaasi Store’i ja Workspace’i ligipääsude jaoks."
+    },
+    "en": {
+      "title": "Extaas account",
+      "description": "One account for Extaas Store and Workspace access."
+    }
+  }
+}

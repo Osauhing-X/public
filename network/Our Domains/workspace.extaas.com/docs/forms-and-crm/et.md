@@ -1,6 +1,6 @@
 # Vormid, küsitlused ja CRM
 
-![Teekond vormist korrastatud kliendisuhteni](https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/forms-and-crm/cover.png)
+![Teekond vormist korrastatud kliendisuhteni](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/forms-and-crm/cover.png)
 
 Vorm kogub kliendilt struktureeritud sisendi. CRM muudab selle sisendi hallatavaks kliendisuhteks. Neid tasub kasutada koos siis, kui vastus vajab omanikku, järeltegevust, ajalugu või hilisemat analüüsi.
 

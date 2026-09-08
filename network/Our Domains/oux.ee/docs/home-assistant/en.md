@@ -1,6 +1,6 @@
 # Extaas and Home Assistant
 
-![A local Home Assistant control layer connects dynamic devices](https://raw.githubusercontent.com/Osauhing-X/public/www/oux.ee/read/docs/home-assistant/cover.png)
+![A local Home Assistant control layer connects dynamic devices](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/docs/home-assistant/cover.png)
 
 The Extaas Home Assistant ecosystem connects local Node.js applications to Home Assistant, runs applications as add-ons and manages custom plugin installation. The components are separate tools: choose only the one that solves the actual need.
 

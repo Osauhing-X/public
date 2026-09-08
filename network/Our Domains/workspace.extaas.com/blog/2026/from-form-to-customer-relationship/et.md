@@ -1,6 +1,6 @@
 # Vorm ei ole veel kliendisuhe
 
-![Teekond vormist korrastatud kliendisuhteni](https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/blog/2026/from-form-to-customer-relationship/cover.png)
+![Teekond vormist korrastatud kliendisuhteni](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/blog/2026/from-form-to-customer-relationship/cover.png)
 
 Veebivorm võib olla tehniliselt laitmatu ja ikkagi ettevõttele vähe väärtust luua. Kui vastus jõuab teadmata postkasti, sellel puudub omanik või sama klient tekib viide erinevasse nimekirja, on digitaliseeritud ainult sisestamine – mitte tööprotsess.
 

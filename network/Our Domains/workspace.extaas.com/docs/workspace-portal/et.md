@@ -3,7 +3,7 @@
 Operatiivne dokumentatsioon `workspace.extaas.com` klientidele ja staff vaatele. Workspace on privaatne portaal tenant moodulite, integratsioonide, projektide, arvete, krediitide ja kliendi tegevuste jaoks, samal ajal kui tenant DNS lehed jäävad avalikuks kliendipinnaks.
 
 <figure>
-  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace ja tenant skeem">
+  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace ja tenant skeem">
   <figcaption>Extaas eraldab avaliku põhidomeeni, privaatse workspace'i ja tenant DNS pinna.</figcaption>
 </figure>
 

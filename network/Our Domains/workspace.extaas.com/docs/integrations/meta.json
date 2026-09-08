@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "network",
+    "workspace.extaas.com"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-08",
+    "priority": 0.6,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Workspace’i integratsioonid",
+      "description": "Workspace’i väliste ühenduste rollid, eeldused ja veakäitumine."
+    },
+    "en": {
+      "title": "Workspace integrations",
+      "description": "Roles, requirements and failure behaviour of external Workspace connections."
+    }
+  }
+}

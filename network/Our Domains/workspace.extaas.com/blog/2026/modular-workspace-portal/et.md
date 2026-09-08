@@ -1,6 +1,6 @@
 # Miks ehitada ettevõtte portaal moodulitest?
 
-![Modulaarne Workspace ühendab klienditeekonna tööriistad](https://raw.githubusercontent.com/Osauhing-X/public/www/workspace.extaas.com/read/blog/2026/modular-workspace-portal/cover.png)
+![Modulaarne Workspace ühendab klienditeekonna tööriistad](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/blog/2026/modular-workspace-portal/cover.png)
 
 Ettevõtte digikeskkond kasvab harva ühe läbimõeldud otsuse tulemusena. Alguses tuleb kontaktivorm, siis broneerimine, hiljem uudiskiri, klienditabel, makselink ja sisemine ülesannete nimekiri. Iga tööriist lahendab oma väikese probleemi, kuid tervik muutub ajapikku raskesti juhitavaks.
 
