@@ -9,18 +9,22 @@
     "operations"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Klienditeekonnad ja igapäevane haldus",
-      "description": "Booking'u, rendi, poe, vormide ja e-posti klienditeekonnad, vastutused, testimine, logid ja tõrkeolukorrad Extaas Workspace'is."
+      "description": "Booking'u, rendi, poe, vormide ja e-posti klienditeekonnad, vastutused, testimine, logid ja tõrkeolukorrad Extaas Workspace'is.",
+      "keywords": "klienditeekonnad, Extaas Workspace, CRM, järeltegevused, kliendihaldus, töövood"
     },
     "en": {
       "title": "Customer workflows and daily operations",
-      "description": "Booking, rental, store, form and email customer journeys, ownership, testing, logs and failure handling in Extaas Workspace."
-    }
+      "description": "Booking, rental, store, form and email customer journeys, ownership, testing, logs and failure handling in Extaas Workspace.",
+      "keywords": "customer workflows, Extaas Workspace, CRM, follow-up, customer management, workflows"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

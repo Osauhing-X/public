@@ -8,19 +8,23 @@
     "smart-home"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Extaas ja Home Assistant",
-      "description": "Extaasi Home Assistanti integratsiooni, Node Serveri, Node Server UI, X Plugins Installeri ja Popcorni lisade eesmärk, valik, seadistus ning turvalisus."
+      "description": "Extaasi Home Assistanti integratsiooni, Node Serveri, Node Server UI, X Plugins Installeri ja Popcorni lisade eesmärk, valik, seadistus ning turvalisus.",
+      "keywords": "Extaas Home Assistant, X Platform, X Entities, nutikodu, lokaalne automaatika, integratsioonid"
     },
     "en": {
       "title": "Extaas and Home Assistant",
-      "description": "Purpose, selection, setup and security for the Extaas Home Assistant integration, Node Server, Node Server UI, X Plugins Installer and Popcorn add-ons."
+      "description": "Purpose, selection, setup and security for the Extaas Home Assistant integration, Node Server, Node Server UI, X Plugins Installer and Popcorn add-ons.",
+      "keywords": "Extaas Home Assistant, X Platform, X Entities, smart home, local automation, integrations"
     },
-    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/docs/home-assistant/cover.png"
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/docs/home-assistant/cover.png",
+    "type": "website",
+    "name": "OUX"
   }
 }

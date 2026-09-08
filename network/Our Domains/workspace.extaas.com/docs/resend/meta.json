@@ -7,18 +7,22 @@
     "notifications"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Resend",
-      "description": "Resend setup guide for workspace email, campaigns, module notifications, templates, delivery logs and credit usage."
+      "description": "Resend setup guide for workspace email, campaigns, module notifications, templates, delivery logs and credit usage.",
+      "keywords": "Extaas Workspace Resend, email integration, notifications, customer communication, business portal"
     },
     "et": {
       "title": "Resend",
-      "description": "Resendi seadistuse juhend workspace e-kirjade, kampaaniate, moodulite teavituste, mallide, logide ja krediidikasutuse jaoks."
-    }
+      "description": "Resendi seadistuse juhend workspace e-kirjade, kampaaniate, moodulite teavituste, mallide, logide ja krediidikasutuse jaoks.",
+      "keywords": "Extaas Workspace Resend, e-posti integratsioon, teavitused, kliendisuhtlus, ettevõtte portaal"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

@@ -1,7 +1,7 @@
 {
   "sitemap": {
     "published": "2026-08-03",
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "yearly"
   },
@@ -24,6 +24,7 @@
       "title": "Why build a business portal from modules?",
       "description": "How a modular Workspace reduces tool fragmentation, keeps customer journeys connected and lets a business start small and grow with control.",
       "keywords": "modular customer portal, Workspace, business software, CRM, booking, rental, email, integrations"
-    }
+    },
+    "name": "Extaas"
   }
 }

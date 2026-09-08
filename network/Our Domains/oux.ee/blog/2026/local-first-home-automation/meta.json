@@ -1,7 +1,7 @@
 {
   "sitemap": {
     "published": "2026-08-03",
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "yearly"
   },
@@ -24,6 +24,7 @@
       "title": "Local-first automation: why keep control at home?",
       "description": "What local-first Home Assistant architecture provides, where Node.js services help, and which security, reliability and maintenance boundaries matter.",
       "keywords": "local-first, Home Assistant, Node.js, smart home, local automation, Zeroconf, self-hosted"
-    }
+    },
+    "name": "OUX"
   }
 }

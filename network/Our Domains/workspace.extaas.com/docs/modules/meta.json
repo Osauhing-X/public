@@ -4,18 +4,22 @@
     "workspace.extaas.com"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Workspace’i moodulid",
-      "description": "Portaali funktsioonid on jagatud sõltumatult aktiveeritavateks mooduliteks."
+      "description": "Portaali funktsioonid on jagatud sõltumatult aktiveeritavateks mooduliteks.",
+      "keywords": "Extaas Workspace, moodulid, CRM, broneerimine, rent, vormid, ettevõtte portaal"
     },
     "en": {
       "title": "Workspace modules",
-      "description": "Portal capabilities are divided into independently enabled modules."
-    }
+      "description": "Portal capabilities are divided into independently enabled modules.",
+      "keywords": "Extaas Workspace, modules, CRM, booking, rental, forms, business portal"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

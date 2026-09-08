@@ -7,18 +7,22 @@
     "templates"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "OpenAI",
-      "description": "OpenAI integration guide for safe email drafts, templates, reusable content blocks, prompt structure and secret handling."
+      "description": "OpenAI integration guide for safe email drafts, templates, reusable content blocks, prompt structure and secret handling.",
+      "keywords": "Extaas Workspace OpenAI, AI integration, AI workflows, business portal"
     },
     "et": {
       "title": "OpenAI",
-      "description": "OpenAI integratsiooni juhend turvaliste e-kirja mustandite, mallide, sisublokkide, prompti struktuuri ja saladuste kaitse jaoks."
-    }
+      "description": "OpenAI integratsiooni juhend turvaliste e-kirja mustandite, mallide, sisublokkide, prompti struktuuri ja saladuste kaitse jaoks.",
+      "keywords": "Extaas Workspace OpenAI, tehisintellekti integratsioon, AI töövood, ettevõtte portaal"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

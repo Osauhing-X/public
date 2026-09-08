@@ -4,18 +4,22 @@
     "oux.ee"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "X Platform",
-      "description": "Home Assistanti add-on rakenduste ja integratsioonide paigaldamiseks ning käitamiseks."
+      "description": "Home Assistanti add-on rakenduste ja integratsioonide paigaldamiseks ning käitamiseks.",
+      "keywords": "X Platform, Home Assistant, rakenduste haldus, add-on, lokaalne platvorm, nutikodu"
     },
     "en": {
       "title": "X Platform",
-      "description": "A Home Assistant add-on for installing and operating applications and integrations."
-    }
+      "description": "A Home Assistant add-on for installing and operating applications and integrations.",
+      "keywords": "X Platform, Home Assistant, application management, add-on, local platform, smart home"
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

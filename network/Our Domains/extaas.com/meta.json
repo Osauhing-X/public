@@ -4,7 +4,7 @@
   "group": "main",
   "meta_only": true,
   "sitemap": {
-    "lastmod": "2026-07-01",
+    "lastmod": "2026-09-09",
     "priority": 0.7,
     "changefreq": "monthly"
   },
@@ -18,6 +18,8 @@
       "title": "Lugemine",
       "description": "Sirvi Osaühing X dokumentatsiooni, blogipostitusi ja õigusdokumente ühest filtreeritavast lugemisvaatest.",
       "keywords": "Osaühing X dokumentatsioon, Extaas Workspace, blogi, õigusdokumendid, artiklid"
-    }
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

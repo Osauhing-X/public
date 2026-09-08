@@ -2,20 +2,22 @@
   "group": "main",
   "meta_only": true,
   "sitemap": {
-    "lastmod": "2026-03-03",
+    "lastmod": "2026-09-09",
     "priority": 0.4,
     "changefreq": "yearly"
   },
   "seo": {
     "en": {
       "title": "Search",
-      "description": "Search and explore all pages, blog posts, and documentation across the platform. Quickly find relevant content, filter by topics, and navigate the full site structure in one place.",
+      "description": "Search OUX pages, documentation and blog posts by topic, and navigate the website's public content from one place.",
       "keywords": "search, site search, navigation, blog search, content discovery, sitemap, Extaas"
     },
     "et": {
       "title": "Otsing",
-      "description": "Otsi ja sirvi kõiki lehti, blogipostitusi ning dokumentatsiooni. Leia kiiresti vajalik sisu, filtreeri teemade järgi ja liigu kogu saidi struktuuris mugavalt ühes kohas.",
+      "description": "Otsi OUX-i lehti, dokumentatsiooni ja blogipostitusi teema järgi ning sirvi veebilehe avalikku sisu ühest kohast.",
       "keywords": "otsing, saidi otsing, navigeerimine, blogi otsing, sisu leidmine, sitemap, Extaas"
-    }
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

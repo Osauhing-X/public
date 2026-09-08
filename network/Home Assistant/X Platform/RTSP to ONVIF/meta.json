@@ -4,18 +4,22 @@
     "oux.ee"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "RTSP to ONVIF",
-      "description": "X rakendus olemasolevate RTSP voogude esitamiseks virtuaalsete ONVIF kaameratena."
+      "description": "X rakendus olemasolevate RTSP voogude esitamiseks virtuaalsete ONVIF kaameratena.",
+      "keywords": "RTSP to ONVIF, Home Assistant, IP-kaamera, RTSP voog, ONVIF, kaamera integratsioon"
     },
     "en": {
       "title": "RTSP to ONVIF",
-      "description": "An X application that exposes existing RTSP streams as virtual ONVIF cameras."
-    }
+      "description": "An X application that exposes existing RTSP streams as virtual ONVIF cameras.",
+      "keywords": "RTSP to ONVIF, Home Assistant, IP camera, RTSP stream, ONVIF, camera integration"
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

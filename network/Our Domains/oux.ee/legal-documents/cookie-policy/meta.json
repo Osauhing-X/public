@@ -6,7 +6,7 @@
     "local-storage"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.4,
     "changefreq": "yearly"
   },
@@ -20,6 +20,8 @@
       "title": "Cookie and browser storage policy",
       "description": "How Extaas.com uses cookies, authentication sessions, a device identifier, localStorage and sessionStorage, including purpose, duration and user choices.",
       "keywords": "Extaas cookies, cookie policy, localStorage, sessionStorage, authentication, device identifier, privacy"
-    }
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

@@ -4,18 +4,22 @@
     "extaas.com"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Extaasi konto",
-      "description": "Üks konto Extaasi Store’i ja Workspace’i ligipääsude jaoks."
+      "description": "Üks konto Extaasi Store’i ja Workspace’i ligipääsude jaoks.",
+      "keywords": "Extaasi konto, kasutajakonto, sisselogimine, Workspace, konto haldamine"
     },
     "en": {
       "title": "Extaas account",
-      "description": "One account for Extaas Store and Workspace access."
-    }
+      "description": "One account for Extaas Store and Workspace access.",
+      "keywords": "Extaas account, user account, sign in, Workspace, account management"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

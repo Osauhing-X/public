@@ -1,20 +1,22 @@
 {
   "group": "story",
   "sitemap": {
-    "lastmod": "2026-03-02",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "yearly"
   },
   "seo": {
     "en": {
       "title": "Our Story",
-      "description": "Discover the journey of Extaas and Osaühing X, from Discord communities to modern web development with Svelte, JavaScript, and modular solutions. Learn how we built our digital platform step by step.",
+      "description": "The story of Osaühing X and how practical projects developed into the Extaas ecosystem for web solutions, integrations and automation.",
       "keywords": "Osaühing X, Extaas, Nexus, web development, Svelte, JavaScript, modular code, digital community, tech startup, development journey, IT services"
     },
     "et": {
       "title": "Meie lugu",
-      "description": "Tutvu Extaase ja Osaühing X arengulooga, Discordi kogukondadest kaasaegse veebiarenduseni Svelte, JavaScripti ja modulaarsete lahendustega. Saa teada, kuidas platvorm kasvas samm-sammult.",
+      "description": "Osaühing X-i lugu: kuidas praktilistest projektidest kujunes Extaasi ökosüsteem veebilahenduste, integratsioonide ja automaatika jaoks.",
       "keywords": "Osaühing X, Extaas, Nexus, veebiarendus, Svelte, JavaScript, modulaarne kood, digikogukond, tehnoloogiaettevõte, arenduslugu, IT teenused"
-    }
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

@@ -8,18 +8,22 @@
     "security"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Integratsioonid: mida need teevad ja miks neid vaja on",
-      "description": "Extaas Workspace'i Supabase'i, Resendi, Stripe'i ja OpenAI integratsioonide rollid, valik, sõltuvused, turvalisus ja tõrkeotsing."
+      "description": "Extaas Workspace'i Supabase'i, Resendi, Stripe'i ja OpenAI integratsioonide rollid, valik, sõltuvused, turvalisus ja tõrkeotsing.",
+      "keywords": "Extaas Workspace integratsioonide juhend, Stripe, Supabase, Resend, OpenAI, töövood"
     },
     "en": {
       "title": "Integrations: what they do and why they are needed",
-      "description": "Roles, selection, dependencies, security and troubleshooting for Supabase, Resend, Stripe and OpenAI in Extaas Workspace."
-    }
+      "description": "Roles, selection, dependencies, security and troubleshooting for Supabase, Resend, Stripe and OpenAI in Extaas Workspace.",
+      "keywords": "Extaas Workspace integrations guide, Stripe, Supabase, Resend, OpenAI, workflows"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

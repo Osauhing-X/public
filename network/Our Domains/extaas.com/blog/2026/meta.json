@@ -4,18 +4,22 @@
     "extaas.com"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Extaasi ökosüsteem ühe selge teekonnana",
-      "description": "Kuidas Store, Workspace ja OUX-i teenused moodustavad ühe seotud teenuseteekonna."
+      "description": "Kuidas Store, Workspace ja OUX-i teenused moodustavad ühe seotud teenuseteekonna.",
+      "keywords": "Extaas ökosüsteem, Extaas Workspace, OUX, ettevõtte tarkvara, integratsioonid, digilahendused"
     },
     "en": {
       "title": "The Extaas ecosystem as one clear journey",
-      "description": "How Store, Workspace and OUX services form one connected service journey."
-    }
+      "description": "How Store, Workspace and OUX services form one connected service journey.",
+      "keywords": "Extaas ecosystem, Extaas Workspace, OUX, business software, integrations, digital solutions"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

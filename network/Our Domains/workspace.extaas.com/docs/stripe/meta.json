@@ -7,18 +7,22 @@
     "terminal"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Stripe",
-      "description": "Stripe billing guide for public payment entry screens, workspace invoice state, credits, webhooks and future Terminal payments."
+      "description": "Stripe billing guide for public payment entry screens, workspace invoice state, credits, webhooks and future Terminal payments.",
+      "keywords": "Extaas Workspace Stripe, payment integration, billing, subscriptions, business portal"
     },
     "et": {
       "title": "Stripe",
-      "description": "Stripe arvelduse juhend avalike makse algvaadete, Workspace arve oleku, krediitide, webhookide ja tuleviku Terminal maksete jaoks."
-    }
+      "description": "Stripe arvelduse juhend avalike makse algvaadete, Workspace arve oleku, krediitide, webhookide ja tuleviku Terminal maksete jaoks.",
+      "keywords": "Extaas Workspace Stripe, maksete integratsioon, arveldamine, tellimused, ettevõtte portaal"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

@@ -7,18 +7,22 @@
     "tenant"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Supabase",
-      "description": "Supabase data boundary, tenant storage, logging, server-side security and service-role-only SQL helper documentation."
+      "description": "Supabase data boundary, tenant storage, logging, server-side security and service-role-only SQL helper documentation.",
+      "keywords": "Extaas Workspace Supabase, database, authentication, tenant, business portal"
     },
     "et": {
       "title": "Supabase",
-      "description": "Supabase andmepiir, tenant storage, logimine, serveripoolne turvalisus ja ainult service role jaoks mõeldud SQL helper."
-    }
+      "description": "Supabase andmepiir, tenant storage, logimine, serveripoolne turvalisus ja ainult service role jaoks mõeldud SQL helper.",
+      "keywords": "Extaas Workspace Supabase, andmebaas, autentimine, tenant, ettevõtte portaal"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

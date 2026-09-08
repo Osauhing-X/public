@@ -7,18 +7,22 @@
     "modules"
   ],
   "sitemap": {
-    "lastmod": "2026-07-02",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Tenant landing page",
-      "description": "Guide for tenant public landing pages, visible modules, public content boundaries, workspace redirects and responsive section structure."
+      "description": "Guide for tenant public landing pages, visible modules, public content boundaries, workspace redirects and responsive section structure.",
+      "keywords": "Extaas Workspace landing page, tenant, business portal, contact form, booking, customer journey"
     },
     "et": {
       "title": "Tenant avaleht",
-      "description": "Juhend tenant avalehtede, nähtavate moodulite, avaliku sisu piiride, Workspace suunamiste ja responsive sektsioonistruktuuri jaoks."
-    }
+      "description": "Juhend tenant avalehtede, nähtavate moodulite, avaliku sisu piiride, Workspace suunamiste ja responsive sektsioonistruktuuri jaoks.",
+      "keywords": "Extaas Workspace avaleht, tenant, ettevõtte portaal, kontaktivorm, broneerimine, klienditeekond"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

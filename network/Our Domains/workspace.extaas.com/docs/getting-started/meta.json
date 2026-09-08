@@ -7,18 +7,22 @@
     "modules"
   ],
   "sitemap": {
-    "lastmod": "2026-07-02",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Getting started",
-      "description": "Practical first setup guide for Extaas Workspace, tenant domains, modules, integrations, payment boundaries and launch checks."
+      "description": "Practical first setup guide for Extaas Workspace, tenant domains, modules, integrations, payment boundaries and launch checks.",
+      "keywords": "Extaas Workspace getting started, business workspace, account setup, modules, user guide"
     },
     "et": {
       "title": "Alustamine",
-      "description": "Praktiline alustamise juhend Extaas Workspace'i, tenant domeenide, moodulite, integratsioonide, maksepiiride ja avaldamise kontrollide jaoks."
-    }
+      "description": "Praktiline alustamise juhend Extaas Workspace'i, tenant domeenide, moodulite, integratsioonide, maksepiiride ja avaldamise kontrollide jaoks.",
+      "keywords": "Extaas Workspace alustamine, ettevõtte tööruum, konto seadistamine, moodulid, kasutusjuhend"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

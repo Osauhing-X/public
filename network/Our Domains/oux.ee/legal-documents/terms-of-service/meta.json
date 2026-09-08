@@ -6,20 +6,22 @@
     "service"
   ],
   "sitemap": {
-    "lastmod": "2026-03-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "yearly"
   },
   "seo": {
     "en": {
       "title": "Terms of Service",
-      "description": "Read the Terms of Service of Extaas.com covering service scope, user accounts, acceptable use, liability limitations, intellectual property, confidentiality, and applicable Estonian law. Applies to digital services and IT project work provided by Osaühing X.",
+      "description": "Osaühing X terms of service explain the rules for using its web services, user obligations, liability and service limitations.",
       "keywords": "Terms of Service, Extaas, Osaühing X, IT services terms, digital services agreement, acceptable use policy, liability limitation, intellectual property, confidentiality, Estonia law, user account policy"
     },
     "et": {
       "title": "Kasutustingimused",
-      "description": "Tutvu Extaas.com kasutustingimustega: teenuste iseloom, kasutajakontod, lubatud kasutus, vastutuse piirang, intellektuaalomand, konfidentsiaalsus ning Eesti õiguse kohaldamine. Kehtib digitaalsetele teenustele ja IT projektitöödele.",
+      "description": "Osaühing X-i kasutustingimused kirjeldavad veebiteenuste kasutamise reegleid, kasutaja kohustusi, vastutust ja teenuse piiranguid.",
       "keywords": "Kasutustingimused, Extaas, Osaühing X, IT teenuste tingimused, digiteenused, kasutustingimused veebilehel, vastutuse piirang, intellektuaalomand, konfidentsiaalsus, Eesti õigus, kasutajakonto tingimused"
-    }
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

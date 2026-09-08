@@ -4,18 +4,22 @@
     "oux.ee"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Õigusdokumentide ülevaade",
-      "description": "OUX-i ja Extaasi teenuste kasutamist reguleerivate dokumentide lähtekoht."
+      "description": "OUX-i ja Extaasi teenuste kasutamist reguleerivate dokumentide lähtekoht.",
+      "keywords": "õigusdokumendid, privaatsuspoliitika, kasutustingimused, müügitingimused, küpsiste poliitika, OUX"
     },
     "en": {
       "title": "Legal documents overview",
-      "description": "A starting point for documents governing the use of OUX and Extaas services."
-    }
+      "description": "A starting point for documents governing the use of OUX and Extaas services.",
+      "keywords": "legal documents, privacy policy, terms of service, terms of sale, cookie policy, OUX"
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

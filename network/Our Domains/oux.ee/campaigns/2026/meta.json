@@ -4,18 +4,22 @@
     "oux.ee"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "OUX-i kampaaniad 2026",
-      "description": "OUX-i avalike kampaaniate ja nende kehtivuse koondvaade."
+      "description": "OUX-i avalike kampaaniate ja nende kehtivuse koondvaade.",
+      "keywords": "OUX kampaaniad 2026, Osaühing X pakkumised, tarkvarateenused, digilahendused"
     },
     "en": {
       "title": "OUX campaigns 2026",
-      "description": "An overview of OUX public campaigns and their validity."
-    }
+      "description": "An overview of OUX public campaigns and their validity.",
+      "keywords": "OUX campaigns 2026, Osaühing X offers, software services, digital solutions"
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

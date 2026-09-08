@@ -1,7 +1,7 @@
 {
   "sitemap": {
     "published": "2026-08-03",
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "yearly"
   },
@@ -24,6 +24,7 @@
       "title": "A form is not yet a customer relationship",
       "description": "Why contact-form success depends on ownership, CRM, consent and follow-up—and how to turn a submission into a working customer journey.",
       "keywords": "contact form, CRM, customer journey, enquiry, consent, follow-up, data protection"
-    }
+    },
+    "name": "Extaas"
   }
 }

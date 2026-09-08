@@ -1,7 +1,7 @@
 {
   "group": "main",
   "sitemap": {
-    "lastmod": "2026-04-15",
+    "lastmod": "2026-09-09",
     "priority": 0.7,
     "changefreq": "yearly"
   },
@@ -15,6 +15,8 @@
       "title": "Blogi",
       "description": "Üldised mõtted, uuendused ja ideed automatiseerimise, Home Assistanti, self-hosted lahenduste ja arenduse teemadel.",
       "keywords": "blogi, automaatika, home assistant, self-hosted, arendus, tehnoloogia"
-    }
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

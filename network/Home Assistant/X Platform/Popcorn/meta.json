@@ -4,18 +4,22 @@
     "oux.ee"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Popcorn",
-      "description": "Kohalik Home Assistanti rakendus filmide avastamiseks ja lemmikute haldamiseks."
+      "description": "Kohalik Home Assistanti rakendus filmide avastamiseks ja lemmikute haldamiseks.",
+      "keywords": "Popcorn, Home Assistant, filmid, sarjad, meediaotsing, kohalik rakendus"
     },
     "en": {
       "title": "Popcorn",
-      "description": "A local Home Assistant application for discovering films and managing favourites."
-    }
+      "description": "A local Home Assistant application for discovering films and managing favourites.",
+      "keywords": "Popcorn, Home Assistant, movies, TV shows, media search, local application"
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

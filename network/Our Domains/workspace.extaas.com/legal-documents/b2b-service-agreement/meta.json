@@ -9,18 +9,22 @@
     "service agreement"
   ],
   "sitemap": {
-    "lastmod": "2026-09-05",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "yearly"
   },
   "seo": {
     "en": {
       "title": "Workspace B2B Service Agreement",
-      "description": "Read the service agreement that applies when registering and using an Extaas Workspace business portal."
+      "description": "Read the service agreement that applies when registering and using an Extaas Workspace business portal.",
+      "keywords": "Extaas Workspace service agreement, B2B agreement, business software terms, business portal"
     },
     "et": {
       "title": "Workspace’i B2B teenusleping",
-      "description": "Tutvu teenuslepinguga, mis kehtib Extaas Workspace’i äriportaali registreerimisel ja kasutamisel."
-    }
+      "description": "Tutvu teenuslepinguga, mis kehtib Extaas Workspace’i äriportaali registreerimisel ja kasutamisel.",
+      "keywords": "Extaas Workspace teenusleping, B2B leping, äritarkvara tingimused, ettevõtte portaal"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

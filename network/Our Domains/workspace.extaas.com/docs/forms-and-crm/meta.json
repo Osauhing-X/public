@@ -8,19 +8,23 @@
     "privacy"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Vormid, küsitlused ja CRM",
-      "description": "Praktiline juhend Extaasi kontaktivormide, küsitluste ja CRM-i kasutamiseks: väljad, nõusolek, vastutajad, järeltegevused ning andmekaitse."
+      "description": "Praktiline juhend Extaasi kontaktivormide, küsitluste ja CRM-i kasutamiseks: väljad, nõusolek, vastutajad, järeltegevused ning andmekaitse.",
+      "keywords": "Extaas Workspace vormid, küsitlused, CRM, kontaktivorm, nõusolek, kliendihaldus"
     },
     "en": {
       "title": "Forms, surveys and CRM",
-      "description": "A practical guide to Extaas contact forms, surveys and CRM: fields, consent, ownership, follow-up and data protection."
+      "description": "A practical guide to Extaas contact forms, surveys and CRM: fields, consent, ownership, follow-up and data protection.",
+      "keywords": "Extaas Workspace forms, surveys, CRM, contact form, consent, customer management"
     },
-    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/forms-and-crm/cover.png"
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/forms-and-crm/cover.png",
+    "type": "website",
+    "name": "Extaas"
   }
 }

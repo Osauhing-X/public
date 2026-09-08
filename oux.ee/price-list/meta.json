@@ -1,20 +1,22 @@
 {
   "group": "price",
   "sitemap": {
-    "lastmod": "2026-03-03",
+    "lastmod": "2026-09-09",
     "priority": 0.8,
     "changefreq": "yearly"
   },
   "seo": {
     "en": {
       "title": "Price List",
-      "description": "Explore the price list for web development, custom software solutions, CMS management, IT support, and installation services offered by Taavi Toodu, an IT specialist and Svelte web developer. Includes hourly rates, maintenance options, additional costs, and custom quote guidance.",
+      "description": "Explore Osaühing X pricing for web development, integrations and digital solutions, and choose a service suited to your project.",
       "keywords": "Price list, IT services, Svelte web development, WordPress, custom software, IT support, installation services, Taavi Toodu, Extaas, Osaühing X, monthly maintenance, web updates, small changes"
     },
     "et": {
       "title": "Hinnakiri",
-      "description": "Tutvu pakutavate teenuste hinnakirjaga: veebiarendus, rätseplahendused, CMS haldus, IT tugi ja paigaldus. Sisaldab tunnitasusid, kuuhooldust, lisatasusid ja personaalse hinnapakkumise juhiseid.",
+      "description": "Vaata Osaühing X-i veebiarenduse, integratsioonide ja digilahenduste hinnakirja ning vali oma projekti vajadustele sobiv teenus.",
       "keywords": "Hinnakiri, IT teenused, Svelte veebiarendus, WordPress, rätseplahendused, IT tugi, paigaldusteenus, Taavi Toodu, Extaas, Osaühing X, kuuhooldus, veebiuuendused, väikesed muudatused"
-    }
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

@@ -8,7 +8,7 @@
     "dns"
   ],
   "sitemap": {
-    "lastmod": "2026-07-02",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
@@ -22,6 +22,8 @@
       "title": "Workspace portaali dokumentatsioon",
       "description": "workspace.extaas.com keskne dokumentatsioon seadistuse, tenant moodulite, integratsioonide, krediitide, klienditegevuste ja turvalisuse kohta.",
       "keywords": "workspace.extaas.com, Extaas workspace, tenant portaal, moodulid, integratsioonid, krediidid, Supabase, Resend, Stripe, dokumentatsioon"
-    }
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

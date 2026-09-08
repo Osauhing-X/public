@@ -2,18 +2,22 @@
   "group": "main",
   "meta_only": true,
   "sitemap": {
-    "lastmod": "2026-09-05",
+    "lastmod": "2026-09-09",
     "priority": 0.8,
     "changefreq": "daily"
   },
   "seo": {
     "en": {
       "title": "Store — Extaas",
-      "description": "Workspace plans, X application licences, services and physical products in one secure store."
+      "description": "Workspace plans, X application licences, services and physical products in one secure store.",
+      "keywords": "Extaas store, digital products, software solutions, Home Assistant, licenses, Osaühing X"
     },
     "et": {
       "title": "Pood — Extaas",
-      "description": "Workspace’i paketid, X rakenduste litsentsid, teenused ja füüsilised tooted ühes turvalises poes."
-    }
+      "description": "Workspace’i paketid, X rakenduste litsentsid, teenused ja füüsilised tooted ühes turvalises poes.",
+      "keywords": "Extaas pood, digitooted, tarkvaralahendused, Home Assistant, litsentsid, Osaühing X"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }

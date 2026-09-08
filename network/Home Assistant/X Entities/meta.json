@@ -4,18 +4,22 @@
     "oux.ee"
   ],
   "sitemap": {
-    "lastmod": "2026-09-08",
+    "lastmod": "2026-09-09",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "X Entities",
-      "description": "Home Assistanti integratsioon dünaamiliste rakendusepõhiste sensorite, lülitite ja nuppude jaoks."
+      "description": "Home Assistanti integratsioon dünaamiliste rakendusepõhiste sensorite, lülitite ja nuppude jaoks.",
+      "keywords": "X Entities, Home Assistant, dünaamilised üksused, custom integration, sensorid, lülitid, nutikodu"
     },
     "en": {
       "title": "X Entities",
-      "description": "A Home Assistant integration for dynamic application-owned sensors, switches and buttons."
-    }
+      "description": "A Home Assistant integration for dynamic application-owned sensors, switches and buttons.",
+      "keywords": "X Entities, Home Assistant, dynamic entities, custom integration, sensors, switches, smart home"
+    },
+    "type": "website",
+    "name": "OUX"
   }
 }

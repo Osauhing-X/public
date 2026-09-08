@@ -8,18 +8,22 @@
     "modules"
   ],
   "sitemap": {
-    "lastmod": "2026-08-03",
+    "lastmod": "2026-09-09",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "Booking ja Rent: päringust lõpetamiseni",
-      "description": "Põhjalik juhend Extaasi Booking'u ja Rendi moodulite seadistamiseks, saadavuse, kinnituste, kliendisuhtluse ning igapäevase halduse jaoks."
+      "description": "Põhjalik juhend Extaasi Booking'u ja Rendi moodulite seadistamiseks, saadavuse, kinnituste, kliendisuhtluse ning igapäevase halduse jaoks.",
+      "keywords": "Extaas Workspace Booking, Rent, broneerimine, rentimine, päringud, kliendihaldus"
     },
     "en": {
       "title": "Booking and Rent: from request to completion",
-      "description": "A detailed guide to configuring Extaas Booking and Rent, availability, approvals, customer communication and daily operations."
-    }
+      "description": "A detailed guide to configuring Extaas Booking and Rent, availability, approvals, customer communication and daily operations.",
+      "keywords": "Extaas Workspace Booking, Rent, booking, rental, requests, customer management"
+    },
+    "type": "website",
+    "name": "Extaas"
   }
 }
