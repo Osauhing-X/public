@@ -26,7 +26,7 @@ Avalik `extaas.com` ei tohiks muutuda konto dashboardiks. Seal võivad olla doku
 | Projects | kliendi tööd, märkmed ja seotud teenused | Ei |
 | Invoices | arve detailid, read, makse staatus ja kviitungid | Ei |
 | Tenant portals | DNS route'id, moodulid ja avaliku tenant pinna seaded | Osaliselt |
-| Integrations | Supabase, Resend, Stripe, OpenAI ja moodulite võtmed | Ei |
+| Integrations | Supabase, Resend, Stripe, OpenAI, Trello ja moodulite võtmed | Ei |
 | Credits | saldo, kasutuslogid, juurdeost ja tagastused | Ei |
 | Public Pages | kliendile nähtav sisu ja meedia | Jah, ainult lubatud kujul |
 
@@ -64,6 +64,7 @@ Saladused jäävad serverisse. Mooduli vaade võib näidata, kas integratsioon o
 - Resend API key jääb serverisse.
 - Stripe secret key ja webhook secret jäävad serverisse.
 - OpenAI API key jääb serverisse.
+- Trello API token jääb serverisse; Workspace kuvab ainult ühenduse oleku, konto nime ja valitud board’i tunnuse.
 - Avalik tenant leht saab ainult renderdamiseks vajalikke turvalisi välju.
 
 ## Krediidid ja maksed

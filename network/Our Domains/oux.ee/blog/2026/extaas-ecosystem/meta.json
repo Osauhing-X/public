@@ -1,0 +1,30 @@
+{
+  "sitemap": {
+    "published": "2026-09-09",
+    "lastmod": "2026-09-09",
+    "priority": 0.7,
+    "changefreq": "monthly"
+  },
+  "tags": [
+    "OUX",
+    "Extaas",
+    "digilahendused",
+    "ettevõtte töövood"
+  ],
+  "seo": {
+    "type": "article",
+    "author": "Osaühing X",
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/blog/2026/extaas-ecosystem/cover.png",
+    "et": {
+      "title": "OUX ja Extaas: ideest kasutatava lahenduseni",
+      "description": "Kuidas OUX-i arendus ja Extaasi valmis tooted moodustavad ühe selge tee vajadusest toimiva digilahenduseni.",
+      "keywords": "OUX, Extaas, digilahendused, ettevõtte töövood"
+    },
+    "en": {
+      "title": "OUX and Extaas: from idea to a usable solution",
+      "description": "How OUX development and Extaas products form a clear path from a business need to a working digital solution.",
+      "keywords": "OUX, Extaas, digilahendused, ettevõtte töövood"
+    },
+    "name": "OUX"
+  }
+}

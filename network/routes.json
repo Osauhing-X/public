@@ -2,176 +2,181 @@
   {
     "source": "Our Domains/oux.ee/docs/home-assistant",
     "path": "/docs/home-assistant",
-    "domain": "oux.ee"
+    "network": "oux.ee"
   },
   {
-    "source": "Our Domains/oux.ee/legal-documents/cookie-policy",
+    "source": "Legal Documents/oux.ee/cookie-policy",
     "path": "/legal-documents/cookie-policy",
-    "domain": "oux.ee"
+    "network": "Legal Documents"
   },
   {
-    "source": "Our Domains/oux.ee/legal-documents/privacy-policy",
+    "source": "Legal Documents/oux.ee/privacy-policy",
     "path": "/legal-documents/privacy-policy",
-    "domain": "oux.ee"
+    "network": "Legal Documents"
   },
   {
-    "source": "Our Domains/oux.ee/legal-documents/terms-of-sale",
+    "source": "Legal Documents/oux.ee/terms-of-sale",
     "path": "/legal-documents/terms-of-sale",
-    "domain": "oux.ee"
+    "network": "Legal Documents"
   },
   {
-    "source": "Our Domains/oux.ee/legal-documents/terms-of-service",
+    "source": "Legal Documents/oux.ee/terms-of-service",
     "path": "/legal-documents/terms-of-service",
-    "domain": "oux.ee"
+    "network": "Legal Documents"
   },
   {
     "source": "Our Domains/oux.ee/blog/2026/local-first-home-automation",
     "path": "/blog/2026/local-first-home-automation",
-    "domain": "oux.ee"
+    "network": "oux.ee"
   },
   {
     "source": "Our Domains/oux.ee/blog/2026/home-assistant-nodejs-ui-addon",
     "path": "/blog/2026/home-assistant-nodejs-ui-addon",
-    "domain": "oux.ee"
+    "network": "oux.ee"
   },
   {
     "source": "Our Domains/oux.ee/blog/2026/home-assistant-dynamic-entities-integration",
     "path": "/blog/2026/home-assistant-dynamic-entities-integration",
-    "domain": "oux.ee"
+    "network": "oux.ee"
+  },
+  {
+    "source": "Our Domains/oux.ee/blog/2026/veebimajutus-partner",
+    "path": "/blog/2026/veebimajutus-partner",
+    "network": "oux.ee"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/getting-started",
     "path": "/docs/getting-started",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/modules-overview",
     "path": "/docs/modules-overview",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/integrations-guide",
     "path": "/docs/integrations-guide",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/customer-workflows",
     "path": "/docs/customer-workflows",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/landing-page",
     "path": "/docs/landing-page",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/forms-and-crm",
     "path": "/docs/forms-and-crm",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/booking-and-rent",
     "path": "/docs/booking-and-rent",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/email-and-audience",
     "path": "/docs/email-and-audience",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/openai",
     "path": "/docs/openai",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/resend",
     "path": "/docs/resend",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/stripe",
     "path": "/docs/stripe",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/supabase",
     "path": "/docs/supabase",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/workspace-portal",
     "path": "/docs/workspace-portal",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/blog/2026/modular-workspace-portal",
     "path": "/blog/2026/modular-workspace-portal",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/blog/2026/from-form-to-customer-relationship",
     "path": "/blog/2026/from-form-to-customer-relationship",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
-    "source": "Our Domains/workspace.extaas.com/legal-documents/b2b-service-agreement",
+    "source": "Legal Documents/workspace.extaas.com/b2b-service-agreement",
     "path": "/legal-documents/b2b-service-agreement",
-    "domain": "workspace.extaas.com"
+    "network": "Legal Documents"
   },
   {
     "source": "Legal Documents",
     "path": "/legal-documents/overview",
-    "domain": "oux.ee"
+    "network": "Legal Documents"
   },
   {
     "source": "Home Assistant/X Entities",
     "path": "/docs/x-entities",
-    "domain": "oux.ee"
+    "network": "Home Assistant"
   },
   {
     "source": "Home Assistant/X Platform",
     "path": "/docs/x-platform",
-    "domain": "oux.ee"
+    "network": "Home Assistant"
   },
   {
     "source": "Home Assistant/X Platform/Popcorn",
     "path": "/docs/popcorn",
-    "domain": "oux.ee"
+    "network": "Home Assistant"
   },
   {
     "source": "Home Assistant/X Platform/RTSP to ONVIF",
     "path": "/docs/rtsp-to-onvif",
-    "domain": "oux.ee"
+    "network": "Home Assistant"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/integrations",
     "path": "/docs/integrations",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/modules",
     "path": "/docs/modules",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/workspace.extaas.com/docs/settings",
     "path": "/docs/settings",
-    "domain": "workspace.extaas.com"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Our Domains/oux.ee/campaigns/2026",
     "path": "/blog/2026/oux-campaigns",
-    "domain": "oux.ee"
+    "network": "oux.ee"
   },
   {
     "source": "Our Domains/extaas.com/blog/2026",
     "path": "/blog/2026/extaas-ecosystem",
-    "domain": "extaas.com"
+    "network": "extaas.com"
   },
   {
     "source": "Our Domains/extaas.com/docs/account",
     "path": "/docs/account",
-    "domain": "extaas.com"
+    "network": "extaas.com"
   }
 ]

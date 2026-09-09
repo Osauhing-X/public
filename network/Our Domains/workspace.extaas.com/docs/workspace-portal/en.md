@@ -26,7 +26,7 @@ The public `extaas.com` site should not become an account dashboard. It can show
 | Projects | Customer work, delivery notes and linked services | No |
 | Invoices | Invoice details, rows, payment status and receipts | No |
 | Tenant portals | DNS routes, modules, public tenant settings | Partly |
-| Integrations | Supabase, Resend, Stripe, OpenAI and module credentials | No |
+| Integrations | Supabase, Resend, Stripe, OpenAI, Trello and module credentials | No |
 | Credits | Balance, usage logs, top-up and refunds | No |
 | Public Pages | Customer-facing content and media | Yes, only when enabled |
 
@@ -64,6 +64,7 @@ Keep secrets server-side. A module page may show whether an integration is confi
 - Resend API keys stay on the server.
 - Stripe secret keys and webhook secrets stay on the server.
 - OpenAI API keys stay on the server.
+- Trello API tokens stay on the server; Workspace exposes only connection status, account name and the selected board identifier.
 - Public tenant pages may receive only the safe, selected fields needed for rendering.
 
 ## Credits and payment

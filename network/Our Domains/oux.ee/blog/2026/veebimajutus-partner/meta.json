@@ -1,0 +1,31 @@
+{
+  "sitemap": {
+    "published": "2026-09-09",
+    "lastmod": "2026-09-09",
+    "priority": 0.7,
+    "changefreq": "monthly"
+  },
+  "tags": [
+    "Veebimajutus.ee",
+    "OUX",
+    "veebimajutus",
+    "domeen",
+    "sooduskood"
+  ],
+  "seo": {
+    "type": "article",
+    "author": "Osaühing X",
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/blog/2026/veebimajutus-partner/cover.png",
+    "et": {
+      "title": "Veebimajutus.ee partnerpakkumine: 3 kuud tasuta",
+      "description": "OUX-i partnerpakkumine kodulehe, e-poe või e-posti majutuseks: promokoodiga OUX esimesed kolm kuud veebimajutust tasuta.",
+      "keywords": "Veebimajutus.ee, OUX, veebimajutus, domeen, sooduskood"
+    },
+    "en": {
+      "title": "Veebimajutus.ee partner offer: 3 months free",
+      "description": "OUX partner offer for website, store or email hosting: use code OUX for the first three months of web hosting free.",
+      "keywords": "Veebimajutus.ee, OUX, veebimajutus, domeen, sooduskood"
+    },
+    "name": "OUX"
+  }
+}
