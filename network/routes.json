@@ -7,22 +7,22 @@
   {
     "source": "Legal Documents/oux.ee/cookie-policy",
     "path": "/legal-documents/cookie-policy",
-    "network": "Legal Documents"
+    "network": "oux.ee"
   },
   {
     "source": "Legal Documents/oux.ee/privacy-policy",
     "path": "/legal-documents/privacy-policy",
-    "network": "Legal Documents"
+    "network": "oux.ee"
   },
   {
     "source": "Legal Documents/oux.ee/terms-of-sale",
     "path": "/legal-documents/terms-of-sale",
-    "network": "Legal Documents"
+    "network": "oux.ee"
   },
   {
     "source": "Legal Documents/oux.ee/terms-of-service",
     "path": "/legal-documents/terms-of-service",
-    "network": "Legal Documents"
+    "network": "oux.ee"
   },
   {
     "source": "Our Domains/oux.ee/blog/2026/local-first-home-automation",
@@ -120,14 +120,14 @@
     "network": "workspace.extaas.com"
   },
   {
-    "source": "Legal Documents/workspace.extaas.com/b2b-service-agreement",
+    "source": "Legal Documents/workspace.extaas.com",
     "path": "/legal-documents/b2b-service-agreement",
-    "network": "Legal Documents"
+    "network": "workspace.extaas.com"
   },
   {
     "source": "Legal Documents",
     "path": "/legal-documents/overview",
-    "network": "Legal Documents"
+    "network": "oux.ee"
   },
   {
     "source": "Home Assistant/X Entities",
