@@ -4,19 +4,19 @@
     "oux.ee"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-09-10",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
       "title": "X Platform",
-      "description": "Home Assistanti add-on rakenduste ja integratsioonide paigaldamiseks ning käitamiseks.",
+      "description": "Home Assistanti add-on GitHubi rakenduste haldamiseks ja kaasas oleva X Entities integratsiooni automaatseks paigaldamiseks.",
       "keywords": "X Platform, Home Assistant, rakenduste haldus, add-on, lokaalne platvorm, nutikodu"
     },
     "en": {
       "title": "X Platform",
-      "description": "A Home Assistant add-on for installing and operating applications and integrations.",
+      "description": "A Home Assistant add-on for managing GitHub applications and automatically installing the bundled X Entities integration.",
       "keywords": "X Platform, Home Assistant, application management, add-on, local platform, smart home"
     },
     "type": "website",

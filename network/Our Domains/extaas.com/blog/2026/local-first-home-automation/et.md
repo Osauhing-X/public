@@ -1,6 +1,6 @@
 # Local-first automaatika: miks hoida juhtimiskiht kodus?
 
-![Kohalik Home Assistanti juhtimiskiht ühendab kodu seadmed](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/blog/2026/local-first-home-automation/cover.png)
+![Kohalik Home Assistanti juhtimiskiht ühendab kodu seadmed](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/extaas.com/blog/2026/local-first-home-automation/cover.png)
 
 Local-first ei tähenda interneti keelamist. See tähendab, et kodu põhifunktsioonide otsus ja tööseis asuvad võimalikult lähedal seadmetele ning pilveteenus on lisavõimekus, mitte ainus tee lülitini.
 
@@ -26,13 +26,13 @@ Oma Node.js teenused saavad täita lünki, kus valmis integratsiooni pole või a
 
 Klassikaline custom integration kirjeldab toetatud entity'd koodis. See on suurepärane stabiilse toote jaoks, kuid muutuv prototüüp või oma kontroller võib vajada paindlikumat mudelit.
 
-Extaasi dünaamiline integratsioon lubab Node'il kirjeldada oma sensorid, lülitid ja nupud andmestruktuurina. Home Assistant avastab teenuse Zeroconfi kaudu, loob entity'd ning saadab kasutaja käsud Node'i `/update` endpointi.
+X Platformiga kaasas olev X Entities lubab rakendusel kirjeldada oma sensorid, binary sensor'id, lülitid ja nupud andmestruktuurina. Home Assistant avastatakse Zeroconfi kaudu, rakendus avaldab täieliku olekusnapshot'i X Entitiesile ning kasutaja lüliti- ja nupukäsud saadetakse rakenduse `/update` otspunkti.
 
 See vähendab glue-code'i, kuid toob kaasa lepingu vastutuse. Entity võti peab olema stabiilne, väärtuse tüüp korrektne ning `device_class`, ühik ja `state_class` omavahel sobima. Dünaamilisus ei vabasta versioonimisest.
 
-## Node.js add-on või eraldi seade?
+## X Platform või eraldi seade?
 
-Home Assistanti add-on on mugav, kui teenus peab elama samas varundus- ja halduskeskkonnas. Node Server saab kloonida privaatse repo ning käitada taustarakendust; UI variant kuvab rakenduse Ingressi kaudu külgribal.
+Home Assistanti add-on on mugav, kui teenus peab elama samas varundus- ja halduskeskkonnas. X Platform avastab avalikke ja privaatseid GitHubi hoidlaid, paigaldab sõltuvused, ehitab ning käivitab mitu rakendust ja annab neile Home Assistanti Ingressi või kohtvõrgu kaudu ligipääsu. Ametlikust hoidlast leitav X Entities paigaldatakse esmasel sünkroonimisel automaatselt, kui kasutaja pole seda varem käsitsi eemaldanud.
 
 Eraldi seade on parem, kui teenus juhib füüsilist riistvara, vajab teistsugust võrguasukohta, tarbib palju ressurssi või peab töötama ka Home Assistanti hosti rikke ajal. Piiri valik sõltub rikkeolukorrast, mitte ainult paigaldusmugavusest.
 
@@ -89,6 +89,5 @@ Local-first annab omanikule rohkem kontrolli, prognoositavama latentsuse ja või
 
 ## Loe edasi
 
-- [Extaas ja Home Assistant](/et/docs/home-assistant)
-- [Dynamic Entities integratsiooni artikkel](/et/blog/2026/home-assistant-dynamic-entities-integration)
-- [Node.js Server add-on'i artikkel](/et/blog/2026/home-assistant-nodejs-ui-addon)
+- [X Platform](/docs/x-platform)
+- [X Entities](/docs/x-entities)

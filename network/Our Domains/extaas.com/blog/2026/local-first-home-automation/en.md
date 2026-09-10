@@ -1,6 +1,6 @@
 # Local-first automation: why keep control at home?
 
-![A local Home Assistant control layer connects home devices](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/blog/2026/local-first-home-automation/cover.png)
+![A local Home Assistant control layer connects home devices](https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/extaas.com/blog/2026/local-first-home-automation/cover.png)
 
 Local-first does not mean banning the internet. It means decisions and operational state for core home functions live as close to devices as practical, while cloud service is an added capability rather than the only route to a switch.
 
@@ -26,13 +26,13 @@ Custom Node.js services fill gaps where no ready integration exists or data need
 
 A classic custom integration describes supported entities in code. That is excellent for a stable product, while a changing prototype or custom controller may need a more flexible model.
 
-The Extaas dynamic integration lets Node describe sensors, switches and buttons as data. Home Assistant discovers the service through Zeroconf, creates entities and sends user commands to Node's `/update` endpoint.
+X Entities, bundled with X Platform, lets an application describe sensors, binary sensors, switches and buttons as data. The application discovers Home Assistant over Zeroconf, publishes a complete state snapshot to X Entities, and receives switch and button commands through its `/update` endpoint.
 
 This reduces glue code but creates contract responsibility. Entity keys must remain stable, value types correct, and `device_class`, unit and `state_class` compatible. Dynamic does not mean unversioned.
 
-## Node.js add-on or separate device?
+## X Platform or a separate device?
 
-A Home Assistant add-on is convenient when the service belongs in the same backup and management environment. Node Server can clone a private repository and run a background application; the UI variant renders through sidebar Ingress.
+A Home Assistant add-on is convenient when the service belongs in the same backup and management environment. X Platform discovers public and private GitHub repositories, installs dependencies, builds and runs multiple applications, and exposes them through Home Assistant Ingress or the local network. X Entities is discovered in the official repository and installed during the initial sync unless the user previously removed it manually.
 
 A separate device is better when the service controls physical hardware, needs a different network location, consumes significant resources or must survive a Home Assistant host failure. Choose the boundary by failure behaviour, not installation convenience alone.
 
@@ -89,6 +89,5 @@ A successful system is not only one that works on a perfect day. It behaves unde
 
 ## Continue reading
 
-- [Extaas and Home Assistant](/en/docs/home-assistant)
-- [Dynamic Entities integration article](/en/blog/2026/home-assistant-dynamic-entities-integration)
-- [Node.js Server add-on article](/en/blog/2026/home-assistant-nodejs-ui-addon)
+- [X Platform](/docs/x-platform)
+- [X Entities](/docs/x-entities)

@@ -1,0 +1,30 @@
+{
+  "sitemap": {
+    "published": "2026-09-10",
+    "lastmod": "2026-09-10",
+    "priority": 0.7,
+    "changefreq": "monthly"
+  },
+  "tags": [
+    "Extaas",
+    "Campaign",
+    "Testing",
+    "Creator"
+  ],
+  "seo": {
+    "type": "article",
+    "author": "Osaühing X",
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/extaas.com/campaigns/2026/tester-or-promoter/cover.png",
+    "et": {
+      "title": "Extaasi tester või promoter: saa tasuta ligipääs",
+      "description": "Kandideeri Extaasi testeriks või promoteriks. Saa valitud tootele 1–2 kuud tasuta ligipääsu ja kasuliku panuse korral võimalik pikendus.",
+      "keywords": "Extaasi tester, Extaasi promoter, tasuta ligipääs, tasuta litsents, tootetestimine, sisulooja koostöö, Home Assistant tester"
+    },
+    "en": {
+      "title": "Extaas tester or promoter: get free access",
+      "description": "Apply as an Extaas tester or promoter. Get 1–2 months of free access to a selected product, with a possible extension for a useful contribution.",
+      "keywords": "Extaas tester, Extaas promoter, free access, free licence, product testing, creator partnership, Home Assistant tester"
+    },
+    "name": "Extaas"
+  }
+}

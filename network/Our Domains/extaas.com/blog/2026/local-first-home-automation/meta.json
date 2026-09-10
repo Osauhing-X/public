@@ -1,7 +1,7 @@
 {
   "sitemap": {
     "published": "2026-08-03",
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-09-10",
     "priority": 0.6,
     "changefreq": "yearly"
   },
@@ -14,7 +14,7 @@
   "seo": {
     "type": "article",
     "author": "Extaas",
-    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/oux.ee/blog/2026/local-first-home-automation/cover.png",
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/extaas.com/blog/2026/local-first-home-automation/cover.png",
     "et": {
       "title": "Local-first automaatika: miks hoida juhtimiskiht kodus?",
       "description": "Mida local-first Home Assistanti arhitektuur päriselt annab, kus Node.js teenused aitavad ja millised turva-, töökindlus- ning hoolduspiirid tuleb läbi mõelda.",
@@ -25,6 +25,6 @@
       "description": "What local-first Home Assistant architecture provides, where Node.js services help, and which security, reliability and maintenance boundaries matter.",
       "keywords": "local-first, Home Assistant, Node.js, smart home, local automation, Zeroconf, self-hosted"
     },
-    "name": "OUX"
+    "name": "Extaas"
   }
 }

@@ -25,19 +25,9 @@
     "network": "oux.ee"
   },
   {
-    "source": "Our Domains/oux.ee/blog/2026/local-first-home-automation",
+    "source": "Our Domains/extaas.com/blog/2026/local-first-home-automation",
     "path": "/blog/2026/local-first-home-automation",
-    "network": "oux.ee"
-  },
-  {
-    "source": "Our Domains/oux.ee/blog/2026/home-assistant-nodejs-ui-addon",
-    "path": "/blog/2026/home-assistant-nodejs-ui-addon",
-    "network": "oux.ee"
-  },
-  {
-    "source": "Our Domains/oux.ee/blog/2026/home-assistant-dynamic-entities-integration",
-    "path": "/blog/2026/home-assistant-dynamic-entities-integration",
-    "network": "oux.ee"
+    "network": "extaas.com"
   },
   {
     "source": "Our Domains/oux.ee/blog/2026/veebimajutus-partner",
@@ -172,6 +162,11 @@
   {
     "source": "Our Domains/extaas.com/blog/2026",
     "path": "/blog/2026/extaas-ecosystem",
+    "network": "extaas.com"
+  },
+  {
+    "source": "Our Domains/extaas.com/campaigns/2026/tester-or-promoter",
+    "path": "/campaigns/2026/tester-or-promoter",
     "network": "extaas.com"
   },
   {
