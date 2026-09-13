@@ -1,0 +1,17 @@
+{
+  "service": "Osaühing X teenus",
+  "tenantTitle": "Logi oma tööruumi sisse",
+  "tenantText": "Kasuta selle äriportaali jaoks seadistatud sisselogimisviise.",
+  "staffTitle": "Töötaja sisselogimine",
+  "staffText": "Töötajakontod kasutavad Extaasi autentimist.",
+  "title": "Logi Extaasi sisse",
+  "text": "Ligipääs sinu äriportaalile, krediitidele, sihtrühmale, broneeringutele ja integratsioonidele.",
+  "continueWith": "Jätka teenusega",
+  "or": "või",
+  "magicLink": "E-posti magic link",
+  "emailPlaceholder": "sina@naide.ee",
+  "send": "Saada turvaline link",
+  "sent": "Kontrolli sisselogimislingi saamiseks oma postkasti.",
+  "more": "Rohkem infot aadressil",
+  "signingIn": "Sisselogimine..."
+}
