@@ -14,6 +14,12 @@ The service role key must never reach the browser. Public pages use only safe co
 
 Use the browser client only for flows that are safe with anon/authenticated keys. Use server routes for privileged operations.
 
+## User tenant access
+
+The owner or administrator user view reads authenticated users through the server-side Supabase Admin API. When tenant access changes, Workspace updates the user's `app_metadata.extaas` value and synchronises the user's email with that tenant's access list. This keeps authorisation decisions out of user-editable profile fields.
+
+Adding or removing access must remain a privileged server operation. After a metadata change, an already issued session token may need to be refreshed before the new permission appears in the client. A public route must never expose the user list, roles or tenant relationships.
+
 ## Typical data groups
 
 | Data group | Examples | Public exposure |

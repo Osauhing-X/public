@@ -19,15 +19,19 @@ Resend does not create marketing consent, act as a CRM or guarantee inbox placem
 
 ## Email module
 
-The Email module should support:
+The Email module supports:
 
 - composing a campaign;
 - selecting audience recipients;
 - previewing the rendered email;
 - reusing templates and components;
-- attaching managed assets;
+- inserting named snippets with `{{SNIPPET:name}}` tokens;
+- composing HTML and Markdown/MDX converted to HTML;
+- managed and uploaded attachments, including inline CID files;
 - sending test emails;
 - logging send results.
+
+One message can include up to 20 attachments with a combined maximum of 25 MB. Audience marketing sends receive an unsubscribe footer; direct and transactional messages use content appropriate to their own flow.
 
 Templates can be plain HTML or a JavaScript file that returns HTML from the sending payload.
 
@@ -54,7 +58,7 @@ export default function template({ customer, actionUrl }) {
 
 ## Credit logic
 
-Writing copy, editing templates, adding components and managing attachments is free. Credits are used when an email is actually sent to a deliverable recipient.
+Writing copy, editing templates, adding snippets and components, and managing attachments is free. Credits are used when an email is actually sent to a deliverable recipient. An active subscription with no weekly limit uses the unlimited delivery path without a credit deduction.
 
 Recommended rule:
 

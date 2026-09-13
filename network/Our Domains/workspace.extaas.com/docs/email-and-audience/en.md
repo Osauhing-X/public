@@ -53,12 +53,17 @@ SPF, DKIM and where appropriate DMARC help recipients authenticate the sender. S
 
 - A **template** is a complete email layout and rendering function.
 - A **component** is a reusable block such as header, button, footer or legal copy.
+- A **snippet** is named reusable text or HTML inserted with a `{{SNIPPET:name}}` token.
 - An **attachment** is a reusable or one-time file.
 - **Payload data** supplies customer, activity and link values to a template.
 
+The composer lets users inspect the same message as a preview, final HTML, MDX/Markdown, data object and Resend payload. Markdown/MDX is converted to HTML before delivery. Snippets, components and templates reduce repeated work, but the final render still needs review before sending.
+
 A JavaScript template must export a rendering function and operate only on provided data. Do not let a tenant user execute unreviewed server code. Escape dynamic values for HTML unless their source is fully trusted.
 
-Attachments increase message size and may reduce deliverability. Prefer a secure expiring download link for large or private files. A public image URL must use HTTPS and remain available to recipients.
+Attachments can be selected from managed assets or uploaded while composing. One message supports up to 20 attachments with a combined maximum of 25 MB. A regular attachment is downloadable; an inline attachment with a content ID can be referenced from HTML through a `cid:` URL. Attachments increase message size and may reduce deliverability. Prefer a secure expiring download link for large or private files.
+
+For an Audience marketing send, the system adds an unsubscribe footer. A direct or transactional send must not assume the Audience unsubscribe flow: select the correct message type and legal basis before delivery.
 
 ## Premium email that stays readable
 
@@ -97,7 +102,7 @@ Do not send the entire Audience list, API keys, payment data or irrelevant custo
 
 ## Credits
 
-Composing, previewing and managing templates/components need not consume credits. Cost occurs at the value event: real delivery. Show an estimate based on recipient count before sending and the actual result afterward according to platform rules.
+Composing, previewing and managing templates, snippets and components does not consume credits. Cost occurs at the value event: real delivery. When an active subscription has no weekly send limit, the current send path treats usage as unlimited and records no credit deduction; otherwise it verifies the available balance before delivery.
 
 Repeated clicks must not resend a campaign or consume credits twice. A campaign should have a unique send ID and state such as `draft → queued → sending → completed/failed`.
 
@@ -123,4 +128,3 @@ Remove hard bounces from future delivery. For a temporary bounce, use limited re
 - [OpenAI](/en/docs/openai)
 - [Forms and CRM](/en/docs/forms-and-crm)
 - [Choosing integrations](/en/docs/integrations-guide)
-

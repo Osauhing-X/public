@@ -7,20 +7,20 @@
     "tenant"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-09-13",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Supabase",
-      "description": "Supabase data boundary, tenant storage, logging, server-side security and service-role-only SQL helper documentation.",
-      "keywords": "Extaas Workspace Supabase, database, authentication, tenant, business portal"
+      "description": "Supabase guide for tenant storage, server-side user access, app metadata, logging, security boundaries and service-role maintenance.",
+      "keywords": "Extaas Workspace Supabase, tenant access, app metadata, Admin API, database, authentication, server-side security"
     },
     "et": {
       "title": "Supabase",
-      "description": "Supabase andmepiir, tenant storage, logimine, serveripoolne turvalisus ja ainult service role jaoks mõeldud SQL helper.",
-      "keywords": "Extaas Workspace Supabase, andmebaas, autentimine, tenant, ettevõtte portaal"
+      "description": "Supabase'i juhend tenant storage'i, serveripoolse kasutajapääsu, app metadata, logimise, turvapiiride ja service role hoolduse kohta.",
+      "keywords": "Extaas Workspace Supabase, tenant ligipääs, app metadata, Admin API, andmebaas, autentimine, serveripoolne turvalisus"
     },
     "type": "website",
     "name": "Extaas"

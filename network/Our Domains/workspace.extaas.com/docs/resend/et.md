@@ -19,15 +19,19 @@ Resend ei loo automaatselt turundusnõusolekut, ei ole CRM ega garanteeri postka
 
 ## Email moodul
 
-Email moodul peaks toetama:
+Email moodul toetab:
 
 - kampaania koostamist;
 - audience saajate valimist;
 - renderdatud e-kirja eelvaadet;
 - mallide ja komponentide taaskasutust;
-- hallatud manuseid;
+- nimega snippetite lisamist `{{SNIPPET:nimi}}` tokeniga;
+- HTML-i ning HTML-iks teisendatava Markdown/MDX sisu koostamist;
+- hallatud ja üleslaaditavaid manuseid, sealhulgas inline CID-faile;
 - testkirja saatmist;
 - saatmistulemuste logimist.
+
+Ühes sõnumis saab kasutada kuni 20 manust kogumahuga kuni 25 MB. Audience'i turundussaatmisele lisatakse loobumisjalus; üksik- ja tehingukirjad kasutavad oma voole vastavat sisu.
 
 Mall võib olla tavaline HTML või JavaScripti fail, mis tagastab saatmisandmete põhjal HTML-i.
 
@@ -54,7 +58,7 @@ export default function template({ customer, actionUrl }) {
 
 ## Krediidiloogika
 
-Kirja koostamine, mallide muutmine, komponentide lisamine ja manuste haldamine on tasuta. Krediiti kasutatakse siis, kui e-kiri päriselt saadetakse kohale toimetatavale saajale.
+Kirja koostamine, mallide muutmine, snippetite ja komponentide lisamine ning manuste haldamine on tasuta. Krediiti kasutatakse siis, kui e-kiri päriselt saadetakse kohale toimetatavale saajale. Aktiivne tellimus, millel puudub nädalane limiit, kasutab piiramatut saatmisrada ilma krediidimahaarvamiseta.
 
 Soovituslik reegel:
 

@@ -53,12 +53,17 @@ SPF, DKIM ja vajadusel DMARC aitavad vastuvõtjal saatjat kontrollida. DNS-i edu
 
 - **Mall** on terviklik e-kirja paigutus ja renderdusloogika.
 - **Komponent** on korduv plokk, näiteks päis, nupp, jalus või juriidiline tekst.
+- **Snippet** on nimega korduv tekst või HTML, mille saab lisada tokeniga `{{SNIPPET:nimi}}`.
 - **Manus** on korduvkasutatav või ühekordne fail.
 - **Saatmisandmed** annavad mallile kliendi, tegevuse ja lingi väärtused.
 
+Koostaja võimaldab sama kirja kontrollida eelvaate, lõpliku HTML-i, MDX/Markdowni, andmeobjekti ja Resendi payload'i vaatena. Markdown/MDX teisendatakse enne saatmist HTML-iks. Snippetid, komponendid ja mallid vähendavad korduvat tööd, kuid lõplik renderdus tuleb alati enne saatmist üle vaadata.
+
 JavaScripti mall peab eksportima renderdusfunktsiooni ja töötama ainult etteantud andmetega. Ära anna tenant-kasutajale kontrollimata serverikoodi käivitamise õigust. Dünaamiline väärtus tuleb HTML-i jaoks põgendada, kui selle allikas ei ole täielikult usaldatud.
 
-Manus suurendab sõnumi mahtu ja võib halvendada kohaletoimetamist. Eelista turvalist aeguvat allalaadimislinki, kui fail on suur või sisaldab privaatset infot. Avalik pildilink peab kasutama HTTPS-i ja olema saajale kättesaadav.
+Manuseid saab valida hallatud varadest või üles laadida koostamise ajal. Ühes kirjas võib olla kuni 20 manust kogumahuga kuni 25 MB. Tavaline manus on allalaaditav; `content-id` väärtusega inline-manusele saab HTML-is viidata `cid:` URL-iga. Manus suurendab sõnumi mahtu ja võib halvendada kohaletoimetamist. Eelista turvalist aeguvat allalaadimislinki, kui fail on suur või sisaldab privaatset infot.
+
+Audience'i turundussaatmisel lisab süsteem loobumisjaluse. Üksiksaadetise või tehingukirja puhul ei tohi eeldada Audience'i loobumisvoogu: kirja liik ja õiguslik alus peavad olema enne saatmist õigesti valitud.
 
 ## Premium-kirja sisu, mis jääb loetavaks
 
@@ -97,7 +102,7 @@ AI võib koostada subject'i variante, lühendada teksti, kohandada tooni, tõlki
 
 ## Krediidid
 
-Koostamine, eelvaade, mallide ja komponentide haldamine ei pea krediiti kulutama. Kulu tekib väärtussündmusel ehk päris saatmisel. Enne saatmist näita hinnangut saajate arvu põhjal ja pärast saatmist tegelikku tulemust vastavalt platvormi reeglile.
+Koostamine, eelvaade, mallide, snippetite ja komponentide haldamine ei kuluta krediiti. Kulu tekib väärtussündmusel ehk päris saatmisel. Kui aktiivsel tellimusel puudub nädalane saatmislimiit, käsitleb praegune saatmisvoog kasutust piiramatuna ja krediite ei arvesta; muul juhul kontrollitakse jääki enne saatmist.
 
 Korduv klikk ei tohi sama kampaaniat topelt saata ega topelt krediiti kasutada. Kampaanial võiks olla unikaalne saatmis-ID ja olek `draft → queued → sending → completed/failed`.
 
@@ -123,4 +128,3 @@ Kõva bounce tuleb edasistest saatmistest eemaldada. Ajutise bounce'i puhul rake
 - [OpenAI](/et/docs/openai)
 - [Vormid ja CRM](/et/docs/forms-and-crm)
 - [Integratsioonide valik](/et/docs/integrations-guide)
-

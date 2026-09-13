@@ -7,7 +7,8 @@ X Platform is a Home Assistant add-on that brings application and integration in
 - discovers public and private GitHub repositories;
 - finds multiple applications and Home Assistant integrations in one repository;
 - installs Node.js dependencies, runs builds and manages application processes;
-- manages ports, environment variables, updates, status and logs;
+- assigns an available host port to every installed instance and manages environment variables, updates, status and logs;
+- supports multiple independently configured instances of the same application;
 - exposes applications through Home Assistant ingress and the local network;
 - installs compatible integrations into Home Assistant's `custom_components` directory.
 
@@ -17,7 +18,11 @@ The official X Platform repository also contains the **X Entities** integration.
 
 Application identity, version, build command and start command are read from `package.json`. X Platform uses `npm ci` when a `package-lock.json` exists and `npm install` otherwise. Applications must listen on `process.env.PORT`; X Platform also sets `HOST=0.0.0.0`.
 
+The port in `x_config.json` is a preferred starting point, not a guarantee that the same port is always used. Starting there, X Platform selects the first available TCP port in the 1024–65535 range and avoids already reserved ports. Additional instances of the same application receive a separate ID, port, configuration and process.
+
 X-specific metadata for one or more applications in a repository belongs in `x_config.json`. It can describe the application path, description, icon, background, port, documentation, environment fields and Home Assistant support.
+
+Saving configuration or environment values does not restart a running application automatically. Restart the instance explicitly after saving to apply changes that affect its runtime.
 
 ## Home Assistant and X Entities
 

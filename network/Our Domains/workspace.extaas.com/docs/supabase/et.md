@@ -14,6 +14,12 @@ Service role võti ei tohi kunagi jõuda brauserisse. Avalikud lehed kasutavad a
 
 Brauseriklienti kasuta ainult voogudes, mis on anon/authenticated võtmetega turvalised. Privilegeeritud tegevused käivad server route'ide kaudu.
 
+## Kasutajate tenant-ligipääs
+
+Omaniku või administraatori kasutajavaade loeb autentitud kasutajad serveripoolse Supabase Admin API kaudu. Tenant-ligipääsu muutmisel uuendab Workspace kasutaja `app_metadata.extaas` väärtust ja sünkroonib kasutaja e-posti vastava tenanti ligipääsunimekirjaga. Nii ei sõltu autoriseerimisotsus kasutaja enda muudetavast profiiliväljast.
+
+Ligipääsu lisamine või eemaldamine peab jääma privilegeeritud serveritegevuseks. Pärast metadata muutust võib juba väljastatud sessioonitoken vajada värskendamist, enne kui uus õigus kliendis nähtavaks muutub. Avalik route ei tohi tagastada kasutajate nimekirja, rolle ega tenant-seoseid.
+
 ## Tüüpilised andmegrupid
 
 | Andmegrupp | Näited | Avalik nähtavus |

@@ -7,7 +7,8 @@ X Platform on Home Assistanti add-on, mis koondab rakenduste ja integratsioonide
 - avastab avalikke ja privaatseid GitHubi hoidlaid;
 - leiab ühest hoidlast mitu rakendust ja Home Assistanti integratsiooni;
 - paigaldab Node.js sõltuvused, käivitab build'i ja haldab rakenduse protsessi;
-- haldab rakenduse porti, keskkonnamuutujaid, uuendusi, olekut ja logisid;
+- määrab igale paigaldatud instantsile vaba hostipordi ning haldab keskkonnamuutujaid, uuendusi, olekut ja logisid;
+- võimaldab samast rakendusest paigaldada mitu eraldi seadistatavat instantsi;
 - võimaldab rakendusi avada nii Home Assistanti ingressi kui kohtvõrgu kaudu;
 - paigaldab leitud ühilduvad integratsioonid Home Assistanti `custom_components` kausta.
 
@@ -17,7 +18,11 @@ X Platformi ametlik hoidla sisaldab ka **X Entities** integratsiooni. Esmasel ho
 
 Rakenduse nimi, versioon ning build- ja start-käsud loetakse `package.json` failist. Kui hoidlas on `package-lock.json`, kasutatakse `npm ci`; vastasel juhul `npm install`. Rakendus peab kuulama `process.env.PORT` väärtust. X Platform määrab lisaks `HOST=0.0.0.0`.
 
+`x_config.json` pordiväärtus on eelistatud alguspunkt, mitte lubadus kasutada alati sama porti. X Platform valib sellest alates esimese vaba TCP-pordi vahemikus 1024–65535 ja väldib juba reserveeritud porte. Sama rakenduse järgmised instantsid saavad eraldi ID, pordi, seadistuse ja protsessi.
+
 Ühes hoidlas olevate rakenduste X-spetsiifiline kirjeldus käib `x_config.json` kaudu. Seal saab määrata muu hulgas rakenduse kausta, kirjelduse, ikooni, taustapildi, pordi, dokumentatsiooni, ENV-väljad ja Home Assistanti toe.
+
+Seadistuse või ENV-väärtuste salvestamine ei taaskäivita töötavat rakendust automaatselt. Runtime'i mõjutavate muudatuste rakendamiseks tuleb instants pärast salvestamist selgesõnaliselt taaskäivitada.
 
 ## Home Assistant ja X Entities
 

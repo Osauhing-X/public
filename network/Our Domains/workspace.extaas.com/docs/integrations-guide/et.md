@@ -1,6 +1,6 @@
 # Integratsioonid: mida need teevad ja miks neid vaja on?
 
-Integratsioon ei ole lihtsalt seadete vorm. See annab Workspace'i moodulile võimekuse, mida Extaas ei pea ise nullist dubleerima. Nii saab iga teenus teha seda, milles ta on tugev: Supabase hoiab andmeid ja ligipääsu, Resend toimetab e-kirju, Stripe töötleb makseid ning OpenAI aitab sisu koostada.
+Integratsioon ei ole lihtsalt seadete vorm. See annab Workspace'i moodulile võimekuse, mida Extaas ei pea ise nullist dubleerima. Nii saab iga teenus teha seda, milles ta on tugev: Supabase hoiab andmeid ja ligipääsu, Resend toimetab e-kirju, Stripe töötleb makseid, OpenAI aitab sisu koostada ning tenanti enda Discordi bot ühendab valitud serveri ja kanali.
 
 ## Ühe lausega otsustusabi
 
@@ -8,6 +8,7 @@ Integratsioon ei ole lihtsalt seadete vorm. See annab Workspace'i moodulile või
 - Kui süsteem peab midagi **e-postiga kohale toimetama**, on vaja Resendi.
 - Kui klient peab **kaardiga maksma või ostukorvi kasutama**, on vaja Stripe'i.
 - Kui kasutaja soovib **teksti või malli mustandit genereerida**, on vaja OpenAI-d.
+- Kui Workspace peab töötama **konkreetse Discordi serveri ja kanaliga**, on vaja tenanti enda Discordi boti tokenit.
 
 Need teenused ei asenda üksteist. Booking võib töötada Supabase'iga ilma Resendita, kuid automaatne kinnitus ei jõua e-postile. Email vajab saatmiseks Resendi ja varade hoidmiseks Supabase'i. Store vajab nii andmebaasi konteksti kui Stripe'i makseallikat.
 
@@ -16,6 +17,7 @@ Need teenused ei asenda üksteist. Booking võib töötada Supabase'iga ilma Res
   <div class="css _radius _padding"><span class="css _color _dark">RESEND</span><h3>Toimetab</h3><p>E-kirjad, saatjadomeen ja saatmise tulemus.</p></div>
   <div class="css _radius _padding"><span class="css _color _dark">STRIPE</span><h3>Kinnitab makse</h3><p>Tooted, Checkout ja allkirjastatud sündmused.</p></div>
   <div class="css _radius _padding"><span class="css _color _dark">OPENAI</span><h3>Koostab mustandi</h3><p>Tekst ja mall inimese lõpliku kontrolli jaoks.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">DISCORD</span><h3>Ühendab kanali</h3><p>Tenanti enda bot, server, kanal ja kontrollitud õigused.</p></div>
 </div>
 
 ## Integratsioonide vastutusmaatriks
@@ -26,6 +28,7 @@ Need teenused ei asenda üksteist. Booking võib töötada Supabase'iga ilma Res
 | **Resend** | saatjadomeen, e-kirja kohaletoimetamine ja tulemused | Email, Audience, Booking, Rent, vormiteavitused | ei ole CRM ega püsiv põhiandmebaas |
 | **Stripe** | tootekataloog, Checkout, maksetulemus ja webhookid | Store, krediidiostud ja muud tasulised vood | ei kinnita makset ainult brauseri success-lehe põhjal |
 | **OpenAI** | teksti ja e-kirjamalli mustand | Email ja staffi sisuloome | ei saada kirja, kinnita fakti ega otsusta ligipääsu |
+| **Discord** | tenanti boti kaudu nähtavate serverite ja kanalite ühendamine | Discordi ühendust kasutavad Workspace'i töövood | ei kasuta Extaasi jagatud boti ega anna botile puuduvaid kanaliõigusi |
 
 ## Miks just need teenused?
 
@@ -71,6 +74,7 @@ Kasuta eraldi test- ja tootmisvõtmeid, kui teenus seda võimaldab. Anna võtmel
 | Checkout avaneb, kuid olek ei muutu | Stripe webhook, secret, metadata ja sündmuse logi |
 | AI kast puudub | OpenAI integratsioon pole lubatud või Email moodul pole valmis |
 | AI vastus on halb | prompt, kontekst, mudel ja inimülevaatus; mitte saatmisintegratsioon |
+| Discordi server või kanal puudub | boti liikmelisus, token ja boti õigused valitud serveris või kanalis |
 
 ## Integratsiooni väljalülitamine
 

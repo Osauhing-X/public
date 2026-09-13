@@ -1,6 +1,6 @@
 # Integrations: what do they do and why are they needed?
 
-An integration is more than a settings form. It gives a Workspace module a capability Extaas does not need to rebuild from scratch. Each service does what it specialises in: Supabase stores data and controls access, Resend delivers email, Stripe processes payments and OpenAI helps draft content.
+An integration is more than a settings form. It gives a Workspace module a capability Extaas does not need to rebuild from scratch. Each service does what it specialises in: Supabase stores data and controls access, Resend delivers email, Stripe processes payments, OpenAI helps draft content, and the tenant's own Discord bot connects a selected server and channel.
 
 ## One-line decision guide
 
@@ -8,6 +8,7 @@ An integration is more than a settings form. It gives a Workspace module a capab
 - If the system must **deliver something by email**, it needs Resend.
 - If a customer must **pay by card or use a cart**, it needs Stripe.
 - If a user wants to **generate a text or template draft**, it needs OpenAI.
+- If Workspace must work with **a specific Discord server and channel**, it needs the tenant's own Discord bot token.
 
 These services do not replace one another. Booking can operate with Supabase and no Resend, but automatic confirmation cannot be delivered by email. Email needs Resend for delivery and Supabase for assets. Store needs both database context and Stripe as the payment source.
 
@@ -16,6 +17,7 @@ These services do not replace one another. Booking can operate with Supabase and
   <div class="css _radius _padding"><span class="css _color _dark">RESEND</span><h3>Delivers</h3><p>Email, sending domain and delivery result.</p></div>
   <div class="css _radius _padding"><span class="css _color _dark">STRIPE</span><h3>Confirms payment</h3><p>Products, Checkout and signed events.</p></div>
   <div class="css _radius _padding"><span class="css _color _dark">OPENAI</span><h3>Drafts</h3><p>Copy and templates for final human review.</p></div>
+  <div class="css _radius _padding"><span class="css _color _dark">DISCORD</span><h3>Connects a channel</h3><p>The tenant's own bot, server, channel and verified permissions.</p></div>
 </div>
 
 ## Responsibility matrix
@@ -26,6 +28,7 @@ These services do not replace one another. Booking can operate with Supabase and
 | **Resend** | sending domain, email delivery and results | Email, Audience, Booking, Rent, form notifications | is not a CRM or primary persistent database |
 | **Stripe** | product catalogue, Checkout, payment result and webhooks | Store, credit purchases and paid flows | cannot confirm payment from a browser success page alone |
 | **OpenAI** | text and email-template drafts | Email and staff content creation | does not send email, verify facts or decide access |
+| **Discord** | connects servers and channels visible to the tenant's bot | Workspace workflows that use Discord | does not use a shared Extaas bot or grant permissions the bot lacks |
 
 ## Why these services?
 
@@ -71,6 +74,7 @@ Use separate test and production keys where available. Give each key minimal per
 | Checkout opens but status does not update | Stripe webhook, secret, metadata and event log |
 | AI panel is absent | OpenAI is disabled or Email is not ready |
 | AI output is poor | prompt, context, model and human review; not the delivery integration |
+| Discord server or channel is missing | bot membership, token and bot permissions in the selected server or channel |
 
 ## Disabling an integration
 
