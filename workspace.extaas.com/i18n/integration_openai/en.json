@@ -1,0 +1,22 @@
+{
+  "title": "ChatGPT",
+  "integration": "integration",
+  "back": "Back",
+  "eyebrow": "AI writing assistant",
+  "heading": "ChatGPT integration",
+  "description": "Enable AI assistance for email copy, templates and reusable components. The API key is only used server-side.",
+  "enable": "Enable AI boxes in email tools",
+  "apiKey": "API key",
+  "model": "Model",
+  "tone": "Tone",
+  "instructions": "System instructions",
+  "saving": "Saving...",
+  "save": "Save ChatGPT integration",
+  "testing": "Testing...",
+  "test": "Test generation",
+  "saved": "ChatGPT integration saved.",
+  "saveFailed": "OpenAI settings failed to save",
+  "testFailed": "OpenAI test failed",
+  "defaultTone": "Professional, clear and concise.",
+  "defaultInstructions": "Create practical business email and HTML content. Keep output ready to use."
+}
