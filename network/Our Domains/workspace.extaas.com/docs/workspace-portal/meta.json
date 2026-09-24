@@ -1,28 +1,28 @@
 {
   "tags": [
-    "workspace",
-    "tenant",
+    "workspace core",
+    "self-hosted workspace",
     "modules",
     "integrations",
-    "credits",
-    "dns",
-    "Trello"
+    "official catalogue",
+    "OUX licence",
+    "Docker Compose"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-09-24",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
-      "title": "Workspace Portal Documentation",
-      "description": "Central documentation for workspace.extaas.com setup, tenant modules, integrations, credits, customer actions and operational security.",
-      "keywords": "workspace.extaas.com, Extaas workspace, tenant portal, modules, integrations, credits, Supabase, Resend, Stripe, documentation"
+      "title": "Workspace Core Documentation",
+      "description": "Documentation for self-hosted Workspace Core setup, package sources, official catalogue access, modules, integrations and local administration.",
+      "keywords": "Workspace Core, self-hosted workspace, Extaas, modules, integrations, official catalogue, OUX licence, Docker Compose"
     },
     "et": {
-      "title": "Workspace portaali dokumentatsioon",
-      "description": "workspace.extaas.com keskne dokumentatsioon seadistuse, tenant moodulite, integratsioonide, krediitide, klienditegevuste ja turvalisuse kohta.",
-      "keywords": "workspace.extaas.com, Extaas workspace, tenant portaal, moodulid, integratsioonid, krediidid, Supabase, Resend, Stripe, dokumentatsioon"
+      "title": "Workspace Core dokumentatsioon",
+      "description": "Isemajutatud Workspace Core'i seadistuse, paketiallikate, ametliku kataloogiligipääsu, moodulite, integratsioonide ja kohaliku halduse dokumentatsioon.",
+      "keywords": "Workspace Core, isemajutatud workspace, Extaas, moodulid, integratsioonid, ametlik kataloog, OUX litsents, Docker Compose"
     },
     "type": "website",
     "name": "Extaas"

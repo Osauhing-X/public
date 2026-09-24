@@ -1,112 +1,74 @@
-# Workspace Portal Documentation
+# Workspace Core documentation
 
-Operational documentation for `workspace.extaas.com` customers and staff. Workspace is the private portal for tenant modules, integrations, projects, invoices, credits and customer operations while tenant DNS pages remain public customer-facing surfaces.
+Workspace Core is a self-hosted workspace for packages and integrations. It runs on the owner's computer, NAS or server and keeps Core settings and installed packages in persistent `/data` storage. By default, Core is a local administration surface: it does not need a public domain, reverse proxy or open firewall port to start.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace and tenant flow">
-  <figcaption>Extaas separates the public main domain, private workspace and tenant DNS surface.</figcaption>
-</figure>
+## What Core does today
 
-## Overview
+- creates a local administrator account on first start;
+- manages package sources, installations, versions, groups and module state;
+- adds integration-approved environment values to Core settings;
+- opens local work views for installed modules;
+- optionally connects the Extaas official catalogue through an OUX-validated licence or active monthly subscription.
 
-Workspace is the control surface. It should answer four questions:
+Core is not currently a tenant portal, invoice system, credit system or DNS-route manager. Installing a package also does not automatically execute arbitrary package server code.
 
-1. Who owns this portal?
-2. Which tenant domains belong to it?
-3. Which modules are enabled?
-4. Which integrations and credits are required for those modules to work?
+## First start and local administration
 
-The public `extaas.com` site should not become an account dashboard. It can show documentation, marketing, public legal content and payment entry screens. Private data belongs in Workspace.
+1. Start the official `docker-compose.yml` on Docker Desktop, a NAS or your own server.
+2. Open the local Core address, for example `http://localhost:3000`.
+3. Create the local administrator account with an email and password.
+4. Set an email under **Settings → Core**. It is used for local notifications and when creating the installation token for Extaas catalogue access.
 
-## Workspace areas
+The local administrator owns the Core. Visibility of integrations and settings can also be granted to specifically allowed Supabase users, but sensitive values must only be exposed to people who genuinely need access.
 
-| Area | Purpose | Public? |
-| --- | --- | --- |
-| Account | User identity, sign-in and access | No |
-| Projects | Customer work, delivery notes and linked services | No |
-| Invoices | Invoice details, rows, payment status and receipts | No |
-| Tenant portals | DNS routes, modules, public tenant settings | Partly |
-| Integrations | Supabase, Resend, Stripe, OpenAI, Trello and module credentials | No |
-| Credits | Balance, usage logs, top-up and refunds | No |
-| Public Pages | Customer-facing content and media | Yes, only when enabled |
+## Package sources
 
-## DNS and tenant routing
+Core discovers manifest-based packages from these sources:
 
-Every tenant domain must be represented in Workspace. The resolving logic should receive a host, find the matching workspace/tenant record and then render only that tenant's public data.
+| Source | Suitable for |
+| --- | --- |
+| Storage | a local or NAS folder Core can inspect |
+| GitHub | a selected repository and branch |
+| ZIP | an uploaded package collection extracted into Core-managed storage |
+| Official catalogue | the signed Extaas public catalogue after an OUX entitlement check |
 
-Checklist:
+Core validates each `manifest.json` before a package appears in the catalogue or can be installed. An installation is copied into Core's persistent storage so a source change cannot silently overwrite it.
 
-- The DNS record points to the tenant app.
-- The same host exists in the workspace DNS route data.
-- The route has a clear mode: tenant, public/self or internal workspace.
-- Unknown domains do not leak another tenant's content.
-- Localhost development can bypass the info screen only for developer convenience.
+## Official catalogue and licence
 
-## Modules
+**Settings → Extaas** creates one persistent installation ID and Workspace token per Core. Add that token to the entitlement for this exact Core in the Extaas Store. Entitlement can come from an active monthly subscription or a separately issued licence key.
 
-Modules should be reusable between tenant workspace and internal admin views where possible. Shared module logic avoids building the same tool twice.
+OUX validates entitlement server-side. Core contains neither the licence creation/decryption logic nor an OUX, Extaas or GitHub secret.
 
-| Module | What it manages | Key integration |
-| --- | --- | --- |
-| Pages | Public content, media, redirects and page visibility | Supabase/media |
-| Audience | Contacts, unsubscribe state and email segments | Supabase/Resend |
-| Email | Campaigns, templates, components and attachments | Resend/OpenAI |
-| Booking | Services, requests, status emails and calendar actions | Supabase/Resend |
-| Rent | Rental items, requests, approvals and customer actions | Supabase/Resend |
-| Store | Products, cart items and checkout result handling | Stripe |
-| Calendar | Operational schedule and reminders | Supabase/Resend |
+When entitlement expires, only modules and integrations from the official Extaas catalogue are locked. Packages from the owner's Storage, GitHub or ZIP source remain installed. When entitlement becomes active again, official packages can be used again and the catalogue can be refreshed.
 
-## Integration rules
+## Modules and integrations
 
-Keep secrets server-side. A module page may show whether an integration is configured, but it should never expose secret values.
+A module manifest can declare required integrations. Core prevents installation until each required integration is configured, enabled and ready.
 
-- Supabase service role keys stay on the server.
-- Resend API keys stay on the server.
-- Stripe secret keys and webhook secrets stay on the server.
-- OpenAI API keys stay on the server.
-- Trello API tokens stay on the server; Workspace exposes only connection status, account name and the selected board identifier.
-- Public tenant pages may receive only the safe, selected fields needed for rendering.
+The current Core has local work views for at least:
 
-## Credits and payment
+- **Email** – managing templates, components, snippets and attachments, and sending through Resend;
+- **Pages** – managing local public-page settings;
+- **Forms / Surveys** – saving form and workflow settings.
 
-Credits should be charged only for meaningful value events:
+Not every installed package has a dedicated runtime view yet. In that case, Core shows installation status, version and a compatibility view instead of implying that the full package functionality is already available.
 
-- Email: 1 credit per delivered recipient.
-- Booking: reserve when accepted, capture when completed.
-- Rent: reserve when approved, capture when completed.
-- Store: capture after successful Stripe payment.
-- Pages: daily credits for enabled public pages.
-- Workspace: daily credits for active workspace access.
+## Configuring integrations
 
-Editing templates, changing content, configuring modules and previewing data should not consume credits.
+An integration card shows whether a connection is unconfigured, needs attention or is ready to use. Set required keys through the integration's own settings, then verify its status. For example, sending email requires an enabled and configured Resend integration.
 
-## Customer actions
+Core stores values in its persistent settings store. Do not share administrator access or export integration keys. Before exposing any part of Core outside a trusted network, configure HTTPS, authentication and appropriate network restrictions.
 
-Emails can include customer action links. These links should be scoped, limited and safe:
+## Updates and limits
 
-- Cancel a booking.
-- Cancel a rent request.
-- Unsubscribe from audience emails.
-- View a status page that does not expose private workspace data.
+Update the Core Docker image through the usual Docker Compose update process. Refreshing a package source shows whether a newer package version is available; installed packages are not replaced automatically.
 
-## Operational FAQ
+Features that are planned or still under development – such as an isolated package runtime, automatic cron execution, Cloudflare tunnel management and general public-route hosting – are not promises of this documentation. Validate your own deployment, authentication and network security before a production exposure.
 
-### Why does a module show a setup state?
+## Related guides
 
-The module is enabled but one or more required settings are missing. The UI should explain the missing step instead of failing silently.
-
-### Why does a paid action pause?
-
-Credits may be empty, the payment state may not be synchronized or Stripe webhook processing may have failed. Check Workspace credits, invoice status and logs.
-
-### Can staff use the same modules as tenants?
-
-Yes. Shared modules should be adapted through props/data boundaries instead of duplicated. Tenant UI should keep its current UX, while admin/workspace views can reuse the stronger module logic.
-
-### What belongs in logs?
-
-Store integration errors, credit reservations/captures, customer actions, email sends, booking/rent status changes and unexpected server failures. Do not log secrets.
-
-## Compliance readiness
-
-The portal is designed around data minimisation, server-side secret handling, audit-friendly logs, WCAG-oriented contrast checks and least-privilege access. Formal ISO 27001, SOC 2 Type II or HIPAA claims still require organisational policies, contracts, risk registers and external audits.
+- [Module overview](/en/docs/modules-overview)
+- [Integration guide](/en/docs/integrations-guide)
+- [Email and audience](/en/docs/email-and-audience)
+- [Settings](/en/docs/settings)

@@ -1,112 +1,74 @@
-# Workspace portaali dokumentatsioon
+# Workspace Core dokumentatsioon
 
-Operatiivne dokumentatsioon `workspace.extaas.com` klientidele ja staff vaatele. Workspace on privaatne portaal tenant moodulite, integratsioonide, projektide, arvete, krediitide ja kliendi tegevuste jaoks, samal ajal kui tenant DNS lehed jäävad avalikuks kliendipinnaks.
+Workspace Core on isemajutatav pakettide ja integratsioonide töölaud. See käivitub omaniku arvutis, NAS-is või serveris ning hoiab Core'i seadistusi ja paigaldatud pakette püsivas `/data` andmehoidlas. Vaikimisi on Core kohalik haldusliides – avalikku domeeni, reverse proxy't ega tulemüürireeglit ei ole selle käivitamiseks vaja.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/workspace-portal/workspace-flow.svg" alt="Extaas workspace ja tenant skeem">
-  <figcaption>Extaas eraldab avaliku põhidomeeni, privaatse workspace'i ja tenant DNS pinna.</figcaption>
-</figure>
+## Mida Core praegu teeb
 
-## Ülevaade
+- loob esimese käivituse ajal kohaliku administraatori konto;
+- haldab pakettide allikaid, paigaldusi, versioone, gruppe ja mooduli olekut;
+- lisab integratsioonide lubatud keskkonnaväärtused Core'i seadistustesse;
+- avab paigaldatud moodulite kohalikke töövaateid;
+- ühendab soovi korral Extaasi ametliku kataloogi OUX-i kontrollitud litsentsi või aktiivse kuutellimuse kaudu.
 
-Workspace peab vastama neljale küsimusele:
+Core ei ole praegu tenant-portaal, arvete, krediitide ega DNS-route'ide haldussüsteem. Samuti ei tähenda paketi paigaldamine automaatselt selle suvalise serverikoodi käivitamist.
 
-1. Kellele portaal kuulub?
-2. Millised tenant domeenid selle alla kuuluvad?
-3. Millised moodulid on lubatud?
-4. Millised integratsioonid ja krediidid on nende moodulite tööks vajalikud?
+## Esmakäivitus ja kohalik haldus
 
-Avalik `extaas.com` ei tohiks muutuda konto dashboardiks. Seal võivad olla dokumentatsioon, avalik info, juriidilised dokumendid ja makse algvaated. Privaatne andmestik kuulub Workspace'i.
+1. Käivita ametlik `docker-compose.yml` Docker Desktopis, NAS-is või enda serveris.
+2. Ava Core'i kohalik aadress, näiteks `http://localhost:3000`.
+3. Loo kohaliku administraatori konto e-posti ja parooliga.
+4. Sea **Settings → Core** all e-post. Seda kasutatakse kohalike teavituste jaoks ning Extaasi kataloogiligipääsu installatsioonitokeni loomisel.
 
-## Workspace alad
+Kohalik administraator on Core'i omanik. Integratsioonide ja seadistuste nägemine võib olla piiratud ka eraldi lubatud Supabase'i kasutajatele, kuid tundlikke väärtusi tuleb anda ainult inimestele, kellel on selleks päriselt vajadus.
 
-| Ala | Eesmärk | Avalik? |
-| --- | --- | --- |
-| Account | kasutaja identiteet, login ja ligipääs | Ei |
-| Projects | kliendi tööd, märkmed ja seotud teenused | Ei |
-| Invoices | arve detailid, read, makse staatus ja kviitungid | Ei |
-| Tenant portals | DNS route'id, moodulid ja avaliku tenant pinna seaded | Osaliselt |
-| Integrations | Supabase, Resend, Stripe, OpenAI, Trello ja moodulite võtmed | Ei |
-| Credits | saldo, kasutuslogid, juurdeost ja tagastused | Ei |
-| Public Pages | kliendile nähtav sisu ja meedia | Jah, ainult lubatud kujul |
+## Paketiallikad
 
-## DNS ja tenant routing
+Core leiab manifestiga paketid järgmistest allikatest:
 
-Iga tenant domeen peab olema Workspace'is kirjeldatud. Lahendus saab hosti, leiab selle põhjal õige workspace/tenant kirje ja renderdab ainult selle tenantiga seotud avaliku sisu.
+| Allikas | Milleks see sobib |
+| --- | --- |
+| Storage | kohalik või NAS-i kaust, mille Core saab läbi vaadata |
+| GitHub | valitud repository ja branch |
+| ZIP | üles laaditud paketikogum, mille Core pakib enda hallatavasse hoidlasse |
+| Official catalogue | Extaasi allkirjastatud avalik kataloog pärast OUX-i õiguse kontrolli |
 
-Kontroll:
+Core valideerib iga `manifest.json` faili enne, kui paketti kataloogis näidatakse või paigaldatakse. Paigaldus kopeeritakse Core'i püsivasse hoidlasse, et lähtesüsteemi muutus ei kirjutaks kasutaja paigaldust vaikselt üle.
 
-- DNS kirje osutab tenant rakendusele.
-- Sama host on workspace DNS route andmetes olemas.
-- Route'il on selge mode: tenant, public/self või sisemine workspace.
-- Tundmatu domeen ei leki teise tenanti sisu.
-- Localhost arenduses võib info screeni sulgeda ainult arenduse mugavuse jaoks.
+## Ametlik kataloog ja litsents
 
-## Moodulid
+**Settings → Extaas** loob iga Core'i jaoks püsiva installation ID ja Workspace tokeni. Lisa token Extaasi poes sellele konkreetsele Core'ile mõeldud õiguse juurde. Õigus võib tulla aktiivsest kuutellimusest või eraldi litsentsivõtmest.
 
-Moodulid peaksid olema võimalusel taaskasutatavad nii tenant workspace'is kui sisemises admin vaates. Jagatud mooduliloogika väldib sama tööriista topeltehitamist.
+OUX kontrollib õigust serveripoolselt. Core ei sisalda litsentsi loomise ega dešifreerimise loogikat ega OUX-i, Extaasi või GitHubi saladusi.
 
-| Moodul | Mida haldab | Peamine integratsioon |
-| --- | --- | --- |
-| Pages | avalik sisu, meedia, redirectid ja nähtavus | Supabase/meedia |
-| Audience | kontaktid, unsubscribe ja segmendid | Supabase/Resend |
-| Email | kampaaniad, mallid, komponendid ja manused | Resend/OpenAI |
-| Booking | teenused, päringud, staatuse e-kirjad ja kalender | Supabase/Resend |
-| Rent | rendiobjektid, päringud, kinnitused ja klienditegevused | Supabase/Resend |
-| Store | tooted, ostukorv ja checkout tulemus | Stripe |
-| Calendar | operatiivne ajakava ja meeldetuletused | Supabase/Resend |
+Kui õigus aegub, lukustuvad ainult ametlikust Extaasi kataloogist tulnud moodulid ja integratsioonid. Omaniku Storage'ist, GitHubist või ZIP-ist tulnud paketid jäävad alles. Kui õigus muutub taas aktiivseks, saab ametlikke pakette uuesti kasutada ja kataloogi värskendada.
 
-## Integratsioonide reeglid
+## Moodulid ja integratsioonid
 
-Saladused jäävad serverisse. Mooduli vaade võib näidata, kas integratsioon on seadistatud, aga ei tohi kunagi paljastada salajasi väärtusi.
+Mooduli manifest võib kirjeldada nõutud integratsioone. Core ei lase sellist moodulit paigaldada enne, kui vajalik integratsioon on seadistatud, lubatud ja valmis.
 
-- Supabase service role võti jääb serverisse.
-- Resend API key jääb serverisse.
-- Stripe secret key ja webhook secret jäävad serverisse.
-- OpenAI API key jääb serverisse.
-- Trello API token jääb serverisse; Workspace kuvab ainult ühenduse oleku, konto nime ja valitud board’i tunnuse.
-- Avalik tenant leht saab ainult renderdamiseks vajalikke turvalisi välju.
+Praegusel Core'il on kohalikud töövaated vähemalt järgmistele moodulitele:
 
-## Krediidid ja maksed
+- **Email** – mallide, komponentide, snippetite ja manuste haldus ning Resendi kaudu saatmine;
+- **Pages** – kohalike avaliku lehe seadete haldus;
+- **Forms / Surveys** – vormide ja töövooseadete salvestamine.
 
-Krediite kasutatakse ainult sisuliste väärtussündmuste jaoks:
+Iga paigaldatud pakett ei pruugi veel oma eraldi käitusvaadet pakkuda. Sellisel juhul näitab Core paigalduse olekut, versiooni ja ühilduvusvaadet, mitte ei teeskle, et paketi täisfunktsionaalsus juba töötab.
 
-- Email: 1 krediit iga kohale jõudnud saaja kohta.
-- Booking: reserveeri kinnitamisel, kasuta lõpetamisel.
-- Rent: reserveeri heakskiidul, kasuta lõpetamisel.
-- Store: kasuta pärast edukat Stripe makset.
-- Pages: päevased krediidid aktiivsete avalike lehtede eest.
-- Workspace: päevased krediidid aktiivse workspace ligipääsu eest.
+## Integratsioonide seadistamine
 
-Mallide muutmine, sisu muutmine, moodulite seadistamine ja eelvaated ei peaks krediite kasutama.
+Integratsioonikaart näitab, kas ühendus on seadistamata, vajab tähelepanu või on kasutusvalmis. Seadista vajalikud võtmed integratsiooni enda seadete kaudu ning kontrolli seejärel selle olekut. Näiteks e-posti saatmine nõuab aktiivset ja seadistatud Resendi integratsiooni.
 
-## Klienditegevused
+Core hoiab väärtused oma püsivas seadistushoidlas. Ära jaga administraatori ligipääsu ega eksporti integratsioonivõtmeid. Avalikku lehte või tundmatut võrguaadressi kasutades pane enne kasutusele HTTPS, autentimine ja vajalikud võrgu piirangud.
 
-E-kirjad võivad sisaldada klienditegevuste linke. Need lingid peavad olema piiratud ja turvalised:
+## Uuendused ja piirid
 
-- booking tühistamine;
-- rendipäringu tühistamine;
-- audience listist lahkumine;
-- staatuse vaade, mis ei kuva privaatset workspace sisu.
+Core'i Docker-kujutise uuendamine toimub tavapärase Docker Compose'i uuendusega. Paketiallikate värskendamine näitab, kas paketi uuem versioon on saadaval; paigaldatud paketti ei asendata automaatselt.
 
-## Operatiivne KKK
+Planeerimata või veel arenduses olevad võimalused – näiteks pakettide isoleeritud runtime, automaatne cron-käitus, Cloudflare'i tunnelite haldus ja üldine avalike route'ide hosting – ei ole selle dokumendi lubadus. Enne productioni avalikustamist kontrolli alati enda deploy, autentimine ja võrgu turve eraldi üle.
 
-### Miks moodul näitab setup olekut?
+## Seotud juhendid
 
-Moodul on lubatud, aga üks või mitu vajalikku seadet on puudu. UI peab selgitama, mis samm on puudu, mitte vaikides katki minema.
-
-### Miks tasuline tegevus pausile läks?
-
-Krediidid võivad olla otsas, makse staatus võib olla sünkroonimata või Stripe webhook võib olla ebaõnnestunud. Kontrolli Workspace krediite, arve staatust ja logisid.
-
-### Kas staff saab kasutada samu mooduleid kui tenant?
-
-Jah. Jagatud moodulid tuleks kohandada props/data piiride kaudu, mitte dubleerida. Tenant UI peab jääma oma senise UX-iga, admin/workspace vaade võib kasutada tugevamat sama mooduli loogikat.
-
-### Mis kuulub logidesse?
-
-Integratsiooni vead, krediidi reserveerimine/kasutamine/tagastus, klienditegevused, e-kirjade saatmine, booking/rent staatuse muutused ja ootamatud serveri vead. Saladusi ei logita.
-
-## Compliance valmisolek
-
-Portaal on ehitatud andmeminimeerimise, serveripoolsete saladuste, auditit toetavate logide, WCAG-kontrasti kontrollide ja least-privilege ligipääsu ümber. ISO 27001, SOC 2 Type II või HIPAA väited nõuavad lisaks organisatsiooni poliitikaid, lepinguid, riskiregistreid ja väliseid auditeid.
+- [Moodulite ülevaade](/et/docs/modules-overview)
+- [Integratsioonide juhend](/et/docs/integrations-guide)
+- [E-post ja Audience](/et/docs/email-and-audience)
+- [Settings](/et/docs/settings)
