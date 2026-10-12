@@ -4,6 +4,9 @@ import {readFileSync,existsSync,readdirSync} from 'node:fs';
 const root=new URL('../',import.meta.url);
 const read=file=>readFileSync(new URL(file,root),'utf8');
 const registry=JSON.parse(read('routes.json'));
+test('legacy content folders are removed after migration',()=>{
+ for(const folder of ['network','workspace.extaas.com','oux.ee/home','extaas.com/home'])assert.ok(!existsSync(new URL(folder+'/',root)),folder);
+});
 test('topic roots contain all content sections and shared asset folders',()=>{
  for(const domain of ['extaas.com','oux.ee','home_assistant','workspace'])for(const section of ['pages','blog','docs','legal-documents','campaigns','changelog'])assert.ok(existsSync(new URL(domain+'/'+section+'/',root)),domain+'/'+section);
  for(const section of ['images','icons','files'])assert.ok(existsSync(new URL('assets/'+section+'/',root)));
