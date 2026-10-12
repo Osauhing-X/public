@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
+import { createServer } from 'node:net';
+import { spawn } from 'node:child_process';
 import { validateManifest } from '../../workspace.extaas.com/Core/runtime/manifest.js';
 const root=new URL('../network/Our Domains/workspace.extaas.com/docs/',import.meta.url);
 const routes=JSON.parse(readFileSync(new URL('../network/routes.json',import.meta.url),'utf8'));
@@ -24,6 +26,22 @@ test('all Workspace v2 guides have bilingual content, metadata, order and regist
       }
     }
   }
+});
+test('documented application serves its page, health and 404 boundary',async()=>{
+  const doc=readFileSync(new URL('create-application/en.md',root),'utf8');
+  const source=doc.match(/```js\n([\s\S]*?)\n```/)[1];
+  const probe=createServer();await new Promise(resolve=>probe.listen(0,'127.0.0.1',resolve));
+  const port=probe.address().port;await new Promise(resolve=>probe.close(resolve));
+  const child=spawn(process.execPath,['--input-type=module','-e',source],{env:{...process.env,PORT:String(port),HOST:'127.0.0.1'},stdio:'ignore',windowsHide:true});
+  try {
+    let response;
+    for(let attempt=0;attempt<80;attempt++){
+      try{response=await fetch('http://127.0.0.1:'+port+'/health');break;}catch{await new Promise(resolve=>setTimeout(resolve,25));}
+    }
+    assert.equal(response?.status,200);assert.equal(await response.text(),'ok');
+    const page=await fetch('http://127.0.0.1:'+port+'/');assert.equal(page.status,200);assert.match(await page.text(),/Hello from Workspace/);
+    assert.equal((await fetch('http://127.0.0.1:'+port+'/private')).status,404);
+  } finally { child.kill(); }
 });
 test('documented module and integration exports execute without leaking credentials',async()=>{
   const moduleDoc=readFileSync(new URL('create-module/en.md',root),'utf8');
