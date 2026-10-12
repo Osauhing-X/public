@@ -1,74 +1,39 @@
-# Workspace Core documentation
+# Workspace v2: one Core, your choice of tools
 
-Workspace Core is a self-hosted workspace for packages and integrations. It runs on the owner's computer, NAS or server and keeps Core settings and installed packages in persistent `/data` storage. By default, Core is a local administration surface: it does not need a public domain, reverse proxy or open firewall port to start.
+Workspace v2 is a self-hosted package platform. Run Core on a Docker-capable computer, NAS or server. Core manages installations, settings, application processes and background work; business features belong to installed packages.
 
-## What Core does today
+## The three building blocks
 
-- creates a local administrator account on first start;
-- manages package sources, installations, versions, groups and module state;
-- adds integration-approved environment values to Core settings;
-- opens local work views for installed modules;
-- optionally connects the Extaas official catalogue through an OUX-validated licence or active monthly subscription.
+| Component | Purpose | Example |
+| --- | --- | --- |
+| Application | An independent Node web application with its own port and configuration | Website |
+| Module | A focused business tool, optionally attached to a compatible application | Routes, Calendar, Customers CRM |
+| Integration | A server-side connection with declared actions and credentials | GitHub, Resend, Stripe, Cloudflare |
 
-Core is not currently a tenant portal, invoice system, credit system or DNS-route manager. Installing a package also does not automatically execute arbitrary package server code.
+The Website application's Routes module manages public routes. Other compatible modules supply content using declared imports. A module is not automatically a separate website.
 
-## First start and local administration
+## Where to start
 
-1. Start the official `docker-compose.yml` on Docker Desktop, a NAS or your own server.
-2. Open the local Core address, for example `http://localhost:3000`.
-3. Create the local administrator account with an email and password.
-4. Set an email under **Settings → Core**. It is used for local notifications and when creating the installation token for Extaas catalogue access.
+1. [Install Core](/en/docs/getting-started).
+2. Add your package source in **Storage**.
+3. Configure required integrations, then install the application or module.
+4. Verify its readiness, actual content and error handling.
+5. Publish only after checking authentication, HTTPS and backups.
 
-The local administrator owns the Core. Visibility of integrations and settings can also be granted to specifically allowed Supabase users, but sensitive values must only be exposed to people who genuinely need access.
+Core administration is private. A public application has its own authentication responsibilities; adding a domain does not implement user accounts.
 
-## Package sources
+## Your installation and account
 
-Core discovers manifest-based packages from these sources:
+**Integrations → Extaas Connect** contains the Workspace token, licence and official catalogue controls. Core Settings contains local administration and installation identity. Your Extaas customer account and invoices live in [OUX Self-service](https://iseteenindus.oux.ee/en/account), not in a shared tenant portal at the old Workspace domain.
 
-| Source | Suitable for |
-| --- | --- |
-| Storage | a local or NAS folder Core can inspect |
-| GitHub | a selected repository and branch |
-| ZIP | an uploaded package collection extracted into Core-managed storage |
-| Official catalogue | the signed Extaas public catalogue after an OUX entitlement check |
+An installed copy survives source removal. Reconnect its source before requesting updates. Removing the installation or its persistent data is a separate action.
 
-Core validates each `manifest.json` before a package appears in the catalogue or can be installed. An installation is copied into Core's persistent storage so a source change cannot silently overwrite it.
+## Current execution boundary
 
-## Official catalogue and licence
+Applications run as managed Node processes in the Core container, not as one isolated Docker container per application. Package actions use constrained child processes. These controls are not a guarantee that untrusted code is safe. Only install code you trust.
 
-**Settings → Extaas** creates one persistent installation ID and Workspace token per Core. Add that token to the entitlement for this exact Core in the Extaas Store. Entitlement can come from an active monthly subscription or a separately issued licence key.
+**System** includes Logs, Queued, Cron, Environment and Settings. **Overview** and **Storage** show available resource measurements with their scope and limitations.
 
-OUX validates entitlement server-side. Core contains neither the licence creation/decryption logic nor an OUX, Extaas or GitHub secret.
+Workspace is actively developed. Validate your own workflow before production use; package installation is not evidence that every feature has been tested.
 
-When entitlement expires, only modules and integrations from the official Extaas catalogue are locked. Packages from the owner's Storage, GitHub or ZIP source remain installed. When entitlement becomes active again, official packages can be used again and the catalogue can be refreshed.
-
-## Modules and integrations
-
-A module manifest can declare required integrations. Core prevents installation until each required integration is configured, enabled and ready.
-
-The current Core has local work views for at least:
-
-- **Email** – managing templates, components, snippets and attachments, and sending through Resend;
-- **Pages** – managing local public-page settings;
-- **Forms / Surveys** – saving form and workflow settings.
-
-Not every installed package has a dedicated runtime view yet. In that case, Core shows installation status, version and a compatibility view instead of implying that the full package functionality is already available.
-
-## Configuring integrations
-
-An integration card shows whether a connection is unconfigured, needs attention or is ready to use. Set required keys through the integration's own settings, then verify its status. For example, sending email requires an enabled and configured Resend integration.
-
-Core stores values in its persistent settings store. Do not share administrator access or export integration keys. Before exposing any part of Core outside a trusted network, configure HTTPS, authentication and appropriate network restrictions.
-
-## Updates and limits
-
-Update the Core Docker image through the usual Docker Compose update process. Refreshing a package source shows whether a newer package version is available; installed packages are not replaced automatically.
-
-Features that are planned or still under development – such as an isolated package runtime, automatic cron execution, Cloudflare tunnel management and general public-route hosting – are not promises of this documentation. Validate your own deployment, authentication and network security before a production exposure.
-
-## Related guides
-
-- [Module overview](/en/docs/modules-overview)
-- [Integration guide](/en/docs/integrations-guide)
-- [Email and audience](/en/docs/email-and-audience)
-- [Settings](/en/docs/settings)
+[Next: install Core](/en/docs/getting-started)

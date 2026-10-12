@@ -1,28 +1,27 @@
 {
   "tags": [
-    "integration",
-    "openai",
-    "ai",
-    "email",
-    "templates"
+    "workspace",
+    "v2",
+    "openai"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-10-12",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
-      "title": "OpenAI",
-      "description": "OpenAI integration guide for safe email drafts, templates, reusable content blocks, prompt structure and secret handling.",
+      "title": "AI integration: v2 status",
+      "description": "This page preserves old documentation links. The current public Workspace v2 package collection does not ship an OpenAI integration. The v1 AI-composer setup is not available merely by entering an API key.",
       "keywords": "Extaas Workspace OpenAI, AI integration, AI workflows, business portal"
     },
     "et": {
-      "title": "OpenAI",
-      "description": "OpenAI integratsiooni juhend turvaliste e-kirja mustandite, mallide, sisublokkide, prompti struktuuri ja saladuste kaitse jaoks.",
+      "title": "AI-integratsioon: v2 hetkeseis",
+      "description": "See leht säilitab vanade doksilinkide toimimise. Praegune avalik Workspace v2 paketikogumik ei sisalda OpenAI integratsiooni. V1 AI-koostajat ei saa kasutusele võtta pelgalt API võtme lisamisega.",
       "keywords": "Extaas Workspace OpenAI, tehisintellekti integratsioon, AI töövood, ettevõtte portaal"
     },
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 15
 }

@@ -1,31 +1,28 @@
 {
   "tags": [
     "workspace",
-    "modules",
-    "booking",
-    "rent",
-    "store",
-    "crm",
-    "kanban"
+    "v2",
+    "modules-overview"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
-    "priority": 0.6,
+    "lastmod": "2026-10-12",
+    "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
-      "title": "Workspace'i moodulid: valik ja kasutusjuhud",
-      "description": "Praktiline ülevaade Extaas Workspace'i moodulitest, nende kasutusjuhtudest, sõltuvustest ja sobiva töövoo valimisest.",
+      "title": "Workspace v2 moodulite valimine",
+      "description": "Vali esmalt üks päris töövoog ja paigalda vähim vajalik paketikooslus. Moodul on töövaade, mitte automaatselt avalik veebirakendus.",
       "keywords": "Extaas Workspace moodulid, CRM, vormid, broneerimine, rent, e-post, ettevõtte portaal"
     },
     "en": {
-      "title": "Workspace modules: selection and use cases",
-      "description": "A practical overview of Extaas Workspace modules, their use cases, dependencies and how to choose the right workflow.",
+      "title": "Choose modules for Workspace v2",
+      "description": "Choose one real workflow first, then install the smallest set of packages that supports it. A module is a work view, not automatically a public application.",
       "keywords": "Extaas Workspace modules, CRM, forms, booking, rental, email, business portal"
     },
     "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/modules-overview/cover.png",
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 3
 }

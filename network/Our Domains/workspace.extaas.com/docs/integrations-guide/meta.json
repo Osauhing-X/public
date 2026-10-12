@@ -1,30 +1,27 @@
 {
   "tags": [
-    "integrations",
-    "supabase",
-    "resend",
-    "stripe",
-    "openai",
-    "discord",
-    "security"
+    "workspace",
+    "v2",
+    "integrations-guide"
   ],
   "sitemap": {
-    "lastmod": "2026-09-13",
-    "priority": 0.6,
+    "lastmod": "2026-10-12",
+    "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
-      "title": "Integratsioonid: mida need teevad ja miks neid vaja on",
-      "description": "Extaas Workspace'i Supabase'i, Resendi, Stripe'i, OpenAI ja Discordi integratsioonide rollid, sõltuvused, turvalisus ning tõrkeotsing.",
+      "title": "Workspace v2 integratsioonide seadistamine",
+      "description": "Integratsioon omab ühendust ja deklareeritud serveritoiminguid. Moodul ja rakendus küsivad lubatud toimingut; nad ei peaks saama teise integratsiooni toorvõtmeid.",
       "keywords": "Extaas Workspace integratsioonide juhend, Discord bot, Stripe, Supabase, Resend, OpenAI, töövood"
     },
     "en": {
-      "title": "Integrations: what they do and why they are needed",
-      "description": "Roles, dependencies, security and troubleshooting for Supabase, Resend, Stripe, OpenAI and Discord integrations in Extaas Workspace.",
+      "title": "Configure integrations in Workspace v2",
+      "description": "An integration owns the connection and declared server actions. Modules and applications request authorised actions; they should not receive another integration's raw secrets.",
       "keywords": "Extaas Workspace integrations guide, Discord bot, Stripe, Supabase, Resend, OpenAI, workflows"
     },
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 4
 }

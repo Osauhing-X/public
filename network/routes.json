@@ -173,5 +173,35 @@
     "source": "Our Domains/extaas.com/docs/account",
     "path": "/docs/account",
     "network": "extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/package-structure",
+    "path": "/docs/package-structure",
+    "network": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/create-module",
+    "path": "/docs/create-module",
+    "network": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/create-integration",
+    "path": "/docs/create-integration",
+    "network": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/create-application",
+    "path": "/docs/create-application",
+    "network": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/connect-packages",
+    "path": "/docs/connect-packages",
+    "network": "workspace.extaas.com"
+  },
+  {
+    "source": "Our Domains/workspace.extaas.com/docs/cloudflare",
+    "path": "/docs/cloudflare",
+    "network": "workspace.extaas.com"
   }
 ]

@@ -1,79 +1,25 @@
-# Tenant landing page
+# Publish a Website application
 
-The tenant landing page is the customer's public surface. It is not an account window and must not expose private workspace data. Its job is to show the customer's brand, public information and enabled modules.
+In v2 the public site belongs to an Application, not to a shared tenant portal at workspace.extaas.com. Core remains the private package administrator.
 
-## Public content
+## Build the page
 
-The tenant landing page may show:
+1. Install Website and attach its Routes module.
+2. Create a route with the desired locale, title and content.
+3. Attach compatible content modules and place their declared import tokens where needed.
+4. Preview with a dedicated test record.
+5. Publish only permitted fields, never internal notes or credentials.
 
-- business name and public description;
-- brand colors and public media;
-- public Pages content;
-- Booking services;
-- Rent items;
-- Store products;
-- public contact actions;
-- links to legal or support pages.
+Routes is the page/content coordinator. Booking, Rent, Store and Forms can contribute their own public content when their manifest and configuration support it.
 
-Private invoices, project notes, workspace settings, integration keys and customer lists must stay in Workspace.
+## Assign a domain
 
-## Workspace relationship
+Use dedicated-port exposure, start the application and confirm healthy. Set its exact hostname in Domains. Configure a reverse proxy or Cloudflare to send traffic to Core while preserving the original Host header.
 
-All private management belongs in `workspace.extaas.com`. If the customer needs invoices, projects, account data or private module settings, send them to Workspace.
+A domain binding does not create DNS, map a firewall port or implement application authentication automatically. [Cloudflare setup](/en/docs/cloudflare) explains the connector topology.
 
-<div class="css _radius _padding" style="margin-block: 1.5rem;">
-  <h3>Useful rule</h3>
-  <p>The tenant domain shows what the customer's customer may see. Workspace shows what the portal owner and allowed users may manage.</p>
-</div>
+## Acceptance checks
 
-## Module visibility
+Verify the root and locale routes, static assets, browser navigation, error pages, forms, HTTPS and logged-out access. Test private access separately. The customer must know whether a request was received, approved or paid.
 
-A public module should be visible only when:
-
-1. the module is enabled;
-2. required settings are complete;
-3. required integrations are connected;
-4. public data exists;
-5. the tenant DNS route resolves correctly.
-
-If a module is not ready, hide it from the public surface or show a polished unavailable state that does not expose private setup details.
-
-## Suggested page sections
-
-Use sections only for real page blocks, not tiny layout wrappers.
-
-```text
-Hero
-Services or modules
-Public pages/content
-Booking/Rent/Store section
-Contact or support
-Footer/legal links
-```
-
-## Content template
-
-```text
-Business name:
-Short public description:
-Primary action:
-Secondary action:
-Enabled modules:
-Support email/phone:
-Legal links:
-Public media:
-```
-
-## FAQ
-
-### Can a tenant landing page show account settings?
-
-No. Account and workspace settings belong in Workspace.
-
-### Can tenant customers ask for help?
-
-Yes. A tenant portal can expose a support/chat entry point. The support thread should be created in the configured forum/channel and linked to the tenant/customer context.
-
-### Can public colors differ from Extaas?
-
-Yes for tenant portals. The main Extaas and Workspace surfaces should keep a unified corporate visual identity; tenant portals can use the customer's brand.
+Extaas account, company and invoice management lives in OUX Self-service. It is separate from a customer's own Website application.

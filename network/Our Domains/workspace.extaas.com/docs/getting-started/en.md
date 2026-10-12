@@ -1,109 +1,43 @@
-# Getting started with Workspace
+# Install Workspace v2
 
-Extaas has three surfaces that work together:
+You need Docker and Docker Compose. Start on a trusted local network; a public domain is not required.
 
-- `extaas.com` is the public main domain for company information, documentation, blog, legal documents and payment entry screens.
-- `workspace.extaas.com` is the private workspace for accounts, projects, invoices, tenant portals, modules and integrations.
-- A tenant domain is the customer's public portal. It can show a landing page, Pages content, Booking, Rent, Store or other enabled modules.
+## 1. Prepare persistent storage
 
-<div class="grid gap _3" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-block: 1.5rem;">
-  <div class="css _radius _padding">
-    <h3>1. Create access</h3>
-    <p>Sign in through workspace.extaas.com. This is where account data, projects, invoices and tenant settings live.</p>
-  </div>
-  <div class="css _radius _padding">
-    <h3>2. Connect the domain</h3>
-    <p>The tenant host must point to the portal app and the same host must exist in the workspace DNS route record.</p>
-  </div>
-  <div class="css _radius _padding">
-    <h3>3. Enable modules</h3>
-    <p>Turn on only the tools the business actually needs: Pages, Audience, Email, Booking, Rent, Store or Calendar.</p>
-  </div>
-</div>
+Download [docker-compose.yml](https://extaas.com/downloads/workspace/docker-compose.yml) into an empty folder. Review it before running. It uses the image `ghcr.io/osauhing-x/workspace-core:latest` and the persistent `core-data:/data` volume.
 
-## Portal ownership
+## 2. Start Core
 
-Keep ownership boundaries simple:
+Run these commands in that folder:
 
-- Public visitors use `extaas.com` and tenant domains.
-- Portal owners use `workspace.extaas.com`.
-- Staff uses the internal workspace/admin surface.
-- Account, invoice rows, project content and private customer data must not be rendered on the public main domain.
-
-This separation keeps prerendered SEO pages clean, keeps sensitive account data out of public routes and makes the tenant portal easier to reason about.
-
-## First setup checklist
-
-Before publishing a tenant portal, check:
-
-1. The workspace owner can sign in.
-2. The correct tenant domain exists in the workspace DNS route data.
-3. The required modules are enabled.
-4. Required integrations are configured server-side.
-5. Public pages do not expose private workspace data.
-6. Customer action emails use links that match the tenant domain.
-7. Credits or payment rules are understood before enabling paid actions.
-
-## Important keys and settings
-
-Most settings belong in Workspace, not on the public site.
-
-| Area | Where it belongs | Notes |
-| --- | --- | --- |
-| Supabase URL and service role | Server/workspace integration | Never expose service role keys to the browser. |
-| Resend API key | Server/workspace integration | Used for campaigns and module notifications. |
-| Stripe secret/webhook keys | Server/workspace integration | Public pages may start payment, but details stay in Workspace. |
-| Tenant DNS host | Workspace DNS route | Must match the host used by the customer domain. |
-| Module enable flags | Tenant workspace settings | Public UI should hide disabled modules. |
-| Public page media | Pages module storage | Public media can be shown; private records cannot. |
-
-## Recommended launch flow
-
-1. Create or confirm the workspace record.
-2. Add the owner user and confirm their access.
-3. Add the tenant DNS route.
-4. Configure Supabase if the portal uses private module data.
-5. Configure Resend if any module sends email.
-6. Configure Stripe if credits, invoices or checkout flows are used.
-7. Enable modules one by one.
-8. Open the tenant domain in a logged-out browser session and check the public view.
-9. Open Workspace and check project, invoice and module management views.
-
-## Templates and examples
-
-Use these as starting points for customer-facing setup notes.
-
-```text
-Portal owner checklist
-- Workspace access email:
-- Tenant domain:
-- Enabled modules:
-- Required sender email:
-- Stripe payment mode:
-- Public pages ready:
-- Test booking/rent/store action completed:
+```sh
+docker compose pull
+docker compose up -d
 ```
 
-```text
-DNS note for customer
-Point the selected domain or subdomain to the tenant portal deployment.
-After DNS is live, send us the final host so we can connect it to the workspace.
-```
+Open `http://localhost:3000`. From another device use the Docker server's LAN IP and the externally mapped port. Create the local administrator account.
 
-## Common questions
+Do not publish Core administration while experimenting. Use a strong password and retain the persistent volume.
 
-### Can a customer pay from extaas.com?
+## 3. Add your tools
 
-Yes, if the invoice is unpaid. The public page may show the amount and payment action, but not the purchased content or invoice rows. After payment, the same invoice should no longer be accessible from `extaas.com`.
+1. Open **Storage** and add a GitHub repository, ZIP collection or mounted folder. The official catalogue is managed through Extaas Connect.
+2. Configure any required integration and check its readiness.
+3. Install a module or application. An application may need installation and build commands before its health check passes.
+4. Open it and verify actual content. Inspect **Runtime logs** or **System → Queued** if it fails.
 
-### Where does the customer see project details?
+A missing optional integration should not be confused with a required one. Read the package manifest and its setup guidance.
 
-Project details belong in `workspace.extaas.com`. If a project is connected to a company or tenant, the tenant workspace can also show the relevant project view.
+## 4. Publish deliberately
 
-### Why does the tenant domain not show a module?
+Choose a dedicated-port application, assign its exact domain in **Domains**, then configure your reverse proxy or [Cloudflare Tunnel](/en/docs/cloudflare). The connector's internal Core port is normally 3000; it is not necessarily the mapped LAN port.
 
-Usually one of three things is missing: the module is disabled, required integration settings are incomplete, or the tenant DNS route does not resolve to the correct workspace.
+Check logged-out access, account permissions, HTTPS, assets, forms and error states before inviting customers.
 
-### What should be free?
+## Backup and update
 
-Setup, editing and configuration should stay free where possible. Credits or payment should be used when a real value event happens: an email is delivered, a booking is completed, a rental is confirmed or a store checkout succeeds.
+Back up the persistent volume and deployment configuration. Pull and recreate with the same commands above. Keep the previous image digest for rollback and check health after restart.
+
+**Do not run `docker compose down -v` to update: it removes named volumes.**
+
+[Next: choose modules](/en/docs/modules-overview)

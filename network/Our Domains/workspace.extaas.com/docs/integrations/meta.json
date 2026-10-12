@@ -1,25 +1,27 @@
 {
   "tags": [
-    "network",
-    "workspace.extaas.com"
+    "workspace",
+    "v2",
+    "integrations"
   ],
   "sitemap": {
-    "lastmod": "2026-09-13",
-    "priority": 0.6,
+    "lastmod": "2026-10-12",
+    "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
-      "title": "Workspace’i integratsioonid",
-      "description": "Workspace’i Stripe’i, Supabase’i, Resendi, OpenAI ja tenantipõhise Discordi ühenduste rollid, turvapiirid ning veakäitumine.",
+      "title": "Integratsioonide viide",
+      "description": "Integratsioon ühendab teenuse deklareeritud serveritoimingute ja selgelt määratud keskkonnaväärtuste kaudu. See pole ainult võtme sisestamise vorm.",
       "keywords": "Extaas Workspace, integratsioonid, Discord bot, Stripe, Supabase, Resend, OpenAI, ettevõtte portaal"
     },
     "en": {
-      "title": "Workspace integrations",
-      "description": "Roles, security boundaries and failure behaviour for Workspace Stripe, Supabase, Resend, OpenAI and tenant-owned Discord connections.",
+      "title": "Integration reference",
+      "description": "An integration connects a service through declared server-side actions and explicitly assigned environment values. It is not just a key-entry form.",
       "keywords": "Extaas Workspace, integrations, Discord bot, Stripe, Supabase, Resend, OpenAI, business portal"
     },
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 17
 }

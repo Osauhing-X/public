@@ -1,30 +1,27 @@
 {
   "tags": [
-    "customer",
-    "workflow",
-    "booking",
-    "rent",
-    "store",
-    "email",
-    "operations"
+    "workspace",
+    "v2",
+    "customer-workflows"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-10-12",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
-      "title": "Klienditeekonnad ja igapäevane haldus",
-      "description": "Booking'u, rendi, poe, vormide ja e-posti klienditeekonnad, vastutused, testimine, logid ja tõrkeolukorrad Extaas Workspace'is.",
+      "title": "Kliendi töövoo kontrollimine",
+      "description": "V2 ühendab rakendusi, mooduleid ja teenusetoiminguid. Hea liides selgitab tulemust; töötav teostus tõendab sama püsivas seisus või vastutavas teenuses.",
       "keywords": "klienditeekonnad, Extaas Workspace, CRM, järeltegevused, kliendihaldus, töövood"
     },
     "en": {
-      "title": "Customer workflows and daily operations",
-      "description": "Booking, rental, store, form and email customer journeys, ownership, testing, logs and failure handling in Extaas Workspace.",
+      "title": "Verify a customer workflow",
+      "description": "V2 connects applications, modules and service actions. A good interface explains what happened; a working implementation proves the same result in persistent state or the responsible provider.",
       "keywords": "customer workflows, Extaas Workspace, CRM, follow-up, customer management, workflows"
     },
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 7
 }

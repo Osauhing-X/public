@@ -1,5 +1,7 @@
-# Workspace’i integratsioonid
+# Integratsioonide viide
 
-Integratsioonid ühendavad tenant-portaali Supabase’i, Stripe’i, Resendi, OpenAI, Discordi ja domeeniteenustega. Iga ühendus aktiveeritakse ainult siis, kui vajalik moodul, pakett ja keskkonnaseadistus on olemas. Puuduva integratsiooni korral peab moodul näitama selget unavailable või configuration required olekut, mitte jätkama vigase päringuga.
+Integratsioon ühendab teenuse deklareeritud serveritoimingute ja selgelt määratud keskkonnaväärtuste kaudu. See pole ainult võtme sisestamise vorm.
 
-Discordi ühendus kasutab iga tenanti enda Discordi boti tokenit, mitte Extaasi jagatud boti. Workspace kontrollib tokeniga nähtavaid servereid ja kanaleid, vajalikku kanaliõigust ning hoiab tokenit serveripoolselt; brauserisse tagastatakse ainult seadistuse olek.
+Loe [seadistusjuhendit](/et/docs/integrations-guide), [integratsiooni loomise õpetust](/et/docs/create-integration) ja [pakettide ühendamist](/et/docs/connect-packages).
+
+Tarbija kasutab püsivat integration_id-d ja deklareeritud toiminguõigusi. Allikagrupi piir ei lase kõrvalisel paketil ühendust pärida. Võtmed jäävad serverisse; tagasta ainult vajalikud tulemused.

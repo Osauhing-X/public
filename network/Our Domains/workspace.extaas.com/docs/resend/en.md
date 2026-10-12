@@ -1,92 +1,17 @@
-# Resend integration
+# Resend setup for Workspace v2
 
-Resend sends customer emails, audience campaigns, booking confirmations, rental updates, invoice reminders and low-credit notifications. It is a workspace integration and the API key must stay server-side.
+The Resend integration declares send-email and contact actions. Email requires send-email; other packages must declare their own scopes.
 
-## Why use a dedicated email integration?
+## Configure
 
-The application server itself is not a reliable mailbox provider. Resend handles sender-domain identity, message acceptance, delivery results and bounce/reject information. Workspace can therefore separate composing text from actual delivery and retain a verifiable result for each send.
+Install the integration and assign RESEND_API_KEY in its source group. The provider account belongs to the operator. Configure a verified sender in Resend, then check the integration status and the consuming module's readiness.
 
-Resend does not create marketing consent, act as a CRM or guarantee inbox placement. The owner must verify the sending domain, maintain list quality and process unsubscribes. If a workflow only needs an on-screen confirmation, Resend may be unnecessary; if email is promised, the integration must work before publication.
+Do not copy the key into a template or browser JavaScript. The integration receives its assigned secret server-side.
 
-## Required settings
+## Safe acceptance
 
-- API key used only on the server.
-- Sender name.
-- Sender email/domain.
-- Reply-to address when needed.
-- Module email bodies: booking notify, booking confirm, rent notify, rent confirm and status updates.
-- Optional reusable assets: templates, components, attachments and media.
+Send a reviewed test to your own address, confirm the request result and inspect the provider's delivery status. Verify reply-to and links. A provider acceptance ID does not guarantee inbox placement.
 
-## Email module
+Use the sending options and limits exposed by the installed version. V1 weekly credits, unlimited plans and automatic booking emails are not general v2 guarantees.
 
-The Email module supports:
-
-- composing a campaign;
-- selecting audience recipients;
-- previewing the rendered email;
-- reusing templates and components;
-- inserting named snippets with `{{SNIPPET:name}}` tokens;
-- composing HTML and Markdown/MDX converted to HTML;
-- managed and uploaded attachments, including inline CID files;
-- sending test emails;
-- logging send results.
-
-One message can include up to 20 attachments with a combined maximum of 25 MB. Audience marketing sends receive an unsubscribe footer; direct and transactional messages use content appropriate to their own flow.
-
-Templates can be plain HTML or a JavaScript file that returns HTML from the sending payload.
-
-```js
-export default function template({ customer, actionUrl }) {
-  return `
-    <h1>Hello ${customer.name}</h1>
-    <p>Your booking has been confirmed.</p>
-    <a href="${actionUrl}">View status</a>
-  `;
-}
-```
-
-## Module email examples
-
-| Flow | Suggested email |
-| --- | --- |
-| Booking request received | Notify owner, include customer details and requested time. |
-| Booking confirmed | Tell customer the time, location and cancellation link. |
-| Rent request approved | Tell customer the rental period and next step. |
-| Rent canceled | Confirm the cancellation and support contact. |
-| Low credits | Notify workspace owner before paid actions pause. |
-| Audience unsubscribe | Confirm that the contact was removed from marketing emails. |
-
-## Credit logic
-
-Writing copy, editing templates, adding snippets and components, and managing attachments is free. Credits are used when an email is actually sent to a deliverable recipient. An active subscription with no weekly limit uses the unlimited delivery path without a credit deduction.
-
-Recommended rule:
-
-```text
-credits_used = delivered_recipient_count
-```
-
-Bounced or rejected delivery should be logged. Whether credits are refunded depends on the operational policy for that module.
-
-## Testing checklist
-
-1. Verify the sender domain in Resend.
-2. Send a test email from Workspace.
-3. Confirm the HTML preview matches the final email.
-4. Check unsubscribe/customer action links.
-5. Check logs after sending.
-6. Confirm no API key is visible in browser devtools.
-
-## FAQ
-
-### Can tenants edit email copy?
-
-Yes, if the module gives them safe template fields. Avoid letting untrusted users edit server-side JavaScript without review.
-
-### Can OpenAI help write email content?
-
-Yes. Use OpenAI for drafts, subject lines and reusable components, but do not send secrets or full private customer datasets to the model.
-
-### What should happen if Resend is missing?
-
-The module should show a setup state in Workspace and public customer actions that require email should either be hidden or clearly explain that the action is unavailable.
+[Resend documentation](https://resend.com/docs) covers current provider settings. [Email and Audience](/en/docs/email-and-audience) explains the Workspace boundary.

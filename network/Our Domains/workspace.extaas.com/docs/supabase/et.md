@@ -1,113 +1,17 @@
-# Supabase andmeruum
+# Supabase Workspace v2-s
 
-Supabase hoiab Workspace'i ja tenant moodulite privaatseid andmeid: bookingud, rendipäringud, Pages meedia, audience kontaktid, logid, kasutajate ligipääsud ja mooduli seaded. See on portaali privaatse tööseisu operatiivne andmebaas.
+Supabase ühendab välise andme-, konto- ja failikihi pakettidele, mis seda vajavad. See pole iga Core’i mooduli üldine nõue: paljud privaatsed v2 töövahendid salvestavad koopiapõhise seisu Core’i andmetesse.
 
-## Miks Supabase'i vaja on?
+## Seadista õige integratsioon
 
-Ilma püsiva andmeruumita kaoks mooduli seis rakenduse taaskäivitamisel ning mitme kasutaja, tenanti ja seadme vahel puuduks ühine tõde. Supabase annab PostgreSQL andmebaasi, autentimise, failide storage'i ja serveripoolsed õiguste kontrollid ühe projekti kaudu. Workspace kasutab seda siis, kui sisu, päring, roll, logi või seadistus peab säilima ja olema seotud õige tenantiga.
+Avalik Supabase-pakett deklareerib SUPABASE_URL, SUPABASE_ANON_KEY ja valikulise SUPABASE_SERVICE_ROLE_KEY. Privaatne OUX integratsioon kasutab teisi teenusepõhiseid välju. Ära vaheta neid omavahel.
 
-Supabase ei ole vajalik pelgalt staatilise avaliku teksti näitamiseks, kui sellel puudub haldus- ja salvestusvajadus. See ei asenda Resendi e-kirja kohaletoimetamist ega Stripe'i maksetõendit. Ühendamine on mõistlik enne esimese andmepõhise mooduli aktiveerimist, mitte alles pärast päris kliendiandmete kogumist.
+Määra ainult paigaldatud manifesti küsitud väärtused. Salavõti ja service-role jäävad serverisse. Ühenduse test ei tõenda kõigi tabelite, õiguste ega bucket’ite seadistust.
 
-## Serveripoolne piir
+## Ligipääs andmetele
 
-Service role võti ei tohi kunagi jõuda brauserisse. Avalikud lehed kasutavad ainult serveri poolt valitud turvalist sisu. Tenant DNS render peab kõigepealt lahendama õige tenanti ja alles siis andma välja selle tenanti avalikud väljad.
+Avaliku andmekihi puhul kasuta selgeid grants-õigusi ja reataseme poliitikaid. Autentimine üksi ei anna ligipääsu kõigi klientide ridadele. Sisemised abifunktsioonid hoia privaatses skeemis; mooduli töölesaamiseks ei tohi luua üldist avalikku SQL-käivitamise endpoint’i.
 
-Brauseriklienti kasuta ainult voogudes, mis on anon/authenticated võtmetega turvalised. Privilegeeritud tegevused käivad server route'ide kaudu.
+V1 tenant SQL helper pole v2 paigaldussamm. Skeemimuudatused kuuluvad rakenduse/paketi ülevaadatud migratsioonidesse koos varukoopia ja taastamistestiga.
 
-## Kasutajate tenant-ligipääs
-
-Omaniku või administraatori kasutajavaade loeb autentitud kasutajad serveripoolse Supabase Admin API kaudu. Tenant-ligipääsu muutmisel uuendab Workspace kasutaja `app_metadata.extaas` väärtust ja sünkroonib kasutaja e-posti vastava tenanti ligipääsunimekirjaga. Nii ei sõltu autoriseerimisotsus kasutaja enda muudetavast profiiliväljast.
-
-Ligipääsu lisamine või eemaldamine peab jääma privilegeeritud serveritegevuseks. Pärast metadata muutust võib juba väljastatud sessioonitoken vajada värskendamist, enne kui uus õigus kliendis nähtavaks muutub. Avalik route ei tohi tagastada kasutajate nimekirja, rolle ega tenant-seoseid.
-
-## Tüüpilised andmegrupid
-
-| Andmegrupp | Näited | Avalik nähtavus |
-| --- | --- | --- |
-| Workspace ligipääs | kasutajad, rollid, kutsed | Mitte kunagi avalik |
-| Tenant seaded | DNS route, lubatud moodulid, theme, public flags | Ainult turvalised avalikud väljad |
-| Pages | avaldatud lehed, meedia, redirectid | Ainult avaldatud sisu |
-| Booking | teenused, päringud, staatus, klienditegevused | Avalik vorm ja piiratud staatus |
-| Rent | objektid, päringud, kinnitused | Avalik listing ja piiratud staatus |
-| Audience | kontaktid, tagid, unsubscribe | Kontaktlist ei ole avalik |
-| Logs | mooduli tegevused, vead, krediidisündmused | Ainult Workspace/staff |
-
-## Vajalikud kontrollid
-
-Enne tenant portaali avaldamist:
-
-1. Workspace kirje on olemas.
-2. DNS host osutab õigele tenantile.
-3. RLS/serveri piirid takistavad teise tenanti andmete lugemist.
-4. Avalikud route'id ei tagasta privaatseid tabeleid.
-5. Integratsiooni vead kirjutatakse logidesse.
-6. Klienditegevuste lingid on piiratud ega saa muuta teise tenanti andmeid.
-
-## Moodulite storage
-
-Booking, Rent, Pages, Audience, Store ja Calendar vajavad struktureeritud andmeruumi. Kui moodul pole seadistatud, peab UI selgitama, mida omanik peab tegema, mitte kuvama poolikut viga.
-
-Soovituslik mooduli setup olek:
-
-```text
-status: "not_configured" | "ready" | "error"
-missing: ["supabase", "resend", "stripe"]
-message: "Ühenda Resend enne booking kinnituste saatmist."
-```
-
-## Logid
-
-Workspace logid aitavad jälgida mooduli tegevusi, klienditegevusi ja integratsiooni vigu. Logid ei asenda formaalset auditipoliitikat, aga annavad operatiivse nähtavuse.
-
-Logi kasulikke sündmusi:
-
-- DNS route lahendamise viga.
-- E-kirja saatmise viga.
-- Stripe webhook mismatch.
-- Krediidi reserveerimine/kasutamine/tagastus.
-- Kliendi tühistamise tegevus.
-- Mooduli seadistuse muutus.
-
-Ära logi service role võtmeid, API võtmeid, täielikke kaardiandmeid ega tundlikke payload'e.
-
-## `tenant-exec-sql.txt`
-
-`tenant-exec-sql.txt` helper loob kontrollitud SQL execution funktsiooni ainult service role hooldustoimingute jaoks. See ei tohi olla public, anon ega authenticated brauserikasutajatele kättesaadav.
-
-<object data="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/supabase/tenant-exec-sql.txt" type="text/plain" style="width: 100%; min-height: 360px; border: 1px solid color-mix(in oklab, var(--x_heading_color) 14%, transparent); border-radius: 8px; background: var(--x_outer_background);">
-  <a href="https://raw.githubusercontent.com/Osauhing-X/public/www/network/Our%20Domains/workspace.extaas.com/docs/supabase/tenant-exec-sql.txt">Ava tenant-exec-sql.txt</a>
-</object>
-
-```sql
-create or replace function public.exec_sql(query text)
-returns void
-language plpgsql
-security definer
-as $$
-begin
-  execute query;
-end;
-$$;
-
-revoke all on function public.exec_sql(text) from public;
-revoke all on function public.exec_sql(text) from anon;
-revoke all on function public.exec_sql(text) from authenticated;
-
-grant execute on function public.exec_sql(text) to service_role;
-```
-
-Kasuta seda ainult usaldatud serveripoolsest hoolduskoodist. Tavaliste skeemimuudatuste jaoks eelista selgeid migratsioone. Kui see helper on olemas, dokumenteeri, kes tohib seda kutsuda ja miks.
-
-## KKK
-
-### Kas avalikud lehed võivad Supabase'ist otse lugeda?
-
-Ainult selgelt avaliku andme ja turvaliste võtmetega. Enamik tenant renderdust peaks käima serveri kaudu, et host lahendada ja andmed filtreerida.
-
-### Mis juhtub, kui Supabase pole seadistatud?
-
-Privaatset seisu vajavad moodulid peavad Workspace'is näitama setup teadet. Tenant avalik leht peaks vastava mooduli peitma või välja lülitama.
-
-### Kus hoitakse meediafaile?
-
-Pages meedia võib olla Supabase storage'is või muus kinnitatud storage kihis, aga avalik render peab kasutama turvalisi avalikke URL-e või vajadusel serveri loodud ligipääsu.
+[Ametlik Data API turvajuhend](https://supabase.com/docs/guides/api/securing-your-api) selgitab grants-õigusi ja RLS-i. Testi ettenähtud avaliku või sisselogitud rolliga, mitte ainult administraatorivõtmega.

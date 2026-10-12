@@ -1,30 +1,27 @@
 {
   "tags": [
-    "workspace core",
-    "self-hosted workspace",
-    "modules",
-    "integrations",
-    "official catalogue",
-    "OUX licence",
-    "Docker Compose"
+    "workspace",
+    "v2",
+    "workspace-portal"
   ],
   "sitemap": {
-    "lastmod": "2026-09-24",
+    "lastmod": "2026-10-12",
     "priority": 0.6,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
-      "title": "Workspace Core Documentation",
-      "description": "Documentation for self-hosted Workspace Core setup, package sources, official catalogue access, modules, integrations and local administration.",
+      "title": "Workspace v2: one Core, your choice of tools",
+      "description": "Workspace v2 is a self-hosted package platform. Run Core on a Docker-capable computer, NAS or server. Core manages installations, settings, application processes and background work; business features belong to installed packages.",
       "keywords": "Workspace Core, self-hosted workspace, Extaas, modules, integrations, official catalogue, OUX licence, Docker Compose"
     },
     "et": {
-      "title": "Workspace Core dokumentatsioon",
-      "description": "Isemajutatud Workspace Core'i seadistuse, paketiallikate, ametliku kataloogiligipääsu, moodulite, integratsioonide ja kohaliku halduse dokumentatsioon.",
+      "title": "Workspace v2: üks Core, sinu valitud töövahendid",
+      "description": "Workspace v2 on ise majutatav paketiplatvorm. Käivita Core Dockerit toetaval arvutil, NAS-il või serveril. Core haldab paigaldusi, seadistusi, rakenduste protsesse ja taustatööd; ärifunktsioonid tulevad paigaldatud pakettidest.",
       "keywords": "Workspace Core, isemajutatud workspace, Extaas, moodulid, integratsioonid, ametlik kataloog, OUX litsents, Docker Compose"
     },
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 1
 }

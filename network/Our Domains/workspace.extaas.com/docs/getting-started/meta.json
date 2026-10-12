@@ -1,28 +1,27 @@
 {
   "tags": [
-    "getting-started",
     "workspace",
-    "setup",
-    "dns",
-    "modules"
+    "v2",
+    "getting-started"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-10-12",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
-      "title": "Getting started",
-      "description": "Practical first setup guide for Extaas Workspace, tenant domains, modules, integrations, payment boundaries and launch checks.",
+      "title": "Install Workspace v2",
+      "description": "You need Docker and Docker Compose. Start on a trusted local network; a public domain is not required.",
       "keywords": "Extaas Workspace getting started, business workspace, account setup, modules, user guide"
     },
     "et": {
-      "title": "Alustamine",
-      "description": "Praktiline alustamise juhend Extaas Workspace'i, tenant domeenide, moodulite, integratsioonide, maksepiiride ja avaldamise kontrollide jaoks.",
+      "title": "Workspace v2 paigaldamine",
+      "description": "Vaja on Dockerit ja Docker Compose’i. Alusta usaldatud kohalikus võrgus; avalikku domeeni pole vaja.",
       "keywords": "Extaas Workspace alustamine, ettevõtte tööruum, konto seadistamine, moodulid, kasutusjuhend"
     },
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 2
 }

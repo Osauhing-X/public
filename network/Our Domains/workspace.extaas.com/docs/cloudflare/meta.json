@@ -1,0 +1,23 @@
+{
+  "docs_order": 14,
+  "tags": [
+    "workspace",
+    "v2",
+    "cloudflare"
+  ],
+  "sitemap": {
+    "lastmod": "2026-10-12",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "en": {
+      "title": "Cloudflare Tunnel: one connector, routed applications",
+      "description": "Workspace's token connector does not need an account ID or a manually entered origin to start. Paste the full tunnel token into the Cloudflare integration's private setup field. Treat it as a secret."
+    },
+    "et": {
+      "title": "Cloudflare Tunnel: üks connector, suunatud rakendused",
+      "description": "Workspace’i token-connector ei vaja käivitumiseks account ID-d ega käsitsi origin-välja. Lisa täielik tunnel-token Cloudflare’i integratsiooni privaatsesse seadistusvälja. See on salajane võti."
+    }
+  }
+}

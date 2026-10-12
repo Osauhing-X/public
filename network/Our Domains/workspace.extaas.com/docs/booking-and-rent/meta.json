@@ -1,29 +1,27 @@
 {
   "tags": [
-    "booking",
-    "rent",
-    "requests",
-    "availability",
-    "customers",
-    "modules"
+    "workspace",
+    "v2",
+    "booking-and-rent"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-10-12",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
-      "title": "Booking ja Rent: päringust lõpetamiseni",
-      "description": "Põhjalik juhend Extaasi Booking'u ja Rendi moodulite seadistamiseks, saadavuse, kinnituste, kliendisuhtluse ning igapäevase halduse jaoks.",
+      "title": "Booking ja Rent Workspace v2-s",
+      "description": "Booking haldab teenuseid, nädalast saadavust, asukohti ja Website’i päringuid. Rent haldab kirjeid, ressursse, rendiperioode ja taotlusi. Mõlemad on Website’iga seotud paketipõhised töövood.",
       "keywords": "Extaas Workspace Booking, Rent, broneerimine, rentimine, päringud, kliendihaldus"
     },
     "en": {
-      "title": "Booking and Rent: from request to completion",
-      "description": "A detailed guide to configuring Extaas Booking and Rent, availability, approvals, customer communication and daily operations.",
+      "title": "Booking and Rent in Workspace v2",
+      "description": "Booking manages services, weekly availability, locations and Website requests. Rent manages listings, resources, rental periods and requests. Both are package-owned workflows attached to Website.",
       "keywords": "Extaas Workspace Booking, Rent, booking, rental, requests, customer management"
     },
     "type": "website",
     "name": "Extaas"
-  }
+  },
+  "docs_order": 9
 }

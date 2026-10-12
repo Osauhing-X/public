@@ -1,76 +1,25 @@
-# Stripe arveldus
+# Stripe ja Store Workspace v2-s
 
-Stripe haldab workspace krediidioste, tasulisi checkout flow'sid ja tulevikus staff terminali makseid. Makse olek peab jääma Workspace'iga sünkroonis, et arved, krediidid ja ligipääs vastaksid päris maksetulemusele.
+Workspace’i Store-moodul on kliendi paigaldatud müügitöövahend. See on Extaasi toodete poest ja OUX Iseteeninduse kontoarveldusest eraldi.
 
-## Miks kasutada Stripe'i?
+## Seadistus
 
-Stripe hoiab kaardiandmete sisestamise Extaasi serveritest eemal, annab hallatud Checkouti, toote- ja hinnakataloogi ning allkirjastatud webhook-sündmused. Workspace saab siduda kinnitatud maksetulemuse arve, krediidi või tenant-toiminguga ilma toorest kaardiinfot töötlemata.
+Paigalda vastav Stripe-integratsioon ja määra STRIPE_SECRET_KEY. Eelista piiratud võtit ainult vajalike toimingutega. Kirjutamisõigus lisa siis, kui toodete või hindade haldus seda vajab. Enne pärismakseid kasuta eraldi sandbox’i.
 
-Stripe'i pole vaja tasuta päringu või käsitsi arveldamise puhul. Samuti ei asenda see raamatupidamist, maksunõustamist, tellimuse täitmist ega tagastusotsust. Enne päris maksete lubamist tuleb valida õige test/live keskkond, kontrollida ettevõtte andmed, tingimused, valuuta ja webhook.
+Pakett toetab piiratud kataloogi, toodete ja hindade haldust, majutatud makselinke, müüke, tagastusi ja tellimuse juhtimist. Saadavus sõltub versioonist, võtme õigustest ja seotud Store-koopiast.
 
-## Makse piir
+## Tooted ja metaandmed
 
-Avalik `extaas.com` võib kuvada makse algvaadet, aga mitte ostetud sisu detaile. Kui arve on maksmata, saab makset alustada. Kui arve on tasutud, ei tohi sama arve enam põhidomeenilt kättesaadav olla.
+Store’ile kuuluvad tooted kasutavad eraldamiseks workspace_store metaandmeid. Ära muuda reserveeritud workspace_ võtmeid käsitsi. Kasutaja tootemeta võib anda avalikke parameetreid, kui renderer seda toetab; privaatne kliendisisu ei kuulu metaandmetesse.
 
-Workspace näitab privaatseid detaile:
+Kuvatava hinna muutmine pole sama mis olemasoleva Stripe Price’i muutmine. Loo või arhiveeri hind vastava toiminguga.
 
-- arve read;
-- projekti seosed;
-- ostetud sisu;
-- kliendi/ettevõtte seos;
-- kviitungid ja sisemised maksemärkmed.
+## Makse kontroll
 
-## Vajalikud Stripe seaded
+Seadista STRIPE_WEBHOOK_SECRET Website’i endpoint’i `/@_store_webhooks/{store-instance-id}` jaoks enne automaatsele kooskõlastamisele toetumist. Kontrolli allkirju ja töötle sündmusi idempotentselt. Edulehele jõudmine ei tõenda tasumist; asünkroonne makse võib kinnituda hiljem.
 
-- Secret key serveris.
-- Webhook secret serveris.
-- Vajadusel price/product viited.
-- Success ja cancel URL-id.
-- Metadata, mis seob Stripe sündmuse workspace arve, krediidi või tenant tegevusega.
+Enne päris kasutust testi sandbox-makset, katkestamist, allkirjastatud sündmust, kordussaatmist ja tagastust. Tagastus ning tellimuse muutmine on sisulised finantstoimingud.
 
-Metadata peab aitama sisemisi kirjeid tuvastada, aga ei tohiks avalikul lehel privaatset sisu paljastada.
+Webhook-välja valikulisus vormis ei luba tootmises maksetulemuse kontrolli ära jätta.
 
-## Checkout flow
-
-Soovituslik flow:
-
-1. Workspace või avalik makse algvaade loob checkout sessioni.
-2. Stripe suunab kliendi maksele.
-3. Webhook kinnitab maksetulemuse.
-4. Workspace uuendab arve/krediidi oleku.
-5. Avalik makselink muutub peale tasumist kättesaamatuks.
-6. Klient näeb privaatseid detaile ainult Workspace'is.
-
-## Maksekeskus ja tasuta makse reegel
-
-Kui voog saab alata ilma Stripe'ita, peab Workspace siiski nägema sünkroonitud makse olekut. Tasuta või Maksekeskuse kaudu lõppenud tegevus peab uuendama sama arve/makse mudelit, et staff ja klient näeksid ühte tõde.
-
-## Terminal tulevikus
-
-Staff workspace'is võib arve juures olla `Terminal` nupp. See kuulub sisemisse workspace/admin flow'sse. Nupp alustab valitud arve Stripe Terminal makse ja uuendab arvet pärast terminali tulemuse kinnitamist.
-
-## Krediidireeglid
-
-Stripe võib pärast edukat makset lisada krediite. Moodulite kasutus tarbib krediite hiljem.
-
-```text
-Stripe checkout paid
--> lisa workspace krediidid
--> kirjuta makselog
--> märgi arve tasutuks
--> peida avalik makse algvaade
-```
-
-## KKK
-
-### Kas avalik makseleht peaks näitama arve ridu?
-
-Ei. Näita summat, staatust ja sisselogimise infot. Detailid kuuluvad Workspace'i.
-
-### Mis siis, kui webhook ebaõnnestub?
-
-Hoia maksesündmus logides ja paku staffile reconciliation võimalust. Ära anna tasulisele sisule ligipääsu enne, kui Workspace olek on kinnitatud.
-
-### Kas tenant portaal võib projekte näidata?
-
-Võib, kui projekt on selle tenanti/ettevõttega seotud. Privaatseid detaile peab siiski kontrollima Workspace ligipääsuloogika.
+[Stripe’i võtmed](https://docs.stripe.com/keys), [webhook’id](https://docs.stripe.com/webhooks) ja [sandbox’id](https://docs.stripe.com/sandboxes) annavad praeguse teenusejuhendi.
