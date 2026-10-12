@@ -1,0 +1,28 @@
+{
+  "tags": [
+    "workspace",
+    "v2",
+    "forms-and-crm"
+  ],
+  "sitemap": {
+    "lastmod": "2026-10-12",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Vormid, küsitlused ja CRM",
+      "description": "Forms / Surveys kogub Website’i struktureeritud vastuseid. Customers CRM haldab privaatseid kliente, ettevõtteid ja järeltegevusi. Need on eraldi paketid, mitte automaatselt üks jagatud tenant-tabel.",
+      "keywords": "Extaas Workspace vormid, küsitlused, CRM, kontaktivorm, nõusolek, kliendihaldus"
+    },
+    "en": {
+      "title": "Forms, surveys and CRM",
+      "description": "Forms / Surveys collects structured Website responses. Customers CRM keeps private customers, companies and follow-up activities. These are separate installed packages, not one automatically shared tenant table.",
+      "keywords": "Extaas Workspace forms, surveys, CRM, contact form, consent, customer management"
+    },
+    "image": "https://raw.githubusercontent.com/Osauhing-X/public/www/workspace/docs/forms-and-crm/cover.png",
+    "type": "website",
+    "name": "Extaas"
+  },
+  "docs_order": 8
+}

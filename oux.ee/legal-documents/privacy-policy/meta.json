@@ -1,0 +1,27 @@
+{
+  "group": "legal_documents",
+  "tags": [
+    "legal",
+    "privacy",
+    "gdpr"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-09",
+    "priority": 0.4,
+    "changefreq": "yearly"
+  },
+  "seo": {
+    "en": {
+      "title": "Privacy Policy",
+      "description": "This privacy policy explains how Osaühing X processes personal data, your rights, and how to contact us about privacy.",
+      "keywords": "Privacy Policy, Extaas, Osaühing X, GDPR, personal data processing, data protection, OAuth login, Supabase authentication, payment processing, Maksekeskus, data retention, user rights, Estonia data protection, no tracking cookies"
+    },
+    "et": {
+      "title": "Privaatsuspoliitika",
+      "description": "Privaatsuspoliitika selgitab, kuidas Osaühing X töötleb isikuandmeid, millised õigused on kasutajal ja kuidas meiega ühendust võtta.",
+      "keywords": "Privaatsuspoliitika, Extaas, Osaühing X, GDPR, isikuandmete töötlemine, andmekaitse, OAuth sisselogimine, Supabase, maksete töötlemine, Maksekeskus, andmete säilitamine, kasutaja õigused, Eesti andmekaitse, küpsised puuduvad"
+    },
+    "type": "website",
+    "name": "OUX"
+  }
+}

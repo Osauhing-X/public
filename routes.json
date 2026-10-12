@@ -1,0 +1,212 @@
+[
+  {
+    "source": "oux.ee/docs/home-assistant",
+    "path": "/docs/home-assistant",
+    "network": "oux.ee"
+  },
+  {
+    "source": "oux.ee/legal-documents/cookie-policy",
+    "path": "/legal-documents/cookie-policy",
+    "network": "oux.ee"
+  },
+  {
+    "source": "oux.ee/legal-documents/privacy-policy",
+    "path": "/legal-documents/privacy-policy",
+    "network": "oux.ee"
+  },
+  {
+    "source": "oux.ee/legal-documents/terms-of-sale",
+    "path": "/legal-documents/terms-of-sale",
+    "network": "oux.ee"
+  },
+  {
+    "source": "oux.ee/legal-documents/terms-of-service",
+    "path": "/legal-documents/terms-of-service",
+    "network": "oux.ee"
+  },
+  {
+    "source": "extaas.com/blog/2026/local-first-home-automation",
+    "path": "/blog/2026/local-first-home-automation",
+    "network": "extaas.com"
+  },
+  {
+    "source": "oux.ee/blog/2026/veebimajutus-partner",
+    "path": "/blog/2026/veebimajutus-partner",
+    "network": "oux.ee"
+  },
+  {
+    "source": "workspace/docs/getting-started",
+    "path": "/docs/getting-started",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/modules-overview",
+    "path": "/docs/modules-overview",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/integrations-guide",
+    "path": "/docs/integrations-guide",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/customer-workflows",
+    "path": "/docs/customer-workflows",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/landing-page",
+    "path": "/docs/landing-page",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/forms-and-crm",
+    "path": "/docs/forms-and-crm",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/booking-and-rent",
+    "path": "/docs/booking-and-rent",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/email-and-audience",
+    "path": "/docs/email-and-audience",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/openai",
+    "path": "/docs/openai",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/resend",
+    "path": "/docs/resend",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/stripe",
+    "path": "/docs/stripe",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/supabase",
+    "path": "/docs/supabase",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/workspace-portal",
+    "path": "/docs/workspace-portal",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/blog/2026/modular-workspace-portal",
+    "path": "/blog/2026/modular-workspace-portal",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/blog/2026/from-form-to-customer-relationship",
+    "path": "/blog/2026/from-form-to-customer-relationship",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/legal-documents/b2b-service-agreement",
+    "path": "/legal-documents/b2b-service-agreement",
+    "network": "workspace"
+  },
+  {
+    "source": "oux.ee/legal-documents/overview",
+    "path": "/legal-documents/overview",
+    "network": "oux.ee"
+  },
+  {
+    "source": "home_assistant/docs/x-entities",
+    "path": "/docs/x-entities",
+    "network": "home-assistant"
+  },
+  {
+    "source": "home_assistant/docs/x-platform",
+    "path": "/docs/x-platform",
+    "network": "home-assistant"
+  },
+  {
+    "source": "home_assistant/docs/x-platform/popcorn",
+    "path": "/docs/popcorn",
+    "network": "home-assistant"
+  },
+  {
+    "source": "home_assistant/docs/x-platform/rtsp-to-onvif",
+    "path": "/docs/rtsp-to-onvif",
+    "network": "home-assistant"
+  },
+  {
+    "source": "workspace/docs/integrations",
+    "path": "/docs/integrations",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/modules",
+    "path": "/docs/modules",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/settings",
+    "path": "/docs/settings",
+    "network": "workspace"
+  },
+  {
+    "source": "oux.ee/campaigns/2026/oux-campaigns",
+    "path": "/blog/2026/oux-campaigns",
+    "network": "oux.ee"
+  },
+  {
+    "source": "extaas.com/blog/2026/extaas-ecosystem-archive",
+    "path": "/blog/2026/extaas-ecosystem-archive",
+    "network": "extaas.com"
+  },
+  {
+    "source": "extaas.com/campaigns/2026/tester-or-promoter",
+    "path": "/campaigns/2026/tester-or-promoter",
+    "network": "extaas.com"
+  },
+  {
+    "source": "oux.ee/docs/account",
+    "path": "/docs/account",
+    "network": "oux.ee"
+  },
+  {
+    "source": "workspace/docs/package-structure",
+    "path": "/docs/package-structure",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/create-module",
+    "path": "/docs/create-module",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/create-integration",
+    "path": "/docs/create-integration",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/create-application",
+    "path": "/docs/create-application",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/connect-packages",
+    "path": "/docs/connect-packages",
+    "network": "workspace"
+  },
+  {
+    "source": "workspace/docs/cloudflare",
+    "path": "/docs/cloudflare",
+    "network": "workspace"
+  },
+  {
+    "source": "oux.ee/blog/2026/extaas-ecosystem",
+    "path": "/blog/2026/extaas-ecosystem",
+    "network": "oux.ee"
+  }
+]

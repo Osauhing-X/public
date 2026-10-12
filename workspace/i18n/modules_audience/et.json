@@ -1,0 +1,13 @@
+{
+  "title": "Kontaktlist",
+  "back": "Tagasi",
+  "module": "moodul",
+  "subscribers": "Kontaktid",
+  "description": "Kontaktide lisamine, liitumine ja lahkumine on tasuta. Krediiti kasutatakse ainult kirjade saatmisel saajatele.",
+  "contacts": "Kontaktid",
+  "landingVisibility": "Avaliku lehe nähtavus",
+  "subscribeBox": "Liitumise kast",
+  "name": "Nimi",
+  "email": "E-post",
+  "save": "Salvesta"
+}

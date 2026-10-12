@@ -1,0 +1,15 @@
+{
+  "title": "Logid",
+  "back": "Tagasi",
+  "module": "moodul",
+  "heading": "Teenuse tegevused",
+  "description": "Vaata teenuse sündmuseid, krediidi tegevusi ja integratsioonide seadistuslogisid ühendatud Supabase projektist.",
+  "refresh": "Värskenda",
+  "loading": "Laen...",
+  "latest": "Viimased logid",
+  "time": "Aeg",
+  "module": "Moodul",
+  "action": "Tegevus",
+  "message": "Sõnum",
+  "empty": "Logisid veel pole"
+}

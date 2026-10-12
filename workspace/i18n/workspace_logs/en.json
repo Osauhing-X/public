@@ -1,0 +1,15 @@
+{
+  "title": "Logs",
+  "back": "Go Back",
+  "module": "module",
+  "heading": "Service activity",
+  "description": "Review service events, credit actions and integration setup logs from the connected Supabase project.",
+  "refresh": "Refresh",
+  "loading": "Loading...",
+  "latest": "Latest logs",
+  "time": "Time",
+  "module": "Module",
+  "action": "Action",
+  "message": "Message",
+  "empty": "No logs yet"
+}

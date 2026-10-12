@@ -1,0 +1,15 @@
+create or replace function public.exec_sql(query text)
+returns void
+language plpgsql
+security definer
+as $$
+begin
+  execute query;
+end;
+$$;
+
+revoke all on function public.exec_sql(text) from public;
+revoke all on function public.exec_sql(text) from anon;
+revoke all on function public.exec_sql(text) from authenticated;
+
+grant execute on function public.exec_sql(text) to service_role;

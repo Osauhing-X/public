@@ -1,0 +1,27 @@
+{
+  "tags": [
+    "workspace",
+    "v2",
+    "integrations-guide"
+  ],
+  "sitemap": {
+    "lastmod": "2026-10-12",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Workspace v2 integratsioonide seadistamine",
+      "description": "Integratsioon omab ühendust ja deklareeritud serveritoiminguid. Moodul ja rakendus küsivad lubatud toimingut; nad ei peaks saama teise integratsiooni toorvõtmeid.",
+      "keywords": "Extaas Workspace integratsioonide juhend, Discord bot, Stripe, Supabase, Resend, OpenAI, töövood"
+    },
+    "en": {
+      "title": "Configure integrations in Workspace v2",
+      "description": "An integration owns the connection and declared server actions. Modules and applications request authorised actions; they should not receive another integration's raw secrets.",
+      "keywords": "Extaas Workspace integrations guide, Discord bot, Stripe, Supabase, Resend, OpenAI, workflows"
+    },
+    "type": "website",
+    "name": "Extaas"
+  },
+  "docs_order": 4
+}

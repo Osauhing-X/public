@@ -1,0 +1,27 @@
+{
+  "tags": [
+    "workspace",
+    "v2",
+    "settings"
+  ],
+  "sitemap": {
+    "lastmod": "2026-10-12",
+    "priority": 0.5,
+    "changefreq": "monthly"
+  },
+  "seo": {
+    "et": {
+      "title": "Core’i seadistused, hooldus ja uuendused",
+      "description": "**System → Settings** haldab kohalikku administraatorit, paigalduse identiteeti, Getting Started nähtavust ja Core’i väljalaskeinfot. Ametliku kataloogi haldus asub **Integrations → Extaas Connect** all.",
+      "keywords": "Extaas Workspace, seaded, konto seadistamine, ettevõtte profiil, kasutajad, tööruum"
+    },
+    "en": {
+      "title": "Core settings, maintenance and updates",
+      "description": "**System → Settings** manages the local administrator, installation identity, Getting Started visibility and Core release information. Official catalogue controls belong to **Integrations → Extaas Connect**.",
+      "keywords": "Extaas Workspace, settings, account setup, company profile, users, workspace"
+    },
+    "type": "website",
+    "name": "Extaas"
+  },
+  "docs_order": 6
+}

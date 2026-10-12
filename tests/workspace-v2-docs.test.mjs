@@ -5,8 +5,8 @@ import { createServer } from 'node:net';
 import { spawn } from 'node:child_process';
 const validatorUrl=new URL('../../workspace.extaas.com/Core/runtime/manifest.js',import.meta.url);
 const validateManifest=existsSync(validatorUrl) ? (await import(validatorUrl.href)).validateManifest : null;
-const root=new URL('../network/Our Domains/workspace.extaas.com/docs/',import.meta.url);
-const routes=JSON.parse(readFileSync(new URL('../network/routes.json',import.meta.url),'utf8'));
+const root=new URL('../workspace/docs/',import.meta.url);
+const routes=JSON.parse(readFileSync(new URL('../routes.json',import.meta.url),'utf8'));
 test('all Workspace v2 guides have bilingual content, metadata, order and registry paths',()=>{
   const dirs=readdirSync(root,{withFileTypes:true}).filter(item=>item.isDirectory());
   assert.equal(dirs.length,22);

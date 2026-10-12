@@ -1,0 +1,17 @@
+{
+  "service": "Osaühing X service",
+  "tenantTitle": "Sign in with your workspace",
+  "tenantText": "Use the identity providers configured for this business portal.",
+  "staffTitle": "Staff sign in",
+  "staffText": "Staff accounts use Extaas auth.",
+  "title": "Sign in to Extaas",
+  "text": "Access your business portal, credits, audience, booking and integrations.",
+  "continueWith": "Continue with",
+  "or": "or",
+  "magicLink": "Email magic link",
+  "emailPlaceholder": "you@example.com",
+  "send": "Send secure link",
+  "sent": "Check your inbox for the sign-in link.",
+  "more": "More information at",
+  "signingIn": "Signing you in..."
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Resend",
+  "settings": "Settings",
+  "testMail": "Test mail",
+  "apiKey": "API key",
+  "domain": "Sending domain",
+  "moduleEmails": "Module emails",
+  "templates": "Templates",
+  "components": "Components",
+  "attachments": "Attachments",
+  "save": "Save"
+}

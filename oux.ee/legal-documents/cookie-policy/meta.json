@@ -1,0 +1,27 @@
+{
+  "tags": [
+    "legal",
+    "cookies",
+    "privacy",
+    "local-storage"
+  ],
+  "sitemap": {
+    "lastmod": "2026-09-09",
+    "priority": 0.4,
+    "changefreq": "yearly"
+  },
+  "seo": {
+    "et": {
+      "title": "Küpsiste ja brauserisalvestuse poliitika",
+      "description": "Selgitus Extaas.com küpsiste, autentimisseansi, seadme tunnuse, localStorage'i ja sessionStorage'i kasutamise, eesmärkide, kestuse ning kasutaja valikute kohta.",
+      "keywords": "Extaas küpsised, cookie policy, localStorage, sessionStorage, autentimine, seadme tunnus, privaatsus"
+    },
+    "en": {
+      "title": "Cookie and browser storage policy",
+      "description": "How Extaas.com uses cookies, authentication sessions, a device identifier, localStorage and sessionStorage, including purpose, duration and user choices.",
+      "keywords": "Extaas cookies, cookie policy, localStorage, sessionStorage, authentication, device identifier, privacy"
+    },
+    "type": "website",
+    "name": "OUX"
+  }
+}
