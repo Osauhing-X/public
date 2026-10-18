@@ -8,4 +8,4 @@ Use promo code **OUX** to receive the first three months of web hosting free. Av
 
 [View the partner offer at Veebimajutus.ee](https://www.veebimajutus.ee/promokood/OUX).
 
-If you also need a considered web solution or integration, [tell OUX what you need](https://oux.ee/@/contact?popover=contact).
+If you also need a considered web solution or integration, [tell OUX what you need](https://oux.ee/?popover=contact).
