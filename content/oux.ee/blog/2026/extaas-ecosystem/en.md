@@ -13,4 +13,4 @@ The division keeps development services and ready-made products understandable. 
 - a clear path to custom development when standard functionality is insufficient;
 - decisions grounded in maintainability, security and proven capability.
 
-Start at [Extaas](https://extaas.com) or describe the requirement to [OUX](https://oux.ee/@/contact?popover=contact_popover).
+Start at [Extaas](https://extaas.com) or describe the requirement to [OUX](https://oux.ee/@/contact?popover=contact).

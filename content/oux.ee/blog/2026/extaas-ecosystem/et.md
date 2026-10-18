@@ -13,4 +13,4 @@ Selge jaotus hoiab arendusteenuse ning valmis toodete info arusaadavana. Klient 
 - selge tee eritellimuseni, kui standardlahendus ei kata töövoogu;
 - arendusotsused, mis arvestavad hooldatavuse, turvalisuse ja tegeliku võimekusega.
 
-Alusta [Extaasist](https://extaas.com) või kirjelda oma vajadust [OUX-ile](https://oux.ee/@/contact?popover=contact_popover).
+Alusta [Extaasist](https://extaas.com) või kirjelda oma vajadust [OUX-ile](https://oux.ee/@/contact?popover=contact).

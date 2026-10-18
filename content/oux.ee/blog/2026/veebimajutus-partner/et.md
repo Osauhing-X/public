@@ -8,4 +8,4 @@ Promokoodi **OUX** kasutades on veebimajutuse esimesed kolm kuud tasuta. Pakkumi
 
 [Vaata partnerpakkumist Veebimajutus.ee-s](https://www.veebimajutus.ee/promokood/OUX).
 
-Kui vajad lisaks majutusele läbimõeldud veebilahendust või integratsiooni, [räägi oma vajadusest OUX-ile](https://oux.ee/@/contact?popover=contact_popover).
+Kui vajad lisaks majutusele läbimõeldud veebilahendust või integratsiooni, [räägi oma vajadusest OUX-ile](https://oux.ee/@/contact?popover=contact).

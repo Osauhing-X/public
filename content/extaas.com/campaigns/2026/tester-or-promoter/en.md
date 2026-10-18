@@ -55,7 +55,7 @@ Do not use them as the sole control or safety layer where failure could cause si
 
 ## How do I apply?
 
-[Send us your application](https://oux.ee/@/contact?popover=contact_popover) and include:
+[Send us your application](https://oux.ee/?popover=contact) and include:
 
 1. whether you are applying as a tester or promoter;
 2. which Extaas product you want to use;

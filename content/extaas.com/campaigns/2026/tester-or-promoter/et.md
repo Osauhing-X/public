@@ -55,7 +55,7 @@ Meie Home Assistanti rakendused on mõeldud eelkõige koduseks ja isiklikuks kas
 
 ## Kuidas kandideerida?
 
-[Saada meile kandideerimisavaldus](https://oux.ee/@/contact?popover=contact_popover) ja lisa:
+[Saada meile kandideerimisavaldus](https://oux.ee/?popover=contact) ja lisa:
 
 1. kas kandideerid testeriks või promoteriks;
 2. millist Extaasi toodet soovid kasutada;
