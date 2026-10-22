@@ -125,7 +125,7 @@ The following service providers are used in service delivery:
 
 OAuth providers (e.g., Google and Discord) act as independent data controllers under their own privacy policies.
 
-OUX's web applications are self-hosted using Docker and Coolify. These deployment tools are not a replacement name for a third-party hosting provider.
+OUX's web applications run on infrastructure managed by Osaühing X, using Docker and Coolify for deployment.
 
 Personal data is not sold to third parties.
 

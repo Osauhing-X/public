@@ -122,7 +122,7 @@ Teenuse osutamisel kasutatakse järgmisi teenusepakkujaid:
 
 OAuth teenusepakkujad (nt Google ja Discord) tegutsevad oma andmekaitsetingimuste alusel iseseisvate vastutavate töötlejatena.
 
-OUX-i veebirakendused on ise majutatavad ning neid käitatakse Dockeri ja Coolify abil. Need juurutusvahendid ei ole kolmandast osapoolest majutusteenuse pakkuja asendusnimi.
+OUX-i veebirakendused töötavad Osaühing X-i hallatavas taristus ning nende juurutamiseks kasutatakse Dockerit ja Coolifyd.
 
 Andmeid ei müüda kolmandatele isikutele.
 
