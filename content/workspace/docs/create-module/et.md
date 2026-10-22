@@ -106,3 +106,9 @@ Näide jätab nupu ebakindla salvestamistulemuse korral keelatuks. Laadi vaade u
 5. Saada ühekordses testis tundmatu toiming: see peab ebaõnnestuma seisu muutmata.
 
 UI skriptid ja stiilid hoia iseseisvad. Teenusega ühendamiseks jätka [pakettide ühendamisega](/et/docs/connect-packages).
+
+## Kohanduv paigutus ja ühilduvus
+
+Piira tavalise vormi- või detaililehe laiust mooduli iframe’i sees stiiliga `width: min(100%, 1440px); margin: 0 auto; box-sizing: border-box;` ning kasuta kohanduvaid sisevahesid. Väikesel ekraanil peavad veerud koonduma ja vormiväljadel olema selged sildid. Kalender ja Kanban võivad teadlikult kasutada kogu laiust. Kontrolli nii telefonilaiust kui laia ekraani; iframe üksi ei tee paigutust kohanduvaks.
+
+Ühilduvus kirjeldab, millised paketid saavad koos töötada. See ei ole alammoodulite puu ega loo ise seost rakendusega või lubatud integratsiooniühendust. Erista nõutud sõltuvused valikulisest ühilduvusest.

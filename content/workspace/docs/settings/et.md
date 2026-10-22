@@ -12,10 +12,12 @@ Rakenduse seadistused asuvad selle **Configuration** ja **Environment** vaates. 
 
 **Cron** näitab ajastusi ja viimaseid tulemusi. Kinnitatud käsitsi käivitamine ei muuda ajastust. Core peab lubama taustatööd, pakett peab olema valmis ja sama töö ei käivitu korraga kaks korda.
 
-**Queued** säilitab piiratud lõpetatud ajaloo; pooleliolevat tööd ei kustutata ajaloo arvelt. **Logs** kuvab sündmusi. Mõlema puhastamine on eraldi kustutav toiming: ekspordi vajalik info esmalt.
+Need vaated kuuluvad **Work** gruppi: `/work/cron`, `/work/automations` ja `/work/jobs`. **Jobs** eristab aktiivseid, ootel ja ebaõnnestunud töid. Edukas töö kaob lõpetamisel; vead säilivad uurimiseks. Lehe avamine ei korda töid ega kustuta vigu. **System → Logs** (`/system/logs`) kuvab käivitussündmusi. Säilita diagnostikainfo enne eraldi kinnitatud puhastamist.
+
+Automations käivitab praegu salvestatud töövooge kasutaja algatusel. Paketi päästikukirjeldus ei tõenda ühendatud teenusesündmuste tellimust. Enne automaatsele käivitusele toetumist kontrolli sündmuse tegelikku allikat, õigusi ja edastusteed.
 
 ## Ressursid ja uuendused
 
 Overview ja Storage eristavad failisüsteemi mahtu Core’i loogilisest failimahust. Rakenduse RAM näitab mõõdetud hallatavat protsessi, mitte väljamõeldud kõigi alamprotsesside kogumahtu. CPU ulatus ja puuduolevad mõõdikud on tähistatud.
 
-Core kontrollib väljalaskeid perioodiliselt. Docker-kujutist uuenda juurutushalduri kaudu pärast varundamist; Core ei ühenda Docker socket’it enda asendamiseks. Allika värskendamine ja paketi paigaldamine on eri toimingud.
+Core kontrollib väljalaskeid perioodiliselt. Docker-kujutist uuenda juurutushalduri kaudu pärast varundamist; Core ei ühenda Docker socket’it enda asendamiseks. Anna plaaniliseks lõpetamiseks vähemalt 45 sekundit: Core ootab jälgitavaid töid kuni 30 ja HTTP-ühendusi viis sekundit. Ajapiiri ületamine või serveri järsk seiskumine võib töö katkestada; kontrolli tulemust enne kordamist. Allika värskendamine ja paketi paigaldamine on eri toimingud.

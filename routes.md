@@ -24,4 +24,6 @@ See repository avaldatakse GitHubi `www` harust ja sisaldab veebirakenduste pool
 
 ## Kontroll
 
+Käivita hoidla juures `node scripts/validate-content.mjs`. Kontroll hõlmab JSON-i, registri allikaid, artiklite keelepaare, tõlkevõtmete vastavust, Markdowni failiviiteid ja aegunud avalikke URL-e. See ei asenda tekstide sisulist kontrolli ega tõenda välisteenuste töökindlust. `content/workspace/i18n/` on tagasiühilduv v1 tõlkearhiiv, mitte praeguse Core’i funktsioonilubadus; olemasolevaid võtmeid ei eemaldata tarbijaid kontrollimata.
+
 Sisu üleviimisel kontrolliti registrit, kakskeelseid artikleid, avalikke lehti, failiviiteid ning Workspace v2 näiteid. Testide kaust ei kuulu enam avalikku sisuhoidlasse. Sama nimega varasem Extaasi artikkel säilib `content/extaas.com/blog/2026/extaas-ecosystem-archive/`; OUX-i praegune artikkel on `content/oux.ee/blog/2026/extaas-ecosystem/`.

@@ -24,7 +24,7 @@ Do not publish Core administration while experimenting. Use a strong password an
 1. Open **Storage** and add a GitHub repository, ZIP collection or mounted folder. The official catalogue is managed through Extaas Connect.
 2. Configure any required integration and check its readiness.
 3. Install a module or application. An application may need installation and build commands before its health check passes.
-4. Open it and verify actual content. Inspect **Runtime logs** or **System → Queued** if it fails.
+4. Open it and verify actual content. Inspect **Runtime logs**, **Work → Jobs** (`/work/jobs`) or **System → Logs** (`/system/logs`) if it fails.
 
 A missing optional integration should not be confused with a required one. Read the package manifest and its setup guidance.
 
@@ -36,7 +36,9 @@ Check logged-out access, account permissions, HTTPS, assets, forms and error sta
 
 ## Backup and update
 
-Back up the persistent volume and deployment configuration. Pull and recreate with the same commands above. Keep the previous image digest for rollback and check health after restart.
+Back up the persistent volume and deployment configuration. Check **Work → Jobs** before maintenance and retain the previous image digest for rollback. Pull the new image, then recreate with `docker compose up -d --timeout 45`. Check application health and scheduled work afterwards.
+
+Core stops accepting new queued work during a planned restart and waits up to 30 seconds for active tracked jobs, then up to five seconds for HTTP connections. Configure the supervisor to allow at least 45 seconds. Longer jobs and abrupt host failures can still leave interrupted work: investigate the outcome before retrying an operation that may already have taken effect.
 
 **Do not run `docker compose down -v` to update: it removes named volumes.**
 

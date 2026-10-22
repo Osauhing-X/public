@@ -1,6 +1,6 @@
 # Website-rakenduse avaldamine
 
-V2 avalik veeb kuulub rakendusele, mitte ühisele tenant-portaalile workspace.extaas.com-is. Core jääb privaatseks pakettide halduriks.
+V2 avalik veeb kuulub rakendusele, mitte ühisele tenant-portaalile. Core jääb privaatseks pakettide halduriks. Workspace’i avalik tooteleht on [extaas.com/@/workspace](https://extaas.com/@/workspace); see pole sinu paigalduse haldusaadress.
 
 ## Loo leht
 

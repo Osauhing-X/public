@@ -1,6 +1,20 @@
 # Tutorial: create a web application
 
-An application is a managed Node process. This minimal website serves a homepage and health endpoint without npm dependencies.
+An application can be a managed Node process or a plain HTML website. Choose static serving when no server-side logic is needed; use Node for authentication, integration calls or dynamic endpoints.
+
+## Plain HTML: no build or custom server
+
+Create `applications/example-static/public/index.html` with your HTML and place only intentionally public CSS, browser JavaScript and images in `public/`. Add this manifest alongside `public/`:
+
+```json
+{"schema_version":2,"id":"example-static","kind":"application","version":"1.0.0","name":"Example Static","environment":[],"exposure":{"mode":"port"},"runtime":{"type":"static","port":4180,"document_root":"public","healthcheck":{"path":"/"}},"cron":[]}
+```
+
+No package.json, npm install, build command or custom Node server is required. The public directory must contain index.html. Core rejects directory listings, dot files, traversal, external symlinks and unsupported file formats. Static applications receive no environment secrets or Core Application token and cannot perform server-side integration calls. Use relative asset URLs for Core's path-prefixed view; root-absolute assets need a dedicated port or domain. Static serving does not implement user accounts or publish the site automatically.
+
+## Node: server-side capabilities
+
+The following minimal Node website serves a homepage and health endpoint without npm dependencies.
 
 Create applications/example-site with package.json `{"type":"module","private":true}`.
 

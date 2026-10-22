@@ -5,19 +5,19 @@
     "landing-page"
   ],
   "sitemap": {
-    "lastmod": "2026-10-12",
+    "lastmod": "2026-10-22",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Publish a Website application",
-      "description": "In v2 the public site belongs to an Application, not to a shared tenant portal at workspace.extaas.com. Core remains the private package administrator.",
+      "description": "Publish a Website application with compatible content modules, deliberate domain routing and separate public-access checks. Core administration remains private.",
       "keywords": "Extaas Workspace landing page, tenant, business portal, contact form, booking, customer journey"
     },
     "et": {
       "title": "Website-rakenduse avaldamine",
-      "description": "V2 avalik veeb kuulub rakendusele, mitte ühisele tenant-portaalile workspace.extaas.com-is. Core jääb privaatseks pakettide halduriks.",
+      "description": "Avalda Website-rakendus sobivate sisumoodulite, teadliku domeenisuunamise ja eraldi avaliku ligipääsu kontrolliga. Core’i haldus jääb privaatseks.",
       "keywords": "Extaas Workspace avaleht, tenant, ettevõtte portaal, kontaktivorm, broneerimine, klienditeekond"
     },
     "type": "website",

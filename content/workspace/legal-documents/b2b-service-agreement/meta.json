@@ -1,6 +1,6 @@
 {
   "group": "legal_documents",
-  "redirect": "https://workspace.extaas.com/legal/b2b-service-agreement.html",
+  "redirect": "https://oux.ee/@/read?category=legal-documents",
   "meta_only": true,
   "tags": [
     "legal",
@@ -9,19 +9,19 @@
     "service agreement"
   ],
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-10-22",
     "priority": 0.5,
     "changefreq": "yearly"
   },
   "seo": {
     "en": {
-      "title": "Workspace B2B Service Agreement",
-      "description": "Read the service agreement that applies when registering and using an Extaas Workspace business portal.",
+      "title": "Workspace legal documents",
+      "description": "The old hosted-portal agreement link is retired. Browse OUX's current legal documents; this directory is not a replacement B2B agreement.",
       "keywords": "Extaas Workspace service agreement, B2B agreement, business software terms, business portal"
     },
     "et": {
-      "title": "Workspace’i B2B teenusleping",
-      "description": "Tutvu teenuslepinguga, mis kehtib Extaas Workspace’i äriportaali registreerimisel ja kasutamisel.",
+      "title": "Workspace’i õigusdokumendid",
+      "description": "Vana majutatud portaali lepingulink pole enam kasutusel. Ava OUX-i praeguste õigusdokumentide register; register ei asenda B2B teenuslepingut.",
       "keywords": "Extaas Workspace teenusleping, B2B leping, äritarkvara tingimused, ettevõtte portaal"
     },
     "type": "website",

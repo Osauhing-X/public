@@ -6,7 +6,7 @@ Workspace v2 on ise majutatav paketiplatvorm. Käivita Core Dockerit toetaval ar
 
 | Osa | Otstarve | Näide |
 | --- | --- | --- |
-| Rakendus | Iseseisev Node-veebirakendus oma pordi ja seadistusega | Website |
+| Rakendus | Iseseisev hallatav Node-rakendus või staatiline HTML-veebileht | Website, kohandatud HTML-veeb |
 | Moodul | Kindla töö jaoks mõeldud töövahend, vajadusel seotud rakendusega | Routes, Calendar, Customers CRM |
 | Integratsioon | Serveripoolne ühendus deklareeritud toimingute ja võtmetega | GitHub, Resend, Stripe, Cloudflare |
 
@@ -30,9 +30,16 @@ Paigaldatud koopia säilib allika eemaldamisel. Uuendamiseks ühenda allikas uue
 
 ## Praeguse teostuse piirid
 
-Rakendused töötavad Core’i konteineris hallatavate Node-protsessidena, mitte igaüks eraldi Docker-konteineris. Paketitoimingud kasutavad piiratud alamprotsesse. Need kontrollid ei muuda tundmatut koodi automaatselt turvaliseks. Paigalda ainult usaldatud koodi.
+Node-rakendused töötavad Core’i konteineris hallatavate protsessidena. Staatilisi rakendusi teenindab Core’i failiserver ilma keskkonnasaladuste või Application-tokenita. Kumbki režiim ei loo igale rakendusele eraldi Docker-konteinerit. Paketitoimingud kasutavad piiratud alamprotsesse. Need kontrollid ei muuda tundmatut koodi automaatselt turvaliseks. Paigalda ainult usaldatud koodi.
 
-**System** sisaldab Logs, Queued, Cron, Environment ja Settings vaateid. **Overview** ja **Storage** näitavad ressursimõõdikuid koos nende ulatuse ja piirangutega.
+Navigeerimine on jaotatud eesmärgi järgi:
+
+- **Portal** (`/portal`): paigalduse ülevaade.
+- **Library** (`/library/storage`, `/library/integrations`, `/library/modules`, `/library/applications`): allikad ja paketid.
+- **Work** (`/work/cron`, `/work/automations`, `/work/jobs`): ajastused, töövoogude koostamine ning aktiivsed ja ebaõnnestunud tööd.
+- **System** (`/system/settings`, `/system/environments`, `/system/logs`): haldus, keskkonnagrupid ja käivitussündmused.
+
+Jobs näitab aktiivseid ja ootel töid ning säilitab vead; edukas töö kaob pärast lõpetamist. Automations käivitab praegu salvestatud töövooge kasutaja algatusel. Paketi päästikukirjeldus ei ühenda veel teenuse sündmusi automaatselt. Järelevalveta sündmuspõhisele töövoole ei tohi toetuda enne, kui sündmuse allikas ja edastustee on teostatud ning kontrollitud.
 
 Workspace on aktiivses arenduses. Kontrolli oma töövoog enne päris kasutust; paigaldamine üksi ei tõenda iga funktsiooni toimimist.
 

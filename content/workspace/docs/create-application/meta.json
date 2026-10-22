@@ -7,18 +7,18 @@
     "create-application"
   ],
   "sitemap": {
-    "lastmod": "2026-10-12",
+    "lastmod": "2026-10-22",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Tutorial: create a web application",
-      "description": "An application is a managed Node process. This minimal website serves a homepage and health endpoint without npm dependencies."
+      "description": "Create a static HTML website without a build step, or a managed Node application for server-side logic and authorised integration calls."
     },
     "et": {
       "title": "Õpetus: loo veebirakendus",
-      "description": "Rakendus on hallatav Node-protsess. Minimaalne näide kuvab avalehe ja tervisekontrolli ilma npm-sõltuvusteta."
+      "description": "Loo staatiline HTML-veeb ilma build-käsuta või hallatav Node-rakendus serveriloogika ja lubatud integratsioonikutsete jaoks."
     }
   }
 }

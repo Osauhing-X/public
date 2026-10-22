@@ -6,7 +6,7 @@ Workspace v2 is a self-hosted package platform. Run Core on a Docker-capable com
 
 | Component | Purpose | Example |
 | --- | --- | --- |
-| Application | An independent Node web application with its own port and configuration | Website |
+| Application | An independent managed Node application or static HTML website | Website, a custom HTML site |
 | Module | A focused business tool, optionally attached to a compatible application | Routes, Calendar, Customers CRM |
 | Integration | A server-side connection with declared actions and credentials | GitHub, Resend, Stripe, Cloudflare |
 
@@ -30,9 +30,16 @@ An installed copy survives source removal. Reconnect its source before requestin
 
 ## Current execution boundary
 
-Applications run as managed Node processes in the Core container, not as one isolated Docker container per application. Package actions use constrained child processes. These controls are not a guarantee that untrusted code is safe. Only install code you trust.
+Node applications run as managed processes in the Core container; static applications use Core's managed file server without receiving environment secrets or an Application token. Neither mode creates a separate Docker container per application. Package actions use constrained child processes. These controls are not a guarantee that untrusted code is safe. Only install code you trust.
 
-**System** includes Logs, Queued, Cron, Environment and Settings. **Overview** and **Storage** show available resource measurements with their scope and limitations.
+The navigation is grouped by purpose:
+
+- **Portal** (`/portal`): installation overview.
+- **Library** (`/library/storage`, `/library/integrations`, `/library/modules`, `/library/applications`): sources and packages.
+- **Work** (`/work/cron`, `/work/automations`, `/work/jobs`): schedules, workflow editing and active or failed work.
+- **System** (`/system/settings`, `/system/environments`, `/system/logs`): administration, environment groups and runtime events.
+
+Jobs shows running and waiting work and retains errors; successful work disappears after completion. Automations currently runs saved workflows explicitly. Installed package trigger definitions do not yet connect provider events automatically. Do not rely on an unattended event workflow until its source and delivery path are implemented and tested.
 
 Workspace is actively developed. Validate your own workflow before production use; package installation is not evidence that every feature has been tested.
 

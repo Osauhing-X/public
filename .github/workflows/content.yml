@@ -1,0 +1,26 @@
+name: Validate public content
+
+on:
+  push:
+    branches: [www]
+  pull_request:
+    branches: [www]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  content:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out content
+        uses: actions/checkout@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Validate registries, translations and local links
+        run: node scripts/validate-content.mjs
+      - name: Verify content validation rejects broken fixtures
+        run: node --test scripts/validate-content.test.mjs

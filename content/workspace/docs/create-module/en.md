@@ -106,3 +106,9 @@ This example disables the button after an uncertain write result. Reload to conf
 5. Send an unsupported action in a disposable test; it must fail without modifying state.
 
 Keep UI scripts and styles self-contained. For provider-backed operations continue with [connecting packages](/en/docs/connect-packages).
+
+## Responsive layout and compatibility
+
+Constrain ordinary form/detail pages inside the module frame with `width: min(100%, 1440px); margin: 0 auto; box-sizing: border-box;` and responsive padding. Make grids collapse on narrow screens and label form fields clearly. Calendar and Kanban may intentionally use the full available width. Test phone-sized and wide views; an iframe alone does not make a layout responsive.
+
+Compatibility describes which packages can work together. It is not a submodule tree and does not create an assignment or an authorised integration connection by itself. Explain required dependencies separately from optional compatibility.

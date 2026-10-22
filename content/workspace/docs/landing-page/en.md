@@ -1,6 +1,6 @@
 # Publish a Website application
 
-In v2 the public site belongs to an Application, not to a shared tenant portal at workspace.extaas.com. Core remains the private package administrator.
+In v2 the public site belongs to an Application, not to a shared tenant portal. Core remains the private package administrator. The public Workspace product page is [extaas.com/@/workspace](https://extaas.com/@/workspace); it is not your installation's administration address.
 
 ## Build the page
 

@@ -1,6 +1,20 @@
 # Õpetus: loo veebirakendus
 
-Rakendus on hallatav Node-protsess. Minimaalne näide kuvab avalehe ja tervisekontrolli ilma npm-sõltuvusteta.
+Rakendus võib olla hallatav Node-protsess või tavaline HTML-veebileht. Vali staatiline teenindamine, kui serveriloogikat pole vaja; autentimise, integratsioonikutsete ja dünaamiliste endpoint’ide jaoks kasuta Node’i.
+
+## Tavaline HTML: ilma build’i ja oma serverita
+
+Loo HTML-fail `applications/example-static/public/index.html`. Lisa `public/` alla ainult teadlikult avalikud CSS-i, brauseri JavaScripti ja pildifailid. Selle kõrvale lisa manifest:
+
+```json
+{"schema_version":2,"id":"example-static","kind":"application","version":"1.0.0","name":"Example Static","environment":[],"exposure":{"mode":"port"},"runtime":{"type":"static","port":4180,"document_root":"public","healthcheck":{"path":"/"}},"cron":[]}
+```
+
+package.json faili, npm install’i, build-käsku ega oma Node-serverit pole vaja. Avalikus kaustas peab olema index.html. Core ei kuva kaustaloendit, punktiga algavaid faile, väljapoole viivaid sümbollinke ega toetamata failivorminguid ning tõkestab teekonnaga kaustast väljumise. Staatiline rakendus ei saa keskkonnasaladusi ega Core’i Application-tokenit ja ei saa teha serveripoolseid integratsioonikutseid. Core’i teekonna kaudu avamisel kasuta suhtelisi failiviiteid; juurest algavad failiaadressid vajavad eraldi porti või domeeni. Staatiline teenindamine ei loo kasutajakontosid ega avalda saiti automaatselt.
+
+## Node: serveripoolsed võimalused
+
+Järgnev minimaalne Node-veeb kuvab avalehe ja tervisekontrolli ilma npm-sõltuvusteta.
 
 Loo applications/example-site ja package.json sisuga `{"type":"module","private":true}`.
 
