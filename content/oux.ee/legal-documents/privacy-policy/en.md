@@ -1,5 +1,5 @@
 # PRIVACY POLICY  
-Last updated: 23.10.2026 (hosting and payment provider information)
+Last updated: 23.10.2026 (customer accounts, hosting and payment provider information)
 
 ***
 
@@ -16,18 +16,17 @@ Official registry information is available through the Estonian Commercial Regis
 ***
 
 ## 2. Nature of the Service and Account Usage
-Extaas.com is not a public account-based platform.
+An OUX Self-service account is available to OUX and Extaas customers. Creating an account does not require ordering a paid development project.
 
-A user account is created only if a person orders a paid service (e.g., web development, software development, or another IT-related project). The purpose of the account is to:
+The account is used to:
 
-- link a specific project to a specific client  
-- enable project management  
-- enable management of project-related information and files  
-- enable invoicing and payment association with the project  
-- ensure the technical operation of the service  
-- ensure proper service delivery in accordance with the agreement  
+- manage customer and company details;
+- view invoices and associated payment information;
+- manage the customer's licences and connected services;
+- manage OUX client projects and their related information and files, where applicable;
+- support the technical operation and delivery of the requested services.
 
-Creating an account without ordering a service is not intended.
+OUX client projects and Extaas products or services are distinct. Creating an account does not itself place an order, activate a paid service or grant access to another customer's information.
 
 User activity logs are not maintained.  
 Click logs, behavioral analytics, or detailed usage histories are not collected.

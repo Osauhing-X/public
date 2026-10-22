@@ -1,5 +1,5 @@
 # PRIVAATSUSPOLIITIKA  
-Viimati uuendatud: 23.10.2026 (majutuse ja makseteenuste teave)
+Viimati uuendatud: 23.10.2026 (kliendikontode, majutuse ja makseteenuste teave)
 
 ***
 
@@ -16,17 +16,17 @@ Ametlikud registriandmed on kättesaadavad Eesti äriregistrist.
 ***
 
 ## 2. Teenuse iseloom ja konto kasutamine
-Extaas.com ei ole avalik kasutajakontodel põhinev platvorm.
+OUX Iseteenindusse saab konto luua iga OUX-i või Extaasi klient. Konto loomine ei eelda tasulise arendusprojekti tellimist.
 
-Kasutajakonto luuakse ainult juhul, kui isik tellib tasulise teenuse (nt veebiarendus, tarkvaraarendus või muu IT-projekt). Konto eesmärk on:
-- siduda konkreetne projekt konkreetse kliendiga  
-- võimaldada projekti haldamist  
-- võimaldada projektiga seotud info ja failide haldamist  
-- võimaldada arveldust ja maksete sidumist projektiga  
-- tagada teenuse tehniline toimimine  
-- tagada teenuse osutamine vastavalt kokkuleppele  
+Kontot kasutatakse selleks, et:
 
-Niisama konto loomine ilma teenuse tellimiseta ei ole ette nähtud.
+- hallata kliendi- ja ettevõtteandmeid;
+- vaadata arveid ning nendega seotud makseinfot;
+- hallata kliendi litsentse ja ühendatud teenuseid;
+- hallata olemasolu korral OUX-i kliendiprojekte ning nendega seotud infot ja faile;
+- toetada soovitud teenuste tehnilist toimimist ja osutamist.
+
+OUX-i kliendiprojektid ning Extaasi tooted ja teenused on eri asjad. Konto loomine ei esita iseenesest tellimust, aktiveeri tasulist teenust ega anna ligipääsu teise kliendi andmetele.
 
 Kasutajate tegevuslogisid ei peeta.  
 Ei salvestata klikilogisid, kasutuskäitumist ega detailset tegevusajalugu.
