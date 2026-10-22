@@ -35,7 +35,7 @@ Platvorm on ehitatud **Svelte** raamistikule ning kasutab kaasaegseid pilveteenu
 
 Kasutusel on järgmised teenused:  
 
-- **Netlify** – rakenduse hostimine ja CI/CD  
+- **Docker ja Coolify** – ise majutatavate rakenduste juurutamine ja käitamine  
 - **Cloudflare** – DNS-haldus ja turvalisus  
 - **Veebimajutus.ee** – domeeni- ja hostingu teenused  
 - **Resend** – e-posti teenus  

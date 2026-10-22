@@ -1,5 +1,5 @@
 # PRIVACY POLICY  
-Last updated: 05.03.2026
+Last updated: 23.10.2026 (hosting information)
 
 ***
 
@@ -120,11 +120,12 @@ The following service providers are used in service delivery:
 - Supabase – authentication and database  
 - Resend – transactional emails  
 - veebimajutus.ee – domain registration and email hosting services
-- Netlify – hosting web applications deployed from GitHub repositories
 - Maksekeskus – payment processing  
 - Discord – API integration  
 
 OAuth providers (e.g., Google and Discord) act as independent data controllers under their own privacy policies.
+
+OUX's web applications are self-hosted using Docker and Coolify. These deployment tools are not a replacement name for a third-party hosting provider.
 
 Personal data is not sold to third parties.
 

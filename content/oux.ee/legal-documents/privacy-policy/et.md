@@ -1,5 +1,5 @@
 # PRIVAATSUSPOLIITIKA  
-Viimati uuendatud: 05.03.2026
+Viimati uuendatud: 23.10.2026 (majutuse teave)
 
 ***
 
@@ -117,11 +117,12 @@ Teenuse osutamisel kasutatakse järgmisi teenusepakkujaid:
 - Supabase – autentimine ja andmebaas  
 - Resend – tehingulised e-kirjad  
 - veebimajutus.ee – domeeni registreerimine ja e-posti majutusteenused
-- Netlify – GitHubi repositooriumidest juurutatud veebirakenduste majutamine
 - Maksekeskus – maksete töötlemine
 - Discord – API kasutus  
 
 OAuth teenusepakkujad (nt Google ja Discord) tegutsevad oma andmekaitsetingimuste alusel iseseisvate vastutavate töötlejatena.
+
+OUX-i veebirakendused on ise majutatavad ning neid käitatakse Dockeri ja Coolify abil. Need juurutusvahendid ei ole kolmandast osapoolest majutusteenuse pakkuja asendusnimi.
 
 Andmeid ei müüda kolmandatele isikutele.
 

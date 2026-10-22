@@ -1,7 +1,7 @@
 {
   "group": "info",
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-10-23",
     "priority": 0.5,
     "changefreq": "yearly"
   },
@@ -9,12 +9,12 @@
     "en": {
       "title": "Company",
       "description": "Learn about Osaühing X, the Extaas web platform, and the technologies and infrastructure behind its digital solutions.",
-      "keywords": "Osaühing X, Extaas, Svelte, web platform, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digital infrastructure, modular code, IT services"
+      "keywords": "Osaühing X, Extaas, Svelte, web platform, Supabase, Docker, Coolify, Cloudflare, Resend, Veebimajutus.ee, digital infrastructure, modular code, IT services"
     },
     "et": {
       "title": "Ettevõte",
       "description": "Tutvu Osaühing X-i ja Extaasi veebiplatvormiga ning tehnoloogiate ja infrastruktuuriga, millel ettevõtte digilahendused põhinevad.",
-      "keywords": "Osaühing X, Extaas, Svelte, veebiplatvorm, Supabase, Netlify, Cloudflare, Resend, Veebimajutus.ee, digitaalne infrastruktuur, modulaarne kood, IT teenused"
+      "keywords": "Osaühing X, Extaas, Svelte, veebiplatvorm, Supabase, Docker, Coolify, Cloudflare, Resend, Veebimajutus.ee, digitaalne infrastruktuur, modulaarne kood, IT teenused"
     },
     "type": "website",
     "name": "OUX"
