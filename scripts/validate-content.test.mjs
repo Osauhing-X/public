@@ -42,3 +42,10 @@ test('allows explicit metadata-only redirects without invented article bodies',t
   f.write('content/workspace/legal-documents/example/meta.json',{meta_only:true,redirect:'https://oux.ee/@/read?category=legal-documents'});
   assert.equal(f.run().status,0);
 });
+test('prevents reintroducing executable SQL through the retired helper URL',t=>{
+  const f=fixture(t);
+  f.write('content/workspace/docs/supabase/tenant-exec-sql.txt','create function public.exec_sql(query text) returns void language sql as $$ select 1 $$;');
+  let result=f.run();assert.equal(result.status,1);assert.match(result.stderr,/Retired SQL helper must contain comments only/);
+  f.write('content/workspace/docs/supabase/tenant-exec-sql.txt','-- Deprecated: no executable installation step.\n');
+  result=f.run();assert.equal(result.status,0);
+});

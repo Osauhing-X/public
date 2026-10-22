@@ -35,7 +35,7 @@ The platform is built using the **Svelte** framework and modern cloud services t
 
 The following services are used:  
 
-- **Docker and Coolify** – self-hosted application deployment and operation  
+- **Docker and Coolify** – self-hosted application deployment and operation
 - **Cloudflare** – DNS management and security  
 - **Veebimajutus.ee** – domain and hosting services  
 - **Resend** – email service  

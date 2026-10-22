@@ -1,5 +1,5 @@
 # PRIVACY POLICY  
-Last updated: 23.10.2026 (hosting information)
+Last updated: 23.10.2026 (hosting and payment provider information)
 
 ***
 
@@ -76,7 +76,7 @@ Such data is processed exclusively for service delivery and fulfillment of proje
 
 
 ### 3.3 Payment Processing
-Payments are processed via Maksekeskus.
+Payments are processed via Stripe or Maksekeskus, depending on the payment method and service.
 
 Extaas:
 - does not collect or store payment card data  
@@ -120,7 +120,7 @@ The following service providers are used in service delivery:
 - Supabase – authentication and database  
 - Resend – transactional emails  
 - veebimajutus.ee – domain registration and email hosting services
-- Maksekeskus – payment processing  
+- Stripe and Maksekeskus – payment processing
 - Discord – API integration  
 
 OAuth providers (e.g., Google and Discord) act as independent data controllers under their own privacy policies.

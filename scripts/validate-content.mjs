@@ -8,6 +8,8 @@ const retired=/https?:\/\/(?:workspace\.extaas\.com|buymeacoffee\.com\/extaas)(?
 const fail=(file,message)=>errors.push(`${relative(root,file)}: ${message}`);
 const walk=folder=>readdirSync(folder,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?walk(join(folder,entry.name)):entry.isFile()?[join(folder,entry.name)]:[]);
 const files=walk(join(root,'content'));
+const retiredSql=join(root,'content/workspace/docs/supabase/tenant-exec-sql.txt');
+if(existsSync(retiredSql)&&readFileSync(retiredSql,'utf8').split(/\r?\n/).some(line=>line.trim()&&!line.trim().startsWith('--')))fail(retiredSql,'Retired SQL helper must contain comments only, not executable setup SQL.');
 const jsonFiles=[join(root,'routes.json'),...files.filter(file=>file.endsWith('.json'))];
 const parsed=new Map();
 for(const file of jsonFiles){try{

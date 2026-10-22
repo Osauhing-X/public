@@ -1,15 +1,8 @@
-create or replace function public.exec_sql(query text)
-returns void
-language plpgsql
-security definer
-as $$
-begin
-  execute query;
-end;
-$$;
-
-revoke all on function public.exec_sql(text) from public;
-revoke all on function public.exec_sql(text) from anon;
-revoke all on function public.exec_sql(text) from authenticated;
-
-grant execute on function public.exec_sql(text) to service_role;
+-- DEPRECATED / AEGUNUD — 2026-10-23
+-- This legacy URL is retained, but no longer creates a generic SQL executor.
+-- Workspace v2 does not require public.exec_sql(text).
+-- Do not install a SECURITY DEFINER function that executes arbitrary caller SQL.
+-- Use reviewed, purpose-specific migrations and explicitly scoped actions.
+-- Existing database functions are NOT changed by this notice.
+-- Review existing grants/dependencies before any separately approved removal.
+-- Guide: https://oux.ee/@/read?network=workspace&category=docs

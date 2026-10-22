@@ -1,5 +1,5 @@
 # PRIVAATSUSPOLIITIKA  
-Viimati uuendatud: 23.10.2026 (majutuse teave)
+Viimati uuendatud: 23.10.2026 (majutuse ja makseteenuste teave)
 
 ***
 
@@ -74,7 +74,7 @@ Andmeid kasutatakse ainult teenuse osutamiseks ja projektiga seotud kohustuste t
 
 
 ### 3.3 Maksete töötlemine
-Maksete töötlemine toimub Maksekeskuse kaudu.
+Maksete töötlemine toimub Stripe’i või Maksekeskuse kaudu vastavalt makseviisile ja teenusele.
 
 Extaas:
 - ei kogu ega salvesta pangakaardiandmeid  
@@ -117,7 +117,7 @@ Teenuse osutamisel kasutatakse järgmisi teenusepakkujaid:
 - Supabase – autentimine ja andmebaas  
 - Resend – tehingulised e-kirjad  
 - veebimajutus.ee – domeeni registreerimine ja e-posti majutusteenused
-- Maksekeskus – maksete töötlemine
+- Stripe ja Maksekeskus – maksete töötlemine
 - Discord – API kasutus  
 
 OAuth teenusepakkujad (nt Google ja Discord) tegutsevad oma andmekaitsetingimuste alusel iseseisvate vastutavate töötlejatena.
