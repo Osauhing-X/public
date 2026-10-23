@@ -12,7 +12,7 @@ Select the provider in the module's **Service connections** panel. Only configur
 
 ## Individually addressed batches
 
-In Email's **Communication recipients** view, select an enabled Communication module from the same source and Application context, then its group and individual recipients. One confirmed batch supports 1–100 recipients. Each email has one To address; shared To/CC/BCC lists are not used. Resend's batch API does not support attachments in this flow, and the payload size is bounded. Ordinary single-message sending remains separate.
+In Email's **Communication recipients** view, select an enabled Communication module, then its group and individual recipients. Compatible modules in the same source and Application context are discovered automatically. On a Core version supporting **Communication contact source**, the local administrator can also select a same-source Communication module used by another Application in Email's footer and explicitly authorize contact reading. Changing either module's Application or source requires reviewing the connection again; contacts are not copied or published. One confirmed batch supports 1–100 recipients. Each email has one To address; shared To/CC/BCC lists are not used. Resend's batch API does not support attachments in this flow, and the payload size is bounded. Ordinary single-message sending remains separate.
 
 The server rechecks group membership and opt-outs before sending. Recipients and permission to contact them require separate confirmation. A changed/foreign selection or an unavailable configured source blocks the send.
 

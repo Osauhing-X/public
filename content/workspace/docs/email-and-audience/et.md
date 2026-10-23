@@ -12,7 +12,7 @@ Vali mooduli **Service connections** osas kasutatav ühendus. Kuvatakse ainult s
 
 ## Eraldi adresseeritud hulksaatmine
 
-Emaili **Communication recipients** vaates vali samas allika- ja rakenduskontekstis olev Communicationi moodul, selle grupp ning konkreetsed saajad. Üks kinnitatud saatmine toetab 1–100 saajat. Iga kiri sisaldab ühte To-aadressi; ühiseid To/CC/BCC loendeid ei kasutata. Resendi batch-API ei toeta selles voos manuseid ning päringu suurus on piiratud. Tavaline üksikkirja saatmine jääb eraldi võimaluseks.
+Emaili **Communication recipients** vaates vali Communicationi moodul, selle grupp ning konkreetsed saajad. Samas allika- ja rakenduskontekstis olevad sobivad moodulid leitakse automaatselt. Kui Core toetab **Communication contact source** ühendust, saab kohalik administraator Emaili lehe allosas valida ka sama allika teise Applicationi Communicationi mooduli ja kontaktide lugemise eraldi kinnitada. Moodulite rakenduse või allika muutumisel tuleb ühendus uuesti üle vaadata; kontakte ei kopeerita ega avaldata. Üks kinnitatud saatmine toetab 1–100 saajat. Iga kiri sisaldab ühte To-aadressi; ühiseid To/CC/BCC loendeid ei kasutata. Resendi batch-API ei toeta selles voos manuseid ning päringu suurus on piiratud. Tavaline üksikkirja saatmine jääb eraldi võimaluseks.
 
 Enne saatmist kontrollib server grupikuuluvust ja loobumisi uuesti. Saajad ning õigus nendega ühendust võtta tuleb eraldi kinnitada. Muutunud või grupivälise valiku ning kättesaamatu seadistatud allika korral saatmine blokeeritakse.
 
