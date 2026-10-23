@@ -4,7 +4,9 @@
 
 ## Environment
 
-Declared keys are assigned to package consumers. Secret values are not returned to the browser. Groups without installed consumers are marked unused; removal is explicit. Never replace an encryption key casually: existing encrypted data may become unreadable.
+Declared keys are assigned to package consumers. Saved secrets are masked by default. In Core versions with saved-value reveal, the local owner can reveal an individual value after confirming their current owner password. Delegated application users cannot use this feature. The revealed value is hidden after 60 seconds or when the window loses focus; responses are not cached. Reveal values only on a trusted device and hide them before sharing your screen. Groups without installed consumers are marked unused; removal is explicit. Never replace an encryption key casually: existing encrypted data may become unreadable.
+
+The official catalogue and its verified public GitHub delivery source may appear as one inventory row. This does not merge their credential groups or grant packages access to another source's secrets. Reusing a connection requires an explicit provider assignment; unrelated Supabase projects must remain separate.
 
 Application-specific configuration is in its **Configuration** and **Environment** sections. Domain settings and runtime logs belong to the application.
 

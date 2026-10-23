@@ -4,7 +4,9 @@
 
 ## Keskkond
 
-Deklareeritud võtmed määratakse pakettide tarbijatele. Salajased väärtused ei tagastu brauserisse. Paigaldatud tarbijata grupid märgitakse kasutamata; eemaldamine on eraldi toiming. Ära asenda krüptovõtit kergekäeliselt: olemasolevad krüptitud andmed võivad muutuda loetamatuks.
+Deklareeritud võtmed määratakse pakettide tarbijatele. Salvestatud saladused on vaikimisi peidetud. Salvestatud väärtuse näitamist toetavas Core’i versioonis saab kohalik omanik üksiku väärtuse avada oma kehtiva omanikuparooli kinnitamisega. Rakenduse kaudu delegeeritud kasutajad seda võimalust kasutada ei saa. Väärtus peidetakse 60 sekundi pärast või akna fookuse kaotamisel; vastuseid ei puhverdata. Ava väärtusi ainult usaldatud seadmes ja peida need enne ekraani jagamist. Paigaldatud tarbijata grupid märgitakse kasutamata; eemaldamine on eraldi toiming. Ära asenda krüptovõtit kergekäeliselt: olemasolevad krüptitud andmed võivad muutuda loetamatuks.
+
+Ametlik kataloog ja selle kontrollitud avalik GitHubi tarneallikas võivad olla allikate loendis ühel real. See ei liida nende võtmegruppe ega anna pakettidele ligipääsu teise allika saladustele. Ühenduse taaskasutamine nõuab teenusepakkuja selgesõnalist määramist; eri Supabase’i projektid peavad jääma lahku.
 
 Rakenduse seadistused asuvad selle **Configuration** ja **Environment** vaates. Domeenid ja käivituslogid kuuluvad samuti rakendusele.
 
