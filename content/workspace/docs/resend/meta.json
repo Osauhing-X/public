@@ -5,7 +5,7 @@
     "resend"
   ],
   "sitemap": {
-    "lastmod": "2026-10-12",
+    "lastmod": "2026-10-23",
     "priority": 0.5,
     "changefreq": "monthly"
   },
@@ -13,12 +13,12 @@
     "en": {
       "title": "Resend setup for Workspace v2",
       "description": "The Resend integration declares send-email and contact actions. Email requires send-email; other packages must declare their own scopes.",
-      "keywords": "Extaas Workspace Resend, email integration, snippets, Markdown email, CID attachments, Audience campaigns, delivery logs"
+      "keywords": "Extaas Workspace Resend, email integration, Communication, account usage, email allowance, private email batch, delivery status"
     },
     "et": {
       "title": "Resendi seadistus Workspace v2-s",
       "description": "Resendi integratsioon deklareerib send-email ja kontaktitoimingud. Email vajab send-email õigust; teised paketid määravad enda õigused.",
-      "keywords": "Extaas Workspace Resend, e-posti integratsioon, snippetid, Markdown e-kiri, CID-manused, Audience kampaaniad, saatmislogid"
+      "keywords": "Extaas Workspace Resend, e-posti integratsioon, Communication, konto kasutus, limiidid, privaatne hulksaatmine, saatmisolek"
     },
     "type": "website",
     "name": "Extaas"

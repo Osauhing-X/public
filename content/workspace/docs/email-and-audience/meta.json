@@ -5,20 +5,20 @@
     "email-and-audience"
   ],
   "sitemap": {
-    "lastmod": "2026-10-12",
+    "lastmod": "2026-10-23",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "et": {
-      "title": "Email ja Audience v2-s",
-      "description": "Email koostab kirju; Audience haldab seadistatud ühenduse kaudu saajaid. Resend tegeleb saatmisega. Need on eri vastutusvaldkonnad.",
-      "keywords": "Extaas Workspace e-post, Audience, meililist, snippetid, Markdown e-kiri, CID manus, kampaaniad, nõusolek"
+      "title": "Email ja Communication v2-s",
+      "description": "Communication ühendab seadistatud kontaktiallikad. Email võimaldab ülevaadatud saajatele eraldi adresseeritud saatmist Resendi kaudu.",
+      "keywords": "Extaas Workspace e-post, Communication, Audience, Resend, kontaktid, privaatne hulksaatmine, nõusolek"
     },
     "en": {
-      "title": "Email and Audience in v2",
-      "description": "Email composes messages; Audience manages delivery recipients through its configured connection. Resend performs the delivery. These are different responsibilities.",
-      "keywords": "Extaas Workspace email, Audience, mailing list, snippets, Markdown email, CID attachment, campaigns, consent"
+      "title": "Email and Communication in v2",
+      "description": "Communication combines configured contact sources. Email supports reviewed, individually addressed messages through Resend.",
+      "keywords": "Extaas Workspace email, Communication, Audience, Resend, contacts, private email batch, consent"
     },
     "type": "website",
     "name": "Extaas"

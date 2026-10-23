@@ -12,7 +12,7 @@ Vali esmalt üks päris töövoog ja paigalda vähim vajalik paketikooslus. Mood
 | Küsimustikud | Forms / Surveys + Website | Vastused vajavad seadistatud avalikku töövoogu |
 | Teenuse- ja rendipäringud | Booking, Rent + Website | Päring, kinnitus ja makse on eri olekud |
 | Tooted ja müük | Store + Stripe + Website | Võtmed ja kontrollitud maksesündmused jäävad serverisse |
-| Sõnumid ja saajad | Email + Resend, Audience | Saatmine ja nõusolek on eraldi vastutus |
+| Sõnumid ja saajad | Email + Resend, Communication (varasem Audience) | Saatmine ja nõusolek on eraldi vastutus; saadavus sõltub paigaldatud versioonist |
 
 Loe paigaldatud manifesti: nõutud sõltuvused on paketipõhised. Paljud privaatsed töövahendid kasutavad Core’i püsivat koopiapõhist seisu; Supabase pole iga kirje jaoks kohustuslik.
 

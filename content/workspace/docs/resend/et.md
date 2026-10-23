@@ -2,6 +2,12 @@
 
 Resendi integratsioon deklareerib send-email ja kontaktitoimingud. Email vajab send-email õigust; teised paketid määravad enda õigused.
 
+## Konto tegelik kasutus ja limiidid
+
+Resend 1.1.5 ning integratsiooni aruandeid toetav Core saavad Overview vaates lugeda konto Usage API aruannet. See kuvab teenuse tagastatud päeva-/kuukasutuse, limiidi, arvestusperioodi lõpu ja arvutatud jäägi. Kontrollitud 23.10.2026 [Resendi Usage API juhendi](https://resend.com/docs/api-reference/usage/retrieve-usage) järgi.
+
+Arvestus hõlmab saatmist ja vastuvõttu kogu Resendi kontol, mitte ainult selle Workspace’i kirju. Puuduvat või keelatud ligipääsuga kasutusinfot ei asendata nulli ega oletusliku tasuta paketiga. Teenuse teatatud piiranguta periood eristatakse teadmata limiidist. Paigaldatud vana pakett vajab uuendamist; kataloogis olev uus versioon ei rakendu automaatselt.
+
 ## Seadista
 
 Paigalda integratsioon ja määra RESEND_API_KEY selle allikagrupis. Teenusekonto kuulub haldurile. Seadista Resendis kontrollitud saatja, kontrolli ühenduse olekut ja tarbiva mooduli valmisolekut.
@@ -14,4 +20,4 @@ Saada ülevaadatud test enda aadressile, kontrolli päringu tulemust ja teenuse 
 
 Kasuta paigaldatud versiooni valikuid ja piire. V1 nädalakrediidid, piiramatu pakett ja automaatsed broneeringukirjad pole üldised v2 lubadused.
 
-[Resendi dokumentatsioon](https://resend.com/docs) selgitab teenuse praegust seadistust. [Email ja Audience](/et/docs/email-and-audience) selgitab Workspace’i piire.
+[Resendi dokumentatsioon](https://resend.com/docs) selgitab teenuse praegust seadistust. [Email ja Communication](/et/docs/email-and-audience) selgitab Workspace’i piire.

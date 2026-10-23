@@ -12,7 +12,7 @@ Choose one real workflow first, then install the smallest set of packages that s
 | Questionnaires | Forms / Surveys + Website | Public responses require the configured public flow |
 | Service requests and rentals | Booking, Rent + Website | Request, approval and payment are different states |
 | Product catalogue and sales | Store + Stripe + Website | Provider keys and signed payment events stay server-side |
-| Messages and recipients | Email + Resend, Audience | Sending and consent are separate responsibilities |
+| Messages and recipients | Email + Resend, Communication (previously Audience) | Sending and consent are separate responsibilities; availability depends on the installed version |
 
 Read each installed manifest: required dependencies are package-specific. Many private tools use Core's persistent instance state; Supabase is not universally required for every record.
 

@@ -1,6 +1,22 @@
-# Email ja Audience v2-s
+# Email ja Communication v2-s
 
-Email koostab kirju; Audience haldab seadistatud ühenduse kaudu saajaid. Resend tegeleb saatmisega. Need on eri vastutusvaldkonnad.
+Email koostab kirju; Communication koondab seadistatud allikate kontaktivaate. Resend tegeleb saatmisega. Need on eri vastutusvaldkonnad. Mooduli varasem nimi ja püsiv paketi ID on Audience (`audience`); olemasolevad andmed ning `[import:audience]` ei vaja ümbernimetamist.
+
+## Communicationi allikad
+
+23.10.2026 lisatud võimekus nõuab uuendatud Core’i, Communication 0.1.7 ning vastavate integratsioonide uuendusi: Stripe 0.1.6, Supabase 0.1.6 ja Resend 1.1.5. Vanemas paigalduses ei pruugi neid valikuid olla; kataloogiuuendus ei uuenda paigaldatud pakette automaatselt.
+
+Vali mooduli **Service connections** osas kasutatav ühendus. Kuvatakse ainult seadistatud ja valmis allikad: Resendi kontaktid, Stripe’i kliendid ning Supabase Authi kasutajad. Stripe’i ja Supabase’i privaatsed loendid nõuavad eraldi valitud ühendust ja täpset lugemisõigust; üldist Supabase’i halduspäringut moodulile ei anta.
+
+**All** ühendab sama normaliseeritud e-posti üheks reaks, säilitades allikate info ja teadaoleva Resendi loobumise. Kontakte ei kopeerita teise teenusesse ega märgita automaatselt nõusolekuga isikuteks. Stripe’i ja Authi vaated on siin ainult lugemiseks. Ebaõnnestunud allikas kuvatakse kättesaamatuna, mitte eduka tühja loendina. Stripe’i/Authi päringud on piiratud 1000 teenusekirjega; liiga suurt või poolikut loendit eduka tulemusena ei kasutata.
+
+## Eraldi adresseeritud hulksaatmine
+
+Emaili **Communication recipients** vaates vali samas allika- ja rakenduskontekstis olev Communicationi moodul, selle grupp ning konkreetsed saajad. Üks kinnitatud saatmine toetab 1–100 saajat. Iga kiri sisaldab ühte To-aadressi; ühiseid To/CC/BCC loendeid ei kasutata. Resendi batch-API ei toeta selles voos manuseid ning päringu suurus on piiratud. Tavaline üksikkirja saatmine jääb eraldi võimaluseks.
+
+Enne saatmist kontrollib server grupikuuluvust ja loobumisi uuesti. Saajad ning õigus nendega ühendust võtta tuleb eraldi kinnitada. Muutunud või grupivälise valiku ning kättesaamatu seadistatud allika korral saatmine blokeeritakse.
+
+Ebaselge tulemuse puhul säilita sama sisu, saajad ja päringu ID. Resendi duplikaadikaitse kestab 24 tundi; Core lubab ebakindlat korduspäringut kuni 23 tundi ning juba kinnitatud päringut uuesti ei saada. Pärast seda tuleb kontrollida teenuse logisid. Automaatset taaskäivitusejärgset edasisaatmist pole. Kohalik saatmiskviitung sisaldab räsi, päringu ID-d, arvu ja olekut, mitte kirja sisu ega saajate aadresse.
 
 ## Valmista ette ja kontrolli
 

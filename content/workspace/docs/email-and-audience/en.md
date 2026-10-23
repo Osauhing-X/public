@@ -1,6 +1,22 @@
-# Email and Audience in v2
+# Email and Communication in v2
 
-Email composes messages; Audience manages delivery recipients through its configured connection. Resend performs the delivery. These are different responsibilities.
+Email composes messages; Communication combines contact views from configured sources. Resend performs delivery. These are different responsibilities. The previous name and stable package ID are Audience (`audience`); existing data and `[import:audience]` do not need renaming.
+
+## Communication sources
+
+The capability added on 23 October 2026 requires updated Core, Communication 0.1.7 and the relevant integration updates: Stripe 0.1.6, Supabase 0.1.6 and Resend 1.1.5. Older installations may not expose these options. A catalogue update does not update installed packages automatically.
+
+Select the provider in the module's **Service connections** panel. Only configured, ready sources appear: Resend contacts, Stripe customers and Supabase Auth users. Private Stripe/Auth lists require an explicit connection and the exact read scope; a module is not granted the general Supabase administrative request action.
+
+**All** combines matching normalized email addresses while retaining source membership and known Resend opt-outs. It does not copy contacts to another provider or infer marketing permission. Stripe/Auth views are read-only here. Failed sources are unavailable, not successful empty lists. Stripe/Auth reads are bounded to 1,000 provider records; over-limit or partial reads are not accepted as successful lists.
+
+## Individually addressed batches
+
+In Email's **Communication recipients** view, select an enabled Communication module from the same source and Application context, then its group and individual recipients. One confirmed batch supports 1–100 recipients. Each email has one To address; shared To/CC/BCC lists are not used. Resend's batch API does not support attachments in this flow, and the payload size is bounded. Ordinary single-message sending remains separate.
+
+The server rechecks group membership and opt-outs before sending. Recipients and permission to contact them require separate confirmation. A changed/foreign selection or an unavailable configured source blocks the send.
+
+For an uncertain result, retain the same content, recipients and request ID. Resend's duplicate-protection window is 24 hours; Core allows uncertain retries only within 23 hours and does not resend an already accepted request. After that, inspect provider logs. There is no automatic replay after a restart. The private local receipt stores a digest, request ID, count and status, not message content or recipient addresses.
 
 ## Prepare and verify
 
