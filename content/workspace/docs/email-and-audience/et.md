@@ -1,5 +1,11 @@
 # Email ja Communication v2-s
 
+## Mooduli enda API alates versioonist 0.1.8
+
+Communicationi `api/contacts.js` määrab kontaktigruppide, normaliseeritud e-posti aadresside ja ühendatud All-vaate andmelepingu. Teine moodul deklareerib sõltuvuse `modules: [{"id":"audience","actions":["contacts"]}]` ning omanik valib konkreetse paigaldatud mooduli ühenduse. Kaust ei anna avalikku ega kogu andmehoidla lugemisõigust.
+
+See versioon vajab Core’i üldise mooduli API ja `provider_reads` tuge. Uuenda esmalt Core, seejärel Resend 1.1.6 ja Email 0.1.8 ning alles siis Communication 0.1.8. Stripe’i ja Supabase’i kontaktide lugemine vajab vähemalt integratsiooni 0.1.6. Vali Service connections all lugemisteenused selgesõnaliselt; vana paigaldus ei saa uut võimekust ainult juhendi lugemisega. Teenusevõtmed ei jõua mooduli API-sse. Olemasolev täpne Emaili kontaktiallika lugemisluba säilib ainult sama sihtmooduli ja konteksti jaoks.
+
 Email koostab kirju; Communication koondab seadistatud allikate kontaktivaate. Resend tegeleb saatmisega. Need on eri vastutusvaldkonnad. Mooduli varasem nimi ja püsiv paketi ID on Audience (`audience`); olemasolevad andmed ning `[import:audience]` ei vaja ümbernimetamist.
 
 ## Communicationi allikad

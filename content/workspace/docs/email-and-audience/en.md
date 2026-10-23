@@ -1,5 +1,11 @@
 # Email and Communication in v2
 
+## Package-owned API from version 0.1.8
+
+Communication's `api/contacts.js` owns the contact-group, normalized-email and merged All-view contract. A consuming module declares `modules: [{"id":"audience","actions":["contacts"]}]` and the owner selects an exact installed instance. The directory does not grant public access or access to the entire data store.
+
+This version requires Core's generic module API and `provider_reads` support. Update Core first, then Resend 1.1.6 and Email 0.1.8, followed by Communication 0.1.8. Stripe/Supabase contact reading requires integration version 0.1.6 or later. Explicitly select read providers under Service connections; reading this guide does not update an old installation. Provider credentials never enter the module API. An existing exact Email contact-source read grant is retained only for the same target and contexts.
+
 Email composes messages; Communication combines contact views from configured sources. Resend performs delivery. These are different responsibilities. The previous name and stable package ID are Audience (`audience`); existing data and `[import:audience]` do not need renaming.
 
 ## Communication sources
