@@ -1,5 +1,7 @@
 # Õpetus: loo veebirakendus
 
+Vaata [Applicationi kohustuslikku ja valikulist struktuuri](/et/docs/package-structure). Enda kood, `manifest.json` ja `README.md` on kohustuslikud; `CHANGELOG.md`, `DOCS.md`, `cron/` ja `api/` on valikulised.
+
 Rakendus võib olla hallatav Node-protsess või tavaline HTML-veebileht. Vali staatiline teenindamine, kui serveriloogikat pole vaja; autentimise, integratsioonikutsete ja dünaamiliste endpoint’ide jaoks kasuta Node’i.
 
 ## Tavaline HTML: ilma build’i ja oma serverita

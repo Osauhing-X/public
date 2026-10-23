@@ -1,5 +1,7 @@
 # Õpetus: loo esimene moodul
 
+Vaata [mooduli kohustuslikke ja valikulisi faile ning kaustu](/et/docs/package-structure). `api/` on valikuline moodulitevaheline andmeliides: selle kaudu saavad teised moodulid pärida sinu mooduli lubatud andmeid.
+
 Privaatne loendur näitab täielikku lugemise ja kirjutamise ringi väliste teenusteta. Igal paigaldatud moodulikoopial on eraldi loendur.
 
 ## Failid

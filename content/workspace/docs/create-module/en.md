@@ -1,5 +1,7 @@
 # Tutorial: create your first module
 
+See the [required and optional module files and directories](/en/docs/package-structure). Optional `api/` is a module-to-module data interface through which other modules can query the data your module explicitly exposes.
+
 This private counter demonstrates the complete read/write loop without external services. It stores a separate count for each installed module instance.
 
 ## Files

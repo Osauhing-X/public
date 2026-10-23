@@ -1,5 +1,7 @@
 # Tutorial: create a web application
 
+See the [required and optional Application structure](/en/docs/package-structure). Own code, `manifest.json` and `README.md` are required; `CHANGELOG.md`, `DOCS.md`, `cron/` and `api/` are optional.
+
 An application can be a managed Node process or a plain HTML website. Choose static serving when no server-side logic is needed; use Node for authentication, integration calls or dynamic endpoints.
 
 ## Plain HTML: no build or custom server

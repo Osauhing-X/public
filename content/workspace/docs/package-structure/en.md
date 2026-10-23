@@ -4,6 +4,59 @@ Build one small package first. A package is discovered from a configured Storage
 
 ## Repository layout
 
+Keep packages under `integrations/`, `modules/` and `applications/`. Each type has **required** files/directories and a separate **optional** set. “Own code” means the package's implementation, not a directory with a prescribed name.
+
+### Integration
+
+Required:
+
+- Own code — service connection and integration actions.
+- `manifest.json` — identity, version, configuration and declared capabilities.
+- `CHANGELOG.md` — version history.
+- `README.md` — purpose, installation and basic usage.
+- `api/` — the integration interface and contract used by other modules and Applications. Describe allowed requests, responses and permissions; credentials stay on the integration server side.
+
+Optional:
+
+- `cron/` — scheduled tasks.
+- `automation/` — Workspace builder blocks: triggers, conditions, actions and options.
+- `docs/` — detailed user/developer guides, API examples and provider limits with verification dates.
+
+### Module
+
+Required:
+
+- Own code — module UI and business logic.
+- `manifest.json` — module description, dependencies and capabilities.
+- `README.md` — purpose, setup and usage.
+
+Optional:
+
+- `CHANGELOG.md` — change history.
+- `DOCS.md` — additional user/developer documentation.
+- `cron/` — scheduled tasks.
+- `automation/` — module automation blocks.
+- `api/` — the module's own data interface through which **other modules can query data**. This is not merely its management UI endpoint and does not grant access to the entire data store.
+
+### Application
+
+Required:
+
+- Own code — application implementation, or HTML and other public assets for a static website.
+- `manifest.json` — application description and runtime.
+- `README.md` — installation, configuration and usage.
+
+Optional:
+
+- `CHANGELOG.md` — change history.
+- `DOCS.md` — additional documentation.
+- `cron/` — scheduled tasks, subject to runtime support.
+- `api/` — application interfaces supported by its runtime. Adding a directory does not give a static HTML application a server-side API.
+
+These are package authoring requirements. Passing validation does not replace documentation or prove that a capability named by a directory is implemented. Additional directories are allowed when their purpose is clear; they do not change the required/optional distinction.
+
+### Example layout
+
 ```text
 my-workspace-packages/
   modules/example-counter/
@@ -26,7 +79,7 @@ my-workspace-packages/
     package.json
     server/actions.js
     api/                 # declared provider handlers and API contract
-    docs/                # setup, payloads, examples and dated provider limits
+    docs/                # optional guides, examples and dated provider limits
     cron/                # optional
     automation/          # optional triggers/conditions/actions/options
   applications/example-site/
@@ -37,7 +90,7 @@ my-workspace-packages/
     cron/                # optional, subject to the manifest contract
 ```
 
-Every package needs a manifest and should include a README explaining setup and limitations. Modules and applications may also include CHANGELOG.md and DOCS.md or docs/. Node examples use a package.json containing `{"type":"module","private":true}`; add a committed lockfile when using npm dependencies. A plain static site needs only its manifest and public files.
+README is required for all three package types. CHANGELOG.md and DOCS.md are optional for modules and Applications; an integration requires CHANGELOG.md and api/, while docs/ is optional. Node examples use a package.json containing `{"type":"module","private":true}`; add a committed lockfile when using npm dependencies. A plain static site needs no Node package.json, but still requires a manifest, README and its own public files.
 
 Folders are an authoring convention, not permission grants. Declare callable handlers and schedules in the manifest; adding api/, cron/ or automation/ alone does not enable endpoints, execution or access to another package. Empty optional folders can be retained with a .gitkeep file. Keep existing handler paths stable when extending an installed package.
 

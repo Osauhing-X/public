@@ -1,5 +1,7 @@
 # Õpetus: loo integratsioon
 
+Vaata [integratsiooni kohustuslikku ja valikulist struktuuri](/et/docs/package-structure). Enda kood, `manifest.json`, `CHANGELOG.md`, `README.md` ja `api/` on kohustuslikud; `cron/`, `automation/` ning `docs/` on valikulised. `api/` kirjeldab moodulitele ja Applicationidele pakutavat liidest.
+
 Integratsioonil on püsiv namespaced integration_id ja selgelt deklareeritud toimingud. Tarbija saab toimingu tulemuse, mitte integratsiooni salavõtmed.
 
 Loo integrations/example-service ja package.json sisuga `{"type":"module","private":true}`.

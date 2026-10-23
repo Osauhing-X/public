@@ -1,5 +1,7 @@
 # Tutorial: create an integration
 
+See the [required and optional integration structure](/en/docs/package-structure). Own code, `manifest.json`, `CHANGELOG.md`, `README.md` and `api/` are required; `cron/`, `automation/` and `docs/` are optional. `api/` describes the interface offered to modules and Applications.
+
 An integration owns a permanent namespaced integration_id and explicit actions. Consumers receive an action result, not the integration's secret keys.
 
 Create integrations/example-service with package.json `{"type":"module","private":true}`.
