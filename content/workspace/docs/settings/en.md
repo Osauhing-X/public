@@ -4,7 +4,11 @@
 
 ## Environment
 
-Declared keys are assigned to package consumers. Saved secrets are masked by default. In Core versions with saved-value reveal, the local owner can reveal an individual value after confirming their current owner password. Delegated application users cannot use this feature. The revealed value is hidden after 60 seconds or when the window loses focus; responses are not cached. Reveal values only on a trusted device and hide them before sharing your screen. Groups without installed consumers are marked unused; removal is explicit. Never replace an encryption key casually: existing encrypted data may become unreadable.
+Declared keys are assigned to package consumers. Saved secrets are masked by default. On **System → Environments**, the local owner confirms their password once per page visit, then can reveal different keys or groups without repeating it. Navigating away, reloading, or locking manually ends that permission. The grant is bound to the authenticated session and page visit, is never persisted in browser storage, and has a protective server-side maximum of 12 hours. Delegated application users cannot use it. Individual reveal controls outside this page still require password confirmation.
+
+Individual values hide after 60 seconds or when the window loses focus; responses are not cached. **Developer view** shows a selected group as `.env` text and can add or replace multiple settings. Use `KEY=value`; double-quoted values support JSON escapes such as `\n`. Variables and shell commands are never evaluated. Invalid or duplicate keys reject the entire bulk save. Omitted keys remain unchanged; an empty value explicitly clears that setting. Application-specific overrides are not included in a group export. Saving does not automatically restart running Applications.
+
+Group text and unsaved edits are hidden and cleared when the window loses focus. Reveal values only on a trusted device and hide them before screen sharing. Copied `.env` text contains secrets: transfer it securely, never commit it to Git or paste it into conversations. Groups without installed consumers are marked unused; removal is explicit. Never replace an encryption key casually: existing encrypted data may become unreadable.
 
 The official catalogue and its verified public GitHub delivery source may appear as one inventory row. This does not merge their credential groups or grant packages access to another source's secrets. Reusing a connection requires an explicit provider assignment; unrelated Supabase projects must remain separate.
 
