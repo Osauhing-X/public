@@ -41,6 +41,10 @@ The navigation is grouped by purpose:
 
 Jobs shows running and waiting work and retains errors; successful work disappears after completion. Automations currently runs saved workflows explicitly. Installed package trigger definitions do not yet connect provider events automatically. Do not rely on an unattended event workflow until its source and delivery path are implemented and tested.
 
+In a Core version with event-draft support, open the workflow start step and use **Start this workflow** to choose a manual start or an installed package event. Event choices and configuration fields come from the package, not arbitrary user-written code. Changing the start preserves its connected branches. For example, Resend 1.1.9 declares email-open, failure and contact-change events.
+
+**Event draft · inactive** means an inactive draft. Saving does not register a webhook, grant credentials or activate automatic execution. The draft pins the selected package version; recheck the selection after disabling or updating that package. Select **Manually — press Run** for explicit testing. Production automatic execution still requires a separately verified event ingress and a confirmed workflow subscription.
+
 Workspace is actively developed. Validate your own workflow before production use; package installation is not evidence that every feature has been tested.
 
 [Next: install Core](/en/docs/getting-started)

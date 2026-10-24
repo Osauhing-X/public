@@ -41,6 +41,10 @@ Navigeerimine on jaotatud eesmärgi järgi:
 
 Jobs näitab aktiivseid ja ootel töid ning säilitab vead; edukas töö kaob pärast lõpetamist. Automations käivitab praegu salvestatud töövooge kasutaja algatusel. Paketi päästikukirjeldus ei ühenda veel teenuse sündmusi automaatselt. Järelevalveta sündmuspõhisele töövoole ei tohi toetuda enne, kui sündmuse allikas ja edastustee on teostatud ning kontrollitud.
 
+Sündmuste mustandeid toetavas Core’i versioonis ava töövoo algussamm ja vali **Start this workflow** alt käsitsi käivitus või paigaldatud paketi sündmus. Sündmuse valikud ja seadistusväljad tulevad paketist, mitte vabalt sisestatud koodist. Algussammu vahetamine säilitab selle külge ühendatud harud. Näiteks Resend 1.1.9 kirjeldab kirja avamise, ebaõnnestumise ja kontaktide muutumise sündmusi.
+
+**Event draft · inactive** tähendab mitteaktiivset mustandit. Salvestamine ei loo webhook’i, ei anna ligipääsu võtmetele ega aktiveeri automaatkäivitust. Mustand säilitab valitud paketi versiooni; paketi keelamise või versioonimuutuse korral tuleb valik uuesti kontrollida. Käsitsi testimiseks vali **Manually — press Run**. Päris automaatkäivituseks on endiselt vaja eraldi kontrollitud sündmuse vastuvõttu ja kinnitatud seost töövooga.
+
 Workspace on aktiivses arenduses. Kontrolli oma töövoog enne päris kasutust; paigaldamine üksi ei tõenda iga funktsiooni toimimist.
 
 [Järgmine: Core’i paigaldamine](/et/docs/getting-started)
