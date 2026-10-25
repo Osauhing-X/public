@@ -4,6 +4,15 @@ There are two distinct connections: a module requests an authorised integration 
 
 ## Module → integration
 
+The `com.example.service` example below is a legacy same-source teaching contract.
+For a new GitHub integration, prefer the address displayed under API endpoints,
+such as `github:osauhing-x/supabase`. The module declares
+`module_service_gateway: 1`, the same address in `integrations[].id` and
+`ui.provider_actions[].integration_id`, and permitted actions. Then select the
+installed instance under Service connections. The correct author and custom ID
+never select credentials automatically or copy keys. See the
+[address, domain-proof and API examples](/en/docs/create-integration).
+
 Install Example Service and Example Counter from the same verified source group. Extend the counter's manifest:
 
 ```json
@@ -63,6 +72,13 @@ The UI can send the same workspace:request POST bridge with body:
 Core checks the binding, dependency and action scope, invokes the integration, then delivers the result to the module's integration-result operation. A failed provider request must not save a success state.
 
 ## Application → integration
+
+For publisher-qualified addresses use `POST CORE_URL/@_integrations/call` with
+`{"provider":"github:osauhing-x/supabase","action":"public-config","payload":{}}`.
+The Application declares `integration_gateway: 1` and the same address/action in
+its manifest; its owner separately selects the service connection. Keep the token
+server-side. The URL form below remains supported for legacy
+`com.example.service` declarations.
 
 Server-side application code can POST to:
 

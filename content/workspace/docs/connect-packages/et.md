@@ -4,6 +4,14 @@ On kaks eri seost: moodul küsib lubatud integratsioonitoimingut või annab rake
 
 ## Moodul → integratsioon
 
+Allolev `com.example.service` on vana sama allikagrupi õppenäide. Uue GitHubi
+integratsiooniga eelista API endpoints vaates kuvatavat aadressi, näiteks
+`github:osauhing-x/supabase`. Moodul deklareerib `module_service_gateway: 1`, sama
+aadressi `integrations[].id` ja `ui.provider_actions[].integration_id` väljades ning
+lubatud toimingud. Seejärel vali Service connections all konkreetne paigaldus.
+Õige autor ja custom ID ei vali ühendust automaatselt ega kopeeri selle võtmeid.
+Vaata [aadressi, domeenikinnituse ja API näiteid](/et/docs/create-integration).
+
 Paigalda Example Service ja Example Counter samast kontrollitud allikagrupist. Täienda loenduri manifesti:
 
 ```json
@@ -63,6 +71,12 @@ UI saab sama workspace:request POST-silla kaudu saata keha:
 Core kontrollib sidet, sõltuvust ja toiminguõigust, kutsub integratsiooni ning annab tulemuse mooduli integration-result toimingule. Ebaõnnestunud teenusekutse ei tohi salvestada eduolekut.
 
 ## Rakendus → integratsioon
+
+Väljaandjapõhise aadressi korral kasuta `POST CORE_URL/@_integrations/call` ja keha
+`{"provider":"github:osauhing-x/supabase","action":"public-config","payload":{}}`.
+Rakendus deklareerib `integration_gateway: 1` ning sama aadressi/toimingu manifestis;
+kasutaja valib teenuseühenduse eraldi. Token jääb serverisse. Allolev URL-vorm on
+säilitatud vanade `com.example.service` deklaratsioonide jaoks.
 
 Rakenduse serverikood võib saata POST-päringu:
 
