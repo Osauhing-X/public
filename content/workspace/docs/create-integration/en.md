@@ -57,6 +57,12 @@ Keep integration credentials in environment fields, never client bundles. Action
 
 ## Connect a consumer
 
-Declare `com.example.service` in the consumer's integrations array and explicitly list `connection-status` in its actions scope. The consumer and integration must belong to the same verified environment/source group for normal package-to-package calls.
+Declare the integration address in the consumer's integrations array and explicitly list `connection-status` in its actions scope. The legacy `com.example.service` contract remains supported. Publisher-qualified routing was checked on 2026-10-25: a GitHub integration uses an address such as `github:osauhing-x/supabase`, derived from Core's installed source rather than the manifest's `author` text. The Official catalogue and the same GitHub publisher share a namespace, while installed connections remain individually selectable.
+
+For example: `{"integrations":[{"id":"github:osauhing-x/supabase","required":true,"actions":["public-config"]}]}`. Applications also declare `integration_gateway: 1`; modules declare `module_service_gateway: 1`. The owner must select the specific installation under Service connections. An address never grants access to credentials or another package's connection. After the Core update, the integration's **API endpoints** view displays its actual address and examples. Until that address appears there, use the existing contract.
+
+An optional integration `api_id`, such as `my_private`, changes the final address segment without renaming the existing package `id` or installation URL. ZIP/network packages instead require a manifest `domain` and HTTPS domain proof. Claiming somebody else's domain in a manifest is not ownership verification. The API view supplies the installed-source fingerprint for the public `/.well-known/workspace-packages.json` document. Never publish credentials or customer data there. Updating or copying the package requires verification again.
+
+The new server interface uses `POST /@_integrations/call`, headers `Authorization: Bearer <CORE_APPLICATION_TOKEN>` and `Content-Type: application/json`, and a body such as `{"provider":"github:osauhing-x/supabase","action":"public-config","payload":{}}`. Alternatively use `X-Workspace-Provider` or body `github`/`domain` plus `id`. Conflicting selectors are rejected. Use the injected Application `CORE_URL`; the token and request belong in server code, never browser JavaScript.
 
 Install both, enable them, configure required settings, then verify a permitted action and a refused undeclared action. See [connecting packages](/en/docs/connect-packages).

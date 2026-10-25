@@ -7,18 +7,18 @@
     "create-integration"
   ],
   "sitemap": {
-    "lastmod": "2026-10-12",
+    "lastmod": "2026-10-25",
     "priority": 0.5,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
       "title": "Tutorial: create an integration",
-      "description": "An integration owns a permanent namespaced integration_id and explicit actions. Consumers receive an action result, not the integration's secret keys."
+      "description": "Integration addresses, explicit service connections and server-side API calls. Consumers receive action results, not the integration's secret keys."
     },
     "et": {
       "title": "Õpetus: loo integratsioon",
-      "description": "Integratsioonil on püsiv namespaced integration_id ja selgelt deklareeritud toimingud. Tarbija saab toimingu tulemuse, mitte integratsiooni salavõtmed."
+      "description": "Integratsiooni aadress, kasutaja valitud teenuseühendus ja serveripoolsed API päringud. Tarbija saab toimingu tulemuse, mitte integratsiooni salavõtmed."
     }
   }
 }
