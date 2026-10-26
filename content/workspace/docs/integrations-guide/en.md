@@ -16,7 +16,7 @@ An integration owns the connection and declared server actions. Modules and appl
 | Integration | Purpose |
 | --- | --- |
 | GitHub | Package sources and scoped repository operations |
-| Cloudflare | Managed tunnel connector and publishing routes |
+| Cloudflare | Tunnel connector attached to Core; public hostnames are configured in Cloudflare |
 | Reverse Proxy | Approved routes through the configured proxy |
 | Supabase | Optional or required external data/auth/storage, depending on the package |
 | Resend | Explicit email delivery and contact operations |

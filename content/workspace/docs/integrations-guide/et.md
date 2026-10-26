@@ -16,7 +16,7 @@ Integratsioon omab ühendust ja deklareeritud serveritoiminguid. Moodul ja raken
 | Integratsioon | Otstarve |
 | --- | --- |
 | GitHub | Pakettide allikad ja piiratud hoidlatöö |
-| Cloudflare | Tunnel-connector ja avaldamise teekonnad |
+| Cloudflare | Core’i külge ühendatud Tunnel-connector; avalikud hostinimed seadistatakse Cloudflare’is |
 | Reverse Proxy | Lubatud teekonnad seadistatud proksi kaudu |
 | Supabase | Paketi järgi valikuline või nõutud väline andme-, konto- või failikiht |
 | Resend | Selgelt kinnitatud kirjade saatmine ja kontaktitoimingud |

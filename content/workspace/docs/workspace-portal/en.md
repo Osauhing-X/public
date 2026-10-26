@@ -47,4 +47,16 @@ In a Core version with event-draft support, open the workflow start step and use
 
 Workspace is actively developed. Validate your own workflow before production use; package installation is not evidence that every feature has been tested.
 
+## Automation block status — checked 26 October 2026
+
+A definition, an implemented handler and a live installation are separate things. A catalogue update does not update installed copies automatically. This describes tested source code, not readiness on every customer's installation.
+
+- Booking 0.1.6: request counts, a pending-request condition, open/pause intake and a new/cancelled request trigger definition.
+- Rent 0.1.6: counts by status, a pending-request threshold, open/pause intake and new/declined/completed/cancelled request event choices.
+- Resend 1.1.10: daily/monthly remaining allowance and a low-allowance condition. Measurements include account sending and receiving. Missing or uncapped measurements stop the step; no free-plan quota is guessed.
+
+Conditions and actions are tested for explicitly started workflows. Booking/Rent event projectors are tested, but Core automatic state-change delivery is not connected. A trigger definition is not active automation. Resend webhook-verification preparation does not register a provider webhook.
+
+Newer Core source includes paused event-subscription preparation. It does not run workflows or register webhooks; live UI acceptance and event-ingress wiring are unfinished. Do not build an unattended customer service on these unfinished parts.
+
 [Next: install Core](/en/docs/getting-started)

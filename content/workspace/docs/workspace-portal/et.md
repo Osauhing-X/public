@@ -47,4 +47,16 @@ Sündmuste mustandeid toetavas Core’i versioonis ava töövoo algussamm ja val
 
 Workspace on aktiivses arenduses. Kontrolli oma töövoog enne päris kasutust; paigaldamine üksi ei tõenda iga funktsiooni toimimist.
 
+## Automaatikaplokkide seis — kontrollitud 26.10.2026
+
+Ploki kirjeldus, teostatud käsitleja ja live-paigaldus on eri asjad. Kataloogi uus versioon ei uuenda paigaldatud koopiat automaatselt. See ülevaade kirjeldab testitud lähtekoodi, mitte iga kliendi paigalduse valmisolekut.
+
+- Booking 0.1.6: päringute loendamine, ootel päringute tingimus, vastuvõtu avamine/peatamine ning uue või tühistatud päringu päästikukirjeldus.
+- Rent 0.1.6: päringute loendamine staatuse järgi, ootel päringute lävend, vastuvõtu avamine/peatamine ning uue, tagasi lükatud, lõpetatud või tühistatud päringu sündmusevalikud.
+- Resend 1.1.10: päevase/kuise allesjäänud mahu lugemine ja vähese mahu tingimus. Mõõtmine hõlmab kogu konto saatmist ja vastuvõttu. Puuduva või piiramata mõõtmise korral samm peatub; tasuta paketi limiiti ei oletata.
+
+Tingimused ja toimingud on testitud käsitsi käivitatava töövoo jaoks. Booking/Rent sündmuste eraldajad on testitud, kuid Core’i automaatne olekumuutuste edastus pole ühendatud. Päästikukirjeldus ei ole aktiivne automaatika. Resendi webhook’i kontrolli ettevalmistus ei registreeri teenuses webhook’i.
+
+Uuemas Core’i lähtekoodis on pausil sündmustellimuse ettevalmistamine. See ei käivita töövoogu ega registreeri webhook’i; live-kasutajaliidese kontroll ja sündmuste vastuvõtu ühendamine on pooleli. Nendele osadele ei saa veel rajada järelevalveta klienditeenust.
+
 [Järgmine: Core’i paigaldamine](/et/docs/getting-started)

@@ -1,6 +1,6 @@
 # Booking ja Rent Workspace v2-s
 
-Booking haldab teenuseid, nädalast saadavust, asukohti ja Website’i päringuid. Rent haldab kirjeid, ressursse, rendiperioode ja taotlusi. Mõlemad on Website’iga seotud paketipõhised töövood.
+Booking haldab teenuseid, nädalast saadavust, asukohti ja Website’i päringuid. Rent haldab rendikirjeid, asukohti, sisestatud saadaolevat kogust ja kliendi soovitud rendiperioodiga päringuid. Need on Website’iga ühilduvad moodulid; see ei tähenda automaatset laoseisu reserveerimist ega kattuvate rendiperioodide vältimist.
 
 ## Seadistus
 
@@ -10,7 +10,7 @@ Loo teenus või rendikirje, ajad või olemasolev ressurss ja selged juhised klie
 
 ## Päring pole makse
 
-Saabunud päring pole kinnitatud broneering, sõlmitud leping ega tasutud arve. Praegune Booking-pakett ütleb selgelt, et kinnitamise arveldus pole ühendatud. Ära kasuta v1 krediidikulu ega automaatse makse lubadusi.
+Saabunud päring pole kinnitatud broneering, sõlmitud leping ega tasutud arve. Praegustes Booking- ja Rent-pakettides pole kinnitamise arveldus ühendatud; Rent keeldub kinnitamisest, kuni selle arveldus on teostatud. Ära kasuta v1 krediidikulu ega automaatse makse lubadusi.
 
 Enne kinnitamist kontrolli kattuvaid aegu, töötajaid ja koguseid. Selgita ajavööndit, hinnastamise alust, vastamise ootust ja tühistamise teed. Sisemärkmeid ei avaldata.
 
