@@ -26,7 +26,7 @@ Corrupt or unreadable configuration is not replaced with an empty camera list. T
 
 ## ONVIF authentication
 
-The source update checks SOAP Header UsernameToken digests with Nonce and Created. Requests may be at most five minutes old or one minute ahead of the relay clock. The recorder must generate a fresh nonce for every authenticated request; reuse receives 401. Synchronize recorder and server clocks. Cameras with an empty username or password cannot authenticate.
+The source update checks SOAP Header UsernameToken digests with Nonce and Created. Requests may be at most five minutes old or one minute ahead of the relay clock. The recorder must generate a fresh nonce for every authenticated request; reuse on a protected operation receives 401. Synchronize recorder and server clocks. Clock and some device-discovery information remain public; those responses do not establish successful authentication. Cameras with an empty username or password cannot authenticate.
 
 Replay state is held in process memory and does not survive restart. Nonempty PasswordText remains supported for older clients, but does not encrypt the password or provide nonce replay protection. SOAP POST bodies are capped at 64 KiB. These checks do not replace network/transport protection or constitute ONVIF certification. See the [exact authentication behavior and limits](https://github.com/Osauhing-X/home-assistant/blob/f9ed0f70550621f2503186fd4fdade9790a0b368/applications/rtsp_to_onvif/ONVIF-AUTH.md).
 

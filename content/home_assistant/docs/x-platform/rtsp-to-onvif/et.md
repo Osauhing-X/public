@@ -26,7 +26,7 @@ Vigast või loetamatut seadistusfaili ei asendata tühja kaameraloendiga. Haldus
 
 ## ONVIF-i sisselogimine
 
-Lähtekoodi uuenduses kontrollitakse SOAP Headeri UsernameTokeni parooliräsi koos Nonce’i ja Created ajatempliga. Päring võib olla kuni viis minutit vana või ühe minuti võrra serveri kellast ees. Salvesti peab igale autentimispäringule looma uue nonce’i; juba kasutatud tunnusega päring saab 401 vastuse. Sünkrooni salvesti ja serveri kellad. Tühja kasutajanime või parooliga kaamerat ei autentita.
+Lähtekoodi uuenduses kontrollitakse SOAP Headeri UsernameTokeni parooliräsi koos Nonce’i ja Created ajatempliga. Päring võib olla kuni viis minutit vana või ühe minuti võrra serveri kellast ees. Salvesti peab igale autentimispäringule looma uue nonce’i; juba kasutatud tunnusega autentimist nõudev päring saab 401 vastuse. Sünkrooni salvesti ja serveri kellad. Kellaaja ja osa seadme avastusinfo päringud jäävad avalikuks; nende vastus ei kinnita edukat autentimist. Tühja kasutajanime või parooliga kaamerat ei autentita.
 
 Korduskasutuse kontroll töötab protsessi mälus ega säili taaskäivituse järel. Vanemate klientide mittetühi PasswordText jääb toetatuks, kuid see ei krüpteeri parooli ega anna nonce’i põhist korduskasutuskaitset. SOAP POST-päringu maht on piiratud 64 KiB-ni. Need kontrollid ei asenda võrgu või transpordikihi kaitset ega tähenda ONVIF-i sertifikaati. Täpne teostus ja piirid on [ONVIF-i autentimise juhendis](https://github.com/Osauhing-X/home-assistant/blob/f9ed0f70550621f2503186fd4fdade9790a0b368/applications/rtsp_to_onvif/ONVIF-AUTH.md).
 
