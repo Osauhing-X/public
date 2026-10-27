@@ -24,9 +24,15 @@ Versiooni 0.8.4 lähtekoodis nõuab JPEG kaadripilt kaamera ONVIF andmetega HTTP
 
 Vigast või loetamatut seadistusfaili ei asendata tühja kaameraloendiga. Haldusliides näitab viga ja blokeerib uue kaamera lisamise, kuni andmed on taas loetavad. Samaaegsed kaamera-, DHCP- ja avastusseadete muudatused salvestatakse järjestatult. Konfiguratsioon sisaldab endiselt lähteühenduste saladusi; hoia andmekataloog ja varukoopiad privaatsena.
 
+## ONVIF-i sisselogimine
+
+Lähtekoodi uuenduses kontrollitakse SOAP Headeri UsernameTokeni parooliräsi koos Nonce’i ja Created ajatempliga. Päring võib olla kuni viis minutit vana või ühe minuti võrra serveri kellast ees. Salvesti peab igale autentimispäringule looma uue nonce’i; juba kasutatud tunnusega päring saab 401 vastuse. Sünkrooni salvesti ja serveri kellad. Tühja kasutajanime või parooliga kaamerat ei autentita.
+
+Korduskasutuse kontroll töötab protsessi mälus ega säili taaskäivituse järel. Vanemate klientide mittetühi PasswordText jääb toetatuks, kuid see ei krüpteeri parooli ega anna nonce’i põhist korduskasutuskaitset. SOAP POST-päringu maht on piiratud 64 KiB-ni. Need kontrollid ei asenda võrgu või transpordikihi kaitset ega tähenda ONVIF-i sertifikaati. Täpne teostus ja piirid on [ONVIF-i autentimise juhendis](https://github.com/Osauhing-X/home-assistant/blob/f9ed0f70550621f2503186fd4fdade9790a0b368/applications/rtsp_to_onvif/ONVIF-AUTH.md).
+
 ## Kontrollitud ulatus — 27.10.2026
 
-0.8.4 lähtekoodi build ja 27 testi läbivad, sealhulgas päris curl-kliendi HTTP Digest päring ning MediaMTX 1.19.3 lokaalne ligipääsukontroll. Anonüümne, vale parooliga ja teise kaamera kontoga voopäring saab 401 vastuse. Haldusliidese allkirjastatud sessioon aegub serveris seitsme päeva pärast; parooli muutmine tühistab varasemad sessioonid. Multicast-võrguliidese puudumine ei lõpeta enam haldusprotsessi; avastamine märgitakse sel juhul kättesaamatuks.
+0.8.4 lähtekoodi build ja 32 testi läbivad, sealhulgas päris curl-kliendi HTTP Digest päring ning MediaMTX 1.19.3 lokaalne ligipääsukontroll. Kõigi nelja ONVIF Device/Media aadressi HTTP-testides õnnestub värske parooliräsi päring ning korduskasutatud või aegunud päring saab 401 vastuse; liiga suur SOAP-päring saab 413 vastuse. Anonüümne, vale parooliga ja teise kaamera kontoga voopäring saab 401 vastuse. Haldusliidese allkirjastatud sessioon aegub serveris seitsme päeva pärast; parooli muutmine tühistab varasemad sessioonid. Multicast-võrguliidese puudumine ei lõpeta enam haldusprotsessi; avastamine märgitakse sel juhul kättesaamatuks.
 
 Extaas Connecti kontosidumise klient ja eraldi kontovaade on lähtekoodis olemas ning vaikimisi välja lülitatud. `RTSP_CONNECT_ENABLED=true` lubab voo: alusta ühendamist, võrdle koodi ja kinnita see Iseteeninduses. Päris väljastaja ehitatud rakendusega läbis sünteetiline test kinnitamise, kontovaate ja ühenduse tühistamise; tootmiskontosid ega Stripe’i ei kasutatud. Ühendusandmed krüpteeritakse kohalikus privaatses andmekataloogis. Konto sidumine üksi ei kinnita tasulist kasutusõigust. Täpsemalt [kontosidumise juhendis](https://github.com/Osauhing-X/home-assistant/blob/44aaee8a0ebffe10593310c40c09e1acbacae0eb/applications/rtsp_to_onvif/CONNECT.md).
 
