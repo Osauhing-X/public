@@ -24,7 +24,9 @@ Core’i haldus on privaatne. Avalik rakendus vastutab oma autentimise eest; dom
 
 ## Paigaldus ja kliendikonto
 
-**Integrations → Extaas Connect** sisaldab Workspace tokenit, litsentsi ja ametliku kataloogi haldust. Core’i Settings sisaldab kohaliku halduse ja paigalduse identiteeti. Extaasi kliendikonto ja arved asuvad [OUX Iseteeninduses](https://iseteenindus.oux.ee/et/account), mitte vana Workspace’i domeeni ühises tenant-portaalis.
+**Integrations → Extaas Connect** haldab ametliku kataloogi ühendust. Senise litsentsimudeliga paigalduses asuvad seal veel Workspace’i token ja litsents. Uue kontoga sidumise lähtekood asendab nende käsitsi sisestamise Iseteeninduses kinnitatava ühendusega; seda ei ole veel tootmises aktiveeritud. Core’i Settings sisaldab kohaliku halduse ja paigalduse identiteeti. Extaasi kliendikonto ja arved asuvad [OUX Iseteeninduses](https://iseteenindus.oux.ee/et/account).
+
+Kontoga sidumine ja tasuline kasutusõigus on eraldi kontrollid. Kontoga ühendamine üksi ei anna tasulist ligipääsu. Uue maksearvestuse lähtekoodi on 27.10.2026 kontrollitud Stripe’i testrežiimis: tasutud arve, osaline ja täielik tagastus, tellimuse esimene kuu, järgmise kuu arve ning lõpetamine. Avalik ostuvoog, tootmise kasutusõiguste väljastamine ja RTSP to ONVIF-i uus klient ei ole veel valmis. Ära käsitle testitud serverikomponente juba kasutatava müügiteenusena; senised tasutud perioodid peavad üleminekul säilima.
 
 Paigaldatud koopia säilib allika eemaldamisel. Uuendamiseks ühenda allikas uuesti. Paigalduse või püsivate andmete eemaldamine on eraldi toiming.
 

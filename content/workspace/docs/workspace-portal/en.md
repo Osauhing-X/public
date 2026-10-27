@@ -24,7 +24,9 @@ Core administration is private. A public application has its own authentication 
 
 ## Your installation and account
 
-**Integrations → Extaas Connect** contains the Workspace token, licence and official catalogue controls. Core Settings contains local administration and installation identity. Your Extaas customer account and invoices live in [OUX Self-service](https://iseteenindus.oux.ee/en/account), not in a shared tenant portal at the old Workspace domain.
+**Integrations → Extaas Connect** manages the official catalogue connection. Installations using the existing licence model still show the Workspace token and licence there. New account-linking source code replaces manual entry with a connection confirmed in Self-service; it is not yet activated in production. Core Settings contains local administration and installation identity. Your Extaas customer account and invoices live in [OUX Self-service](https://iseteenindus.oux.ee/en/account).
+
+Account linking and paid access are separate checks. Linking alone does not grant paid access. New billing source was verified in Stripe test mode on 27 October 2026: a paid invoice, partial/full refunds, the first subscription month, renewal and cancellation. The public purchase flow, production access issuance and the new RTSP to ONVIF client are not finished. Tested server components are not an available production sales service; existing paid periods must survive the migration.
 
 An installed copy survives source removal. Reconnect its source before requesting updates. Removing the installation or its persistent data is a separate action.
 
