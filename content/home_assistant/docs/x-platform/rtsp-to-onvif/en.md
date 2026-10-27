@@ -24,6 +24,12 @@ Version 0.8.4 source requires the camera's ONVIF HTTP Digest credentials or a va
 
 Corrupt or unreadable configuration is not replaced with an empty camera list. The UI reports the error and blocks adding a camera until storage is readable again. Concurrent camera, DHCP and discovery-setting changes are serialized. Configuration still contains source connection secrets; keep its directory and backups private.
 
+## Management login
+
+The source update limits repeated incorrect management passwords: eight failed attempts from one resolved client address trigger a 60-second wait. A shared cap also limits failures to 100 per minute. Existing authenticated sessions remain usable, and the older login endpoint shares the same restriction. Protection is process-local; proxy deployments must configure the trusted client-address boundary correctly.
+
+The login form works without JavaScript. The enhanced browser form displays failure/wait feedback in place and preserves a safe return path. Its normal, incorrect-password and blocked states passed automated WCAG A/AA checks at both 1280- and 390-pixel widths, without horizontal overflow. This does not establish accessibility of the entire camera-management UI. See the [exact login limits and acceptance scope](https://github.com/Osauhing-X/home-assistant/blob/54ef113c052917288eb1287622cfd7a38cd96e55/applications/rtsp_to_onvif/GUI-LOGIN.md).
+
 ## ONVIF authentication
 
 The source update checks SOAP Header UsernameToken digests with Nonce and Created. Requests may be at most five minutes old or one minute ahead of the relay clock. The recorder must generate a fresh nonce for every authenticated request; reuse on a protected operation receives 401. Synchronize recorder and server clocks. Clock and some device-discovery information remain public; those responses do not establish successful authentication. Cameras with an empty username or password cannot authenticate.
@@ -32,7 +38,7 @@ Replay state is held in process memory and does not survive restart. Nonempty Pa
 
 ## Acceptance scope — 27 October 2026
 
-The 0.8.4 source build and 32 tests pass, including a real curl HTTP Digest request and local MediaMTX 1.19.3 authorization acceptance. HTTP tests on all four ONVIF Device/Media endpoints accept fresh digest requests, reject replayed/stale tokens with 401 and reject oversized SOAP with 413. Anonymous, incorrect-password and cross-camera stream requests receive 401. Signed management sessions expire after seven days on the server; password changes invalidate existing sessions. A missing multicast interface no longer terminates management; discovery is reported as unavailable instead.
+The 0.8.4 source build and 35 tests pass, including a real curl HTTP Digest request and local MediaMTX 1.19.3 authorization acceptance. HTTP tests on all four ONVIF Device/Media endpoints accept fresh digest requests, reject replayed/stale tokens with 401 and reject oversized SOAP with 413. Anonymous, incorrect-password and cross-camera stream requests receive 401. Signed management sessions expire after seven days on the server; password changes invalidate existing sessions. A missing multicast interface no longer terminates management; discovery is reported as unavailable instead.
 
 The Extaas Connect linking client and dedicated account page are implemented in source and disabled by default. `RTSP_CONNECT_ENABLED=true` enables the flow: start linking, compare the code and approve it in Iseteenindus. A synthetic test against the built issuer application passed approval, account overview and revocation, without production accounts or Stripe requests. Connection credentials are encrypted in the local private data directory. Linking alone does not confirm paid access. See the [account linking guide](https://github.com/Osauhing-X/home-assistant/blob/44aaee8a0ebffe10593310c40c09e1acbacae0eb/applications/rtsp_to_onvif/CONNECT.md).
 

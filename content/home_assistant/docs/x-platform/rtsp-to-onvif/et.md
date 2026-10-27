@@ -24,6 +24,12 @@ Versiooni 0.8.4 lähtekoodis nõuab JPEG kaadripilt kaamera ONVIF andmetega HTTP
 
 Vigast või loetamatut seadistusfaili ei asendata tühja kaameraloendiga. Haldusliides näitab viga ja blokeerib uue kaamera lisamise, kuni andmed on taas loetavad. Samaaegsed kaamera-, DHCP- ja avastusseadete muudatused salvestatakse järjestatult. Konfiguratsioon sisaldab endiselt lähteühenduste saladusi; hoia andmekataloog ja varukoopiad privaatsena.
 
+## Halduse sisselogimine
+
+Uues lähtekoodis piiratakse korduvaid valesid haldusparoole: kaheksa ebaõnnestunud katset samalt kliendiaadressilt põhjustavad 60-sekundilise ooteaja. Lisaks kehtib ühine ülempiir 100 ebaõnnestumisele minutis. Piirang ei tühista juba avatud haldussessiooni ning vana sisselogimisaadress ei võimalda sellest mööda minna. Kaitse töötab ühe protsessi mälus; proksi taga tuleb kliendiaadressi usalduspiir õigesti seadistada.
+
+Sisselogimisvorm töötab ka JavaScriptita. Täiustatud brauserivaade näitab viga ja ooteaja teadet samal lehel ning säilitab turvalise tagasitee. Kontrollitud tavaline, vale parooli ja piirangu olek läbisid automaatse WCAG A/AA kontrolli nii 1280 kui 390 piksli laiuses; horisontaalset ülevoolu ei tekkinud. See ei kinnita kogu kaamerahaldusliidese ligipääsetavust. Vt [sisselogimise täpseid piiranguid ja kontrolli ulatust](https://github.com/Osauhing-X/home-assistant/blob/54ef113c052917288eb1287622cfd7a38cd96e55/applications/rtsp_to_onvif/GUI-LOGIN.md).
+
 ## ONVIF-i sisselogimine
 
 Lähtekoodi uuenduses kontrollitakse SOAP Headeri UsernameTokeni parooliräsi koos Nonce’i ja Created ajatempliga. Päring võib olla kuni viis minutit vana või ühe minuti võrra serveri kellast ees. Salvesti peab igale autentimispäringule looma uue nonce’i; juba kasutatud tunnusega autentimist nõudev päring saab 401 vastuse. Sünkrooni salvesti ja serveri kellad. Kellaaja ja osa seadme avastusinfo päringud jäävad avalikuks; nende vastus ei kinnita edukat autentimist. Tühja kasutajanime või parooliga kaamerat ei autentita.
@@ -32,7 +38,7 @@ Korduskasutuse kontroll töötab protsessi mälus ega säili taaskäivituse jär
 
 ## Kontrollitud ulatus — 27.10.2026
 
-0.8.4 lähtekoodi build ja 32 testi läbivad, sealhulgas päris curl-kliendi HTTP Digest päring ning MediaMTX 1.19.3 lokaalne ligipääsukontroll. Kõigi nelja ONVIF Device/Media aadressi HTTP-testides õnnestub värske parooliräsi päring ning korduskasutatud või aegunud päring saab 401 vastuse; liiga suur SOAP-päring saab 413 vastuse. Anonüümne, vale parooliga ja teise kaamera kontoga voopäring saab 401 vastuse. Haldusliidese allkirjastatud sessioon aegub serveris seitsme päeva pärast; parooli muutmine tühistab varasemad sessioonid. Multicast-võrguliidese puudumine ei lõpeta enam haldusprotsessi; avastamine märgitakse sel juhul kättesaamatuks.
+0.8.4 lähtekoodi build ja 35 testi läbivad, sealhulgas päris curl-kliendi HTTP Digest päring ning MediaMTX 1.19.3 lokaalne ligipääsukontroll. Kõigi nelja ONVIF Device/Media aadressi HTTP-testides õnnestub värske parooliräsi päring ning korduskasutatud või aegunud päring saab 401 vastuse; liiga suur SOAP-päring saab 413 vastuse. Anonüümne, vale parooliga ja teise kaamera kontoga voopäring saab 401 vastuse. Haldusliidese allkirjastatud sessioon aegub serveris seitsme päeva pärast; parooli muutmine tühistab varasemad sessioonid. Multicast-võrguliidese puudumine ei lõpeta enam haldusprotsessi; avastamine märgitakse sel juhul kättesaamatuks.
 
 Extaas Connecti kontosidumise klient ja eraldi kontovaade on lähtekoodis olemas ning vaikimisi välja lülitatud. `RTSP_CONNECT_ENABLED=true` lubab voo: alusta ühendamist, võrdle koodi ja kinnita see Iseteeninduses. Päris väljastaja ehitatud rakendusega läbis sünteetiline test kinnitamise, kontovaate ja ühenduse tühistamise; tootmiskontosid ega Stripe’i ei kasutatud. Ühendusandmed krüpteeritakse kohalikus privaatses andmekataloogis. Konto sidumine üksi ei kinnita tasulist kasutusõigust. Täpsemalt [kontosidumise juhendis](https://github.com/Osauhing-X/home-assistant/blob/44aaee8a0ebffe10593310c40c09e1acbacae0eb/applications/rtsp_to_onvif/CONNECT.md).
 
