@@ -49,16 +49,24 @@ In a Core version with event-draft support, open the workflow start step and use
 
 Workspace is actively developed. Validate your own workflow before production use; package installation is not evidence that every feature has been tested.
 
-## Automation block status — checked 26 October 2026
+## Automation block status — checked 27 October 2026
 
 A definition, an implemented handler and a live installation are separate things. A catalogue update does not update installed copies automatically. This describes tested source code, not readiness on every customer's installation.
 
-- Booking 0.1.6: request counts, a pending-request condition, open/pause intake and a new/cancelled request trigger definition.
+- Booking 0.1.8: a pending-request threshold, open/pause intake, new/cancelled request event definitions and a request-details action. The details action resolves one opaque reference against that module’s own bookings; it does not guess the latest request or send an email.
 - Rent 0.1.6: counts by status, a pending-request threshold, open/pause intake and new/declined/completed/cancelled request event choices.
 - Resend 1.1.10: daily/monthly remaining allowance and a low-allowance condition. Measurements include account sending and receiving. Missing or uncapped measurements stop the step; no free-plan quota is guessed.
 
 Conditions and actions are tested for explicitly started workflows. Booking/Rent event projectors are tested, but Core automatic state-change delivery is not connected. A trigger definition is not active automation. Resend webhook-verification preparation does not register a provider webhook.
 
 Newer Core source includes paused event-subscription preparation. It does not run workflows or register webhooks; live UI acceptance and event-ingress wiring are unfinished. Do not build an unattended customer service on these unfinished parts.
+
+## Package pages and earlier-step values
+
+The updated source removes the Service connections form from Application configuration. Existing saved connections and permission checks remain in place. Application and Integration tabs use SVG icons; technical source/runtime settings are collapsed under Advanced. These changes were checked in a local browser fixture at desktop and mobile widths, not across every installed package or live deployment.
+
+Installed automation blocks can declare the values they return. In text settings, **Add a value from an earlier step** inserts a reference such as `{{customer_email}}`. Values remain available down the branch; a later value with the same name replaces the earlier one. Missing values stop the step. There is no arbitrary code evaluation or automatic access to environment secrets. This is a flat value model, not a separate historical snapshot of every step.
+
+Booking-to-email, payment-to-email and request-to-Kanban are intended workflows, but their complete sending/storage adapters and automatic event delivery are not yet verified. Declared outputs and a working details action alone do not complete those workflows.
 
 [Next: install Core](/en/docs/getting-started)
