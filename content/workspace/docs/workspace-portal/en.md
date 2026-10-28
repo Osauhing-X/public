@@ -76,3 +76,9 @@ The latest Self-service source combines Services and Workspace under **Orders**.
 Core environment tables now group settings visually by their key prefix, for example Stripe, Supabase and Discord, and show the number of distinct installed manifests declaring each key. A repeated connection profile of one package is counted once. These visual subgroups do not create new credential scopes, move settings or change password/reveal permissions.
 
 [Next: install Core](/en/docs/getting-started)
+
+## Store and order status — 28 October 2026
+
+The public Extaas.com Store presents three services: the complete Extaas Connect ecosystem at €100/month with a €40 joining fee for a new subscription, and individual Workspace Core or RTSP to ONVIF periods at €1/day, minimum 10 days. Prices are final. Service selection is handed to OUX Self-service. The HA card links to the separate add-on package and its GitHub guide; the package is staged, not a verified one-click HA installation.
+
+Extaas 0.1.33 and Self-service 0.1.53 are installed and their health checks respond. This does not establish finished production billing or entitlement enforcement: the new purchase flow remains test-only. The private OUX Orders 0.2.0 six-month report and Stripe 0.1.7 account-reporting API pass source tests; their production installation and reconciliation against actual account records are still required.

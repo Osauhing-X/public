@@ -71,8 +71,14 @@ Broneeringust või maksest kirja saatmine ning päringust Kanbani ülesande loom
 
 ## Tellimused ja keskkonnaseadete jaotus — lähtekoodi uuendus 28.10.2026
 
-Iseteeninduse uus lähtekood ühendab Teenused ja Workspace’i valikuks **Tellimused**. Ühel lehel on teenuseperioodid, püsimaksed ja seotud paigaldused. Lõppenud tellimusi saab näha ajaloo filtriga; teadmata perioodi ja maksega tegelemist vajavad kirjed jäävad ülevaatamiseks nähtavaks. Filter muudab kuvamist ega anna kasutusõigust. Vaadet kontrolliti sünteetiliste andmetega arvuti- ja telefonibrauseris; tootmisse paigaldamine on veel pooleli.
+Iseteeninduse uus lähtekood ühendab Teenused ja Workspace’i valikuks **Tellimused**. Ühel lehel on teenuseperioodid, püsimaksed ja seotud paigaldused. Lõppenud tellimusi saab näha ajaloo filtriga; teadmata perioodi ja maksega tegelemist vajavad kirjed jäävad ülevaatamiseks nähtavaks. Filter muudab kuvamist ega anna kasutusõigust. Vaadet kontrolliti sünteetiliste andmetega arvuti- ja telefonibrauseris; Iseteenindus 0.1.53 on nüüd paigaldatud, kuid tootmise maksevoo aktiveerimine on veel pooleli.
 
 Core’i keskkonnatabel jaotab seaded võtme eesliite järgi, näiteks Stripe, Supabase ja Discord, ning kuvab võtit deklareerivate unikaalsete paigaldatud manifestide arvu. Sama paketi mitu ühendusprofiili loetakse üheks. Visuaalsed alajaotused ei loo uusi võtmegruppe, liiguta seadeid ega muuda parooli või saladuse avamise õigusi.
 
 [Järgmine: Core’i paigaldamine](/et/docs/getting-started)
+
+## Poe ja tellimuste seis — 28.10.2026
+
+Extaas.com-i avalik pood esitleb kolme teenust: kogu Extaas Connecti ökosüsteem 100 €/kuu koos uue tellimuse 40 € liitumistasuga ning Workspace Core ja RTSP to ONVIF eraldi perioodina 1 €/päev, vähemalt 10 päeva. Need on lõpphinnad. Teenuse valik suunatakse OUX Iseteenindusse; HA kaardil on link eraldi lisamooduli paketi GitHubi juhendisse. Pakett on veel ettevalmistatud väljalaske olekus, mitte kinnitatud ühe klõpsuga HA paigaldus.
+
+Extaas 0.1.33 ja Iseteenindus 0.1.53 on paigaldatud ning tervisekontrollid vastavad. See ei kinnita tootmise maksevoo ega kasutusõiguse jõustamise valmimist: uus ostuvoog jääb testrežiimi. Privaatse OUX · Tellimused 0.2.0 kuue kuu aruanne ning Stripe 0.1.7 kontoaruande API on lähtekoodis testitud, kuid nende tootmispaigaldus ja päriskonto võrdlus on veel vajalikud.
