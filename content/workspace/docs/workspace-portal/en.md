@@ -69,4 +69,10 @@ Installed automation blocks can declare the values they return. In text settings
 
 Booking-to-email, payment-to-email and request-to-Kanban are intended workflows, but their complete sending/storage adapters and automatic event delivery are not yet verified. Declared outputs and a working details action alone do not complete those workflows.
 
+## Orders and environment organization — source update, 28 October 2026
+
+The latest Self-service source combines Services and Workspace under **Orders**. It shows service periods, subscriptions and connected installations together. Ended orders are available through a history filter; unknown periods and payments requiring attention remain visible for review. The filter is a display feature, not an access grant. This view was checked with synthetic data in desktop and mobile browsers; production rollout is still pending.
+
+Core environment tables now group settings visually by their key prefix, for example Stripe, Supabase and Discord, and show the number of distinct installed manifests declaring each key. A repeated connection profile of one package is counted once. These visual subgroups do not create new credential scopes, move settings or change password/reveal permissions.
+
 [Next: install Core](/en/docs/getting-started)

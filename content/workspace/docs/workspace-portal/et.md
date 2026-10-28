@@ -69,4 +69,10 @@ Paigaldatud automaatikaplokk saab kirjeldada tagastatavaid väärtusi. Tekstisea
 
 Broneeringust või maksest kirja saatmine ning päringust Kanbani ülesande loomine on kavandatud töövood, kuid nende täielikud saatmis- ja salvestusadapterid ning automaatne sündmuste edastus pole veel kontrollitud. Väljundite kirjeldamine ja töötav päringuandmete toiming ei tähenda nende töövoogude valmimist.
 
+## Tellimused ja keskkonnaseadete jaotus — lähtekoodi uuendus 28.10.2026
+
+Iseteeninduse uus lähtekood ühendab Teenused ja Workspace’i valikuks **Tellimused**. Ühel lehel on teenuseperioodid, püsimaksed ja seotud paigaldused. Lõppenud tellimusi saab näha ajaloo filtriga; teadmata perioodi ja maksega tegelemist vajavad kirjed jäävad ülevaatamiseks nähtavaks. Filter muudab kuvamist ega anna kasutusõigust. Vaadet kontrolliti sünteetiliste andmetega arvuti- ja telefonibrauseris; tootmisse paigaldamine on veel pooleli.
+
+Core’i keskkonnatabel jaotab seaded võtme eesliite järgi, näiteks Stripe, Supabase ja Discord, ning kuvab võtit deklareerivate unikaalsete paigaldatud manifestide arvu. Sama paketi mitu ühendusprofiili loetakse üheks. Visuaalsed alajaotused ei loo uusi võtmegruppe, liiguta seadeid ega muuda parooli või saladuse avamise õigusi.
+
 [Järgmine: Core’i paigaldamine](/et/docs/getting-started)
