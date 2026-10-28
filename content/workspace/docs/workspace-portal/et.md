@@ -82,3 +82,7 @@ Core’i keskkonnatabel jaotab seaded võtme eesliite järgi, näiteks Stripe, S
 Extaas.com-i avalik pood esitleb kolme teenust: kogu Extaas Connecti ökosüsteem 100 €/kuu koos uue tellimuse 40 € liitumistasuga ning Workspace Core ja RTSP to ONVIF eraldi perioodina 1 €/päev, vähemalt 10 päeva. Need on lõpphinnad. Teenuse valik suunatakse OUX Iseteenindusse; HA kaardil on link eraldi lisamooduli paketi GitHubi juhendisse. Pakett on veel ettevalmistatud väljalaske olekus, mitte kinnitatud ühe klõpsuga HA paigaldus.
 
 Extaas 0.1.33 ja Iseteenindus 0.1.53 on paigaldatud ning tervisekontrollid vastavad. See ei kinnita tootmise maksevoo ega kasutusõiguse jõustamise valmimist: uus ostuvoog jääb testrežiimi. Privaatse OUX · Tellimused 0.2.0 kuue kuu aruanne ning Stripe 0.1.7 kontoaruande API on lähtekoodis testitud, kuid nende tootmispaigaldus ja päriskonto võrdlus on veel vajalikud.
+
+## Kahe hinnavaliku täpsustus — 29.10.2026
+
+Poe järgmine versioon ühendab Workspace’i ja HA päevapaketid üheks hinnakaardiks: 1 €/päev, vähemalt 10 päeva, ühe valitud seotud paigalduse kohta. Kuutellimus katab kogu ökosüsteemi. Paigalduse teenus ja identiteet jäävad arvel eraldi; kaartide ühendamine ei liida erinevate paigalduste perioode. Konto sidumise server piirab aktiivsete ühenduste arvu sajaga. Kolme kalendrikuu aegumise arvutus ja ohutu ühenduse lõpetamine on testitud, kuid automaatne käivitamine ootab täielikku kontrollitud tootmise makseandmete adapterit. Puuduv või testkeskkonna makseinfo ei tohi ühendust eemaldada.
