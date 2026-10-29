@@ -86,3 +86,7 @@ Extaas 0.1.33 ja Iseteenindus 0.1.53 on paigaldatud ning tervisekontrollid vasta
 ## Kahe hinnavaliku täpsustus — 29.10.2026
 
 Poe järgmine versioon ühendab Workspace’i ja HA päevapaketid üheks hinnakaardiks: 1 €/päev, vähemalt 10 päeva, ühe valitud seotud paigalduse kohta. Kuutellimus katab kogu ökosüsteemi. Paigalduse teenus ja identiteet jäävad arvel eraldi; kaartide ühendamine ei liida erinevate paigalduste perioode. Konto sidumise server piirab aktiivsete ühenduste arvu sajaga. Kolme kalendrikuu aegumise arvutus ja ohutu ühenduse lõpetamine on testitud, kuid automaatne käivitamine ootab täielikku kontrollitud tootmise makseandmete adapterit. Puuduv või testkeskkonna makseinfo ei tohi ühendust eemaldada.
+
+## Core’i ühenduste üleviimine paigaldatud — 29.10.2026
+
+Core’i väljalase `06a4a61` on paigaldatud. OUX licensed GitHubi Supabase, Stripe, Resend ja Discord on aktiivsed; sama identiteediga vanad koopiad on välja lülitatud. Olemasolevad võtmeväärtused jäid muutmata. OUX-i Supabase’i konto säilis oma profiilis ning teise konto tarbijad kasutavad eraldi nimelist profiili koos vastava keepalive-ajastusega. Communicationi Supabase’i Auth-kontaktide ja Stripe’i kliendikontaktide lugemisõigused kinnitati eraldi. Kõik viis rakendust olid järelkontrollis terved ja avalikud domeenid vastasid HTTP 200-ga. See ei kinnita veel tootmise ostuvoo ega automaatse ühenduste aegumise valmimist; päris kontaktipäringute ja ajastatud käivituste täielik kontroll jätkub.

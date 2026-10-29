@@ -86,3 +86,7 @@ Extaas 0.1.33 and Self-service 0.1.53 are installed and their health checks resp
 ## Two-plan clarification — 29 October 2026
 
 The next Store version combines Workspace and HA daily periods into one price card: €1/day, minimum 10 days, for one selected linked installation. The monthly subscription covers the ecosystem. Service and installation identity remain distinct on the invoice; combining cards does not combine installation periods. The linking server caps active account connections at 100. Three-calendar-month retention and safe unlinking are tested, but automatic execution awaits a complete verified production billing adapter. Missing or test-mode payment evidence must never unlink an installation.
+
+## Core connection migration deployed — 29 October 2026
+
+Core release `06a4a61` is deployed. OUX licensed GitHub Supabase, Stripe, Resend and Discord deliveries are active; old copies of the same identities are disabled. Existing credential values are unchanged. The OUX Supabase account retains its own profile; consumers of the other account use a separate named profile and corresponding keepalive schedule. Communication Supabase Auth-contact and Stripe customer-contact reads were explicitly approved. All five Applications were healthy after deployment and public domains returned HTTP 200. This does not establish finished production purchasing or automatic link retention; end-to-end contact reads and scheduled execution still need acceptance.
