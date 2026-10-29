@@ -1,124 +1,68 @@
-﻿# Price List
-This price list outlines the hourly rates for the services offered. All prices are listed in euros (?).
+<section class="css _radius _padding_2 grid gap _5 margin_t_b_small">
+  <div class="grid gap _3">
+    <span class="css _color _dark">OUX PRICE LIST</span>
+    <h1>Clear pricing makes every project easier to start</h1>
+    <p class="full_text">Choose a practical starting point for web development, custom software, IT support or device installation. Before work begins, we define the scope, schedule and price so you know what you are paying for.</p>
+    <div class="flex _wrap gap _2">
+      <a class="btn _color _border" href="mailto:mail@oux.ee?subject=Price%20request">Request a tailored quote</a>
+      <a class="btn _secondary" href="/en/info">View company information</a>
+    </div>
+  </div>
+  <div class="grid gap _2" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr))">
+    <div class="css _radius _padding grid gap"><strong>From €18.73/hour</strong><span>IT support and WordPress work</span></div>
+    <div class="css _radius _padding grid gap"><strong>Fixed scope or hourly</strong><span>The model follows the clarity and size of the task</span></div>
+    <div class="css _radius _padding grid gap"><strong>Written agreement</strong><span>Scope, schedule and price before work starts</span></div>
+  </div>
+</section>
+<section class="css _radius _padding_2 grid gap _3 margin_t_b_small">
+  <div class="grid gap"><span class="css _reverse">SERVICE PRICES</span><h2>Hourly rates</h2><p>When it is not practical to fix the scope in advance, billing is based on the actual time spent.</p></div>
+  <div overflow>
+    <table>
+      <thead><tr><th class="left">Service</th><th class="left">Best suited for</th><th class="center">Rate</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Svelte web development</strong></td><td>Fast websites and user interfaces</td><td class="center"><strong>€28.10/hour</strong></td></tr>
+        <tr><td><strong>Custom software development</strong></td><td>Solutions built around project requirements</td><td class="center"><strong>€37.46/hour</strong></td></tr>
+        <tr><td><strong>WordPress</strong></td><td>Setup, changes and maintenance</td><td class="center"><strong>€18.73/hour</strong></td></tr>
+        <tr><td><strong>IT support</strong></td><td>Troubleshooting and advice</td><td class="center"><strong>€18.73/hour</strong></td></tr>
+        <tr><td><strong>Device installation</strong></td><td>Installation and configuration</td><td class="center"><strong>€24.35/hour</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
-## Hourly Rates (per hour)
-<div overflow>
-  <table>
-    <thead>
-      <tr>
-        <th class="left">Service</th>
-        <th class="center">Price (?)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Web Development (Svelte)</td>
-        <td class="center">28.10 ?</td>
-      </tr>
-      <tr>
-        <td>Custom Software Solutions (other software development, not web development)</td>
-        <td class="center">37.46 ?</td>
-      </tr>
-      <tr>
-        <td>CMS (WordPress ? maintenance, management, development, updates, etc.)</td>
-        <td class="center">18.73 ?</td>
-      </tr>
-      <tr>
-        <td>IT Support</td>
-        <td class="center">18.73 ?</td>
-      </tr>
-      <tr>
-        <td>Connecting / Setting Up the Device (getting a device fully operational)</td>
-        <td class="center">24.35 ?</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<section class="grid gap _3 margin_t_b_small" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+  <div class="css _radius _padding grid gap _2">
+    <h2>Installation work</h2>
+    <p>Device installation and configuration costs <strong>€24.35/hour</strong>. The service covers the agreed physical installation, connection and basic configuration.</p>
+    <p>The service does not include drilling, structural alterations or work on mains electricity (230 V or above). Electrical work requires a suitably qualified specialist.</p>
+    <p>Devices, materials, licences, travel and other third-party costs are added only when required for the work and agreed in advance.</p>
+  </div>
+  <div class="css _radius _padding grid gap _2">
+    <h2>Monthly maintenance</h2>
+    <p>A typical starting point for regular website maintenance is <strong>approximately €100 per month</strong>. The final price depends on the platform, workload and agreed responsibilities.</p>
+    <p><strong>Continuation maintenance</strong> is intended for custom web applications developed by us from start to finish. <strong>Standard maintenance</strong> is available for CMS solutions such as WordPress by agreement and after a technical review.</p>
+    <p>The package may include code and content updates, minor changes, technical support and bug fixes within the scope confirmed before the service begins.</p>
+  </div>
+</section>
 
----
+<section class="css _radius _padding_2 grid gap _3 margin_t_b_small">
+  <div class="grid gap"><span class="css _reverse">TAILORED QUOTE</span><h2>Larger assignments are priced around the project</h2></div>
+  <p>If you need a complete website, an integration or custom software, send us the objective, desired result, current technical starting point and timeframe. We will respond with a realistic next step and a suitable pricing model.</p>
+  <p>You may also state your proposed budget or maximum spend. The service provider may accept the offer, reject it or make a more specific counter-offer.</p>
+  <div class="flex _wrap gap _2">
+    <a class="btn _color _border" href="mailto:mail@oux.ee?subject=Project%20request">Tell us about your project</a>
+    <a class="btn _secondary" href="tel:+3725107862">Call +372 510 7862</a>
+  </div>
+</section>
 
-### Note on equipment installation
-The <span class="css _reverse">Device connection / setup</span> service includes unpacking the device, cabling (connecting communication and power cables), and setting the device up for operation.
-
-The service provider does not perform installation work that involves drilling, structural changes, or connecting high-voltage (230V and more) or related work.
-
-A specialist or company with the appropriate competence must be ordered separately to perform work related to high-voltage.
-
----
-
-### Maintenance / Follow-up care
-As an additional service, it is possible to order monthly website code and content maintenance and minor changes.
-
-The maintenance service is divided into two categories:
-- Ongoing maintenance (tailor-made solutions) ? applies only to custom web applications developed by us from start to finish (including Svelte / SvelteKit solutions).
-- Regular maintenance (CMS solutions) ? applies to CMS-based websites (e.g. WordPress), regardless of the original developer, by agreement and after review.
-
-Approximate price: ?100 per month (the exact price depends on the project size and needs).
-
-<div overflow>
-  <table>
-    <thead>
-      <tr><th class="left">Service includes</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Website updates and code improvements </td></tr>
-      <tr><td>Minor changes: updating images and text, rearranging sections, etc.</td></tr>
-      <tr><td>Support</td></tr>
-      <tr><td>Bug fixing</td></tr>
-    </tbody>
-  </table>
-</div>
-
-The price may vary depending on the customer's wishes and needs.
-
-***
-
-## Additional Costs
-Additional costs may apply depending on the nature of the work and location.  
-
-<div overflow>
-  <table>
-    <thead>
-      <tr><th class="left">Possible situations / Examples</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Transport (e.g: fuel, shipping)</td></tr>
-      <tr><td>Third-party subscriptions or licenses</td></tr>
-    </tbody>
-  </table>
-</div>
-
-Clients will be informed in advance if such additional costs may occur, before starting the service or project.
-
-***
-
-## Requesting a Custom Quote
-Clients always have the option to submit their own quote ? meaning they can propose a price they are willing to pay for the service.  
-
-For larger or ongoing projects, we recommend submitting a fixed-price quote. This provides complete clarity and certainty ? you know exactly what the service will cost, without unexpected expenses.  
-
-It also allows you to plan your budget calmly and receive a solution that fully meets your expectations. When submitting a quote, it is important to clearly outline the scope of the work.  
-
-Please also indicate your expectations and requirements in the quote. We recommend specifying a maximum budget, which helps speed up the identification of suitable solutions.  
-
-The service provider reserves the right to accept, reject, or make a revised counter-offer for the submitted quote.
-
-***
-
-## Legal Information
-Services are provided in accordance with the laws of the Republic of Estonia. Detailed terms, including the rights and obligations of the parties, payment terms, and liability, are set out in the terms of sale:  
-
-https://extaas.com/@/legal-documents/terms-of-sale
-
-By ordering a service, the client confirms that they have read and agreed to the terms of sale.
-
-***
-
-## Liability and Warranty
-- Services are provided with professional diligence and according to best IT practices.  
-- Deadlines and expected outcomes are agreed upon in writing (email, contract, or quote).  
-- The scope of warranty and liability depends on the specific service and is defined in the quote or contract.
-
-***
-
-*This price list is valid until a new version is published. The service provider reserves the right to change prices, giving reasonable prior notice.*  
+<section class="grid gap _3 margin_t_b_small" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+  <div class="css _radius _padding grid gap _2">
+    <h2>Billing</h2>
+    <ul><li>Price and scope are confirmed before work begins.</li><li>Travel, licence, subscription and other third-party costs are itemised separately.</li><li>Scope changes are agreed before additional work is carried out.</li></ul>
+  </div>
+  <div class="css _radius _padding grid gap _2">
+    <h2>Warranty and responsibility</h2>
+    <p>The terms agreed in the quote or contract apply to the completed work. If an issue occurs, describe it as precisely as possible so we can distinguish a defect, additional work and disruption caused by a third-party service.</p>
+    <p>Orders are subject to the <a href="https://extaas.com/@/legal-documents/terms-of-sale">terms of sale</a>. This price list remains valid until a new version is published.</p>
+  </div>
+</section>

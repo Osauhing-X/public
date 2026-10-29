@@ -1,20 +1,20 @@
 {
   "group": "info",
   "sitemap": {
-    "lastmod": "2026-09-09",
+    "lastmod": "2026-10-30",
     "priority": 0.8,
     "changefreq": "monthly"
   },
   "seo": {
     "en": {
-      "title": "OUX company information",
-      "description": "Contact Osaühing X about web development, setup, consulting or a custom technology solution.",
-      "keywords": "OUX, Osaühing X, contact, web development, IT consulting"
+      "title": "OUX company information and contact | Osaühing X",
+      "description": "Find OUX company and contact details and discuss web development, custom software, IT support or device installation with Osaühing X.",
+      "keywords": "OUX, Osaühing X, company information, OUX contact, web development, custom software, IT support, device installation, Estonia"
     },
     "et": {
-      "title": "Ettevõtteinfo",
-      "description": "Võta Osaühing X-iga ühendust veebiarenduse, paigalduse, konsultatsiooni või erilahenduse teemal.",
-      "keywords": "OUX, Osaühing X, kontakt, veebiarendus, IT konsultatsioon"
+      "title": "OUX ettevõtteinfo ja kontakt | Osaühing X",
+      "description": "Leia OUX-i ettevõtte- ja kontaktandmed ning aruta Osaühing X-iga veebiarenduse, eritarkvara, IT-toe või seadmete paigalduse projekti.",
+      "keywords": "OUX, Osaühing X, ettevõtteinfo, OUX kontakt, veebiarendus, eritarkvara, IT tugi, seadmete paigaldus, Eesti"
     },
     "type": "website",
     "name": "OUX"
