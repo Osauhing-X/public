@@ -77,16 +77,14 @@ Core’i keskkonnatabel jaotab seaded võtme eesliite järgi, näiteks Stripe, S
 
 [Järgmine: Core’i paigaldamine](/et/docs/getting-started)
 
-## Poe ja tellimuste seis — 28.10.2026
+## Poe ja tellimuste seis — kontrollitud 29.10.2026
 
-Extaas.com-i avalik pood esitleb kolme teenust: kogu Extaas Connecti ökosüsteem 100 €/kuu koos uue tellimuse 40 € liitumistasuga ning Workspace Core ja RTSP to ONVIF eraldi perioodina 1 €/päev, vähemalt 10 päeva. Need on lõpphinnad. Teenuse valik suunatakse OUX Iseteenindusse; HA kaardil on link eraldi lisamooduli paketi GitHubi juhendisse. Pakett on veel ettevalmistatud väljalaske olekus, mitte kinnitatud ühe klõpsuga HA paigaldus.
+Extaas 0.1.35 kuvab kahte hinnakaarti: kogu ökosüsteem 100 €/kuu koos uue tellimuse 40 € liitumistasuga ning ühe valitud seotud Workspace’i või HA paigalduse teenuseperiood 1 €/päev, vähemalt 10 päeva. Need on lõpphinnad. Päevapaketi kaardil ei ole enam GitHubi paigaldusjuhendi linki. Osta.ee tooted ilmuvad ainult siis, kui tooteid on päriselt saadaval.
 
-Extaas 0.1.33 ja Iseteenindus 0.1.53 on paigaldatud ning tervisekontrollid vastavad. See ei kinnita tootmise maksevoo ega kasutusõiguse jõustamise valmimist: uus ostuvoog jääb testrežiimi. Privaatse OUX · Tellimused 0.2.0 kuue kuu aruanne ning Stripe 0.1.7 kontoaruande API on lähtekoodis testitud, kuid nende tootmispaigaldus ja päriskonto võrdlus on veel vajalikud.
+Iseteenindus 0.1.56 on paigaldatud. Server reserveerib koha juba omaniku nõusoleku ajal ning piirab konto aktiivsete seotud paigalduste arvu sajaga ka samaaegsete ootel kinnituste korral. Sama aktiivse paigalduse uuesti sidumine ei kuluta teist kohta. Kolme kalendrikuu aegumisel on testid, kuid automaatne aegumine pole sisse lülitatud: puuduvad kontrollitud tootmise makseandmete lugeja ja ajastus. Testmakse ei anna tootmise kasutusõigust ega õigusta ühenduse automaatset eemaldamist.
 
-## Kahe hinnavaliku täpsustus — 29.10.2026
-
-Poe järgmine versioon ühendab Workspace’i ja HA päevapaketid üheks hinnakaardiks: 1 €/päev, vähemalt 10 päeva, ühe valitud seotud paigalduse kohta. Kuutellimus katab kogu ökosüsteemi. Paigalduse teenus ja identiteet jäävad arvel eraldi; kaartide ühendamine ei liida erinevate paigalduste perioode. Konto sidumise server piirab aktiivsete ühenduste arvu sajaga. Kolme kalendrikuu aegumise arvutus ja ohutu ühenduse lõpetamine on testitud, kuid automaatne käivitamine ootab täielikku kontrollitud tootmise makseandmete adapterit. Puuduv või testkeskkonna makseinfo ei tohi ühendust eemaldada.
+Stripe’i integratsioon 0.1.7 ja OUX · Tellimused 0.2.1 on paigaldatud. Aruanne on veel kontoga ühendamata ning kuvab seadistusteadet. Sandbox’i konto lugemisõiguse kinnitus, konto valik ja tegelike testkirjetega võrdlus on lõpetamata. Tootmise ostuvoog ja kasutusõiguse jõustamine pole valmis.
 
 ## Core’i ühenduste üleviimine paigaldatud — 29.10.2026
 
-Core’i väljalase `06a4a61` on paigaldatud. OUX licensed GitHubi Supabase, Stripe, Resend ja Discord on aktiivsed; sama identiteediga vanad koopiad on välja lülitatud. Olemasolevad võtmeväärtused jäid muutmata. OUX-i Supabase’i konto säilis oma profiilis ning teise konto tarbijad kasutavad eraldi nimelist profiili koos vastava keepalive-ajastusega. Communicationi Supabase’i Auth-kontaktide ja Stripe’i kliendikontaktide lugemisõigused kinnitati eraldi. Kõik viis rakendust olid järelkontrollis terved ja avalikud domeenid vastasid HTTP 200-ga. See ei kinnita veel tootmise ostuvoo ega automaatse ühenduste aegumise valmimist; päris kontaktipäringute ja ajastatud käivituste täielik kontroll jätkub.
+Core’i väljalase `06a4a61` on paigaldatud. OUX licensed GitHubi Supabase, Stripe, Resend ja Discord on aktiivsed; sama identiteediga vanad koopiad on välja lülitatud. Olemasolevad võtmeväärtused jäid muutmata. OUX-i Supabase’i konto säilis oma profiilis ning teise konto tarbijad kasutavad eraldi nimelist profiili koos vastava keepalive-ajastusega. Communicationi Supabase’i Auth-kontaktide ja Stripe’i kliendikontaktide lugemisõigused kinnitati eraldi. Kõik viis rakendust olid järelkontrollis terved ja avalikud domeenid vastasid HTTP 200-ga. See ei kinnita veel tootmise ostuvoo ega automaatse ühenduste aegumise valmimist; Communicationi kontaktipäringud läbisid live-vaate kontrolli ilma allikavigadeta; ajastatud käivituste kontroll jätkub.
