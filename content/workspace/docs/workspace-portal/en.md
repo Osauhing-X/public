@@ -79,7 +79,7 @@ Core environment tables now group settings visually by their key prefix, for exa
 
 ## Store and order status — checked 29 October 2026
 
-Extaas 0.1.35 presents two price cards: the complete ecosystem at €100/month with a €40 joining fee for a new subscription, and an individual service period at €1/day, minimum 10 days, for one selected linked Workspace or HA installation. Prices are final. The daily card has no GitHub installation-guide link. Osta.ee products are shown only when actual products are available.
+Extaas 0.1.37 presents two price cards: the complete ecosystem at €100/month with a €40 joining fee for a new subscription, and an individual service period at €1/day, minimum 10 days, for one selected linked Workspace or HA installation. Prices are final. The daily card has no GitHub installation-guide link. Osta.ee products are shown only when actual products are available.
 
 Self-service 0.1.56 is installed. The server reserves capacity during owner approval and enforces a maximum of 100 active linked installations per account, including simultaneous pending approvals. Reconnecting the same active installation does not consume a second place. Three-calendar-month retention has tests, but automatic expiry remains inactive pending a verified production billing reader and scheduler. Test payment evidence never authorizes production access or automatic unlinking.
 
@@ -88,3 +88,11 @@ Stripe integration 0.1.7 and OUX Orders 0.2.1 are installed. The report remains 
 ## Core connection migration deployed — 29 October 2026
 
 Core release `06a4a61` is deployed. OUX licensed GitHub Supabase, Stripe, Resend and Discord deliveries are active; old copies of the same identities are disabled. Existing credential values are unchanged. The OUX Supabase account retains its own profile; consumers of the other account use a separate named profile and corresponding keepalive schedule. Communication Supabase Auth-contact and Stripe customer-contact reads were explicitly approved. All five Applications were healthy after deployment and public domains returned HTTP 200. This does not establish finished production purchasing or automatic link retention; Communication contact reads passed a live UI check without source warnings; scheduled execution still needs acceptance.
+
+## Discovery and Connect — 29 October 2026
+
+Library module, integration and Application pages now manage installed copies. Browse available packages under Storage → Discovery, with search, package-type and connected-source filters. Opening a package for review does not install it. Different deliveries remain separate; activation restrictions still prevent conflicting provider identities from running together. Removing a source does not delete installed copies.
+
+Extaas.com 0.1.37 publishes the bilingual Connect explanation at /et/connect and /en/connect (/@/connect uses the site's language navigation). The /@_connect/official and /@_connect/partner endpoints return reviewed source metadata only when configured. They currently respond with JSON 503 while the replacement public repository and approved Discord consumer connection are unfinished; an unavailable list is not a successful empty list. No private repository is advertised as publicly downloadable.
+
+HA X shared package support and the Email enquiry inbox remain in development. These pages and API preparations do not establish cross-host installation, automatic webhook processing or production billing readiness.
