@@ -2,20 +2,21 @@
 
 Workspace v2 on ise majutatav paketiplatvorm. Käivita Core Dockerit toetaval arvutil, NAS-il või serveril. Core haldab paigaldusi, seadistusi, rakenduste protsesse ja taustatööd; ärifunktsioonid tulevad paigaldatud pakettidest.
 
-## Kolm ehitusplokki
+## Ehitusplokid
 
 | Osa | Otstarve | Näide |
 | --- | --- | --- |
 | Rakendus | Iseseisev hallatav Node-rakendus või staatiline HTML-veebileht | Website, kohandatud HTML-veeb |
 | Moodul | Kindla töö jaoks mõeldud töövahend, vajadusel seotud rakendusega | Routes, Calendar, Customers CRM |
 | Integratsioon | Serveripoolne ühendus deklareeritud toimingute ja võtmetega | GitHub, Resend, Stripe, Cloudflare |
+| Teenus | Pakett, mis on selgesõnaliselt määratud taustatööks ilma eraldi rakenduse kasutajaliideseta | Kohandatud taustatöötleja |
 
 Website-rakenduse Routes-moodul haldab avalikke teekondi. Ülejäänud sobivad moodulid annavad sisu deklareeritud importide kaudu. Moodul ei muutu automaatselt eraldi veebileheks.
 
 ## Millest alustada?
 
 1. [Paigalda Core](/et/docs/getting-started).
-2. Lisa pakettide allikas **Storage** vaates.
+2. Lisa pakettide allikas **Packages → Source** vaates.
 3. Seadista nõutud integratsioonid ja paigalda rakendus või moodul.
 4. Kontrolli valmisolekut, tegelikku sisu ja vigade käsitlemist.
 5. Avalda alles pärast autentimise, HTTPS-i ja varukoopiate kontrollimist.
@@ -37,7 +38,7 @@ Node-rakendused töötavad Core’i konteineris hallatavate protsessidena. Staat
 Navigeerimine on jaotatud eesmärgi järgi:
 
 - **Portal** (`/portal`): paigalduse ülevaade.
-- **Library** (`/library/storage`, `/library/integrations`, `/library/modules`, `/library/applications`): allikad ja paketid.
+- **Library** (`/library/package`, `/library/applications`, `/library/modules`, `/library/integrations`, `/library/services`): allikad ja paketid.
 - **Work** (`/work/cron`, `/work/automations`, `/work/jobs`): ajastused, töövoogude koostamine ning aktiivsed ja ebaõnnestunud tööd.
 - **System** (`/system/settings`, `/system/environments`, `/system/logs`): haldus, keskkonnagrupid ja käivitussündmused.
 

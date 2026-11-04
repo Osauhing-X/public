@@ -2,20 +2,21 @@
 
 Workspace v2 is a self-hosted package platform. Run Core on a Docker-capable computer, NAS or server. Core manages installations, settings, application processes and background work; business features belong to installed packages.
 
-## The three building blocks
+## The building blocks
 
 | Component | Purpose | Example |
 | --- | --- | --- |
 | Application | An independent managed Node application or static HTML website | Website, a custom HTML site |
 | Module | A focused business tool, optionally attached to a compatible application | Routes, Calendar, Customers CRM |
 | Integration | A server-side connection with declared actions and credentials | GitHub, Resend, Stripe, Cloudflare |
+| Service | A package explicitly declared to run background work without its own application UI | A custom background worker |
 
 The Website application's Routes module manages public routes. Other compatible modules supply content using declared imports. A module is not automatically a separate website.
 
 ## Where to start
 
 1. [Install Core](/en/docs/getting-started).
-2. Add your package source in **Storage**.
+2. Add your package source in **Packages → Source**.
 3. Configure required integrations, then install the application or module.
 4. Verify its readiness, actual content and error handling.
 5. Publish only after checking authentication, HTTPS and backups.
@@ -37,7 +38,7 @@ Node applications run as managed processes in the Core container; static applica
 The navigation is grouped by purpose:
 
 - **Portal** (`/portal`): installation overview.
-- **Library** (`/library/storage`, `/library/integrations`, `/library/modules`, `/library/applications`): sources and packages.
+- **Library** (`/library/package`, `/library/applications`, `/library/modules`, `/library/integrations`, `/library/services`): sources and packages.
 - **Work** (`/work/cron`, `/work/automations`, `/work/jobs`): schedules, workflow editing and active or failed work.
 - **System** (`/system/settings`, `/system/environments`, `/system/logs`): administration, environment groups and runtime events.
 
