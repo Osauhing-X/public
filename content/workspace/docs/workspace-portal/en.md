@@ -7,11 +7,11 @@ Workspace v2 is a self-hosted package platform. Run Core on a Docker-capable com
 | Component | Purpose | Example |
 | --- | --- | --- |
 | Application | An independent managed Node application or static HTML website | Website, a custom HTML site |
-| Module | A focused business tool, optionally attached to a compatible application | Routes, Calendar, Customers CRM |
+| Module | A focused business tool installed and opened independently | Routes, Calendar, Customers CRM |
 | Integration | A server-side connection with declared actions and credentials | GitHub, Resend, Stripe, Cloudflare |
 | Service | A package explicitly declared to run background work without its own application UI | A custom background worker |
 
-The Website application's Routes module manages public routes. Other compatible modules supply content using declared imports. A module is not automatically a separate website.
+Install modules through **Packages → Discovery** and open them from **Library → Modules**. An application can list connected modules and link to their own pages.
 
 ## Where to start
 
@@ -25,7 +25,7 @@ Core administration is private. A public application has its own authentication 
 
 ## Your installation and account
 
-**Integrations → Extaas Connect** manages the official catalogue connection. Installations using the existing licence model still show the Workspace token and licence there. New account-linking source code replaces manual entry with a connection confirmed in Self-service; it is not yet activated in production. Core Settings contains local administration and installation identity. Your Extaas customer account and invoices live in [OUX Self-service](https://iseteenindus.oux.ee/en/account).
+When account linking is enabled on your installation, open **Integrations → Extaas Connect → Configuration** and choose **Connect account**. Compare the confirmation code in [OUX Self-service](https://iseteenindus.oux.ee/en/account) before approving. Your invoices are available in Self-service.
 
 Account linking and paid access are separate checks. Linking alone does not grant paid access. New billing was verified in Stripe test mode on 27 October 2026: a paid ecosystem subscription through the browser, partial/full refunds, renewal and cancellation. Reactivating the same subscription before its period ends was also verified without a new joining fee. The production purchase flow, production access issuance and the new RTSP to ONVIF client are not finished. Tested components are not an available production sales service; existing paid periods must survive the migration.
 

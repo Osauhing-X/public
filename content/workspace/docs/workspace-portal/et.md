@@ -7,11 +7,11 @@ Workspace v2 on ise majutatav paketiplatvorm. Käivita Core Dockerit toetaval ar
 | Osa | Otstarve | Näide |
 | --- | --- | --- |
 | Rakendus | Iseseisev hallatav Node-rakendus või staatiline HTML-veebileht | Website, kohandatud HTML-veeb |
-| Moodul | Kindla töö jaoks mõeldud töövahend, vajadusel seotud rakendusega | Routes, Calendar, Customers CRM |
+| Moodul | Kindla töö jaoks mõeldud töövahend, mis paigaldatakse ja avatakse eraldi | Routes, Calendar, Customers CRM |
 | Integratsioon | Serveripoolne ühendus deklareeritud toimingute ja võtmetega | GitHub, Resend, Stripe, Cloudflare |
 | Teenus | Pakett, mis on selgesõnaliselt määratud taustatööks ilma eraldi rakenduse kasutajaliideseta | Kohandatud taustatöötleja |
 
-Website-rakenduse Routes-moodul haldab avalikke teekondi. Ülejäänud sobivad moodulid annavad sisu deklareeritud importide kaudu. Moodul ei muutu automaatselt eraldi veebileheks.
+Paigalda moodul vaates **Packages → Discovery** ja ava see **Library → Modules** alt. Rakendus saab kuvada seotud moodulite loendi koos linkidega nende lehtedele.
 
 ## Millest alustada?
 
@@ -25,7 +25,7 @@ Core’i haldus on privaatne. Avalik rakendus vastutab oma autentimise eest; dom
 
 ## Paigaldus ja kliendikonto
 
-**Integrations → Extaas Connect** haldab ametliku kataloogi ühendust. Senise litsentsimudeliga paigalduses asuvad seal veel Workspace’i token ja litsents. Uue kontoga sidumise lähtekood asendab nende käsitsi sisestamise Iseteeninduses kinnitatava ühendusega; seda ei ole veel tootmises aktiveeritud. Core’i Settings sisaldab kohaliku halduse ja paigalduse identiteeti. Extaasi kliendikonto ja arved asuvad [OUX Iseteeninduses](https://iseteenindus.oux.ee/et/account).
+Kui konto sidumine on paigalduses aktiveeritud, ava **Integrations → Extaas Connect → Configuration** ja vali **Connect account**. Võrdle enne kinnitamist koodi [OUX Iseteeninduses](https://iseteenindus.oux.ee/et/account) kuvatava koodiga. Arved leiad samuti Iseteenindusest.
 
 Kontoga sidumine ja tasuline kasutusõigus on eraldi kontrollid. Kontoga ühendamine üksi ei anna tasulist ligipääsu. Uut maksearvestust on 27.10.2026 kontrollitud Stripe’i testrežiimis: brauseris tasutud ökosüsteemi tellimus, osaline ja täielik tagastus, järgmise kuu arve ning lõpetamine. Kontrollitud on ka sama tellimuse taasaktiveerimine enne perioodi lõppu ilma uue liitumistasuta. Tootmise ostuvoog, tootmise kasutusõiguste väljastamine ja RTSP to ONVIF-i uus klient ei ole veel valmis. Ära käsitle testitud komponente juba kasutatava müügiteenusena; senised tasutud perioodid peavad üleminekul säilima.
 
