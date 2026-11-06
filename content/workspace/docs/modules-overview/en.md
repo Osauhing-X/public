@@ -1,6 +1,6 @@
 # Choose modules for Workspace v2
 
-Choose one real workflow first, then install the smallest set of packages that supports it. A module is a work view, not automatically a public application.
+Choose one real workflow first, then install the smallest set of packages that supports it. Install modules through **Library → Packages → Discovery** and open them under **Library → Modules**.
 
 ## Choose by purpose
 
@@ -8,7 +8,7 @@ Choose one real workflow first, then install the smallest set of packages that s
 | --- | --- | --- |
 | Customer records and follow-up | Customers CRM | Private instance-owned state |
 | Reminders and work stages | Calendar, Kanban, Admin | Private operational tools |
-| Public page routes and content | Routes + Website | Requires an attached Website application |
+| Public page routes and content | Routes + Website, where already deployed | Requires a compatible Website instance and configured routes |
 | Questionnaires | Forms / Surveys + Website | Public responses require the configured public flow |
 | Service requests and rentals | Booking, Rent + Website | Request, approval and payment are different states |
 | Product catalogue and sales | Store + Stripe + Website | Provider keys and signed payment events stay server-side |
@@ -18,9 +18,9 @@ Read each installed manifest: required dependencies are package-specific. Many p
 
 ## Public and private
 
-Private Pages and CRM records must remain private. Public renderers should expose only the fields needed for the public workflow. Attaching a module is not permission to publish every field.
+Private Pages and CRM records must remain private. Public renderers should expose only the fields needed for the public workflow. Review each public renderer’s output before enabling public access.
 
-Website's Routes module places declared imports, such as `[import:booking]`, into a route. Other modules act as content providers, not independent domain routers.
+Existing Website installations can use Routes to place declared imports such as `[import:booking]` on public pages. These examples describe compatible installed packages. Check Discovery for packages available from your current sources.
 
 ## Rollout checklist
 

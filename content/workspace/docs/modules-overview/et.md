@@ -1,6 +1,6 @@
 # Workspace v2 moodulite valimine
 
-Vali esmalt üks päris töövoog ja paigalda vähim vajalik paketikooslus. Moodul on töövaade, mitte automaatselt avalik veebirakendus.
+Vali esmalt üks päris töövoog ja paigalda vähim vajalik paketikooslus. Paigalda moodul vaates **Library → Packages → Discovery** ja ava see **Library → Modules** alt.
 
 ## Vali eesmärgi järgi
 
@@ -8,7 +8,7 @@ Vali esmalt üks päris töövoog ja paigalda vähim vajalik paketikooslus. Mood
 | --- | --- | --- |
 | Kliendid ja järeltegevused | Customers CRM | Privaatne, koopia enda seis |
 | Meeldetuletused ja tööetapid | Calendar, Kanban, Admin | Privaatsed töövahendid |
-| Avalikud lehed ja teekonnad | Routes + Website | Vajab seotud Website-rakendust |
+| Avalikud lehed ja teekonnad | Routes + Website olemasolevas paigalduses | Vajab ühilduvat Website’i paigaldust ja seadistatud teekondi |
 | Küsimustikud | Forms / Surveys + Website | Vastused vajavad seadistatud avalikku töövoogu |
 | Teenuse- ja rendipäringud | Booking, Rent + Website | Päring, kinnitus ja makse on eri olekud |
 | Tooted ja müük | Store + Stripe + Website | Võtmed ja kontrollitud maksesündmused jäävad serverisse |
@@ -18,9 +18,9 @@ Loe paigaldatud manifesti: nõutud sõltuvused on paketipõhised. Paljud privaat
 
 ## Avalik ja privaatne
 
-Private Pages ja CRM-kirjed jäävad privaatseks. Avalik renderer tagastab vaid töövoole vajalikud väljad. Mooduli sidumine ei luba kõiki andmeid avaldada.
+Private Pages ja CRM-kirjed jäävad privaatseks. Avalik renderer tagastab vaid töövoole vajalikud väljad. Kontrolli enne avaldamist, millised väljad avalik vaade tegelikult kuvab.
 
-Website’i Routes paigutab deklareeritud impordid, näiteks `[import:booking]`, lehe sisusse. Teised moodulid annavad sisu, mitte ei halda iseseisvalt domeene.
+Olemasolevates Website’i paigaldustes saab Routes lisada avalikele lehtedele deklareeritud impordid, näiteks `[import:booking]`. Need näited kirjeldavad ühilduvaid paigaldatud pakette. Oma allikates saadaval olevaid pakette näed Discovery vaates.
 
 ## Kontrollnimekiri
 
