@@ -6,12 +6,20 @@ Workspace v2 is a self-hosted package platform. Run Core on a Docker-capable com
 
 | Component | Purpose | Example |
 | --- | --- | --- |
-| Application | An independent managed Node application or static HTML website | Website, a custom HTML site |
-| Module | A focused business tool installed and opened independently | Routes, Calendar, Customers CRM |
+| Application | An independent managed Node application or static HTML website | A custom Node application or HTML site |
+| Module | A focused business tool installed and opened independently | Calendar, Customers CRM |
 | Integration | A server-side connection with declared actions and credentials | GitHub, Resend, Stripe, Cloudflare |
 | Service | A package explicitly declared to run background work without its own application UI | A custom background worker |
 
 Install modules through **Packages → Discovery** and open them from **Library → Modules**. An application can list connected modules and link to their own pages.
+
+## Header and navigation
+
+The grid button at the top left opens **Collection**, with the Workspace, Library, Work and System destinations available to your account. Groups flow into columns according to screen width. **Starred** is in the Workspace group inside Collection.
+
+The navigation beneath the top bar stays at the top when scrolling. At widths up to 1000 px, **Preferences**, **Notifications**, **Account** and **Menu** move to the bottom bar. Accessibility preferences are saved only in the current browser; they do not change server permissions or preferences on another device. Close a popover with its close button or Escape.
+
+Website Application, Contact Form, Forms Surveys and Routes were removed from the infrastructure bundle catalogue on 9 November 2026. They are no longer installable examples from that bundle. Core still supports custom applications; a suitable website implementation must be supplied separately.
 
 ## Where to start
 

@@ -6,7 +6,7 @@
 
 Deklareeritud võtmed määratakse pakettide tarbijatele. Salvestatud saladused on vaikimisi peidetud. **System → Environments** lehel avab võtme **Reveal** ainult selle võtme pärast kohaliku omaniku parooli kinnitamist. See ei ava teisi võtmeid ega gruppe. Rakenduse kaudu delegeeritud kasutajatel ligipääsu ei ole.
 
-Üksik väärtus peidetakse 60 sekundi pärast või akna fookuse kaotamisel; vastuseid ei puhverdata. Iga grupi `<summary>` päises on **Developer view** nupp. Sama parooliküsimise avab hiire hoidmine päisel 5 sekundit või päise vajutamine sõrmega 5 sekundit. Varem lahkumine, sõrme vabastamine või kerimiseks liigutamine katkestab taimeri. Hoidmine ise väärtusi ei ava.
+Üksik väärtus peidetakse 60 sekundi pärast või akna fookuse kaotamisel; vastuseid ei puhverdata. Grupi **Developer view** avamiseks hoia hiirt selle `<summary>` päisel 5 sekundit või hoia päist sõrmega 5 sekundit all. Klaviatuuriga hoia fookuses päisel Shift+Enter 5 sekundit all. See avab parooliküsimise; eraldi avamisnuppu päises ei ole. Varem lahkumine, sõrme vabastamine või kerimiseks liigutamine katkestab taimeri. Hoidmine ise väärtusi ei ava.
 
 Paroolikinnituse järel asendub ainult selle grupi tabel kohapeal `.env` tekstialaga, kust saab sisu kopeerida ja kuhu saab mitu võtit kleepida. Luba on serveris seotud täpselt selle grupi, sisselogimissessiooni ja avamiskorraga; see ei asenda teiste gruppide ega üksikute võtmete paroolikinnitust. **Table view · lock**, grupi sulgemine, lehelt lahkumine või akna fookuse kaotus lõpetab loa. Brauseri püsisalvestust ei kasutata ning serveri kaitsev ülempiir on 30 minutit.
 

@@ -6,12 +6,20 @@ Workspace v2 on ise majutatav paketiplatvorm. Käivita Core Dockerit toetaval ar
 
 | Osa | Otstarve | Näide |
 | --- | --- | --- |
-| Rakendus | Iseseisev hallatav Node-rakendus või staatiline HTML-veebileht | Website, kohandatud HTML-veeb |
-| Moodul | Kindla töö jaoks mõeldud töövahend, mis paigaldatakse ja avatakse eraldi | Routes, Calendar, Customers CRM |
+| Rakendus | Iseseisev hallatav Node-rakendus või staatiline HTML-veebileht | Kohandatud Node-rakendus või HTML-veeb |
+| Moodul | Kindla töö jaoks mõeldud töövahend, mis paigaldatakse ja avatakse eraldi | Calendar, Customers CRM |
 | Integratsioon | Serveripoolne ühendus deklareeritud toimingute ja võtmetega | GitHub, Resend, Stripe, Cloudflare |
 | Teenus | Pakett, mis on selgesõnaliselt määratud taustatööks ilma eraldi rakenduse kasutajaliideseta | Kohandatud taustatöötleja |
 
 Paigalda moodul vaates **Packages → Discovery** ja ava see **Library → Modules** alt. Rakendus saab kuvada seotud moodulite loendi koos linkidega nende lehtedele.
+
+## Päis ja navigeerimine
+
+Ülariba vasakpoolne ruudustikunupp avab **Collectioni**, kust saab liikuda lubatud Workspace’i, Library, Worki ja Systemi vaadetesse. Grupid jaotuvad ekraanilaiuse järgi veergudesse. **Starred** asub Collectioni Workspace’i grupis.
+
+Lehe kerimisel jääb ülariba all olev navigatsioon ekraani ülaserva. Kuni 1000 px laiuses vaates asuvad **Preferences**, **Notifications**, **Account** ja **Menu** alumisel ribal. Preferencesi ligipääsetavuse valikud salvestatakse ainult samas brauseris; need ei muuda serveri õigusi ega teise seadme eelistusi. Popover’i saab sulgeda ristist või klahviga Escape.
+
+Website Application, Contact Form, Forms Surveys ja Routes eemaldati infrastruktuuripaki kataloogist 09.11.2026. Need ei ole enam selle paki paigaldatavad näited. Core toetab endiselt kohandatud rakendusi; sobiva veebilahenduse kood tuleb eraldi lisada.
 
 ## Millest alustada?
 

@@ -6,7 +6,7 @@
 
 Declared keys are assigned to package consumers. Saved secrets are masked by default. On **System → Environments**, a key’s **Reveal** control shows only that key after local-owner password confirmation. It does not unlock other keys or groups. Delegated application users cannot use this feature.
 
-Individual values hide after 60 seconds or when the window loses focus; responses are not cached. Each group’s `<summary>` header has a **Developer view** button. Hovering over the header for five seconds, or pressing and holding it with a finger for five seconds, opens the same password prompt. Leaving early, releasing the finger, or moving to scroll cancels the timer. Holding alone never reveals values.
+Individual values hide after 60 seconds or when the window loses focus; responses are not cached. To open a group's **Developer view**, hover over its `<summary>` header for five seconds or press and hold it with a finger for five seconds. With keyboard focus on the header, hold Shift+Enter for five seconds. This opens the password prompt; there is no separate unlock button in the header. Leaving early, releasing the finger, or moving to scroll cancels the timer. Holding alone never reveals values.
 
 After password confirmation, only that group’s table is replaced inline by a `.env` text editor for copying or pasting multiple settings. The server grant is restricted to that exact group, authenticated session and opening. It cannot replace password confirmation for another group or an individual key. **Table view · lock**, collapsing the group, navigating away, or losing window focus ends permission. Browser persistent storage is not used; the protective server-side maximum is 30 minutes.
 
